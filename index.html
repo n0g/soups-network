@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOUPS Co-authorship Network Evolution</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+  :root {
+    --bg: #0d0f14;
+    --bg2: #13161e;
+    --bg3: #1a1e2a;
+    --border: #2a2f3f;
+    --text: #e2e8f0;
+    --text-dim: #64748b;
+    --text-muted: #334155;
+    --accent: #6366f1;
+    --accent2: #818cf8;
+    --gold: #f59e0b;
+    --red: #ef4444;
+    --cyan: #06b6d4;
+    --green: #10b981;
+    --mono: 'DM Mono', monospace;
+    --sans: 'DM Sans', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  header {
+    padding: 16px 28px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg2);
+    flex-shrink: 0;
+  }
+
+  .header-left h1 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent2);
+    font-family: var(--mono);
+  }
+
+  .header-left p {
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 2px;
+    font-family: var(--mono);
+  }
+
+  .year-display {
+    font-family: var(--mono);
+    font-size: 52px;
+    font-weight: 300;
+    color: var(--text);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    opacity: 0.9;
+  }
+
+  .year-display span { color: var(--accent); }
+
+  .main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .sidebar {
+    width: 260px;
+    background: var(--bg2);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  /* Loading state */
+  .loading-state {
+    padding: 24px 16px;
+    text-align: center;
+  }
+
+  .loading-spinner {
+    width: 32px; height: 32px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 12px;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .loading-state p {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    line-height: 1.6;
+  }
+
+  .loading-state .load-file {
+    color: var(--accent2);
+    display: block;
+    margin-top: 4px;
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Error state */
+  .error-state {
+    padding: 20px 16px;
+    background: rgba(239, 68, 68, 0.08);
+    margin: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(239, 68, 68, 0.2);
+  }
+
+  .error-state p {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: #fca5a5;
+    line-height: 1.6;
+  }
+
+  .error-state strong {
+    color: var(--red);
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+  }
+
+  /* Stats panel */
+  .stats {
+    padding: 0 16px 16px;
+    overflow-y: auto;
+  }
+
+  .stats-title {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+    padding-top: 4px;
+    border-top: 1px solid var(--border);
+  }
+
+  .stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(42, 47, 63, 0.5);
+  }
+
+  .stat-label {
+    font-size: 11px;
+    color: var(--text-dim);
+    font-family: var(--mono);
+  }
+
+  .stat-value {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--mono);
+    color: var(--text);
+  }
+
+  .stat-value.positive { color: var(--green); }
+  .stat-value.highlight { color: var(--accent2); }
+
+  /* Files list */
+  .files-list {
+    padding: 0 16px 8px;
+    overflow-y: auto;
+    flex-shrink: 0;
+    max-height: 200px;
+  }
+
+  .files-title {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+
+  .file-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.15s;
+    margin-bottom: 2px;
+  }
+
+  .file-item:hover { background: var(--bg3); }
+  .file-item.active { background: rgba(99, 102, 241, 0.15); }
+
+  .file-item .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--text-muted);
+    flex-shrink: 0;
+    transition: background 0.2s;
+  }
+
+  .file-item.active .dot { background: var(--accent); }
+
+  .file-item span {
+    font-size: 11px;
+    font-family: var(--mono);
+    color: var(--text-dim);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .file-item.active span { color: var(--accent2); }
+
+  /* Network canvas */
+  .canvas-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #network-svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .link {
+    stroke: rgba(99, 102, 241, 0.18);
+    stroke-width: 0.8;
+  }
+
+  .node circle { cursor: pointer; }
+
+  .node text {
+    pointer-events: none;
+    font-family: var(--mono);
+    font-size: 8px;
+    fill: rgba(226, 232, 240, 0.8);
+    text-anchor: middle;
+    dominant-baseline: central;
+  }
+
+  .tooltip {
+    position: absolute;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-family: var(--mono);
+    font-size: 11px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    max-width: 240px;
+    z-index: 100;
+    line-height: 1.7;
+  }
+
+  .tooltip.visible { opacity: 1; }
+  .tooltip .tt-name { color: var(--accent2); font-size: 12px; display: block; margin-bottom: 4px; font-weight: 500; }
+  .tooltip .tt-row { color: var(--text-dim); font-size: 10px; display: block; }
+  .tooltip .tt-new { color: var(--green); font-size: 10px; display: block; }
+
+  /* Controls */
+  .controls {
+    padding: 14px 28px;
+    border-top: 1px solid var(--border);
+    background: var(--bg2);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+  }
+
+  .btn {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 7px 16px;
+    border-radius: 6px;
+    font-family: var(--mono);
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+
+  .btn:hover { border-color: var(--accent); color: var(--accent2); }
+  .btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+  .btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+  .slider-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .slider-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+
+  input[type="range"] {
+    flex: 1;
+    -webkit-appearance: none;
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    outline: none;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+    border: 2px solid var(--bg);
+    transition: transform 0.15s;
+  }
+
+  input[type="range"]::-webkit-slider-thumb:hover { transform: scale(1.3); }
+
+  .speed-control {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .speed-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+
+  select {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-family: var(--mono);
+    font-size: 11px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* Empty / loading state on canvas */
+  .canvas-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .canvas-overlay .big-icon {
+    font-size: 40px;
+    margin-bottom: 12px;
+    opacity: 0.2;
+  }
+
+  .canvas-overlay h2 {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+    font-weight: 400;
+  }
+
+  .canvas-overlay p {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: var(--mono);
+    line-height: 1.6;
+  }
+
+  /* Legend */
+  .legend {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    background: rgba(13, 15, 20, 0.9);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-family: var(--mono);
+    font-size: 10px;
+    backdrop-filter: blur(8px);
+    display: none;
+  }
+
+  .legend-title {
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 9px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+    color: var(--text-dim);
+  }
+
+  .legend-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* Progress bar */
+  .progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 0.3s ease;
+    opacity: 0.6;
+  }
+
+  @keyframes pulse-ring {
+    0% { r: 4; opacity: 0.8; }
+    100% { r: 18; opacity: 0; }
+  }
+
+  .new-node-pulse {
+    fill: none;
+    stroke: #10b981;
+    stroke-width: 1.5;
+    animation: pulse-ring 1.4s ease-out forwards;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>SOUPS Co-authorship Network</h1>
+    <p>Temporal evolution · usable security research community</p>
+  </div>
+  <div class="year-display" id="year-display"><span style="opacity:0.2">----</span></div>
+</header>
+
+<div class="main">
+  <div class="sidebar">
+    <!-- Dynamic sidebar content injected here -->
+    <div id="sidebar-content">
+      <div class="loading-state">
+        <div class="loading-spinner"></div>
+        <p>Loading manifest…<span class="load-file" id="load-status">data/manifest.json</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="canvas-container" id="canvas-container">
+    <div class="canvas-overlay" id="canvas-overlay">
+      <div class="big-icon">◎</div>
+      <h2>Loading network data…</h2>
+      <p>Fetching yearly GraphML files<br>from the data/ folder</p>
+    </div>
+    <svg id="network-svg"></svg>
+    <div class="tooltip" id="tooltip"></div>
+    <div class="legend" id="legend">
+      <div class="legend-title">Legend</div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#6366f1"></div>
+        <span>Returning author</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#10b981"></div>
+        <span>New this year ✦</span>
+      </div>
+      <div class="legend-item" style="margin-top:4px">
+        <div style="width:16px;height:1.5px;background:rgba(99,102,241,0.4)"></div>
+        <span>Co-authorship</span>
+      </div>
+      <div class="legend-item" style="margin-top:4px; font-size:9px; color:#475569">
+        Node size = degree centrality
+      </div>
+    </div>
+    <div class="progress-bar" id="progress-bar" style="width:0%"></div>
+  </div>
+</div>
+
+<div class="controls">
+  <button class="btn" id="btn-prev" disabled>◀ prev</button>
+  <button class="btn" id="btn-play" disabled>▶ play</button>
+  <button class="btn" id="btn-next" disabled>next ▶</button>
+
+  <div class="slider-container">
+    <span class="slider-label" id="slider-min">—</span>
+    <input type="range" id="year-slider" min="0" max="0" value="0" disabled>
+    <span class="slider-label" id="slider-max">—</span>
+  </div>
+
+  <div class="speed-control">
+    <span class="speed-label">speed</span>
+    <select id="speed-select">
+      <option value="3000">slow</option>
+      <option value="1800" selected>normal</option>
+      <option value="900">fast</option>
+      <option value="400">turbo</option>
+    </select>
+  </div>
+</div>
+
+<script>
+// ─── State ────────────────────────────────────────────────────────────────────
+const state = {
+  years: [],
+  graphs: {},
+  currentIdx: 0,
+  playing: false,
+  playTimer: null,
+  simulation: null,
+  nodePositions: {},
+};
+
+const PALETTE = [
+  '#6366f1','#ef4444','#f59e0b','#10b981','#06b6d4',
+  '#8b5cf6','#f97316','#84cc16','#ec4899','#14b8a6',
+  '#a855f7','#eab308','#22c55e','#3b82f6','#f43f5e',
+  '#0ea5e9','#d946ef','#fb923c','#4ade80','#fb7185',
+];
+
+// ─── GraphML Parser ───────────────────────────────────────────────────────────
+function parseGraphML(xmlText) {
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlText, 'application/xml');
+  const nodes = [], edges = [];
+  doc.querySelectorAll('node').forEach(n => nodes.push({ id: n.getAttribute('id') }));
+  doc.querySelectorAll('edge').forEach(e => edges.push({
+    source: e.getAttribute('source'),
+    target: e.getAttribute('target')
+  }));
+  return { nodes, edges };
+}
+
+// ─── Load Data ────────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    // 1. Load manifest
+    const manifestRes = await fetch('data/manifest.json');
+    if (!manifestRes.ok) throw new Error(`manifest.json not found — run python3 generate_manifest.py first`);
+    const manifest = await manifestRes.json();
+
+    if (!manifest.years || manifest.years.length === 0) {
+      throw new Error('No GraphML files found in manifest. Add files to data/ and run generate_manifest.py');
+    }
+
+    // 2. Load each GraphML file
+    let loaded = 0;
+    for (const entry of manifest.years) {
+      document.getElementById('load-status').textContent =
+        `${entry.year} (${++loaded}/${manifest.years.length})`;
+
+      const res = await fetch(`data/${entry.file}`);
+      if (!res.ok) {
+        console.warn(`Could not load ${entry.file} — skipping`);
+        continue;
+      }
+      const text = await res.text();
+      state.graphs[entry.year] = parseGraphML(text);
+      state.graphs[entry.year].filename = entry.file;
+    }
+
+    state.years = Object.keys(state.graphs).map(Number).sort((a, b) => a - b);
+
+    if (state.years.length === 0) throw new Error('No GraphML files could be loaded.');
+
+    setupUI();
+    renderYear(0);
+
+  } catch (err) {
+    showError(err.message);
+  }
+}
+
+function showError(msg) {
+  document.getElementById('sidebar-content').innerHTML = `
+    <div class="error-state">
+      <strong>⚠ Could not load data</strong>
+      <p>${msg}</p>
+    </div>
+  `;
+  document.getElementById('canvas-overlay').innerHTML = `
+    <div class="big-icon" style="opacity:0.15">✕</div>
+    <h2>Load error</h2>
+    <p>Check the browser console<br>for details</p>
+  `;
+  document.getElementById('canvas-overlay').style.display = 'block';
+}
+
+// ─── UI Setup ─────────────────────────────────────────────────────────────────
+function setupUI() {
+  const { years } = state;
+
+  // Build sidebar
+  let fileItems = years.map((y, i) => `
+    <div class="file-item${i === 0 ? ' active' : ''}" id="file-item-${i}"
+         onclick="stopPlay(); goTo(${i})">
+      <div class="dot"></div>
+      <span>${y} · ${state.graphs[y].nodes.length} nodes</span>
+    </div>
+  `).join('');
+
+  document.getElementById('sidebar-content').innerHTML = `
+    <div class="files-list">
+      <div class="files-title">Loaded Years (${years.length})</div>
+      ${fileItems}
+    </div>
+    <div class="stats" id="stats-panel">
+      <div class="stats-title">Network Statistics</div>
+      ${statRow('nodes', 'stat-nodes', 'highlight')}
+      ${statRow('edges', 'stat-edges', 'highlight')}
+      ${statRow('new authors', 'stat-new', 'positive')}
+      ${statRow('new collabs', 'stat-new-edges', 'positive')}
+      ${statRow('density', 'stat-density', '')}
+      ${statRow('avg degree', 'stat-avg-degree', '')}
+      ${statRow('components', 'stat-components', '')}
+      ${statRow('largest comp.', 'stat-largest', '')}
+    </div>
+  `;
+
+  // Slider
+  const slider = document.getElementById('year-slider');
+  slider.min = 0;
+  slider.max = years.length - 1;
+  slider.value = 0;
+  slider.disabled = false;
+  document.getElementById('slider-min').textContent = years[0];
+  document.getElementById('slider-max').textContent = years[years.length - 1];
+
+  // Buttons
+  ['btn-play', 'btn-prev', 'btn-next'].forEach(id => {
+    document.getElementById(id).disabled = false;
+  });
+
+  document.getElementById('legend').style.display = 'block';
+}
+
+function statRow(label, id, cls) {
+  return `
+    <div class="stat-row">
+      <span class="stat-label">${label}</span>
+      <span class="stat-value ${cls}" id="${id}">—</span>
+    </div>`;
+}
+
+// ─── Stats ────────────────────────────────────────────────────────────────────
+function computeStats(graph, prevGraph) {
+  const n = graph.nodes.length;
+  const e = graph.edges.length;
+  const density = n > 1 ? (2 * e) / (n * (n - 1)) : 0;
+
+  const degMap = {};
+  graph.nodes.forEach(nd => degMap[nd.id] = 0);
+  graph.edges.forEach(ed => {
+    if (degMap[ed.source] !== undefined) degMap[ed.source]++;
+    if (degMap[ed.target] !== undefined) degMap[ed.target]++;
+  });
+  const avgDeg = n > 0
+    ? Object.values(degMap).reduce((a, b) => a + b, 0) / n
+    : 0;
+
+  // Union-find for components
+  const parent = {};
+  graph.nodes.forEach(nd => parent[nd.id] = nd.id);
+  function find(x) { return parent[x] === x ? x : (parent[x] = find(parent[x])); }
+  graph.edges.forEach(ed => {
+    const pa = find(ed.source), pb = find(ed.target);
+    if (pa && pb && pa !== pb) parent[pa] = pb;
+  });
+  const compSizes = {};
+  graph.nodes.forEach(nd => {
+    const r = find(nd.id);
+    compSizes[r] = (compSizes[r] || 0) + 1;
+  });
+  const roots = Object.keys(compSizes);
+  const largest = roots.length > 0 ? Math.max(...Object.values(compSizes)) : 0;
+
+  const prevNodeIds = new Set(prevGraph ? prevGraph.nodes.map(nd => nd.id) : []);
+  const prevEdgeKeys = new Set(prevGraph
+    ? prevGraph.edges.map(ed => [ed.source, ed.target].sort().join('||'))
+    : []);
+
+  const newNodes = graph.nodes.filter(nd => !prevNodeIds.has(nd.id));
+  const newEdges = graph.edges.filter(ed =>
+    !prevEdgeKeys.has([ed.source, ed.target].sort().join('||')));
+
+  return { n, e, density, avgDeg, components: roots.length, largest,
+           newNodes, newEdges, degMap };
+}
+
+// ─── SVG / D3 ─────────────────────────────────────────────────────────────────
+const svg = d3.select('#network-svg');
+let width, height, gMain, linkGroup, nodeGroup;
+
+function initSVG() {
+  const container = document.getElementById('canvas-container');
+  width = container.clientWidth;
+  height = container.clientHeight;
+  svg.attr('viewBox', `0 0 ${width} ${height}`);
+  svg.selectAll('*').remove();
+
+  const zoom = d3.zoom()
+    .scaleExtent([0.05, 10])
+    .on('zoom', e => gMain.attr('transform', e.transform));
+  svg.call(zoom);
+
+  gMain = svg.append('g');
+  linkGroup = gMain.append('g').attr('class', 'links');
+  nodeGroup = gMain.append('g').attr('class', 'nodes');
+}
+
+function nodeRadius(d) {
+  return Math.max(3, Math.sqrt(d.degree || 0) * 2.2 + 2);
+}
+
+function nodeColor(d) {
+  let hash = 0;
+  for (let i = 0; i < d.id.length; i++)
+    hash = d.id.charCodeAt(i) + ((hash << 5) - hash);
+  return PALETTE[Math.abs(hash) % PALETTE.length];
+}
+
+function renderYear(idx) {
+  if (!state.years.length) return;
+  const year = state.years[idx];
+  const graph = state.graphs[year];
+  const prevGraph = idx > 0 ? state.graphs[state.years[idx - 1]] : null;
+  const stats = computeStats(graph, prevGraph);
+  const newNodeIds = new Set(stats.newNodes.map(n => n.id));
+
+  if (!gMain) initSVG();
+
+  // Hide overlay
+  document.getElementById('canvas-overlay').style.display = 'none';
+
+  // Year display
+  document.getElementById('year-display').innerHTML = `<span>${year}</span>`;
+
+  // Progress bar
+  const pct = state.years.length > 1
+    ? (idx / (state.years.length - 1)) * 100
+    : 100;
+  document.getElementById('progress-bar').style.width = `${pct}%`;
+
+  // Stats
+  const fmt = (v, prefix='') => prefix + v;
+  const el = id => document.getElementById(id);
+  el('stat-nodes').textContent = stats.n;
+  el('stat-edges').textContent = stats.e;
+  el('stat-new').textContent = (idx > 0 ? '+' : '') + stats.newNodes.length;
+  el('stat-new-edges').textContent = (idx > 0 ? '+' : '') + stats.newEdges.length;
+  el('stat-density').textContent = stats.density.toFixed(5);
+  el('stat-avg-degree').textContent = stats.avgDeg.toFixed(2);
+  el('stat-components').textContent = stats.components;
+  el('stat-largest').textContent = stats.largest;
+
+  // File list highlight
+  state.years.forEach((y, i) => {
+    const fileEl = document.getElementById(`file-item-${i}`);
+    if (fileEl) fileEl.className = 'file-item' + (i === idx ? ' active' : '');
+  });
+
+  // Slider
+  document.getElementById('year-slider').value = idx;
+
+  // Build node data
+  const nodeMap = {};
+  graph.nodes.forEach(n => {
+    nodeMap[n.id] = {
+      id: n.id,
+      degree: stats.degMap[n.id] || 0,
+      isNew: newNodeIds.has(n.id),
+      x: state.nodePositions[n.id]?.x,
+      y: state.nodePositions[n.id]?.y,
+    };
+  });
+
+  const nodes = Object.values(nodeMap);
+  const links = graph.edges
+    .filter(e => nodeMap[e.source] && nodeMap[e.target])
+    .map(e => ({ source: e.source, target: e.target }));
+
+  // Init positions for new nodes
+  nodes.forEach(n => {
+    if (n.x === undefined) {
+      n.x = width / 2 + (Math.random() - 0.5) * 300;
+      n.y = height / 2 + (Math.random() - 0.5) * 300;
+    }
+  });
+
+  // Stop old sim
+  if (state.simulation) state.simulation.stop();
+
+  // New simulation
+  state.simulation = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(28).strength(0.4))
+    .force('charge', d3.forceManyBody().strength(-55).distanceMax(180))
+    .force('center', d3.forceCenter(width / 2, height / 2).strength(0.04))
+    .force('collide', d3.forceCollide(d => nodeRadius(d) + 1.5).strength(0.6))
+    .alphaDecay(0.025)
+    .velocityDecay(0.45);
+
+  // ── Links ──
+  const link = linkGroup.selectAll('.link')
+    .data(links, d => {
+      const s = typeof d.source === 'object' ? d.source.id : d.source;
+      const t = typeof d.target === 'object' ? d.target.id : d.target;
+      return [s, t].sort().join('||');
+    });
+
+  link.enter().append('line')
+    .attr('class', 'link')
+    .style('opacity', 0)
+    .transition().duration(500)
+    .style('opacity', 1);
+
+  link.exit().transition().duration(300).style('opacity', 0).remove();
+
+  // ── Nodes ──
+  const node = nodeGroup.selectAll('.node')
+    .data(nodes, d => d.id);
+
+  const nodeEnter = node.enter().append('g')
+    .attr('class', 'node')
+    .attr('transform', d => `translate(${d.x ?? width/2},${d.y ?? height/2})`)
+    .call(d3.drag()
+      .on('start', (event, d) => {
+        if (!event.active) state.simulation.alphaTarget(0.3).restart();
+        d.fx = d.x; d.fy = d.y;
+      })
+      .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+      .on('end', (event, d) => {
+        if (!event.active) state.simulation.alphaTarget(0);
+        state.nodePositions[d.id] = { x: d.x, y: d.y };
+        d.fx = null; d.fy = null;
+      })
+    );
+
+  nodeEnter.append('circle')
+    .attr('r', 0)
+    .attr('fill', d => d.isNew ? '#10b981' : nodeColor(d))
+    .attr('stroke', d => d.isNew ? '#6ee7b7' : 'rgba(255,255,255,0.08)')
+    .attr('stroke-width', 1)
+    .transition().duration(400).ease(d3.easeBackOut)
+    .attr('r', d => nodeRadius(d));
+
+  // Pulse ring for new nodes
+  nodeEnter.filter(d => d.isNew)
+    .append('circle')
+    .attr('class', 'new-node-pulse')
+    .attr('r', d => nodeRadius(d));
+
+  // Labels — only for high-degree nodes
+  nodeEnter.append('text')
+    .attr('dy', d => nodeRadius(d) + 9)
+    .style('opacity', 0)
+    .text(d => {
+      if (d.degree < 6) return '';
+      const parts = d.id.split(' 0')[0].split(' ');
+      return parts[parts.length - 1];
+    })
+    .transition().duration(600).style('opacity', 0.75);
+
+  // Update existing nodes
+  const nodeUpdate = node.merge(nodeEnter);
+
+  nodeUpdate.select('circle')
+    .transition().duration(500)
+    .attr('r', d => nodeRadius(d))
+    .attr('fill', d => d.isNew ? '#10b981' : nodeColor(d));
+
+  nodeUpdate.select('text')
+    .text(d => {
+      if (d.degree < 6) return '';
+      const parts = d.id.split(' 0')[0].split(' ');
+      return parts[parts.length - 1];
+    });
+
+  node.exit().transition().duration(300)
+    .style('opacity', 0).remove();
+
+  // Tooltips
+  nodeUpdate
+    .on('mouseover', function(event, d) {
+      const tt = document.getElementById('tooltip');
+      tt.innerHTML = `
+        <span class="tt-name">${d.id.split(' 0')[0]}</span>
+        <span class="tt-row">degree: ${d.degree}</span>
+        ${d.isNew ? '<span class="tt-new">✦ new this year</span>' : ''}
+      `;
+      tt.className = 'tooltip visible';
+    })
+    .on('mousemove', function(event) {
+      const tt = document.getElementById('tooltip');
+      const rect = document.getElementById('canvas-container').getBoundingClientRect();
+      let x = event.clientX - rect.left + 14;
+      let y = event.clientY - rect.top - 40;
+      if (x + 220 > rect.width) x = event.clientX - rect.left - 230;
+      tt.style.left = x + 'px';
+      tt.style.top = y + 'px';
+    })
+    .on('mouseout', () => {
+      document.getElementById('tooltip').className = 'tooltip';
+    });
+
+  // Tick
+  state.simulation.on('tick', () => {
+    linkGroup.selectAll('.link')
+      .attr('x1', d => d.source.x)
+      .attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x)
+      .attr('y2', d => d.target.y);
+
+    nodeGroup.selectAll('.node')
+      .attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+
+  state.simulation.on('end', () => {
+    nodes.forEach(n => {
+      state.nodePositions[n.id] = { x: n.x, y: n.y };
+    });
+  });
+
+  state.currentIdx = idx;
+}
+
+// ─── Navigation ───────────────────────────────────────────────────────────────
+function goTo(idx) {
+  if (idx < 0 || idx >= state.years.length) return;
+  renderYear(idx);
+}
+
+function nextYear() {
+  if (state.currentIdx >= state.years.length - 1) { stopPlay(); return; }
+  goTo(state.currentIdx + 1);
+}
+
+function startPlay() {
+  state.playing = true;
+  document.getElementById('btn-play').textContent = '⏸ pause';
+  document.getElementById('btn-play').classList.add('active');
+  const speed = parseInt(document.getElementById('speed-select').value);
+  state.playTimer = setInterval(() => {
+    if (state.currentIdx >= state.years.length - 1) { stopPlay(); return; }
+    nextYear();
+  }, speed);
+}
+
+function stopPlay() {
+  state.playing = false;
+  clearInterval(state.playTimer);
+  document.getElementById('btn-play').textContent = '▶ play';
+  document.getElementById('btn-play').classList.remove('active');
+}
+
+function togglePlay() {
+  if (!state.years.length) return;
+  if (state.playing) stopPlay();
+  else {
+    if (state.currentIdx >= state.years.length - 1) goTo(0);
+    startPlay();
+  }
+}
+
+// ─── Event listeners ─────────────────────────────────────────────────────────
+document.getElementById('btn-play').addEventListener('click', togglePlay);
+document.getElementById('btn-next').addEventListener('click', () => { stopPlay(); nextYear(); });
+document.getElementById('btn-prev').addEventListener('click', () => { stopPlay(); goTo(state.currentIdx - 1); });
+
+document.getElementById('year-slider').addEventListener('input', function() {
+  stopPlay(); goTo(parseInt(this.value));
+});
+
+document.getElementById('speed-select').addEventListener('change', () => {
+  if (state.playing) { stopPlay(); startPlay(); }
+});
+
+window.addEventListener('resize', () => {
+  if (state.years.length) { initSVG(); renderYear(state.currentIdx); }
+});
+
+// ─── Boot ─────────────────────────────────────────────────────────────────────
+initSVG();
+loadData();
+</script>
+</body>
+</html>
