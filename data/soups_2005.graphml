@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    		xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     		http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  		<graph id="G" edgedefault="undirected"><node id="Alex Brodskiy"/>
+<node id="Ben Pillet"/>
+<node id="Carolyn Brodie"/>
+<node id="Clare-Marie Karat"/>
+<node id="David F. Redmiles"/>
+<node id="David Thaw"/>
+<node id="Deirdre K. Mulligan"/>
+<node id="Giovanni Iachello"/>
+<node id="Gregory D. Abowd"/>
+<node id="Gregory J. Conti"/>
+<node id="Henry Krasemann"/>
+<node id="Ian E. Smith"/>
+<node id="J. Doug Tygar"/>
+<node id="Jean-Camille Birget"/>
+<node id="Jennifer Ann Rode"/>
+<node id="Jenny Nilsson"/>
+<node id="Jens Grossklags"/>
+<node id="Jie Ren 0001"/>
+<node id="Jim Waters"/>
+<node id="Jinjuan Feng"/>
+<node id="John Karat"/>
+<node id="John Sören Pettersson"/>
+<node id="John T. Stasko"/>
+<node id="Joseph A. Konstan"/>
+<node id="Kari Nies"/>
+<node id="Mike Bergmann"/>
+<node id="Mike Y. Chen"/>
+<node id="Mustaque Ahamad"/>
+<node id="Nasir D. Memon"/>
+<node id="Nathaniel Good"/>
+<node id="Ninni Danielsson"/>
+<node id="Paul DiGioia"/>
+<node id="Paul Dourish"/>
+<node id="Rachna Dhamija"/>
+<node id="Robert C. Miller"/>
+<node id="Roberto Silveira Silva Filho"/>
+<node id="Rogério de Paula"/>
+<node id="Sebastian Clauß"/>
+<node id="Simone Fischer-Hübner"/>
+<node id="Simson L. Garfinkel"/>
+<node id="Steven Aronowitz"/>
+<node id="Sunny Consolvo"/>
+<node id="Susan Wiedenbeck"/>
+<node id="Thomas Kriegelstein"/>
+<node id="Xianghua Ding"/>
+<edge source="Susan Wiedenbeck" target="Jim Waters" directed="false"/>
+<edge source="Susan Wiedenbeck" target="Jean-Camille Birget" directed="false"/>
+<edge source="Susan Wiedenbeck" target="Alex Brodskiy" directed="false"/>
+<edge source="Susan Wiedenbeck" target="Nasir D. Memon" directed="false"/>
+<edge source="Jim Waters" target="Jean-Camille Birget" directed="false"/>
+<edge source="Jim Waters" target="Alex Brodskiy" directed="false"/>
+<edge source="Jim Waters" target="Nasir D. Memon" directed="false"/>
+<edge source="Jean-Camille Birget" target="Alex Brodskiy" directed="false"/>
+<edge source="Jean-Camille Birget" target="Nasir D. Memon" directed="false"/>
+<edge source="Alex Brodskiy" target="Nasir D. Memon" directed="false"/>
+<edge source="Simson L. Garfinkel" target="Robert C. Miller" directed="false"/>
+<edge source="Rogério de Paula" target="Xianghua Ding" directed="false"/>
+<edge source="Rogério de Paula" target="Paul Dourish" directed="false"/>
+<edge source="Rogério de Paula" target="Kari Nies" directed="false"/>
+<edge source="Rogério de Paula" target="Ben Pillet" directed="false"/>
+<edge source="Rogério de Paula" target="David F. Redmiles" directed="false"/>
+<edge source="Rogério de Paula" target="Jie Ren 0001" directed="false"/>
+<edge source="Rogério de Paula" target="Jennifer Ann Rode" directed="false"/>
+<edge source="Rogério de Paula" target="Roberto Silveira Silva Filho" directed="false"/>
+<edge source="Xianghua Ding" target="Paul Dourish" directed="false"/>
+<edge source="Xianghua Ding" target="Kari Nies" directed="false"/>
+<edge source="Xianghua Ding" target="Ben Pillet" directed="false"/>
+<edge source="Xianghua Ding" target="David F. Redmiles" directed="false"/>
+<edge source="Xianghua Ding" target="Jie Ren 0001" directed="false"/>
+<edge source="Xianghua Ding" target="Jennifer Ann Rode" directed="false"/>
+<edge source="Xianghua Ding" target="Roberto Silveira Silva Filho" directed="false"/>
+<edge source="Paul Dourish" target="Kari Nies" directed="false"/>
+<edge source="Paul Dourish" target="Ben Pillet" directed="false"/>
+<edge source="Paul Dourish" target="David F. Redmiles" directed="false"/>
+<edge source="Paul Dourish" target="Jie Ren 0001" directed="false"/>
+<edge source="Paul Dourish" target="Jennifer Ann Rode" directed="false"/>
+<edge source="Paul Dourish" target="Roberto Silveira Silva Filho" directed="false"/>
+<edge source="Kari Nies" target="Ben Pillet" directed="false"/>
+<edge source="Kari Nies" target="David F. Redmiles" directed="false"/>
+<edge source="Kari Nies" target="Jie Ren 0001" directed="false"/>
+<edge source="Kari Nies" target="Jennifer Ann Rode" directed="false"/>
+<edge source="Kari Nies" target="Roberto Silveira Silva Filho" directed="false"/>
+<edge source="Ben Pillet" target="David F. Redmiles" directed="false"/>
+<edge source="Ben Pillet" target="Jie Ren 0001" directed="false"/>
+<edge source="Ben Pillet" target="Jennifer Ann Rode" directed="false"/>
+<edge source="Ben Pillet" target="Roberto Silveira Silva Filho" directed="false"/>
+<edge source="David F. Redmiles" target="Jie Ren 0001" directed="false"/>
+<edge source="David F. Redmiles" target="Jennifer Ann Rode" directed="false"/>
+<edge source="David F. Redmiles" target="Roberto Silveira Silva Filho" directed="false"/>
+<edge source="Jie Ren 0001" target="Jennifer Ann Rode" directed="false"/>
+<edge source="Jie Ren 0001" target="Roberto Silveira Silva Filho" directed="false"/>
+<edge source="Jennifer Ann Rode" target="Roberto Silveira Silva Filho" directed="false"/>
+<edge source="Carolyn Brodie" target="Clare-Marie Karat" directed="false"/>
+<edge source="Carolyn Brodie" target="John Karat" directed="false"/>
+<edge source="Carolyn Brodie" target="Jinjuan Feng" directed="false"/>
+<edge source="Clare-Marie Karat" target="John Karat" directed="false"/>
+<edge source="Clare-Marie Karat" target="Jinjuan Feng" directed="false"/>
+<edge source="John Karat" target="Jinjuan Feng" directed="false"/>
+<edge source="Nathaniel Good" target="Rachna Dhamija" directed="false"/>
+<edge source="Nathaniel Good" target="Jens Grossklags" directed="false"/>
+<edge source="Nathaniel Good" target="David Thaw" directed="false"/>
+<edge source="Nathaniel Good" target="Steven Aronowitz" directed="false"/>
+<edge source="Nathaniel Good" target="Deirdre K. Mulligan" directed="false"/>
+<edge source="Nathaniel Good" target="Joseph A. Konstan" directed="false"/>
+<edge source="Rachna Dhamija" target="Jens Grossklags" directed="false"/>
+<edge source="Rachna Dhamija" target="David Thaw" directed="false"/>
+<edge source="Rachna Dhamija" target="Steven Aronowitz" directed="false"/>
+<edge source="Rachna Dhamija" target="Deirdre K. Mulligan" directed="false"/>
+<edge source="Rachna Dhamija" target="Joseph A. Konstan" directed="false"/>
+<edge source="Jens Grossklags" target="David Thaw" directed="false"/>
+<edge source="Jens Grossklags" target="Steven Aronowitz" directed="false"/>
+<edge source="Jens Grossklags" target="Deirdre K. Mulligan" directed="false"/>
+<edge source="Jens Grossklags" target="Joseph A. Konstan" directed="false"/>
+<edge source="David Thaw" target="Steven Aronowitz" directed="false"/>
+<edge source="David Thaw" target="Deirdre K. Mulligan" directed="false"/>
+<edge source="David Thaw" target="Joseph A. Konstan" directed="false"/>
+<edge source="Steven Aronowitz" target="Deirdre K. Mulligan" directed="false"/>
+<edge source="Steven Aronowitz" target="Joseph A. Konstan" directed="false"/>
+<edge source="Deirdre K. Mulligan" target="Joseph A. Konstan" directed="false"/>
+<edge source="John Sören Pettersson" target="Simone Fischer-Hübner" directed="false"/>
+<edge source="John Sören Pettersson" target="Ninni Danielsson" directed="false"/>
+<edge source="John Sören Pettersson" target="Jenny Nilsson" directed="false"/>
+<edge source="John Sören Pettersson" target="Mike Bergmann" directed="false"/>
+<edge source="John Sören Pettersson" target="Sebastian Clauß" directed="false"/>
+<edge source="John Sören Pettersson" target="Thomas Kriegelstein" directed="false"/>
+<edge source="John Sören Pettersson" target="Henry Krasemann" directed="false"/>
+<edge source="Simone Fischer-Hübner" target="Ninni Danielsson" directed="false"/>
+<edge source="Simone Fischer-Hübner" target="Jenny Nilsson" directed="false"/>
+<edge source="Simone Fischer-Hübner" target="Mike Bergmann" directed="false"/>
+<edge source="Simone Fischer-Hübner" target="Sebastian Clauß" directed="false"/>
+<edge source="Simone Fischer-Hübner" target="Thomas Kriegelstein" directed="false"/>
+<edge source="Simone Fischer-Hübner" target="Henry Krasemann" directed="false"/>
+<edge source="Ninni Danielsson" target="Jenny Nilsson" directed="false"/>
+<edge source="Ninni Danielsson" target="Mike Bergmann" directed="false"/>
+<edge source="Ninni Danielsson" target="Sebastian Clauß" directed="false"/>
+<edge source="Ninni Danielsson" target="Thomas Kriegelstein" directed="false"/>
+<edge source="Ninni Danielsson" target="Henry Krasemann" directed="false"/>
+<edge source="Jenny Nilsson" target="Mike Bergmann" directed="false"/>
+<edge source="Jenny Nilsson" target="Sebastian Clauß" directed="false"/>
+<edge source="Jenny Nilsson" target="Thomas Kriegelstein" directed="false"/>
+<edge source="Jenny Nilsson" target="Henry Krasemann" directed="false"/>
+<edge source="Mike Bergmann" target="Sebastian Clauß" directed="false"/>
+<edge source="Mike Bergmann" target="Thomas Kriegelstein" directed="false"/>
+<edge source="Mike Bergmann" target="Henry Krasemann" directed="false"/>
+<edge source="Sebastian Clauß" target="Thomas Kriegelstein" directed="false"/>
+<edge source="Sebastian Clauß" target="Henry Krasemann" directed="false"/>
+<edge source="Thomas Kriegelstein" target="Henry Krasemann" directed="false"/>
+<edge source="Giovanni Iachello" target="Ian E. Smith" directed="false"/>
+<edge source="Giovanni Iachello" target="Sunny Consolvo" directed="false"/>
+<edge source="Giovanni Iachello" target="Mike Y. Chen" directed="false"/>
+<edge source="Giovanni Iachello" target="Gregory D. Abowd" directed="false"/>
+<edge source="Ian E. Smith" target="Sunny Consolvo" directed="false"/>
+<edge source="Ian E. Smith" target="Mike Y. Chen" directed="false"/>
+<edge source="Ian E. Smith" target="Gregory D. Abowd" directed="false"/>
+<edge source="Sunny Consolvo" target="Mike Y. Chen" directed="false"/>
+<edge source="Sunny Consolvo" target="Gregory D. Abowd" directed="false"/>
+<edge source="Mike Y. Chen" target="Gregory D. Abowd" directed="false"/>
+<edge source="Rachna Dhamija" target="J. Doug Tygar" directed="false"/>
+<edge source="Gregory J. Conti" target="Mustaque Ahamad" directed="false"/>
+<edge source="Gregory J. Conti" target="John T. Stasko" directed="false"/>
+<edge source="Mustaque Ahamad" target="John T. Stasko" directed="false"/>
+<edge source="Paul DiGioia" target="Paul Dourish" directed="false"/>
+</graph>
+		</graphml>
