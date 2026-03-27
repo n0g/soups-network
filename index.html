@@ -9,61 +9,33 @@
   @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:wght@300;400;500;600&display=swap');
 
   :root {
-    --bg: #0d0f14;
-    --bg2: #13161e;
-    --bg3: #1a1e2a;
-    --border: #2a2f3f;
-    --text: #e2e8f0;
-    --text-dim: #64748b;
-    --text-muted: #334155;
-    --accent: #6366f1;
-    --accent2: #818cf8;
-    --green: #10b981;
-    --mono: 'DM Mono', monospace;
-    --sans: 'DM Sans', sans-serif;
+    --bg: #0d0f14; --bg2: #13161e; --bg3: #1a1e2a;
+    --border: #2a2f3f; --text: #e2e8f0; --text-dim: #64748b;
+    --text-muted: #334155; --accent: #6366f1; --accent2: #818cf8;
+    --green: #10b981; --mono: 'DM Mono', monospace; --sans: 'DM Sans', sans-serif;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--text); font-family: var(--sans); height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
 
-  header {
-    padding: 16px 28px;
-    border-bottom: 1px solid var(--border);
-    display: flex; align-items: center; justify-content: space-between;
-    background: var(--bg2); flex-shrink: 0;
-  }
+  header { padding: 16px 28px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; background: var(--bg2); flex-shrink: 0; }
   .header-left h1 { font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent2); font-family: var(--mono); }
   .header-left p { font-size: 11px; color: var(--text-dim); margin-top: 2px; font-family: var(--mono); }
   .year-display { font-family: var(--mono); font-size: 52px; font-weight: 300; color: var(--text); letter-spacing: -0.03em; line-height: 1; }
   .year-display span { color: var(--accent); }
 
   .main { display: flex; flex: 1; overflow: hidden; }
-
   .sidebar { width: 270px; background: var(--bg2); border-right: 1px solid var(--border); display: flex; flex-direction: column; flex-shrink: 0; overflow-y: auto; }
 
-  /* Search */
   .search-box { padding: 14px 16px; border-bottom: 1px solid var(--border); position: relative; }
-  .search-box input {
-    width: 100%; background: var(--bg3); border: 1px solid var(--border);
-    color: var(--text); padding: 8px 10px 8px 32px; border-radius: 6px;
-    font-family: var(--mono); font-size: 11px; outline: none;
-    transition: border-color 0.15s;
-  }
+  .search-box input { width: 100%; background: var(--bg3); border: 1px solid var(--border); color: var(--text); padding: 8px 10px 8px 32px; border-radius: 6px; font-family: var(--mono); font-size: 11px; outline: none; transition: border-color 0.15s; }
   .search-box input:focus { border-color: var(--accent); }
   .search-box input::placeholder { color: var(--text-muted); }
   .search-icon { position: absolute; left: 24px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 13px; pointer-events: none; }
-  .search-results {
-    position: absolute; top: calc(100% - 2px); left: 16px; right: 16px;
-    background: var(--bg3); border: 1px solid var(--accent); border-top: none;
-    border-radius: 0 0 6px 6px; z-index: 200; max-height: 180px; overflow-y: auto;
-  }
-  .search-result-item {
-    padding: 7px 10px; font-family: var(--mono); font-size: 11px;
-    color: var(--text-dim); cursor: pointer; border-bottom: 1px solid var(--border);
-    transition: background 0.1s;
-  }
+  .search-results { position: absolute; top: calc(100% - 2px); left: 16px; right: 16px; background: var(--bg3); border: 1px solid var(--accent); border-top: none; border-radius: 0 0 6px 6px; z-index: 200; max-height: 180px; overflow-y: auto; }
+  .search-result-item { padding: 7px 10px; font-family: var(--mono); font-size: 11px; color: var(--text-dim); cursor: pointer; border-bottom: 1px solid var(--border); transition: background 0.1s; }
   .search-result-item:last-child { border-bottom: none; }
-  .search-result-item:hover, .search-result-item.selected { background: rgba(99,102,241,0.15); color: var(--accent2); }
+  .search-result-item:hover { background: rgba(99,102,241,0.15); color: var(--accent2); }
   .search-result-item mark { background: none; color: var(--accent2); font-weight: 600; }
 
   .loading-state { padding: 24px 16px; text-align: center; }
@@ -73,8 +45,15 @@
 
   .error-state { padding: 16px; background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.2); border-radius: 6px; margin: 16px; font-family: var(--mono); font-size: 11px; color: #fca5a5; line-height: 1.6; }
 
-  .files-list { padding: 0 16px 8px; }
-  .section-title { font-family: var(--mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 8px; padding-top: 12px; border-top: 1px solid var(--border); }
+  .section { padding: 0 16px 12px; }
+  .section-title { font-family: var(--mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 10px; padding-top: 12px; border-top: 1px solid var(--border); }
+
+  /* Community slider */
+  .comm-slider-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .comm-slider-label { font-family: var(--mono); font-size: 11px; color: var(--text-dim); white-space: nowrap; }
+  .comm-slider-value { font-family: var(--mono); font-size: 13px; color: var(--accent2); min-width: 24px; text-align: right; }
+  input[type="range"].comm-slider { flex: 1; -webkit-appearance: none; height: 3px; background: var(--border); border-radius: 2px; outline: none; }
+  input[type="range"].comm-slider::-webkit-slider-thumb { -webkit-appearance: none; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); cursor: pointer; border: 2px solid var(--bg); }
 
   .file-item { display: flex; align-items: center; gap: 8px; padding: 4px 6px; border-radius: 4px; cursor: pointer; transition: background 0.15s; margin-bottom: 2px; }
   .file-item:hover { background: var(--bg3); }
@@ -84,14 +63,11 @@
   .file-item span { font-size: 11px; font-family: var(--mono); color: var(--text-dim); }
   .file-item.active span { color: var(--accent2); }
 
-  /* Community legend in sidebar */
-  .community-legend { padding: 0 16px 16px; }
   .comm-item { display: flex; align-items: center; gap: 8px; padding: 3px 0; }
   .comm-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
   .comm-label { font-size: 10px; font-family: var(--mono); color: var(--text-dim); }
   .comm-count { font-size: 10px; font-family: var(--mono); color: var(--text-muted); margin-left: auto; }
 
-  .stats { padding: 0 16px 16px; }
   .stat-row { display: flex; justify-content: space-between; align-items: baseline; padding: 7px 0; border-bottom: 1px solid rgba(42,47,63,0.5); }
   .stat-label { font-size: 11px; color: var(--text-dim); font-family: var(--mono); }
   .stat-value { font-size: 14px; font-weight: 500; font-family: var(--mono); color: var(--text); }
@@ -101,34 +77,29 @@
   .canvas-container { flex: 1; position: relative; overflow: hidden; }
   #network-svg { width: 100%; height: 100%; }
 
-  .link { stroke-width: 1.2; transition: stroke-opacity 0.4s, stroke-width 0.4s; }
+  .link { stroke-width: 1.2; }
   .link.new-edge { stroke-width: 1.8; }
   .link.dimmed { stroke-opacity: 0.04 !important; }
-  .link.highlighted { stroke-opacity: 0.9 !important; stroke-width: 2px !important; stroke: #fff !important; }
+  .link.highlighted { stroke-opacity: 0.9 !important; stroke-width: 2.5px !important; stroke: rgba(255,255,255,0.9) !important; }
 
-  .node circle { cursor: pointer; transition: opacity 0.3s; }
+  .node circle { cursor: pointer; }
   .node.dimmed circle { opacity: 0.08; }
   .node.dimmed text { opacity: 0.04; }
-  .node.search-highlight circle { stroke: #fff !important; stroke-width: 3px !important; filter: drop-shadow(0 0 8px rgba(255,255,255,0.8)); }
-  .node.neighbor-highlight circle { stroke: rgba(255,255,255,0.6) !important; stroke-width: 2px !important; }
-
+  .node.search-highlight circle { stroke: #fff !important; stroke-width: 3px !important; filter: drop-shadow(0 0 10px rgba(255,255,255,0.9)); }
+  .node.neighbor-highlight circle { stroke: rgba(255,255,255,0.55) !important; stroke-width: 2px !important; }
   .node text { pointer-events: none; font-family: 'DM Mono', monospace; font-size: 9px; fill: rgba(226,232,240,0.85); text-anchor: middle; }
+
+  /* Search banner — no zoom button needed */
+  .search-banner { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); background: var(--bg2); border: 1px solid var(--accent); border-radius: 20px; padding: 6px 16px; font-family: var(--mono); font-size: 11px; color: var(--accent2); pointer-events: none; opacity: 0; transition: opacity 0.3s; white-space: nowrap; z-index: 50; display: flex; align-items: center; gap: 12px; }
+  .search-banner.visible { opacity: 1; pointer-events: all; }
+  .search-banner-clear { background: none; border: none; color: var(--text-dim); cursor: pointer; font-size: 13px; line-height: 1; padding: 0; }
+  .search-banner-clear:hover { color: var(--text); }
 
   .tooltip { position: absolute; background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; font-family: var(--mono); font-size: 11px; pointer-events: none; opacity: 0; transition: opacity 0.15s; max-width: 240px; z-index: 100; }
   .tooltip.visible { opacity: 1; }
   .tooltip strong { color: var(--accent2); font-size: 12px; display: block; margin-bottom: 4px; }
   .tooltip span { color: var(--text-dim); display: block; line-height: 1.6; }
   .tooltip .comm-badge { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
-
-  /* Search highlight banner */
-  .search-banner {
-    position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
-    background: var(--bg2); border: 1px solid var(--accent); border-radius: 20px;
-    padding: 6px 16px; font-family: var(--mono); font-size: 11px; color: var(--accent2);
-    pointer-events: none; opacity: 0; transition: opacity 0.3s; white-space: nowrap; z-index: 50;
-  }
-  .search-banner.visible { opacity: 1; }
-  .search-banner button { pointer-events: all; background: none; border: none; color: var(--text-dim); cursor: pointer; margin-left: 8px; font-size: 12px; }
 
   .controls { padding: 14px 28px; border-top: 1px solid var(--border); background: var(--bg2); display: flex; align-items: center; gap: 20px; flex-shrink: 0; }
   .btn { background: var(--bg3); border: 1px solid var(--border); color: var(--text); padding: 7px 16px; border-radius: 6px; font-family: var(--mono); font-size: 11px; cursor: pointer; transition: all 0.15s; letter-spacing: 0.05em; white-space: nowrap; }
@@ -138,7 +109,6 @@
 
   .slider-container { flex: 1; display: flex; align-items: center; gap: 12px; }
   .slider-label { font-family: var(--mono); font-size: 11px; color: var(--text-dim); white-space: nowrap; }
-
   input[type="range"] { flex: 1; -webkit-appearance: none; height: 3px; background: var(--border); border-radius: 2px; outline: none; }
   input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); cursor: pointer; border: 2px solid var(--bg); transition: transform 0.15s; }
   input[type="range"]::-webkit-slider-thumb:hover { transform: scale(1.3); }
@@ -163,7 +133,6 @@
 
 <div class="main">
   <div class="sidebar">
-    <!-- Search -->
     <div class="search-box" id="search-box">
       <span class="search-icon">⌕</span>
       <input type="text" id="search-input" placeholder="Search author..." autocomplete="off" spellcheck="false">
@@ -176,17 +145,23 @@
     </div>
     <div id="error-container"></div>
 
-    <div class="files-list" id="files-list" style="display:none">
+    <!-- Community resolution slider -->
+    <div class="section" id="comm-section" style="display:none">
+      <div class="section-title">Community Detection</div>
+      <div class="comm-slider-row">
+        <span class="comm-slider-label">granularity</span>
+        <input type="range" class="comm-slider" id="comm-slider" min="1" max="20" value="10">
+        <span class="comm-slider-value" id="comm-slider-val">10</span>
+      </div>
+      <div id="community-items"></div>
+    </div>
+
+    <div class="section" id="files-section" style="display:none">
       <div class="section-title">Loaded Years</div>
       <div id="file-items"></div>
     </div>
 
-    <div class="community-legend" id="community-legend" style="display:none">
-      <div class="section-title">Communities</div>
-      <div id="community-items"></div>
-    </div>
-
-    <div class="stats" id="stats-panel" style="display:none">
+    <div class="section" id="stats-panel" style="display:none">
       <div class="section-title">Network Statistics</div>
       <div class="stat-row"><span class="stat-label">nodes</span><span class="stat-value highlight" id="stat-nodes">—</span></div>
       <div class="stat-row"><span class="stat-label">edges</span><span class="stat-value highlight" id="stat-edges">—</span></div>
@@ -205,7 +180,7 @@
     <div class="tooltip" id="tooltip"></div>
     <div class="search-banner" id="search-banner">
       <span id="search-banner-text"></span>
-      <button onclick="clearSearch()">✕ clear</button>
+      <button class="search-banner-clear" onclick="clearSearch()">✕</button>
     </div>
   </div>
 </div>
@@ -231,106 +206,122 @@
 </div>
 
 <script>
-// ── Community color palette (distinct, colorblind-friendly) ───────────────
 const COMM_PALETTE = [
   '#6366f1','#ef4444','#f59e0b','#10b981','#06b6d4',
   '#e879f9','#f97316','#84cc16','#ec4899','#14b8a6',
   '#a78bfa','#fbbf24','#34d399','#60a5fa','#f87171',
   '#2dd4bf','#c084fc','#fb923c','#86efac','#f9a8d4',
 ];
+const commColor = i => COMM_PALETTE[i % COMM_PALETTE.length];
 
-function commColor(idx) { return COMM_PALETTE[idx % COMM_PALETTE.length]; }
-
-// ── App state ─────────────────────────────────────────────────────────────
 const state = {
   years: [], graphs: {},
   currentIdx: 0, playing: false, playTimer: null,
-  searchTarget: null,   // currently highlighted node id
+  searchTarget: null,
+  commResolution: 10,  // 1=few big communities, 20=many small ones
 };
 
-const simState = {
-  simulation: null,
-  nodes: [], links: [],
-  nodeMap: {}, linkSet: new Set(),
-  communityMap: {},   // node id -> community index (recalculated each year)
-  commSizes: {},      // community index -> size
-};
-
-// ── Greedy modularity community detection (pure JS, no library needed) ────
-// Louvain-lite: label propagation — fast, good enough for visualization
-function detectCommunities(nodes, links) {
+// ── Community detection — label propagation with resolution ───────────────
+// Resolution controls number of iterations before we merge small communities
+function detectCommunities(nodes, links, resolution) {
   if (!nodes.length) return {};
+
   const adj = {};
   nodes.forEach(n => adj[n.id] = new Set());
   links.forEach(l => {
-    const s = typeof l.source === 'object' ? l.source.id : l.source;
-    const t = typeof l.target === 'object' ? l.target.id : l.target;
+    const s = typeof l.source==='object' ? l.source.id : l.source;
+    const t = typeof l.target==='object' ? l.target.id : l.target;
     if (adj[s] && adj[t]) { adj[s].add(t); adj[t].add(s); }
   });
 
-  // Initialize: each node in its own community
+  // Initialize
   const comm = {};
   nodes.forEach((n, i) => comm[n.id] = i);
 
-  // Label propagation — iterate until stable
-  let changed = true;
-  let iter = 0;
-  while (changed && iter < 30) {
+  // Label propagation — more iterations = more communities (higher resolution)
+  const maxIter = Math.max(2, Math.round(resolution * 1.5));
+  let changed = true, iter = 0;
+  while (changed && iter < maxIter) {
     changed = false; iter++;
-    // Shuffle order for randomness
     const order = nodes.map(n => n.id).sort(() => Math.random() - 0.5);
     order.forEach(id => {
-      if (!adj[id]) return;
-      const neighborComms = {};
-      adj[id].forEach(nb => {
-        const c = comm[nb];
-        neighborComms[c] = (neighborComms[c] || 0) + 1;
-      });
-      if (!Object.keys(neighborComms).length) return;
-      const best = Object.entries(neighborComms).sort((a,b) => b[1]-a[1])[0][0];
-      if (parseInt(best) !== comm[id]) { comm[id] = parseInt(best); changed = true; }
+      if (!adj[id]?.size) return;
+      const votes = {};
+      adj[id].forEach(nb => { const c = comm[nb]; votes[c] = (votes[c]||0)+1; });
+      const best = parseInt(Object.entries(votes).sort((a,b)=>b[1]-a[1])[0][0]);
+      if (best !== comm[id]) { comm[id] = best; changed = true; }
     });
   }
 
-  // Remap community ids to 0-based sequential integers sorted by size
-  const sizes = {};
+  // At low resolution — merge small communities into nearest neighbor
+  const targetComms = Math.max(2, Math.round(resolution / 2));
+  let sizes = {};
   Object.values(comm).forEach(c => sizes[c] = (sizes[c]||0)+1);
-  const sorted = Object.entries(sizes).sort((a,b) => b[1]-a[1]);
+  let numComms = Object.keys(sizes).length;
+
+  // Merge smallest communities until we reach target
+  while (numComms > targetComms) {
+    sizes = {};
+    Object.values(comm).forEach(c => sizes[c] = (sizes[c]||0)+1);
+    numComms = Object.keys(sizes).length;
+    if (numComms <= targetComms) break;
+
+    // Find smallest community
+    const smallest = parseInt(Object.entries(sizes).sort((a,b)=>a[1]-b[1])[0][0]);
+
+    // Find its most connected neighbor community
+    const neighborVotes = {};
+    nodes.forEach(n => {
+      if (comm[n.id] !== smallest) return;
+      adj[n.id]?.forEach(nb => {
+        const nc = comm[nb];
+        if (nc !== smallest) neighborVotes[nc] = (neighborVotes[nc]||0)+1;
+      });
+    });
+
+    const mergeTo = Object.keys(neighborVotes).length
+      ? parseInt(Object.entries(neighborVotes).sort((a,b)=>b[1]-a[1])[0][0])
+      : parseInt(Object.keys(sizes).find(c => parseInt(c) !== smallest));
+
+    nodes.forEach(n => { if (comm[n.id] === smallest) comm[n.id] = mergeTo; });
+    numComms--;
+  }
+
+  // Remap to 0-based sequential sorted by size desc
+  sizes = {};
+  Object.values(comm).forEach(c => sizes[c] = (sizes[c]||0)+1);
   const remap = {};
-  sorted.forEach(([c], i) => remap[c] = i);
+  Object.entries(sizes).sort((a,b)=>b[1]-a[1]).forEach(([c],i) => remap[c]=i);
   const result = {};
-  Object.entries(comm).forEach(([id, c]) => result[id] = remap[c]);
+  Object.entries(comm).forEach(([id,c]) => result[id] = remap[c]);
   return result;
 }
 
 // ── GraphML parser ────────────────────────────────────────────────────────
 function parseGraphML(xml) {
   const doc = new DOMParser().parseFromString(xml, 'application/xml');
-  const nodes = [], edges = [];
-  doc.querySelectorAll('node').forEach(n => nodes.push({ id: n.getAttribute('id') }));
-  doc.querySelectorAll('edge').forEach(e => edges.push({ source: e.getAttribute('source'), target: e.getAttribute('target') }));
-  return { nodes, edges };
+  const nodes=[], edges=[];
+  doc.querySelectorAll('node').forEach(n => nodes.push({id: n.getAttribute('id')}));
+  doc.querySelectorAll('edge').forEach(e => edges.push({source: e.getAttribute('source'), target: e.getAttribute('target')}));
+  return {nodes, edges};
 }
 
-function edgeKey(s, t) { return [s,t].sort().join('||'); }
+function edgeKey(s,t) { return [s,t].sort().join('||'); }
 
 // ── Fuzzy search ──────────────────────────────────────────────────────────
 function fuzzyMatch(query, target) {
-  query = query.toLowerCase();
-  target = target.toLowerCase();
-  if (target.includes(query)) return { match: true, score: target.indexOf(query) };
-  // Character sequence match
-  let qi = 0, score = 0;
-  for (let ti = 0; ti < target.length && qi < query.length; ti++) {
-    if (target[ti] === query[qi]) { qi++; score++; }
+  query = query.toLowerCase(); target = target.toLowerCase();
+  if (target.includes(query)) return {match:true, score:target.indexOf(query)};
+  let qi=0, score=0;
+  for (let ti=0; ti<target.length && qi<query.length; ti++) {
+    if (target[ti]===query[qi]) { qi++; score++; }
   }
-  return { match: qi === query.length, score: -(score / query.length) };
+  return {match: qi===query.length, score: -(score/query.length)};
 }
-
-function highlightMatch(query, text) {
-  const idx = text.toLowerCase().indexOf(query.toLowerCase());
-  if (idx === -1) return text;
-  return text.slice(0, idx) + '<mark>' + text.slice(idx, idx+query.length) + '</mark>' + text.slice(idx+query.length);
+function highlightMatch(q, text) {
+  const idx = text.toLowerCase().indexOf(q.toLowerCase());
+  if (idx===-1) return text;
+  return text.slice(0,idx)+'<mark>'+text.slice(idx,idx+q.length)+'</mark>'+text.slice(idx+q.length);
 }
 
 // ── Load from server ──────────────────────────────────────────────────────
@@ -340,7 +331,7 @@ async function loadFromServer() {
     const res = await fetch('data/manifest.json');
     if (!res.ok) throw new Error(`manifest.json not found (${res.status})`);
     manifest = await res.json();
-  } catch (err) { showError(`Could not load data/manifest.json<br><br>${err.message}`); return; }
+  } catch(err) { showError(`Could not load data/manifest.json<br><br>${err.message}`); return; }
 
   const files = Array.isArray(manifest) ? manifest : manifest.files;
   if (!files?.length) { showError('manifest.json is empty.'); return; }
@@ -354,13 +345,11 @@ async function loadFromServer() {
       const res = await fetch(`data/${filename}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       state.graphs[year] = parseGraphML(await res.text());
-      state.graphs[year].filename = filename;
       loaded++;
-    } catch (err) { console.warn(`Failed: ${filename}`, err); }
+    } catch(err) { console.warn(`Failed: ${filename}`, err); }
   }));
 
   if (!loaded) { showError('No files loaded.'); return; }
-
   state.years = Object.keys(state.graphs).map(Number).sort((a,b)=>a-b);
   document.getElementById('loading-state').style.display = 'none';
   setupUI();
@@ -375,22 +364,21 @@ function showError(msg) {
 
 // ── UI setup ──────────────────────────────────────────────────────────────
 function setupUI() {
-  const { years } = state;
-  document.getElementById('stats-panel').style.display = 'block';
-  document.getElementById('files-list').style.display = 'block';
-  document.getElementById('community-legend').style.display = 'block';
+  ['comm-section','files-section','stats-panel'].forEach(id => {
+    document.getElementById(id).style.display = 'block';
+  });
 
   const slider = document.getElementById('year-slider');
-  slider.min = 0; slider.max = years.length-1; slider.value = 0; slider.disabled = false;
-  document.getElementById('slider-min').textContent = years[0];
-  document.getElementById('slider-max').textContent = years[years.length-1];
-  ['btn-play','btn-prev','btn-next'].forEach(id => document.getElementById(id).disabled = false);
+  slider.min=0; slider.max=state.years.length-1; slider.value=0; slider.disabled=false;
+  document.getElementById('slider-min').textContent = state.years[0];
+  document.getElementById('slider-max').textContent = state.years[state.years.length-1];
+  ['btn-play','btn-prev','btn-next'].forEach(id => document.getElementById(id).disabled=false);
 
   const container = document.getElementById('file-items');
   container.innerHTML = '';
-  years.forEach((y, i) => {
+  state.years.forEach((y,i) => {
     const item = document.createElement('div');
-    item.className = 'file-item' + (i===0?' active':'');
+    item.className = 'file-item'+(i===0?' active':'');
     item.id = `file-item-${i}`;
     item.innerHTML = `<div class="dot"></div><span>${y}</span>`;
     item.addEventListener('click', () => { stopPlay(); goTo(i); });
@@ -398,20 +386,27 @@ function setupUI() {
   });
 }
 
-// ── SVG + simulation ──────────────────────────────────────────────────────
+// ── SVG + persistent simulation ───────────────────────────────────────────
 const svg = d3.select('#network-svg');
 let width, height, g, linkGroup, nodeGroup, zoomBehavior;
 
+// Simulation state — rebuilt each year for correct rollback
+const sim = {
+  simulation: null,
+  nodes: [],      // current displayed nodes
+  links: [],      // current displayed links
+  nodeMap: {},    // id -> node obj
+  commMap: {},    // id -> community index
+  commSizes: {},
+};
+
 function initSVG() {
   const c = document.getElementById('canvas-container');
-  width = c.clientWidth; height = c.clientHeight;
-  svg.attr('viewBox', `0 0 ${width} ${height}`);
+  width=c.clientWidth; height=c.clientHeight;
+  svg.attr('viewBox',`0 0 ${width} ${height}`);
   svg.selectAll('*').remove();
-
-  zoomBehavior = d3.zoom().scaleExtent([0.05,10])
-    .on('zoom', e => g.attr('transform', e.transform));
+  zoomBehavior = d3.zoom().scaleExtent([0.05,10]).on('zoom', e=>g.attr('transform',e.transform));
   svg.call(zoomBehavior);
-
   g = svg.append('g');
   linkGroup = g.append('g').attr('class','links');
   nodeGroup = g.append('g').attr('class','nodes');
@@ -419,10 +414,10 @@ function initSVG() {
 
 function initSimulation() {
   initSVG();
-  simState.simulation = d3.forceSimulation([])
+  sim.simulation = d3.forceSimulation([])
     .force('link', d3.forceLink([]).id(d=>d.id).distance(35).strength(0.25))
     .force('charge', d3.forceManyBody().strength(-70).distanceMax(250))
-    .force('center', d3.forceCenter(width/2, height/2).strength(0.04))
+    .force('center', d3.forceCenter(width/2,height/2).strength(0.04))
     .force('collide', d3.forceCollide(d=>nodeRadius(d)+3).strength(0.6))
     .alphaDecay(0.02).velocityDecay(0.45)
     .on('tick', ticked);
@@ -430,12 +425,16 @@ function initSimulation() {
 
 function ticked() {
   linkGroup.selectAll('.link')
-    .attr('x1', d=>d.source.x).attr('y1', d=>d.source.y)
-    .attr('x2', d=>d.target.x).attr('y2', d=>d.target.y);
-  nodeGroup.selectAll('.node').attr('transform', d=>`translate(${d.x},${d.y})`);
+    .attr('x1',d=>d.source.x).attr('y1',d=>d.source.y)
+    .attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+  nodeGroup.selectAll('.node').attr('transform',d=>`translate(${d.x},${d.y})`);
 }
 
-// ── Render year ───────────────────────────────────────────────────────────
+// ── Render year — FULL ROLLBACK ───────────────────────────────────────────
+// Each year we rebuild nodes/links from scratch based on that year's graph.
+// Positions are preserved via a persistent position cache.
+const posCache = {};  // id -> {x, y} — survives across renders
+
 function renderYear(idx) {
   if (!state.years.length) return;
   const year = state.years[idx];
@@ -445,146 +444,162 @@ function renderYear(idx) {
   const newNodeIds = new Set(stats.newNodes.map(n=>n.id));
   const newEdgeKeys = new Set(stats.newEdges.map(e=>edgeKey(e.source,e.target)));
 
-  // ── Community detection on current year's full graph ──────────────────
-  // Build temp node/link arrays from current graph for detection
-  const tempNodes = graph.nodes.map(n => ({ id: n.id }));
-  const tempLinks = graph.edges.map(e => ({ source: e.source, target: e.target }));
-  simState.communityMap = detectCommunities(tempNodes, tempLinks);
+  // Save current positions to cache before rebuilding
+  sim.nodes.forEach(n => { posCache[n.id] = {x:n.x, y:n.y}; });
 
-  // Count community sizes
-  simState.commSizes = {};
-  Object.values(simState.communityMap).forEach(c => {
-    simState.commSizes[c] = (simState.commSizes[c]||0)+1;
+  // ── Community detection ───────────────────────────────────────────────
+  sim.commMap = detectCommunities(graph.nodes, graph.edges, state.commResolution);
+  sim.commSizes = {};
+  Object.values(sim.commMap).forEach(c => sim.commSizes[c]=(sim.commSizes[c]||0)+1);
+  updateCommunityLegend();
+
+  // ── Rebuild node list from THIS year's graph ──────────────────────────
+  sim.nodeMap = {};
+  sim.nodes = graph.nodes.map(n => {
+    const cached = posCache[n.id];
+    const obj = {
+      id: n.id,
+      degree: stats.degMap[n.id]||0,
+      isNew: newNodeIds.has(n.id),
+      community: sim.commMap[n.id]??0,
+      x: cached?.x ?? (width/2+(Math.random()-.5)*100),
+      y: cached?.y ?? (height/2+(Math.random()-.5)*100),
+    };
+    sim.nodeMap[n.id] = obj;
+    return obj;
   });
 
-  // Update community legend
-  updateCommunityLegend(simState.commSizes);
+  // ── Rebuild link list from THIS year's graph ──────────────────────────
+  sim.links = graph.edges
+    .filter(e => sim.nodeMap[e.source] && sim.nodeMap[e.target])
+    .map(e => ({
+      source: e.source, target: e.target,
+      isNew: newEdgeKeys.has(edgeKey(e.source, e.target)),
+    }));
 
-  // ── Add/update nodes ──────────────────────────────────────────────────
-  graph.nodes.forEach(n => {
-    const comm = simState.communityMap[n.id] ?? 0;
-    if (!simState.nodeMap[n.id]) {
-      const obj = {
-        id: n.id, degree: stats.degMap[n.id]||0, isNew: true, community: comm,
-        x: width/2+(Math.random()-.5)*80, y: height/2+(Math.random()-.5)*80,
-      };
-      simState.nodes.push(obj);
-      simState.nodeMap[n.id] = obj;
-    } else {
-      simState.nodeMap[n.id].degree = stats.degMap[n.id]||0;
-      simState.nodeMap[n.id].isNew = newNodeIds.has(n.id);
-      simState.nodeMap[n.id].community = comm;  // snap color update
-    }
-  });
-
-  // ── Add new links ─────────────────────────────────────────────────────
-  graph.edges.forEach(e => {
-    const k = edgeKey(e.source, e.target);
-    if (!simState.linkSet.has(k) && simState.nodeMap[e.source] && simState.nodeMap[e.target]) {
-      simState.linkSet.add(k);
-      simState.links.push({ source: e.source, target: e.target, isNew: newEdgeKeys.has(k) });
-    }
-  });
-
+  // Clear isNew after flash
   setTimeout(() => {
-    simState.links.forEach(l => l.isNew = false);
+    sim.links.forEach(l => l.isNew=false);
     linkGroup.selectAll('.link.new-edge')
-      .classed('new-edge', false)
-      .attr('stroke', d => linkColor(d))
+      .classed('new-edge',false)
+      .attr('stroke', d => commColor(sim.commMap[typeof d.source==='object'?d.source.id:d.source]??0))
+      .attr('stroke-opacity', 0.45)
       .attr('stroke-width', 1.2);
   }, 1200);
 
-  // Update simulation
-  simState.simulation.nodes(simState.nodes).force('link').links(simState.links);
-  simState.simulation.alpha(0.25).restart();
+  // ── Update simulation with new node/link sets ─────────────────────────
+  sim.simulation.nodes(sim.nodes).force('link').links(sim.links);
+  sim.simulation.alpha(0.3).restart();
 
   // ── DOM: links ────────────────────────────────────────────────────────
-  const linkSel = linkGroup.selectAll('.link')
-    .data(simState.links, d => edgeKey(
-      typeof d.source==='object'?d.source.id:d.source,
-      typeof d.target==='object'?d.target.id:d.target
-    ));
+  const linkKey = d => edgeKey(typeof d.source==='object'?d.source.id:d.source, typeof d.target==='object'?d.target.id:d.target);
+  const linkSel = linkGroup.selectAll('.link').data(sim.links, linkKey);
 
   linkSel.enter().append('line')
-    .attr('class', d => `link${d.isNew?' new-edge':''}`)
-    .attr('stroke', d => d.isNew ? 'rgba(16,185,129,0.8)' : linkColor(d))
+    .attr('class', d=>`link${d.isNew?' new-edge':''}`)
+    .attr('stroke', d => d.isNew ? 'rgba(16,185,129,0.8)' : commColor(sim.commMap[d.source]??0))
     .attr('stroke-opacity', d => d.isNew ? 0.8 : 0.45)
     .attr('stroke-width', d => d.isNew ? 1.8 : 1.2)
-    .style('opacity', 0)
-    .transition().duration(500).style('opacity', 1);
+    .style('opacity',0).transition().duration(400).style('opacity',1);
 
-  linkSel.exit().transition().duration(400).style('opacity',0).remove();
+  // Update existing link colors (community may have changed)
+  linkSel.attr('stroke', d => {
+    const sid = typeof d.source==='object'?d.source.id:d.source;
+    return commColor(sim.commMap[sid]??0);
+  });
+
+  linkSel.exit().transition().duration(350).style('opacity',0).remove();
 
   // ── DOM: nodes ────────────────────────────────────────────────────────
-  const nodeSel = nodeGroup.selectAll('.node').data(simState.nodes, d=>d.id);
+  const nodeSel = nodeGroup.selectAll('.node').data(sim.nodes, d=>d.id);
 
   const nodeEnter = nodeSel.enter().append('g')
-    .attr('class', 'node')
-    .attr('transform', d=>`translate(${d.x},${d.y})`)
-    .style('opacity', 0)
+    .attr('class','node')
+    .attr('transform',d=>`translate(${d.x},${d.y})`)
+    .style('opacity',0)
     .call(d3.drag()
-      .on('start', (e,d) => { if(!e.active) simState.simulation.alphaTarget(0.2).restart(); d.fx=d.x; d.fy=d.y; })
-      .on('drag',  (e,d) => { d.fx=e.x; d.fy=e.y; })
-      .on('end',   (e,d) => { if(!e.active) simState.simulation.alphaTarget(0); d.fx=null; d.fy=null; }));
+      .on('start',(e,d)=>{ if(!e.active) sim.simulation.alphaTarget(0.2).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag', (e,d)=>{ d.fx=e.x; d.fy=e.y; })
+      .on('end',  (e,d)=>{ if(!e.active) sim.simulation.alphaTarget(0); posCache[d.id]={x:d.x,y:d.y}; d.fx=null; d.fy=null; }));
 
   nodeEnter.append('circle')
-    .attr('r', d=>nodeRadius(d))
-    .attr('fill', d => d.isNew ? '#10b981' : commColor(d.community))
-    .attr('stroke', d => d.isNew ? '#6ee7b7' : 'rgba(255,255,255,0.12)')
-    .attr('stroke-width', 1);
+    .attr('r',d=>nodeRadius(d))
+    .attr('fill',d=>d.isNew?'#10b981':commColor(d.community))
+    .attr('stroke',d=>d.isNew?'#6ee7b7':'rgba(255,255,255,0.12)')
+    .attr('stroke-width',1);
 
   nodeEnter.filter(d=>d.isNew).append('circle')
-    .attr('class','new-node-pulse').attr('r', d=>nodeRadius(d));
+    .attr('class','new-node-pulse').attr('r',d=>nodeRadius(d));
 
   nodeEnter.append('text')
-    .attr('dy', d=>nodeRadius(d)+9)
-    .text(d => d.degree > 5 ? d.id.split(' 0')[0].split(' ').slice(-1)[0] : '');
+    .attr('dy',d=>nodeRadius(d)+9)
+    .text(d=>d.degree>5?d.id.split(' 0')[0].split(' ').slice(-1)[0]:'');
 
-  nodeEnter.transition().duration(500).style('opacity',1);
+  nodeEnter.transition().duration(400).style('opacity',1);
 
-  // Update existing — snap community color
+  // Update existing — community color snaps, size updates
   nodeSel.select('circle')
-    .transition().duration(500)
-    .attr('r', d=>nodeRadius(d))
-    .attr('fill', d => d.isNew ? '#10b981' : commColor(d.community))
-    .attr('stroke', d => d.isNew ? '#6ee7b7' : 'rgba(255,255,255,0.12)');
+    .transition().duration(400)
+    .attr('r',d=>nodeRadius(d))
+    .attr('fill',d=>d.isNew?'#10b981':commColor(d.community))
+    .attr('stroke',d=>d.isNew?'#6ee7b7':'rgba(255,255,255,0.12)');
 
-  nodeSel.select('text').text(d => d.degree > 5 ? d.id.split(' 0')[0].split(' ').slice(-1)[0] : '');
+  nodeSel.select('text').text(d=>d.degree>5?d.id.split(' 0')[0].split(' ').slice(-1)[0]:'');
 
-  // ── Rebind interactions ───────────────────────────────────────────────
+  // Remove nodes no longer in this year's graph
+  nodeSel.exit().transition().duration(350).style('opacity',0).remove();
+
   bindNodeInteractions();
 
-  // ── Re-apply search highlight if active ──────────────────────────────
-  if (state.searchTarget) applySearchHighlight(state.searchTarget, false);
+  // Re-apply search highlight if active
+  if (state.searchTarget && sim.nodeMap[state.searchTarget]) {
+    applySearchHighlight(state.searchTarget);
+  } else if (state.searchTarget) {
+    clearSearch();
+  }
 
-  // ── UI updates ────────────────────────────────────────────────────────
   updateStatsUI(stats, idx);
-  state.years.forEach((y,i) => {
-    const el = document.getElementById(`file-item-${i}`);
-    if (el) el.className = 'file-item'+(i===idx?' active':'');
+  state.years.forEach((y,i)=>{
+    const el=document.getElementById(`file-item-${i}`);
+    if(el) el.className='file-item'+(i===idx?' active':'');
   });
-  document.getElementById('year-slider').value = idx;
-  document.getElementById('year-display').innerHTML = `<span>${year}</span>`;
-  state.currentIdx = idx;
+  document.getElementById('year-slider').value=idx;
+  document.getElementById('year-display').innerHTML=`<span>${year}</span>`;
+  state.currentIdx=idx;
 }
 
-function linkColor(d) {
-  // Color edge by source community
-  const sid = typeof d.source==='object' ? d.source.id : d.source;
-  const c = simState.communityMap[sid] ?? 0;
-  const base = commColor(c);
-  return base; // opacity handled by attribute
+// ── Re-render colors only (for community slider) ──────────────────────────
+function redetectAndRecolor() {
+  if (!state.years.length) return;
+  const graph = state.graphs[state.years[state.currentIdx]];
+  sim.commMap = detectCommunities(graph.nodes, graph.edges, state.commResolution);
+  sim.commSizes = {};
+  Object.values(sim.commMap).forEach(c => sim.commSizes[c]=(sim.commSizes[c]||0)+1);
+  sim.nodes.forEach(n => { n.community = sim.commMap[n.id]??0; });
+  updateCommunityLegend();
+  document.getElementById('stat-communities').textContent = Object.keys(sim.commSizes).length;
+
+  nodeGroup.selectAll('.node').select('circle')
+    .transition().duration(300)
+    .attr('fill',d=>commColor(d.community));
+
+  linkGroup.selectAll('.link')
+    .transition().duration(300)
+    .attr('stroke',d=>{
+      const sid=typeof d.source==='object'?d.source.id:d.source;
+      return commColor(sim.commMap[sid]??0);
+    });
+
+  if (state.searchTarget) applySearchHighlight(state.searchTarget);
 }
 
-function updateCommunityLegend(commSizes) {
+function updateCommunityLegend() {
   const container = document.getElementById('community-items');
-  container.innerHTML = '';
-  const sorted = Object.entries(commSizes).sort((a,b)=>b[1]-a[1]).slice(0,12);
-  sorted.forEach(([c, size]) => {
-    const div = document.createElement('div');
-    div.className = 'comm-item';
-    div.innerHTML = `
-      <div class="comm-dot" style="background:${commColor(parseInt(c))}"></div>
+  container.innerHTML='';
+  Object.entries(sim.commSizes).sort((a,b)=>b[1]-a[1]).slice(0,12).forEach(([c,size])=>{
+    const div=document.createElement('div');
+    div.className='comm-item';
+    div.innerHTML=`<div class="comm-dot" style="background:${commColor(parseInt(c))}"></div>
       <span class="comm-label">Community ${parseInt(c)+1}</span>
       <span class="comm-count">${size}</span>`;
     container.appendChild(div);
@@ -594,225 +609,190 @@ function updateCommunityLegend(commSizes) {
 // ── Node interactions ─────────────────────────────────────────────────────
 function bindNodeInteractions() {
   nodeGroup.selectAll('.node')
-    .on('mouseover', (event, d) => {
-      const t = document.getElementById('tooltip');
-      const c = simState.communityMap[d.id] ?? 0;
-      t.innerHTML = `
-        <strong>${d.id.split(' 0')[0]}</strong>
+    .on('mouseover',(event,d)=>{
+      const t=document.getElementById('tooltip');
+      const c=d.community??0;
+      t.innerHTML=`<strong>${d.id.split(' 0')[0]}</strong>
         <span>Degree: ${d.degree}</span>
         <span><span class="comm-badge" style="background:${commColor(c)}"></span>Community ${c+1}</span>
-        ${d.isNew ? '<span style="color:#10b981">✦ New this year</span>' : ''}`;
-      t.className = 'tooltip visible';
+        ${d.isNew?'<span style="color:#10b981">✦ New this year</span>':''}`;
+      t.className='tooltip visible';
     })
-    .on('mousemove', event => {
-      const t = document.getElementById('tooltip');
-      const r = document.getElementById('canvas-container').getBoundingClientRect();
-      t.style.left = (event.clientX-r.left+12)+'px';
-      t.style.top  = (event.clientY-r.top-30)+'px';
+    .on('mousemove',event=>{
+      const t=document.getElementById('tooltip');
+      const r=document.getElementById('canvas-container').getBoundingClientRect();
+      t.style.left=(event.clientX-r.left+12)+'px';
+      t.style.top=(event.clientY-r.top-30)+'px';
     })
-    .on('mouseout', () => { document.getElementById('tooltip').className='tooltip'; })
-    .on('click', (event, d) => {
-      event.stopPropagation();
-      selectNode(d.id);
-    });
+    .on('mouseout',()=>{ document.getElementById('tooltip').className='tooltip'; })
+    .on('click',(event,d)=>{ event.stopPropagation(); selectNode(d.id); });
 
-  // Click on canvas background clears search
-  svg.on('click', () => { if (state.searchTarget) clearSearch(); });
+  svg.on('click',()=>{ if(state.searchTarget) clearSearch(); });
 }
 
 // ── Search ────────────────────────────────────────────────────────────────
-const searchInput = document.getElementById('search-input');
-const searchResultsEl = document.getElementById('search-results');
+const searchInput=document.getElementById('search-input');
+const searchResultsEl=document.getElementById('search-results');
 
-searchInput.addEventListener('input', function() {
-  const q = this.value.trim();
-  if (q.length < 2) { searchResultsEl.style.display='none'; return; }
-
-  const allIds = Object.keys(simState.nodeMap);
-  const matches = allIds
-    .map(id => ({ id, ...fuzzyMatch(q, id) }))
-    .filter(r => r.match)
-    .sort((a,b) => a.score - b.score)
-    .slice(0, 8);
-
-  if (!matches.length) { searchResultsEl.style.display='none'; return; }
-
-  searchResultsEl.innerHTML = matches.map(m =>
-    `<div class="search-result-item" data-id="${m.id}">${highlightMatch(q, m.id.split(' 0')[0])}</div>`
+searchInput.addEventListener('input',function(){
+  const q=this.value.trim();
+  if(q.length<2){ searchResultsEl.style.display='none'; return; }
+  const matches=Object.keys(sim.nodeMap)
+    .map(id=>({id,...fuzzyMatch(q,id)}))
+    .filter(r=>r.match)
+    .sort((a,b)=>a.score-b.score)
+    .slice(0,8);
+  if(!matches.length){ searchResultsEl.style.display='none'; return; }
+  searchResultsEl.innerHTML=matches.map(m=>
+    `<div class="search-result-item" data-id="${m.id}">${highlightMatch(q,m.id.split(' 0')[0])}</div>`
   ).join('');
-  searchResultsEl.style.display = 'block';
-
-  searchResultsEl.querySelectorAll('.search-result-item').forEach(el => {
-    el.addEventListener('click', () => {
+  searchResultsEl.style.display='block';
+  searchResultsEl.querySelectorAll('.search-result-item').forEach(el=>{
+    el.addEventListener('click',()=>{
       selectNode(el.dataset.id);
-      searchResultsEl.style.display = 'none';
-      searchInput.value = el.dataset.id.split(' 0')[0];
+      searchResultsEl.style.display='none';
+      searchInput.value=el.dataset.id.split(' 0')[0];
     });
   });
 });
 
-searchInput.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') { searchResultsEl.style.display='none'; clearSearch(); }
-  if (e.key === 'Enter') {
-    const first = searchResultsEl.querySelector('.search-result-item');
-    if (first) { first.click(); }
-  }
+searchInput.addEventListener('keydown',function(e){
+  if(e.key==='Escape'){ searchResultsEl.style.display='none'; clearSearch(); }
+  if(e.key==='Enter'){ const f=searchResultsEl.querySelector('.search-result-item'); if(f) f.click(); }
 });
 
-document.addEventListener('click', e => {
-  if (!document.getElementById('search-box').contains(e.target)) {
-    searchResultsEl.style.display = 'none';
-  }
+document.addEventListener('click',e=>{
+  if(!document.getElementById('search-box').contains(e.target)) searchResultsEl.style.display='none';
 });
 
-function selectNode(id) {
-  state.searchTarget = id;
-  applySearchHighlight(id, true);
-}
+function selectNode(id) { state.searchTarget=id; applySearchHighlight(id); }
 
-function applySearchHighlight(id, zoom) {
-  if (!simState.nodeMap[id]) return;
-
-  // Find direct neighbors
-  const neighbors = new Set();
-  const neighborLinks = new Set();
-  simState.links.forEach(l => {
-    const s = typeof l.source==='object' ? l.source.id : l.source;
-    const t = typeof l.target==='object' ? l.target.id : l.target;
-    if (s===id || t===id) {
-      neighbors.add(s===id ? t : s);
-      neighborLinks.add(edgeKey(s,t));
-    }
+function applySearchHighlight(id) {
+  if(!sim.nodeMap[id]) return;
+  const neighbors=new Set(), neighborLinks=new Set();
+  sim.links.forEach(l=>{
+    const s=typeof l.source==='object'?l.source.id:l.source;
+    const t=typeof l.target==='object'?l.target.id:l.target;
+    if(s===id||t===id){ neighbors.add(s===id?t:s); neighborLinks.add(edgeKey(s,t)); }
   });
 
-  // Dim all, highlight target + neighbors
   nodeGroup.selectAll('.node')
-    .classed('dimmed', d => d.id!==id && !neighbors.has(d.id))
-    .classed('search-highlight', d => d.id===id)
-    .classed('neighbor-highlight', d => neighbors.has(d.id));
+    .classed('dimmed',d=>d.id!==id&&!neighbors.has(d.id))
+    .classed('search-highlight',d=>d.id===id)
+    .classed('neighbor-highlight',d=>neighbors.has(d.id)&&d.id!==id);
 
   linkGroup.selectAll('.link')
-    .classed('dimmed', d => {
-      const s = typeof d.source==='object'?d.source.id:d.source;
-      const t = typeof d.target==='object'?d.target.id:d.target;
+    .classed('dimmed',d=>{
+      const s=typeof d.source==='object'?d.source.id:d.source;
+      const t=typeof d.target==='object'?d.target.id:d.target;
       return !neighborLinks.has(edgeKey(s,t));
     })
-    .classed('highlighted', d => {
-      const s = typeof d.source==='object'?d.source.id:d.source;
-      const t = typeof d.target==='object'?d.target.id:d.target;
+    .classed('highlighted',d=>{
+      const s=typeof d.source==='object'?d.source.id:d.source;
+      const t=typeof d.target==='object'?d.target.id:d.target;
       return neighborLinks.has(edgeKey(s,t));
     });
 
-  // Show banner
-  const banner = document.getElementById('search-banner');
-  document.getElementById('search-banner-text').textContent =
+  const banner=document.getElementById('search-banner');
+  document.getElementById('search-banner-text').textContent=
     `${id.split(' 0')[0]}  ·  ${neighbors.size} collaborators`;
   banner.classList.add('visible');
-  banner.querySelector('button').style.pointerEvents = 'all';
-
-  // Zoom to node
-  if (zoom && simState.nodeMap[id]) {
-    const node = simState.nodeMap[id];
-    const scale = 2.5;
-    const tx = width/2 - scale*node.x;
-    const ty = height/2 - scale*node.y;
-    svg.transition().duration(600)
-      .call(zoomBehavior.transform, d3.zoomIdentity.translate(tx,ty).scale(scale));
-  }
 }
 
 function clearSearch() {
-  state.searchTarget = null;
-  searchInput.value = '';
-  searchResultsEl.style.display = 'none';
-  nodeGroup.selectAll('.node').classed('dimmed search-highlight neighbor-highlight', false);
-  linkGroup.selectAll('.link').classed('dimmed highlighted', false);
+  state.searchTarget=null;
+  searchInput.value='';
+  searchResultsEl.style.display='none';
+  nodeGroup.selectAll('.node').classed('dimmed search-highlight neighbor-highlight',false);
+  linkGroup.selectAll('.link').classed('dimmed highlighted',false);
   document.getElementById('search-banner').classList.remove('visible');
-  svg.transition().duration(400).call(zoomBehavior.transform, d3.zoomIdentity);
 }
 
 // ── Stats ─────────────────────────────────────────────────────────────────
 function computeStats(graph, prevGraph) {
-  const n=graph.nodes.length, e=graph.edges.length;
-  const density = n>1 ? (2*e)/(n*(n-1)) : 0;
+  const n=graph.nodes.length,e=graph.edges.length;
+  const density=n>1?(2*e)/(n*(n-1)):0;
   const degMap={};
   graph.nodes.forEach(nd=>degMap[nd.id]=0);
-  graph.edges.forEach(ed=>{ if(degMap[ed.source]!==undefined) degMap[ed.source]++; if(degMap[ed.target]!==undefined) degMap[ed.target]++; });
-  const avgDeg = n>0 ? Object.values(degMap).reduce((a,b)=>a+b,0)/n : 0;
-
+  graph.edges.forEach(ed=>{ if(degMap[ed.source]!==undefined)degMap[ed.source]++; if(degMap[ed.target]!==undefined)degMap[ed.target]++; });
+  const avgDeg=n>0?Object.values(degMap).reduce((a,b)=>a+b,0)/n:0;
   const parent={};
   graph.nodes.forEach(nd=>parent[nd.id]=nd.id);
   function find(x){return parent[x]===x?x:(parent[x]=find(parent[x]));}
   graph.edges.forEach(ed=>{const pa=find(ed.source),pb=find(ed.target);if(pa!==pb)parent[pa]=pb;});
   const roots=new Set(graph.nodes.map(nd=>find(nd.id)));
-  const compSizes={};
-  graph.nodes.forEach(nd=>{const r=find(nd.id);compSizes[r]=(compSizes[r]||0)+1;});
-  const largest=Math.max(...Object.values(compSizes),0);
-
+  const cs={};
+  graph.nodes.forEach(nd=>{const r=find(nd.id);cs[r]=(cs[r]||0)+1;});
+  const largest=Math.max(...Object.values(cs),0);
   const prevNodeIds=new Set(prevGraph?prevGraph.nodes.map(nd=>nd.id):[]);
   const prevEdgeKeys=new Set(prevGraph?prevGraph.edges.map(ed=>edgeKey(ed.source,ed.target)):[]);
-  const newNodes=graph.nodes.filter(nd=>!prevNodeIds.has(nd.id));
-  const newEdges=graph.edges.filter(ed=>!prevEdgeKeys.has(edgeKey(ed.source,ed.target)));
-
-  return {n,e,density,avgDeg,components:roots.size,largest,newNodes,newEdges,degMap};
+  return {
+    n,e,density,avgDeg,components:roots.size,largest,degMap,
+    newNodes:graph.nodes.filter(nd=>!prevNodeIds.has(nd.id)),
+    newEdges:graph.edges.filter(ed=>!prevEdgeKeys.has(edgeKey(ed.source,ed.target))),
+  };
 }
 
-function updateStatsUI(stats, idx) {
-  document.getElementById('stat-nodes').textContent = stats.n;
-  document.getElementById('stat-edges').textContent = stats.e;
-  document.getElementById('stat-new').textContent = (idx>0?'+':'')+stats.newNodes.length;
-  document.getElementById('stat-new-edges').textContent = (idx>0?'+':'')+stats.newEdges.length;
-  document.getElementById('stat-communities').textContent = Object.keys(simState.commSizes).length;
-  document.getElementById('stat-density').textContent = stats.density.toFixed(4);
-  document.getElementById('stat-avg-degree').textContent = stats.avgDeg.toFixed(2);
-  document.getElementById('stat-components').textContent = stats.components;
-  document.getElementById('stat-largest').textContent = stats.largest;
+function updateStatsUI(stats,idx) {
+  document.getElementById('stat-nodes').textContent=stats.n;
+  document.getElementById('stat-edges').textContent=stats.e;
+  document.getElementById('stat-new').textContent=(idx>0?'+':'')+stats.newNodes.length;
+  document.getElementById('stat-new-edges').textContent=(idx>0?'+':'')+stats.newEdges.length;
+  document.getElementById('stat-communities').textContent=Object.keys(sim.commSizes).length;
+  document.getElementById('stat-density').textContent=stats.density.toFixed(4);
+  document.getElementById('stat-avg-degree').textContent=stats.avgDeg.toFixed(2);
+  document.getElementById('stat-components').textContent=stats.components;
+  document.getElementById('stat-largest').textContent=stats.largest;
 }
 
-// ── Helpers ───────────────────────────────────────────────────────────────
-function nodeRadius(d) { return Math.max(3, Math.sqrt(d.degree)*2.2+2); }
+function nodeRadius(d){return Math.max(3,Math.sqrt(d.degree)*2.2+2);}
 
 // ── Navigation ────────────────────────────────────────────────────────────
-function goTo(idx) { if(idx<0||idx>=state.years.length)return; renderYear(idx); }
-function nextYear() { if(state.currentIdx>=state.years.length-1){stopPlay();return;} goTo(state.currentIdx+1); }
-
-function startPlay() {
+function goTo(idx){if(idx<0||idx>=state.years.length)return;renderYear(idx);}
+function nextYear(){if(state.currentIdx>=state.years.length-1){stopPlay();return;}goTo(state.currentIdx+1);}
+function startPlay(){
   state.playing=true;
   document.getElementById('btn-play').textContent='⏸ pause';
   document.getElementById('btn-play').classList.add('active');
   const speed=parseInt(document.getElementById('speed-select').value);
-  state.playTimer=setInterval(()=>{ if(state.currentIdx>=state.years.length-1){stopPlay();return;} nextYear(); },speed);
+  state.playTimer=setInterval(()=>{if(state.currentIdx>=state.years.length-1){stopPlay();return;}nextYear();},speed);
 }
-
-function stopPlay() {
-  state.playing=false; clearInterval(state.playTimer);
+function stopPlay(){
+  state.playing=false;clearInterval(state.playTimer);
   document.getElementById('btn-play').textContent='▶ play';
   document.getElementById('btn-play').classList.remove('active');
 }
-
-function togglePlay() {
+function togglePlay(){
   if(!state.years.length)return;
   if(state.playing)stopPlay();
-  else{ if(state.currentIdx>=state.years.length-1)goTo(0); startPlay(); }
+  else{if(state.currentIdx>=state.years.length-1)goTo(0);startPlay();}
 }
 
 // ── Events ────────────────────────────────────────────────────────────────
-document.getElementById('btn-play').addEventListener('click', togglePlay);
-document.getElementById('btn-next').addEventListener('click', ()=>{stopPlay();nextYear();});
-document.getElementById('btn-prev').addEventListener('click', ()=>{stopPlay();goTo(state.currentIdx-1);});
-document.getElementById('year-slider').addEventListener('input', function(){stopPlay();goTo(parseInt(this.value));});
-document.getElementById('speed-select').addEventListener('change', ()=>{if(state.playing){stopPlay();startPlay();}});
+document.getElementById('btn-play').addEventListener('click',togglePlay);
+document.getElementById('btn-next').addEventListener('click',()=>{stopPlay();nextYear();});
+document.getElementById('btn-prev').addEventListener('click',()=>{stopPlay();goTo(state.currentIdx-1);});
+document.getElementById('year-slider').addEventListener('input',function(){stopPlay();goTo(parseInt(this.value));});
+document.getElementById('speed-select').addEventListener('change',()=>{if(state.playing){stopPlay();startPlay();}});
 
-window.addEventListener('resize', ()=>{
-  if(!state.years.length)return;
-  const c=document.getElementById('canvas-container');
-  width=c.clientWidth; height=c.clientHeight;
-  svg.attr('viewBox',`0 0 ${width} ${height}`);
-  simState.simulation.force('center',d3.forceCenter(width/2,height/2).strength(0.04));
-  simState.simulation.alpha(0.1).restart();
+// Community resolution slider
+let commSliderTimer = null;
+document.getElementById('comm-slider').addEventListener('input',function(){
+  state.commResolution=parseInt(this.value);
+  document.getElementById('comm-slider-val').textContent=this.value;
+  clearTimeout(commSliderTimer);
+  commSliderTimer=setTimeout(redetectAndRecolor,200);
 });
 
-// ── Boot ──────────────────────────────────────────────────────────────────
+window.addEventListener('resize',()=>{
+  if(!state.years.length)return;
+  const c=document.getElementById('canvas-container');
+  width=c.clientWidth;height=c.clientHeight;
+  svg.attr('viewBox',`0 0 ${width} ${height}`);
+  sim.simulation.force('center',d3.forceCenter(width/2,height/2).strength(0.04));
+  sim.simulation.alpha(0.1).restart();
+});
+
 loadFromServer();
 </script>
 </body>
