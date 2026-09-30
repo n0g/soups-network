@@ -3,1370 +3,3080 @@
   <key for="node" attr.name="name" attr.type="string" id="name" />
   <key for="node" attr.name="papers" attr.type="int" id="papers" />
   <key for="edge" attr.name="weight" attr.type="int" id="weight" />
+  <key for="node" attr.name="community (resolution 0.1)" attr.type="int" id="community_0" />
+  <key for="node" attr.name="community (resolution 0.25)" attr.type="int" id="community_1" />
+  <key for="node" attr.name="community (resolution 0.5)" attr.type="int" id="community_2" />
+  <key for="node" attr.name="community (resolution 1)" attr.type="int" id="community_3" />
+  <key for="node" attr.name="community (resolution 2)" attr.type="int" id="community_4" />
   <graph id="G" edgedefault="undirected">
     <node id="70/3780">
       <data key="name">A. Ant Ozok</data>
       <data key="papers">2</data>
+      <data key="community_0">8</data>
+      <data key="community_1">8</data>
+      <data key="community_2">8</data>
+      <data key="community_3">8</data>
+      <data key="community_4">8</data>
     </node>
     <node id="b/AJBBrush">
       <data key="name">A. J. Bernheim Brush</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="r/AWRoscoe">
       <data key="name">A. W. Roscoe</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="62/1373">
       <data key="name">Adam J. Lee</data>
       <data key="papers">1</data>
+      <data key="community_0">10</data>
+      <data key="community_1">10</data>
+      <data key="community_2">10</data>
+      <data key="community_3">10</data>
+      <data key="community_4">10</data>
     </node>
     <node id="95/6679">
       <data key="name">Adam N. Joinson</data>
       <data key="papers">1</data>
+      <data key="community_0">12</data>
+      <data key="community_1">13</data>
+      <data key="community_2">13</data>
+      <data key="community_3">13</data>
+      <data key="community_4">13</data>
     </node>
     <node id="16/6873">
       <data key="name">Adrian Perrig</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">2</data>
+      <data key="community_4">18</data>
     </node>
     <node id="11/395">
       <data key="name">Ahmad Salah El Ahmad</data>
       <data key="papers">1</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="58/1515">
       <data key="name">Ahmet Emir Dirik</data>
       <data key="papers">1</data>
+      <data key="community_0">4</data>
+      <data key="community_1">4</data>
+      <data key="community_2">4</data>
+      <data key="community_3">4</data>
+      <data key="community_4">3</data>
     </node>
     <node id="97/1342">
       <data key="name">Airi Lampinen</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="95/11080">
       <data key="name">Ajinkya Kulkarni</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="22/4861">
       <data key="name">Alain Forget</data>
       <data key="papers">2</data>
+      <data key="community_0">9</data>
+      <data key="community_1">9</data>
+      <data key="community_2">9</data>
+      <data key="community_3">9</data>
+      <data key="community_4">9</data>
     </node>
     <node id="b/AlanBorning">
       <data key="name">Alan Borning</data>
       <data key="papers">1</data>
+      <data key="community_0">17</data>
+      <data key="community_1">18</data>
+      <data key="community_2">18</data>
+      <data key="community_3">18</data>
+      <data key="community_4">19</data>
     </node>
     <node id="36/4757">
       <data key="name">Alan H. Karp</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="30/3624">
       <data key="name">Aleecia M. McDonald</data>
       <data key="papers">3</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="49/3744">
       <data key="name">Alessandro Acquisti</data>
       <data key="papers">5</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="119/0391">
       <data key="name">Alex Braunstein</data>
       <data key="papers">1</data>
+      <data key="community_0">19</data>
+      <data key="community_1">22</data>
+      <data key="community_2">20</data>
+      <data key="community_3">21</data>
+      <data key="community_4">21</data>
     </node>
     <node id="41/4571">
       <data key="name">Alex Brodskiy</data>
       <data key="papers">1</data>
+      <data key="community_0">4</data>
+      <data key="community_1">4</data>
+      <data key="community_2">4</data>
+      <data key="community_3">4</data>
+      <data key="community_4">3</data>
     </node>
     <node id="119/0424">
       <data key="name">Alex Smolen</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="22/3157">
       <data key="name">Alexander De Luca</data>
       <data key="papers">3</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">19</data>
+      <data key="community_3">19</data>
+      <data key="community_4">20</data>
     </node>
     <node id="77/3145">
       <data key="name">Alexander J. DeWitt</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="66/625">
       <data key="name">Alexei Czeskis</data>
       <data key="papers">1</data>
+      <data key="community_0">17</data>
+      <data key="community_1">18</data>
+      <data key="community_2">18</data>
+      <data key="community_3">18</data>
+      <data key="community_4">19</data>
     </node>
     <node id="k/AlfredKobsa">
       <data key="name">Alfred Kobsa</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">14</data>
+      <data key="community_4">18</data>
     </node>
     <node id="63/469">
       <data key="name">Andreas P. Heiner</data>
       <data key="papers">2</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="57/9599">
       <data key="name">Andreas Sotirakopoulos</data>
       <data key="papers">2</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="19/4640">
       <data key="name">Andrew Besmer</data>
       <data key="papers">2</data>
+      <data key="community_0">15</data>
+      <data key="community_1">16</data>
+      <data key="community_2">16</data>
+      <data key="community_3">16</data>
+      <data key="community_4">15</data>
     </node>
     <node id="00/5747">
       <data key="name">Andrew Patrick</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="35/4938">
       <data key="name">Andrew S. Patrick</data>
       <data key="papers">1</data>
+      <data key="community_0">8</data>
+      <data key="community_1">8</data>
+      <data key="community_2">8</data>
+      <data key="community_3">8</data>
+      <data key="community_4">8</data>
     </node>
     <node id="67/2413">
       <data key="name">André Gagné</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="94/4742">
       <data key="name">Anthony Y. Fu</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="50/6916">
       <data key="name">Apu Kapadia</data>
       <data key="papers">2</data>
+      <data key="community_0">10</data>
+      <data key="community_1">10</data>
+      <data key="community_2">10</data>
+      <data key="community_3">10</data>
+      <data key="community_4">10</data>
     </node>
     <node id="50/560">
       <data key="name">Ariel Rabkin</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="12/360">
       <data key="name">Arosha K. Bandara</data>
       <data key="papers">2</data>
+      <data key="community_0">12</data>
+      <data key="community_1">13</data>
+      <data key="community_2">13</data>
+      <data key="community_3">13</data>
+      <data key="community_4">13</data>
     </node>
     <node id="04/462">
       <data key="name">Asma Mumtaz</data>
       <data key="papers">1</data>
+      <data key="community_0">18</data>
+      <data key="community_1">19</data>
+      <data key="community_2">34</data>
+      <data key="community_3">20</data>
+      <data key="community_4">34</data>
     </node>
     <node id="p/AtulPrakash">
       <data key="name">Atul Prakash</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="31/1933">
       <data key="name">Azene Zenebe</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="89/7016">
       <data key="name">Balachander Krishnamurthy</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="p/BartPreneel">
       <data key="name">Bart Preneel</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="26/1319">
       <data key="name">Bashar Nuseibeh</data>
       <data key="papers">2</data>
+      <data key="community_0">12</data>
+      <data key="community_1">13</data>
+      <data key="community_2">13</data>
+      <data key="community_3">13</data>
+      <data key="community_4">13</data>
     </node>
     <node id="20/2143">
       <data key="name">Batya Friedman</data>
       <data key="papers">1</data>
+      <data key="community_0">17</data>
+      <data key="community_1">18</data>
+      <data key="community_2">18</data>
+      <data key="community_3">18</data>
+      <data key="community_4">19</data>
     </node>
     <node id="20/5356">
       <data key="name">Ben Pillet</data>
       <data key="papers">1</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="24/5615">
       <data key="name">Blaine A. Price</data>
       <data key="papers">2</data>
+      <data key="community_0">12</data>
+      <data key="community_1">13</data>
+      <data key="community_2">13</data>
+      <data key="community_3">13</data>
+      <data key="community_4">13</data>
     </node>
     <node id="25/4412">
       <data key="name">Brian D. Fisher</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="66/4894">
       <data key="name">Brian T. Gill</data>
       <data key="papers">1</data>
+      <data key="community_0">17</data>
+      <data key="community_1">18</data>
+      <data key="community_2">18</data>
+      <data key="community_3">18</data>
+      <data key="community_4">19</data>
     </node>
     <node id="82/2115">
       <data key="name">Bryan A. Pendleton</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="69/1091">
       <data key="name">Bryant Magnien</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="71/7188">
       <data key="name">Burak Erdeniz</data>
       <data key="papers">1</data>
+      <data key="community_0">14</data>
+      <data key="community_1">17</data>
+      <data key="community_2">17</data>
+      <data key="community_3">17</data>
+      <data key="community_4">17</data>
     </node>
     <node id="a/CarlisleMAdams">
       <data key="name">Carlisle Adams</data>
       <data key="papers">1</data>
+      <data key="community_0">9</data>
+      <data key="community_1">9</data>
+      <data key="community_2">9</data>
+      <data key="community_3">9</data>
+      <data key="community_4">9</data>
     </node>
     <node id="45/339">
       <data key="name">Carlos Jensen</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="26/2116">
       <data key="name">Carolina Johansson</data>
       <data key="papers">1</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="07/6892">
       <data key="name">Carolyn Brodie</data>
       <data key="papers">3</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="15/1305">
       <data key="name">Chandan Sarkar</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="66/3514">
       <data key="name">Chris Karlof</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="15/3948">
       <data key="name">Chris Masone</data>
       <data key="papers">1</data>
+      <data key="community_0">10</data>
+      <data key="community_1">10</data>
+      <data key="community_2">10</data>
+      <data key="community_3">10</data>
+      <data key="community_4">10</data>
     </node>
     <node id="j/ChristianSJensen">
       <data key="name">Christian S. Jensen</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="119/0400">
       <data key="name">Christopher Hudel</data>
       <data key="papers">1</data>
+      <data key="community_0">15</data>
+      <data key="community_1">16</data>
+      <data key="community_2">16</data>
+      <data key="community_3">16</data>
+      <data key="community_4">15</data>
     </node>
     <node id="09/6493">
       <data key="name">Clara Mancini</data>
       <data key="papers">1</data>
+      <data key="community_0">12</data>
+      <data key="community_1">13</data>
+      <data key="community_2">13</data>
+      <data key="community_3">13</data>
+      <data key="community_4">13</data>
     </node>
     <node id="94/1757">
       <data key="name">Clare-Marie Karat</data>
       <data key="papers">5</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="67/7188">
       <data key="name">Claude Tuner</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="p/ColinPotts">
       <data key="name">Colin Potts</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="64/77">
       <data key="name">Constantine N. Manikopoulos</data>
       <data key="papers">1</data>
+      <data key="community_0">16</data>
+      <data key="community_1">15</data>
+      <data key="community_2">15</data>
+      <data key="community_3">15</data>
+      <data key="community_4">16</data>
     </node>
     <node id="45/1437">
       <data key="name">Cormac Herley</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="37/537">
       <data key="name">Craig E. Wills</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="23/1490">
       <data key="name">Cynthia Kuo</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="b/DanBoneh">
       <data key="name">Dan Boneh</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="42/5626">
       <data key="name">David A. Wagner</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="19/6243">
       <data key="name">David Aspinall</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="21/2592">
       <data key="name">David Botta</data>
       <data key="papers">3</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="48/6316">
       <data key="name">David Dearman</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="84/6534">
       <data key="name">David F. Redmiles</data>
       <data key="papers">2</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="10/6918">
       <data key="name">David Griffiths</data>
       <data key="papers">1</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="10/3872">
       <data key="name">David H. Nguyen</data>
       <data key="papers">1</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="91/4029">
       <data key="name">David Kyle</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="01/2925">
       <data key="name">David Thaw</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="c/DavidWChadwick">
       <data key="name">David W. Chadwick</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="62/4885">
       <data key="name">Deirdre K. Mulligan</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="98/2936">
       <data key="name">Delfina Malandrino</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="20/3191">
       <data key="name">Di Lin</data>
       <data key="papers">1</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="19/2107">
       <data key="name">Diana K. Smetters</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="31/926">
       <data key="name">Dinei A. F. Florêncio</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="45/5469">
       <data key="name">Donald E. Dunbar</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="07/3830">
       <data key="name">Eamonn O'Neill</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="c/EdwardCutrell">
       <data key="name">Edward Cutrell</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="69/6738">
       <data key="name">Edward Sobiesk</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="f/EdwardWFelten">
       <data key="name">Edward W. Felten</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="15/4384">
       <data key="name">Eiji Hayashi</data>
       <data key="papers">3</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">2</data>
+      <data key="community_4">18</data>
     </node>
     <node id="m/ElizabethDMynatt">
       <data key="name">Elizabeth D. Mynatt</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="64/5872">
       <data key="name">Elizabeth Nunge</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="75/5639">
       <data key="name">Elizabeth Sillence</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="47/3938">
       <data key="name">Eran Toch</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="28/5020">
       <data key="name">Eric Lieberman</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="85/9597">
       <data key="name">Eric Pospisil</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="36/7188">
       <data key="name">Eric Sachs</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="u/ErsinUzun">
       <data key="name">Ersin Uzun</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">14</data>
+      <data key="community_4">18</data>
     </node>
     <node id="15/6866">
       <data key="name">Eunjin Jung</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="27/3545">
       <data key="name">Fahimeh Raja</data>
       <data key="papers">2</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="46/9046">
       <data key="name">Feng Zhu</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="42/3797">
       <data key="name">Frank Stajano</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="43/3292">
       <data key="name">Furkan Tari</data>
       <data key="papers">1</data>
+      <data key="community_0">8</data>
+      <data key="community_1">8</data>
+      <data key="community_2">8</data>
+      <data key="community_3">8</data>
+      <data key="community_4">8</data>
     </node>
     <node id="37/2109">
       <data key="name">Gang Liu</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="08/1183">
       <data key="name">Gene Tsudik</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">14</data>
+      <data key="community_4">18</data>
     </node>
     <node id="14/3599">
       <data key="name">Giovanni Iachello</data>
       <data key="papers">1</data>
+      <data key="community_0">3</data>
+      <data key="community_1">3</data>
+      <data key="community_2">3</data>
+      <data key="community_3">3</data>
+      <data key="community_4">4</data>
     </node>
     <node id="22/7188">
       <data key="name">Gorrell P. Cheek</data>
       <data key="papers">1</data>
+      <data key="community_0">15</data>
+      <data key="community_1">16</data>
+      <data key="community_2">16</data>
+      <data key="community_3">16</data>
+      <data key="community_4">15</data>
     </node>
     <node id="26/3925">
       <data key="name">Greg Little</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="a/GDAbowd">
       <data key="name">Gregory D. Abowd</data>
       <data key="papers">1</data>
+      <data key="community_0">3</data>
+      <data key="community_1">3</data>
+      <data key="community_2">3</data>
+      <data key="community_3">3</data>
+      <data key="community_4">4</data>
     </node>
     <node id="c/GregoryJConti">
       <data key="name">Gregory J. Conti</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="80/11454">
       <data key="name">Gregory Norcie</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">18</data>
     </node>
     <node id="36/2125">
       <data key="name">Guang Xiang</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="81/7020">
       <data key="name">Haichang Gao</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="64/7188">
       <data key="name">Hakan Gurbaslar</data>
       <data key="papers">1</data>
+      <data key="community_0">14</data>
+      <data key="community_1">17</data>
+      <data key="community_2">17</data>
+      <data key="community_3">17</data>
+      <data key="community_4">17</data>
     </node>
     <node id="r/HeatherRichter">
       <data key="name">Heather Richter Lipford</data>
       <data key="papers">3</data>
+      <data key="community_0">15</data>
+      <data key="community_1">16</data>
+      <data key="community_2">16</data>
+      <data key="community_3">16</data>
+      <data key="community_4">15</data>
     </node>
     <node id="h/HeinrichHussmann">
       <data key="name">Heinrich Hussmann</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">19</data>
+      <data key="community_3">19</data>
+      <data key="community_4">20</data>
     </node>
     <node id="73/5007">
       <data key="name">Henry Krasemann</data>
       <data key="papers">1</data>
+      <data key="community_0">1</data>
+      <data key="community_1">1</data>
+      <data key="community_2">1</data>
+      <data key="community_3">1</data>
+      <data key="community_4">2</data>
     </node>
     <node id="49/8322">
       <data key="name">Hussein Yapit</data>
       <data key="papers">1</data>
+      <data key="community_0">17</data>
+      <data key="community_1">18</data>
+      <data key="community_2">18</data>
+      <data key="community_3">18</data>
+      <data key="community_4">19</data>
     </node>
     <node id="46/84">
       <data key="name">Ian E. Smith</data>
       <data key="papers">1</data>
+      <data key="community_0">3</data>
+      <data key="community_1">3</data>
+      <data key="community_2">3</data>
+      <data key="community_3">3</data>
+      <data key="community_4">4</data>
     </node>
     <node id="04/6434">
       <data key="name">Ian Goldberg</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="50/2097">
       <data key="name">Ian Oberst</data>
       <data key="papers">1</data>
+      <data key="community_0">19</data>
+      <data key="community_1">22</data>
+      <data key="community_2">20</data>
+      <data key="community_3">21</data>
+      <data key="community_4">21</data>
     </node>
     <node id="09/9598">
       <data key="name">Ildar Muslukhov</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="47/6069">
       <data key="name">Isaac Simmons</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="87/1326">
       <data key="name">Iulia Ion</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">19</data>
+      <data key="community_4">20</data>
     </node>
     <node id="57/3469">
       <data key="name">Ivan Flechais</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="96/5913">
       <data key="name">Ivan Krstic</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="82/8321">
       <data key="name">Ivayla Dermendjieva</data>
       <data key="papers">1</data>
+      <data key="community_0">17</data>
+      <data key="community_1">18</data>
+      <data key="community_2">18</data>
+      <data key="community_3">18</data>
+      <data key="community_4">19</data>
     </node>
     <node id="t/JDTygar">
       <data key="name">J. D. Tygar</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="64/2037">
       <data key="name">James Nicholson</data>
       <data key="papers">1</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="95/3721">
       <data key="name">Janice Y. Tsai</data>
       <data key="papers">4</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="55/5639">
       <data key="name">Jasna Kuljis</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="h/JasonIHong">
       <data key="name">Jason I. Hong</data>
       <data key="papers">6</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="18/3249">
       <data key="name">Jason Watson</data>
       <data key="papers">1</data>
+      <data key="community_0">15</data>
+      <data key="community_1">16</data>
+      <data key="community_2">16</data>
+      <data key="community_3">16</data>
+      <data key="community_4">15</data>
     </node>
     <node id="98/5820">
       <data key="name">Jean-Camille Birget</data>
       <data key="papers">2</data>
+      <data key="community_0">4</data>
+      <data key="community_1">4</data>
+      <data key="community_2">4</data>
+      <data key="community_3">4</data>
+      <data key="community_4">3</data>
     </node>
     <node id="37/6136">
       <data key="name">Jeff Yan</data>
       <data key="papers">4</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="r/JenniferAnnRode">
       <data key="name">Jennifer Ann Rode</data>
       <data key="papers">2</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="49/1550">
       <data key="name">Jennifer King</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="39/6777">
       <data key="name">Jenny Nilsson</data>
       <data key="papers">1</data>
+      <data key="community_0">1</data>
+      <data key="community_1">1</data>
+      <data key="community_2">1</data>
+      <data key="community_3">1</data>
+      <data key="community_4">2</data>
     </node>
     <node id="28/3855">
       <data key="name">Jens Grossklags</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="86/1765">
       <data key="name">Jeremy Clark</data>
       <data key="papers">1</data>
+      <data key="community_0">9</data>
+      <data key="community_1">9</data>
+      <data key="community_2">9</data>
+      <data key="community_3">9</data>
+      <data key="community_4">9</data>
     </node>
     <node id="70/1179">
       <data key="name">Jeremy Goecks</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="37/4879">
       <data key="name">Jessica Staddon</data>
       <data key="papers">2</data>
+      <data key="community_0">19</data>
+      <data key="community_1">22</data>
+      <data key="community_2">20</data>
+      <data key="community_3">21</data>
+      <data key="community_4">21</data>
     </node>
     <node id="r/JieRen-1">
       <data key="name">Jie Ren</data>
       <data key="papers">2</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="49/3497">
       <data key="name">Jim Waters</data>
       <data key="papers">1</data>
+      <data key="community_0">4</data>
+      <data key="community_1">4</data>
+      <data key="community_2">4</data>
+      <data key="community_3">4</data>
+      <data key="community_4">3</data>
     </node>
     <node id="12/5575">
       <data key="name">Jinjuan Feng</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="69/7188">
       <data key="name">Joanna Bresee</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="84/5413">
       <data key="name">John Bethencourt</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="94/2065">
       <data key="name">John Karat</data>
       <data key="papers">4</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="96/1776">
       <data key="name">John Sören Pettersson</data>
       <data key="papers">1</data>
+      <data key="community_0">1</data>
+      <data key="community_1">1</data>
+      <data key="community_2">1</data>
+      <data key="community_3">1</data>
+      <data key="community_4">2</data>
     </node>
     <node id="s/JohnTStasko">
       <data key="name">John T. Stasko</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="38/5216">
       <data key="name">Johnny Lim</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="48/7188">
       <data key="name">Jonathan Anderson</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="29/1257">
       <data key="name">Jonathan Lazar</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="04/389">
       <data key="name">Jonathan Voris</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="09/3004">
       <data key="name">Joseph A. Konstan</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="27/3087">
       <data key="name">Joseph Bonneau</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="92/660">
       <data key="name">Joshua B. Gross</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="b/JoseCarlosBrustoloni">
       <data key="name">José Carlos Brustoloni</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="h/JuanPabloHourcade">
       <data key="name">Juan Pablo Hourcade</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="07/3454">
       <data key="name">Julia Gideon</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="78/1081">
       <data key="name">Julie S. Downs</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="51/7188">
       <data key="name">Justin Cranshaw</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="34/6753">
       <data key="name">Justin Hipple</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="49/8323">
       <data key="name">Justin T. Ho</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="14/2265">
       <data key="name">Ka-Ping Yee</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="73/3928-2">
       <data key="name">Kai Zheng</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="16/9598">
       <data key="name">Kai-Le Clement Wang</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="68/581">
       <data key="name">Kami Vaniea</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="70/1455">
       <data key="name">Kari Nies</data>
       <data key="papers">2</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="19/7013">
       <data key="name">Kasia Muldner</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="15/880">
       <data key="name">Katelin Bailey</data>
       <data key="papers">1</data>
+      <data key="community_0">10</data>
+      <data key="community_1">10</data>
+      <data key="community_2">10</data>
+      <data key="community_3">10</data>
+      <data key="community_4">10</data>
     </node>
     <node id="55/16">
       <data key="name">Katherine Strater</data>
       <data key="papers">1</data>
+      <data key="community_0">15</data>
+      <data key="community_1">16</data>
+      <data key="community_2">16</data>
+      <data key="community_3">16</data>
+      <data key="community_4">15</data>
     </node>
     <node id="04/4803">
       <data key="name">Kathi Fisler</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="13/1691">
       <data key="name">Kayo Yoshida</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="70/7188">
       <data key="name">Keerthi Thomas</data>
       <data key="papers">1</data>
+      <data key="community_0">12</data>
+      <data key="community_1">13</data>
+      <data key="community_2">13</data>
+      <data key="community_3">13</data>
+      <data key="community_4">13</data>
     </node>
     <node id="11/1248">
       <data key="name">Keith Grueneberg</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="45/4438">
       <data key="name">Kemal Bicakci</data>
       <data key="papers">1</data>
+      <data key="community_0">14</data>
+      <data key="community_1">17</data>
+      <data key="community_2">17</data>
+      <data key="community_3">17</data>
+      <data key="community_4">17</data>
     </node>
     <node id="84/3661">
       <data key="name">Kevin Borders</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="31/5694">
       <data key="name">Khai N. Truong</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="58/3313">
       <data key="name">Kirstie Hawkey</data>
       <data key="papers">8</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="47/6517">
       <data key="name">Konstantin Beznosov</data>
       <data key="papers">10</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="77/4063">
       <data key="name">Kragen Sitaker</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="13/1970">
       <data key="name">Kristiina Karvonen</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="34/7188">
       <data key="name">Kurt Alfred Kluever</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="87/1703">
       <data key="name">Larry Yonge</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="21/150">
       <data key="name">Laura A. Granka</data>
       <data key="papers">1</data>
+      <data key="community_0">19</data>
+      <data key="community_1">22</data>
+      <data key="community_2">20</data>
+      <data key="community_3">21</data>
+      <data key="community_4">21</data>
     </node>
     <node id="23/1697">
       <data key="name">Laura Falk</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="31/7188">
       <data key="name">Lee Green</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="38/4496">
       <data key="name">Lee Iverson</data>
       <data key="papers">2</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="07/6235">
       <data key="name">Lei Lei Shi</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="54/6416">
       <data key="name">Linda Little</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="84/1205">
       <data key="name">Linden Vongsathorn</data>
       <data key="papers">1</data>
+      <data key="community_0">10</data>
+      <data key="community_1">10</data>
+      <data key="community_2">10</data>
+      <data key="community_3">10</data>
+      <data key="community_4">10</data>
     </node>
     <node id="03/1595">
       <data key="name">Lorrie Faith Cranor</data>
       <data key="papers">15</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="32/3440">
       <data key="name">Lujo Bauer</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">18</data>
     </node>
     <node id="75/7188">
       <data key="name">Lukasz Jedrzejczyk</data>
       <data key="papers">2</data>
+      <data key="community_0">12</data>
+      <data key="community_1">13</data>
+      <data key="community_2">13</data>
+      <data key="community_3">13</data>
+      <data key="community_4">13</data>
     </node>
     <node id="25/4335">
       <data key="name">Luke Church</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="s/MASasse">
       <data key="name">M. Angela Sasse</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="86/1111">
       <data key="name">Madoka Hasegawa</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">2</data>
+      <data key="community_4">18</data>
     </node>
     <node id="78/6312">
       <data key="name">Mandy B. Holbrook</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="16/2987">
       <data key="name">Manu Kumar</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="60/6209">
       <data key="name">Marc Langheinrich</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">19</data>
+      <data key="community_3">19</data>
+      <data key="community_4">20</data>
     </node>
     <node id="85/4848">
       <data key="name">Marc Stiegler</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="119/0447">
       <data key="name">Maria Velez-Rojas</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="c/MarioCagalj">
       <data key="name">Mario Cagalj</data>
       <data key="papers">1</data>
+      <data key="community_0">18</data>
+      <data key="community_1">19</data>
+      <data key="community_2">34</data>
+      <data key="community_3">20</data>
+      <data key="community_4">34</data>
     </node>
     <node id="39/8322">
       <data key="name">Maritza Johnson</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="12/2177">
       <data key="name">Markulf Kohlweiss</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="38/7188">
       <data key="name">Martin Denzel</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">19</data>
+      <data key="community_3">19</data>
+      <data key="community_4">20</data>
     </node>
     <node id="42/7188">
       <data key="name">Mary Ann Blair</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="r/MBRosson">
       <data key="name">Mary Beth Rosson</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="02/6774">
       <data key="name">Mary Ellen Zurko</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="09/136">
       <data key="name">Matthew Edman</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="85/2585">
       <data key="name">Matthew Kay</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="37/94">
       <data key="name">Matthew M. Lucas</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="31/3063">
       <data key="name">Matthew Williamson</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="46/7370">
       <data key="name">Max-Emanuel Maurer</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">19</data>
+      <data key="community_3">19</data>
+      <data key="community_4">20</data>
     </node>
     <node id="09/2679">
       <data key="name">Md. Borhan Uddin</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="56/3708">
       <data key="name">Michael A. Terry</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="11/4884">
       <data key="name">Michael Benisch</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="r/MichaelKReiter">
       <data key="name">Michael K. Reiter</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">18</data>
     </node>
     <node id="46/1098">
       <data key="name">Michael McQuaid</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="20/7983">
       <data key="name">Michelle L. Mazurek</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">18</data>
     </node>
     <node id="75/5504">
       <data key="name">Mike Bergmann</data>
       <data key="papers">1</data>
+      <data key="community_0">1</data>
+      <data key="community_1">1</data>
+      <data key="community_2">1</data>
+      <data key="community_3">1</data>
+      <data key="community_4">2</data>
     </node>
     <node id="03/3777">
       <data key="name">Mike Just</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="63/1714">
       <data key="name">Mike O'Leary</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="83/3844">
       <data key="name">Mike Y. Chen</data>
       <data key="papers">1</data>
+      <data key="community_0">3</data>
+      <data key="community_1">3</data>
+      <data key="community_2">3</data>
+      <data key="community_3">3</data>
+      <data key="community_4">4</data>
     </node>
     <node id="16/0-5">
       <data key="name">Min Wu</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="89/6785">
       <data key="name">Mohamed Shehab</data>
       <data key="papers">2</data>
+      <data key="community_0">15</data>
+      <data key="community_1">16</data>
+      <data key="community_2">16</data>
+      <data key="community_3">16</data>
+      <data key="community_4">15</data>
     </node>
     <node id="n/MoniNaor">
       <data key="name">Moni Naor</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="58/7188">
       <data key="name">Mustafa Yuceel</data>
       <data key="papers">1</data>
+      <data key="community_0">14</data>
+      <data key="community_1">17</data>
+      <data key="community_2">17</data>
+      <data key="community_3">17</data>
+      <data key="community_4">17</data>
     </node>
     <node id="73/3162">
       <data key="name">Mustaque Ahamad</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="39/2508">
       <data key="name">N. Asokan</data>
       <data key="papers">2</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="18/7188">
       <data key="name">Nancy Gillis</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="52/7188">
       <data key="name">Nart Bedin Atalay</data>
       <data key="papers">1</data>
+      <data key="community_0">14</data>
+      <data key="community_1">17</data>
+      <data key="community_2">17</data>
+      <data key="community_3">17</data>
+      <data key="community_4">17</data>
     </node>
     <node id="89/6419">
       <data key="name">Nasir D. Memon</data>
       <data key="papers">2</data>
+      <data key="community_0">4</data>
+      <data key="community_1">4</data>
+      <data key="community_2">4</data>
+      <data key="community_3">4</data>
+      <data key="community_4">3</data>
     </node>
     <node id="g/NathanielGood">
       <data key="name">Nathan Good</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="53/2937">
       <data key="name">Nicholas Weaver</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="21/7188">
       <data key="name">Nicky Sulmon</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="c/NicolasChristin">
       <data key="name">Nicolas Christin</data>
       <data key="papers">4</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">2</data>
+      <data key="community_4">18</data>
     </node>
     <node id="54/3479">
       <data key="name">Nigel Melville</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="119/0385">
       <data key="name">Niharika Sachdeva</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">19</data>
+      <data key="community_4">20</data>
     </node>
     <node id="22/2650">
       <data key="name">Nikita Borisov</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="78/203">
       <data key="name">Ninni Danielsson</data>
       <data key="papers">1</data>
+      <data key="community_0">1</data>
+      <data key="community_1">1</data>
+      <data key="community_2">1</data>
+      <data key="community_3">1</data>
+      <data key="community_4">2</data>
     </node>
     <node id="25/1169">
       <data key="name">Nitesh Saxena</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="18/5502">
       <data key="name">Norman Sadeh</data>
       <data key="papers">4</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="119/0433">
       <data key="name">Nur Haryani Zakaria</data>
       <data key="papers">1</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="92/9599">
       <data key="name">Nuray Dindar</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="81/6629">
       <data key="name">Olivier Heen</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="15/1876">
       <data key="name">Pam Briggs</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="15/3631">
       <data key="name">Patrick Gage Kelley</data>
       <data key="papers">8</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="60/397">
       <data key="name">Patrick Olivier</data>
       <data key="papers">2</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="31/3235">
       <data key="name">Paul A. Karger</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="o/PCvOorschot">
       <data key="name">Paul C. van Oorschot</data>
       <data key="papers">3</data>
+      <data key="community_0">9</data>
+      <data key="community_1">9</data>
+      <data key="community_2">9</data>
+      <data key="community_3">9</data>
+      <data key="community_4">9</data>
     </node>
     <node id="69/4012">
       <data key="name">Paul DiGioia</data>
       <data key="papers">2</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="97/936">
       <data key="name">Paul Dourish</data>
       <data key="papers">3</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="23/1640">
       <data key="name">Paul Dunphy</data>
       <data key="papers">4</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="32/3895">
       <data key="name">Paul Hankes Drielsma</data>
       <data key="papers">3</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="30/8322">
       <data key="name">Pedro Giovanni Leon</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">18</data>
     </node>
     <node id="43/385">
       <data key="name">Peter Djalaliev</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="84/6709">
       <data key="name">Peter Likarish</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="03/3826">
       <data key="name">Philip Inglesant</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="37/3783">
       <data key="name">Philippe Golle</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="97/5147">
       <data key="name">Ponnurangam Kumaraguru</data>
       <data key="papers">4</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">19</data>
+      <data key="community_4">20</data>
     </node>
     <node id="69/6386">
       <data key="name">Pooya Jaferian</data>
       <data key="papers">3</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="76/3795">
       <data key="name">Quentin Jones</data>
       <data key="papers">2</data>
+      <data key="community_0">16</data>
+      <data key="community_1">15</data>
+      <data key="community_2">15</data>
+      <data key="community_3">15</data>
+      <data key="community_4">16</data>
     </node>
     <node id="43/2742">
       <data key="name">Rachna Dhamija</data>
       <data key="papers">3</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="45/7188">
       <data key="name">Rahim Sonawalla</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">14</data>
+      <data key="community_4">18</data>
     </node>
     <node id="24/3409">
       <data key="name">Rajah James</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="70/4788">
       <data key="name">Ramprasad Ravichandran</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="28/7188">
       <data key="name">Ran Halprin</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="64/6926">
       <data key="name">Ricardo Villamarín-Salomón</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="77/3439">
       <data key="name">Richard Chow</data>
       <data key="papers">1</data>
+      <data key="community_0">19</data>
+      <data key="community_1">22</data>
+      <data key="community_2">20</data>
+      <data key="community_3">21</data>
+      <data key="community_4">21</data>
     </node>
     <node id="61/2334">
       <data key="name">Richard E. Newman</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="18/1031">
       <data key="name">Richard Shay</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">18</data>
     </node>
     <node id="34/3480">
       <data key="name">Richard Zanibbi</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="20/5611">
       <data key="name">Rick Wash</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="50/4201">
       <data key="name">Robert Biddle</data>
       <data key="papers">3</data>
+      <data key="community_0">9</data>
+      <data key="community_1">9</data>
+      <data key="community_2">9</data>
+      <data key="community_3">9</data>
+      <data key="community_4">9</data>
     </node>
     <node id="m/RobMiller">
       <data key="name">Robert C. Miller</data>
       <data key="papers">3</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="94/246">
       <data key="name">Robert L. Marchant</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="84/5764">
       <data key="name">Robert McGuire</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="08/873">
       <data key="name">Robert W. Reeder</data>
       <data key="papers">5</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="04/866">
       <data key="name">Roberto Silveira Silva Filho</data>
       <data key="papers">2</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="85/2025">
       <data key="name">Rodrigo Werlinger</data>
       <data key="papers">3</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="20/4558">
       <data key="name">Roel Peeters</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="130/2269">
       <data key="name">Rogério de Paula</data>
       <data key="papers">1</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="16/259">
       <data key="name">Roman Schlegel</data>
       <data key="papers">1</data>
+      <data key="community_0">10</data>
+      <data key="community_1">10</data>
+      <data key="community_2">10</data>
+      <data key="community_3">10</data>
+      <data key="community_4">10</data>
     </node>
     <node id="32/7188">
       <data key="name">Ronald Kainda</data>
       <data key="papers">2</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="41/2417">
       <data key="name">Rosa R. Heckle</data>
       <data key="papers">2</data>
+      <data key="community_0">8</data>
+      <data key="community_1">8</data>
+      <data key="community_2">8</data>
+      <data key="community_3">8</data>
+      <data key="community_4">8</data>
     </node>
     <node id="a/RJAnderson">
       <data key="name">Ross J. Anderson</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="27/7005">
       <data key="name">Roy A. Maxion</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">12</data>
+      <data key="community_2">12</data>
+      <data key="community_3">11</data>
+      <data key="community_4">11</data>
     </node>
     <node id="45/585">
       <data key="name">Ryan Stedman</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="82/506">
       <data key="name">Sacha Brostoff</data>
       <data key="papers">1</data>
+      <data key="community_0">11</data>
+      <data key="community_1">11</data>
+      <data key="community_2">11</data>
+      <data key="community_3">12</data>
+      <data key="community_4">12</data>
     </node>
     <node id="94/7753">
       <data key="name">Said Marouf</data>
       <data key="papers">1</data>
+      <data key="community_0">15</data>
+      <data key="community_1">16</data>
+      <data key="community_2">16</data>
+      <data key="community_3">16</data>
+      <data key="community_4">15</data>
     </node>
     <node id="93/7561">
       <data key="name">San-Tsai Sun</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="25/5203">
       <data key="name">Sandra Carpenter</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="129/1933">
       <data key="name">Sara Motahari</data>
       <data key="papers">2</data>
+      <data key="community_0">16</data>
+      <data key="community_1">15</data>
+      <data key="community_2">15</data>
+      <data key="community_3">15</data>
+      <data key="community_4">16</data>
     </node>
     <node id="69/7983">
       <data key="name">Sara Motiee</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="05/6177">
       <data key="name">Saranga Komanduri</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">18</data>
     </node>
     <node id="41/1769">
       <data key="name">Sasha Romanosky</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="83/6936">
       <data key="name">Saurabh Panjwani</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="94/2605">
       <data key="name">Sean W. Smith</data>
       <data key="papers">1</data>
+      <data key="community_0">10</data>
+      <data key="community_1">10</data>
+      <data key="community_2">10</data>
+      <data key="community_3">10</data>
+      <data key="community_4">10</data>
     </node>
     <node id="61/1101">
       <data key="name">Sebastian Clauß</data>
       <data key="papers">1</data>
+      <data key="community_0">1</data>
+      <data key="community_1">1</data>
+      <data key="community_2">1</data>
+      <data key="community_3">1</data>
+      <data key="community_4">2</data>
     </node>
     <node id="07/1108">
       <data key="name">Serge Egelman</data>
       <data key="papers">4</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="31/3754">
       <data key="name">Sherman Gavette</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="41/4957">
       <data key="name">Shirley Gaw</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="k/SKrishnamurthi">
       <data key="name">Shriram Krishnamurthi</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="09/6954">
       <data key="name">Shujun Li</data>
       <data key="papers">1</data>
+      <data key="community_0">18</data>
+      <data key="community_1">19</data>
+      <data key="community_2">34</data>
+      <data key="community_3">20</data>
+      <data key="community_4">34</data>
     </node>
     <node id="f/SidneyFels">
       <data key="name">Sidney S. Fels</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="167/8294">
       <data key="name">Simon L. Jones</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="f/SimoneFischerHubner">
       <data key="name">Simone Fischer-Hübner</data>
       <data key="papers">1</data>
+      <data key="community_0">1</data>
+      <data key="community_1">1</data>
+      <data key="community_2">1</data>
+      <data key="community_3">1</data>
+      <data key="community_4">2</data>
     </node>
     <node id="70/2101">
       <data key="name">Simson L. Garfinkel</data>
       <data key="papers">3</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="26/2669">
       <data key="name">Sonia Chiasson</data>
       <data key="papers">3</data>
+      <data key="community_0">9</data>
+      <data key="community_1">9</data>
+      <data key="community_2">9</data>
+      <data key="community_3">9</data>
+      <data key="community_4">9</data>
     </node>
     <node id="65/4758">
       <data key="name">Sotirios G. Ziavras</data>
       <data key="papers">1</data>
+      <data key="community_0">16</data>
+      <data key="community_1">15</data>
+      <data key="community_2">15</data>
+      <data key="community_3">15</data>
+      <data key="community_4">16</data>
     </node>
     <node id="51/1639">
       <data key="name">Srdjan Capkun</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">19</data>
+      <data key="community_4">20</data>
     </node>
     <node id="36/3888">
       <data key="name">Starr Roxanne Hiltz</data>
       <data key="papers">1</data>
+      <data key="community_0">16</data>
+      <data key="community_1">15</data>
+      <data key="community_2">15</data>
+      <data key="community_3">15</data>
+      <data key="community_4">16</data>
     </node>
     <node id="24/1147">
       <data key="name">Stephen H. Holden</data>
       <data key="papers">1</data>
+      <data key="community_0">8</data>
+      <data key="community_1">8</data>
+      <data key="community_2">8</data>
+      <data key="community_3">8</data>
+      <data key="community_4">8</data>
     </node>
     <node id="23/3412">
       <data key="name">Steve Sheng</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="79/4448">
       <data key="name">Steven Aronowitz</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">2</data>
+      <data key="community_3">2</data>
+      <data key="community_4">0</data>
     </node>
     <node id="21/4709">
       <data key="name">Steven Hsu</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="s/SESchechter">
       <data key="name">Stuart E. Schechter</data>
       <data key="papers">3</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="32/4181">
       <data key="name">Stéphane Onno</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="61/1413">
       <data key="name">Sunny Consolvo</data>
       <data key="papers">1</data>
+      <data key="community_0">3</data>
+      <data key="community_1">3</data>
+      <data key="community_2">3</data>
+      <data key="community_3">3</data>
+      <data key="community_4">4</data>
     </node>
     <node id="66/3804">
       <data key="name">Susan Wiedenbeck</data>
       <data key="papers">1</data>
+      <data key="community_0">4</data>
+      <data key="community_1">4</data>
+      <data key="community_2">4</data>
+      <data key="community_3">4</data>
+      <data key="community_4">3</data>
     </node>
     <node id="42/11159">
       <data key="name">Swapna Kolimi</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="68/6021">
       <data key="name">Syed Ali Khayam</data>
       <data key="papers">1</data>
+      <data key="community_0">18</data>
+      <data key="community_1">19</data>
+      <data key="community_2">34</data>
+      <data key="community_3">20</data>
+      <data key="community_4">34</data>
     </node>
     <node id="119/0471">
       <data key="name">Sylvia Kempe</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">19</data>
+      <data key="community_3">19</data>
+      <data key="community_4">20</data>
     </node>
     <node id="k/TadayoshiKohno">
       <data key="name">Tadayoshi Kohno</data>
       <data key="papers">1</data>
+      <data key="community_0">17</data>
+      <data key="community_1">18</data>
+      <data key="community_2">18</data>
+      <data key="community_3">18</data>
+      <data key="community_4">19</data>
     </node>
     <node id="55/1439">
       <data key="name">Tal Garfinkel</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="w/TerryWinograd">
       <data key="name">Terry Winograd</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="33/7188">
       <data key="name">Theodore Pham</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="55/6049">
       <data key="name">Thomas Kriegelstein</data>
       <data key="papers">1</data>
+      <data key="community_0">1</data>
+      <data key="community_1">1</data>
+      <data key="community_2">1</data>
+      <data key="community_3">1</data>
+      <data key="community_4">2</data>
     </node>
     <node id="32/8323">
       <data key="name">Toni Perkovic</data>
       <data key="papers">1</data>
+      <data key="community_0">18</data>
+      <data key="community_1">19</data>
+      <data key="community_2">34</data>
+      <data key="community_3">20</data>
+      <data key="community_4">34</data>
     </node>
     <node id="s/TuomasSandholm">
       <data key="name">Tuomas Sandholm</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="19/5066">
       <data key="name">Tyler Close</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="e/WKeithEdwards">
       <data key="name">W. Keith Edwards</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="36/6846">
       <data key="name">Wai Yong Low</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="19/1614">
       <data key="name">Wayne G. Lutters</data>
       <data key="papers">1</data>
+      <data key="community_0">8</data>
+      <data key="community_1">8</data>
+      <data key="community_2">8</data>
+      <data key="community_3">8</data>
+      <data key="community_4">8</data>
     </node>
     <node id="l/WenyinLiu">
       <data key="name">Wenyin Liu</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="41/1020">
       <data key="name">Woo Tae Kim</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">5</data>
+      <data key="community_4">5</data>
     </node>
     <node id="80/3216">
       <data key="name">Xiang Cao</data>
       <data key="papers">1</data>
+      <data key="community_0">7</data>
+      <data key="community_1">7</data>
+      <data key="community_2">7</data>
+      <data key="community_3">7</data>
+      <data key="community_4">7</data>
     </node>
     <node id="39/805">
       <data key="name">Xianghua Ding</data>
       <data key="papers">1</data>
+      <data key="community_0">0</data>
+      <data key="community_1">0</data>
+      <data key="community_2">0</data>
+      <data key="community_3">0</data>
+      <data key="community_4">1</data>
     </node>
     <node id="d/XiaotieDeng">
       <data key="name">Xiaotie Deng</data>
       <data key="papers">1</data>
+      <data key="community_0">5</data>
+      <data key="community_1">6</data>
+      <data key="community_2">6</data>
+      <data key="community_3">6</data>
+      <data key="community_4">6</data>
     </node>
     <node id="65/2992">
       <data key="name">Xiyang Liu</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="w/YangWang5">
       <data key="name">Yang Wang</data>
       <data key="papers">2</data>
+      <data key="community_0">5</data>
+      <data key="community_1">5</data>
+      <data key="community_2">5</data>
+      <data key="community_3">14</data>
+      <data key="community_4">18</data>
     </node>
     <node id="76/7908">
       <data key="name">Yousra Javed</data>
       <data key="papers">1</data>
+      <data key="community_0">18</data>
+      <data key="community_1">19</data>
+      <data key="community_2">34</data>
+      <data key="community_3">20</data>
+      <data key="community_4">34</data>
     </node>
     <node id="55/7188">
       <data key="name">Yves Maetz</data>
       <data key="papers">1</data>
+      <data key="community_0">-1</data>
+      <data key="community_1">-1</data>
+      <data key="community_2">-1</data>
+      <data key="community_3">-1</data>
+      <data key="community_4">-1</data>
     </node>
     <node id="r/YvonneRogers">
       <data key="name">Yvonne Rogers</data>
       <data key="papers">1</data>
+      <data key="community_0">12</data>
+      <data key="community_1">13</data>
+      <data key="community_2">13</data>
+      <data key="community_3">13</data>
+      <data key="community_4">13</data>
     </node>
     <edge source="01/2925" target="09/3004">
       <data key="weight">1</data>
