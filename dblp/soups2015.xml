@@ -1,0 +1,340 @@
+<bht key="db/conf/soups/soups2015.bht" title="SOUPS 2015"> 
+<h1>11th <ref href="db/conf/soups/index.html">SOUPS</ref> 2015:
+Ottawa, Canada</h1> <dblpcites><r><proceedings key="conf/soups/2015" mdate="2017-04-05">
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<editor pid="50/4201">Robert Biddle</editor>
+<editor pid="61/1413">Sunny Consolvo</editor>
+<title>Eleventh Symposium On Usable Privacy and Security, SOUPS 2015, Ottawa, Canada, July 22-24, 2015.</title>
+<publisher>USENIX Association</publisher>
+<year>2015</year>
+<ee>https://www.usenix.org/conference/soups2015</ee>
+<isbn>978-1-931971-249</isbn>
+<booktitle>SOUPS</booktitle>
+<url>db/conf/soups/soups2015.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Privacy Attitudes and Comprehension</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/SchaubBDC15" mdate="2016-09-15">
+<author pid="08/7562">Florian Schaub</author>
+<author pid="91/11300">Rebecca Balebako</author>
+<author pid="144/5296">Adam L. Durity</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<title>A Design Space for Effective Privacy Notices.</title>
+<pages>1-17</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/schaub</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#SchaubBDC15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AnguloO15" mdate="2016-09-15">
+<author pid="84/10843">Julio Angulo</author>
+<author pid="134/6785">Martin Ortlieb</author>
+<title>&#34;WTH..!?!&#34; Experiences, Reactions, and Expectations Related to Online Privacy Panic Situations.</title>
+<pages>19-38</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/angulo</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#AnguloO15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KangDFK15" mdate="2016-09-15">
+<author pid="38/7219">Ruogu Kang</author>
+<author pid="d/LauraADabbish">Laura Dabbish</author>
+<author pid="159/0577">Nathaniel Fruchter</author>
+<author pid="k/SaraBKiesler">Sara B. Kiesler</author>
+<title>&#34;My Data Just Goes Everywhere: &#34; User Mental Models of the Internet and Implications for Privacy and Security.</title>
+<pages>39-52</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/kang</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#KangDFK15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ChancharyC15" mdate="2016-09-15">
+<author pid="176/9197">Farah Chanchary</author>
+<author pid="26/2669">Sonia Chiasson</author>
+<title>User Perceptions of Sharing, Advertising, and Tracking.</title>
+<pages>53-67</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/chanchary</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#ChancharyC15</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Design and Compliance</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/AtwaterBHLG15" mdate="2016-09-15">
+<author pid="183/1288">Erinn Atwater</author>
+<author pid="144/6602">Cecylia Bocovich</author>
+<author pid="04/6136">Urs Hengartner</author>
+<author pid="185/6253">Ed Lank</author>
+<author pid="04/6434">Ian Goldberg</author>
+<title>Leading Johnny to Water: Designing for Usability and Trust.</title>
+<pages>69-88</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/atwater</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#AtwaterBHLG15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AndrabiRS15" mdate="2016-09-15">
+<author pid="185/6261">Sarah J. Andrabi</author>
+<author pid="r/MichaelKReiter">Michael K. Reiter</author>
+<author pid="54/7563">Cynthia Sturton</author>
+<title>Usability of Augmented Reality for Revealing Secret Messages to Users but Not Their Devices.</title>
+<pages>89-102</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/andrabi</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#AndrabiRS15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BlytheCL15" mdate="2016-09-15">
+<author pid="117/8354">John M. Blythe</author>
+<author pid="35/1147">Lynne M. Coventry</author>
+<author pid="54/6416">Linda Little</author>
+<title>Unpacking Security Policy Compliance: The Motivators and Barriers of Employees' Security Behaviors.</title>
+<pages>103-122</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/blythe</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#BlytheCL15</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication Experience</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/UrNBSSBCC15" mdate="2016-09-15">
+<author pid="66/9786">Blase Ur</author>
+<author pid="185/6262">Fumiko Noma</author>
+<author pid="179/4630">Jonathan Bees</author>
+<author pid="71/9965">Sean M. Segreti</author>
+<author pid="18/1031">Richard Shay</author>
+<author pid="32/3440">Lujo Bauer</author>
+<author pid="c/NicolasChristin">Nicolas Christin</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<title>&#34;I Added '!' at the End to Make It Secure&#34;: Observing Password Creation in the Lab.</title>
+<pages>123-140</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/ur</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#UrNBSSBCC15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DunphyVTNMO15" mdate="2016-09-15">
+<author pid="23/1640">Paul Dunphy</author>
+<author pid="44/11301">Vasilis Vlachokyriakos</author>
+<author pid="70/7502">Anja Thieme</author>
+<author pid="64/2037">James Nicholson</author>
+<author pid="36/423">John C. McCarthy</author>
+<author pid="60/397">Patrick Olivier</author>
+<title>Social Media As a Resource for Understanding Security Experiences: A Qualitative Analysis of #Password Tweets.</title>
+<pages>141-150</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/dunphy</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#DunphyVTNMO15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DosonoHW15" mdate="2019-09-03">
+<author pid="145/7551">Bryan Dosono</author>
+<author pid="70/3253">Jordan Hayes</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>&#34;I'm Stuck!&#34;: A Contextual Inquiry of People with Visual Impairments in Authentication.</title>
+<pages>151-168</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/dosono</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#DosonoHW15</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication Methods</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/HangL0RH15" mdate="2016-09-15">
+<author pid="54/4947">Alina Hang</author>
+<author pid="22/3157">Alexander De Luca</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<author pid="40/6489">Michael Richter</author>
+<author pid="h/HeinrichHussmann">Heinrich Hussmann</author>
+<title>Where Have You Been? Using Location-Based Security Questions for Fallback Authentication.</title>
+<pages>169-183</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/hang</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#HangL0RH15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Al-AmeenFWS15" mdate="2016-09-15">
+<author pid="119/5033">Mahdi Nasrullah Al-Ameen</author>
+<author pid="169/2212">Kanis Fatema</author>
+<author pid="41/4822">Matthew K. Wright</author>
+<author pid="126/3487">Shannon Scielzo</author>
+<title>The Impact of Cues and User Interaction on the Memorability of System-Assigned Recognition-Based Graphical Passwords.</title>
+<pages>185-196</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/al-ameen</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#Al-AmeenFWS15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HuhKBBB15" mdate="2016-09-15">
+<author pid="58/3207">Jun Ho Huh</author>
+<author pid="64/5383">Hyoungshick Kim</author>
+<author pid="115/7959">Rakesh B. Bobba</author>
+<author pid="185/6263">Masooda N. Bashir</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>On the Memorability of System-generated PINs: Can Chunking Help?</title>
+<pages>197-209</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/huh</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#HuhKBBB15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AlbayramK15" mdate="2016-09-15">
+<author pid="129/5078">Yusuf Albayram</author>
+<author pid="91/4087">Mohammad Maifi Hasan Khan</author>
+<title>Evaluating the Effectiveness of Using Hints for Autobiographical Authentication: A Field Study.</title>
+<pages>211-224</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/albayram</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#AlbayramK15</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Mobile Privacy and Security</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KhanHV15" mdate="2017-10-09">
+<author pid="83/7562">Hassan Khan</author>
+<author pid="04/6136">Urs Hengartner</author>
+<author pid="59/838">Daniel Vogel 0001</author>
+<title>Usability and Security Perceptions of Implicit Authentication: Convenient, Secure, Sometimes Annoying.</title>
+<pages>225-239</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/khan</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#KhanHV15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WatanabeASM15" mdate="2018-12-13">
+<author pid="84/4318-1">Takuya Watanabe 0001</author>
+<author pid="26/3158">Mitsuaki Akiyama</author>
+<author pid="18/6321">Tetsuya Sakai</author>
+<author pid="62/6630">Tatsuya Mori</author>
+<title>Understanding the Inconsistencies between Text Descriptions and the Use of Privacy-sensitive Resources of Mobile Apps.</title>
+<pages>241-255</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/watanabe</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#WatanabeASM15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/CherapauMAB15" mdate="2016-09-15">
+<author pid="185/6234">Ivan Cherapau</author>
+<author pid="09/9598">Ildar Muslukhov</author>
+<author pid="124/8007">Nalin Asanka</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>On the Impact of Touch ID on iPhone Passcodes.</title>
+<pages>257-276</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/cherapau</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#CherapauMAB15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SchechterB15" mdate="2016-09-15">
+<author pid="s/SESchechter">Stuart E. Schechter</author>
+<author pid="27/3087">Joseph Bonneau</author>
+<title>Learning Assigned Secrets for Unlocking Mobile Devices.</title>
+<pages>277-295</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/schechter</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#SchechterB15</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Security Experience</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/AlghamdiFJ15" mdate="2016-09-15">
+<author pid="128/9275">Deena Alghamdi</author>
+<author pid="57/3469">Ivan Flechais</author>
+<author pid="40/1610">Marina Jirotka</author>
+<title>Security Practices for Households Bank Customers in the Kingdom of Saudi Arabia.</title>
+<pages>297-308</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/alghamdi</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#AlghamdiFJ15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WashR15" mdate="2016-09-15">
+<author pid="20/5611">Rick Wash</author>
+<author pid="83/396">Emilee J. Rader</author>
+<title>Too Much Knowledge? Security Beliefs and Protective Behaviors Among United States Internet Users.</title>
+<pages>309-325</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/wash</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#WashR15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/IonRC15" mdate="2016-09-15">
+<author pid="87/1326">Iulia Ion</author>
+<author pid="08/873">Rob Reeder</author>
+<author pid="61/1413">Sunny Consolvo</author>
+<title>&#34;...No one Can Hack My Mind&#34;: Comparing Expert and Non-Expert Security Practices.</title>
+<pages>327-346</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/ion</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#IonRC15</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SundaramurthyBC15" mdate="2016-09-15">
+<author pid="121/2805">Sathya Chandran Sundaramurthy</author>
+<author pid="145/6877">Alexandru G. Bardas</author>
+<author pid="162/1597">Jacob Case</author>
+<author pid="41/4686">Xinming Ou</author>
+<author pid="154/0816">Michael Wesch</author>
+<author pid="66/4447">John McHugh</author>
+<author pid="72/3341">S. Raj Rajagopalan</author>
+<title>A Human Capital Model for Mitigating Security Analyst Burnout.</title>
+<pages>347-359</pages>
+<year>2015</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2015/proceedings/presentation/sundaramurthy</ee>
+<crossref>conf/soups/2015</crossref>
+<url>db/conf/soups/soups2015.html#SundaramurthyBC15</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

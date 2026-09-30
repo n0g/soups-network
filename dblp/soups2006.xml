@@ -1,0 +1,217 @@
+<bht key="db/conf/soups/soups2006.bht" title="Symposium On Usable Privacy and Security 2006">  
+<h1><ref href="db/conf/soups/index.html">SOUPS</ref> 2006:
+Pittsburgh, PA, USA</h1> <dblpcites><r><proceedings key="conf/soups/2006" mdate="2008-06-10">
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<title>Proceedings of the 2nd Symposium on Usable Privacy and Security, SOUPS 2006, Pittsburgh, Pennsylvania, USA, July 12-14, 2006</title>
+<volume>149</volume>
+<year>2006</year>
+<isbn>1-59593-448-0</isbn>
+<booktitle>SOUPS</booktitle>
+<series href="db/series/aicps/index.html">ACM International Conference Proceeding Series</series>
+<publisher>ACM</publisher>
+<url>db/conf/soups/soups2006.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Intelligible access control</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/DeWittK06" mdate="2018-11-06">
+<author pid="77/3145">Alexander J. DeWitt</author>
+<author pid="55/5639">Jasna Kuljis</author>
+<title>Aligning usability and security: a usability study of Polaris.</title>
+<pages>1-7</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143122</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#DeWittK06</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BrodieKK06" mdate="2018-11-06">
+<author pid="07/6892">Carolyn Brodie</author>
+<author pid="94/1757">Clare-Marie Karat</author>
+<author pid="94/2065">John Karat</author>
+<title>An empirical study of natural language parsing of privacy policy rules using the SPARCLE policy workbench.</title>
+<pages>8-19</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143123</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#BrodieKK06</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/CaoI06" mdate="2018-11-06">
+<author pid="80/3216">Xiang Cao</author>
+<author pid="38/4496">Lee Iverson</author>
+<title>Intentional access management: making access control usable for end-users.</title>
+<pages>20-31</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143124</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#CaoI06</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Password management, mnemonics, and mother's maiden names</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/YeeS06" mdate="2018-11-06">
+<author pid="14/2265">Ka-Ping Yee</author>
+<author pid="77/4063">Kragen Sitaker</author>
+<title>Passpet: convenient password management and phishing protection.</title>
+<pages>32-43</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143126</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#YeeS06</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GawF06" mdate="2018-11-06">
+<author pid="41/4957">Shirley Gaw</author>
+<author pid="f/EdwardWFelten">Edward W. Felten</author>
+<title>Password management strategies for online accounts.</title>
+<pages>44-55</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143127</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#GawF06</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TariOH06" mdate="2018-11-06">
+<author pid="43/3292">Furkan Tari</author>
+<author pid="70/3780">A. Ant Ozok</author>
+<author pid="24/1147">Stephen H. Holden</author>
+<title>A comparison of perceived and real shoulder-surfing risks between alphanumeric and graphical passwords.</title>
+<pages>56-66</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143128</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#TariOH06</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KuoRC06" mdate="2018-11-14">
+<author pid="23/1490">Cynthia Kuo</author>
+<author pid="41/1769">Sasha Romanosky</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<title>Human selection of mnemonic phrase-based passwords.</title>
+<pages>67-78</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143129</ee>
+<ee>https://www.wikidata.org/entity/Q57888658</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#KuoRC06</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Catching phish</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/DownsHC06" mdate="2018-11-14">
+<author pid="78/1081">Julie S. Downs</author>
+<author pid="78/6312">Mandy B. Holbrook</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<title>Decision strategies and susceptibility to phishing.</title>
+<pages>79-90</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143131</ee>
+<ee>https://www.wikidata.org/entity/Q57888653</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#DownsHC06</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FuDWL06" mdate="2020-03-27">
+<author pid="94/4742">Anthony Y. Fu</author>
+<author orcid="0000-0002-5282-6467" pid="d/XiaotieDeng">Xiaotie Deng</author>
+<author pid="l/WenyinLiu">Liu Wenyin</author>
+<author pid="26/3925">Greg Little</author>
+<title>The methodology and an application to fight against Unicode attacks.</title>
+<pages>91-101</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143132</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#FuDWL06</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WuML06" mdate="2018-11-06">
+<author pid="16/0-5">Min Wu 0005</author>
+<author pid="m/RobMiller">Robert C. Miller</author>
+<author pid="26/3925">Greg Little</author>
+<title>Web wallet: preventing phishing attacks by revealing user intentions.</title>
+<pages>102-113</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143133</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#WuML06</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Risk transparency</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/Karger06" mdate="2018-11-06">
+<author pid="31/3235">Paul A. Karger</author>
+<title>Privacy and security threat analysis of the federal employee personal identity verification (PIV) program.</title>
+<pages>114-121</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143135</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#Karger06</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NewmanGYA06" mdate="2018-11-06">
+<author pid="61/2334">Richard E. Newman</author>
+<author pid="31/3754">Sherman Gavette</author>
+<author pid="87/1703">Larry Yonge</author>
+<author pid="a/RJAnderson">Ross J. Anderson</author>
+<title>Protecting domestic power-line communications.</title>
+<pages>122-132</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143136</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#NewmanGYA06</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GideonCEA06" mdate="2020-09-05">
+<author pid="07/3454">Julia Gideon</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="07/1108">Serge Egelman</author>
+<author orcid="0000-0001-6582-6178" pid="49/3744">Alessandro Acquisti</author>
+<title>Power strips, prophylactics, and privacy, oh my!</title>
+<pages>133-144</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143137</ee>
+<ee>https://www.wikidata.org/entity/Q57888663</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#GideonCEA06</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RodeJDFNNRDR06" mdate="2020-04-08">
+<author pid="r/JenniferAnnRode">Jennifer Ann Rode</author>
+<author pid="26/2116">Carolina Johansson</author>
+<author pid="69/4012">Paul DiGioia</author>
+<author pid="04/866">Roberto Silveira Silva Filho</author>
+<author pid="70/1455">Kari Nies</author>
+<author pid="10/3872">David H. Nguyen</author>
+<author pid="r/JieRen-1">Jie Ren 0001</author>
+<author pid="97/936">Paul Dourish</author>
+<author pid="84/6534">David F. Redmiles</author>
+<title>Seeing further: extending visualization as a basis for usable security.</title>
+<pages>145-155</pages>
+<year>2006</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1143120.1143138</ee>
+<crossref>conf/soups/2006</crossref>
+<url>db/conf/soups/soups2006.html#RodeJDFNNRDR06</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

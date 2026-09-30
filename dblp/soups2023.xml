@@ -1,0 +1,524 @@
+<bht key="db/conf/soups/soups2023.bht" title="SOUPS @ USENIX Security Symposium 2023"> 
+<h1>19th <ref href="db/conf/soups/index.html">SOUPS</ref> @ <ref href="db/conf/uss/index.html">USENIX Security Symposium</ref> 2023:
+Anaheim, CA, USA</h1> <dblpcites><r><proceedings key="conf/soups/2023" mdate="2023-08-09">
+<editor pid="15/3631">Patrick Gage Kelley</editor>
+<editor pid="50/6916">Apu Kapadia</editor>
+<title>Nineteenth Symposium on Usable Privacy and Security, SOUPS 2023, Anaheim, CA, USA, August 5-7, 2023</title>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<publisher>USENIX Association</publisher>
+<year>2023</year>
+<ee type="oa">https://www.usenix.org/conference/soups2023</ee>
+<url>db/conf/soups/soups2023.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Cybercrimes and Misinformation</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/DeldariFPY23" mdate="2023-08-09">
+<author pid="327/3698">Elmira Deldari</author>
+<author pid="175/1690">Diana Freed</author>
+<author pid="329/8946">Julio Poveda</author>
+<author pid="142/7931">Yaxing Yao</author>
+<title>An Investigation of Teenager Experiences in Social Virtual Reality from Teenagers', Parents', and Bystanders' Perspectives.</title>
+<pages>1-17</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/deldari</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#DeldariFPY23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SharevskiK23" mdate="2023-08-09">
+<author pid="154/7105">Filipo Sharevski</author>
+<author pid="340/4261">Benjamin Kessell</author>
+<title>Fight Fire with Fire: Hacktivists' Take on Social Media Misinformation.</title>
+<pages>19-36</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/sharevski</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#SharevskiK23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AshrafTBKJM23" mdate="2023-08-09">
+<author pid="353/7318">Afaq Ashraf</author>
+<author pid="353/6840">Afaq Taha</author>
+<author pid="244/0282">Nida ul Habib Bajwa</author>
+<author pid="138/6985">Cornelius J. K&#246;nig</author>
+<author pid="48/7429">Mobin Javed</author>
+<author pid="52/4442">Maryam Mustafa</author>
+<title>&#34;Stalking is immoral but not illegal&#34;: Understanding Security, Cyber Crimes and Threats in Pakistan.</title>
+<pages>37-56</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/ashraf</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#AshrafTBKJM23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZhengB23" mdate="2023-08-09">
+<author pid="331/6458">Sarah Y. Zheng</author>
+<author pid="183/8093">Ingolf Becker</author>
+<title>Checking, nudging or scoring? Evaluating e-mail user security tools.</title>
+<pages>57-76</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/zheng</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#ZhengB23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/0001SBHVSM23" mdate="2023-08-09">
+<author pid="249/3123-1">Enze Liu 0001</author>
+<author pid="62/5798">Lu Sun</author>
+<author pid="339/6648">Alex Bellon</author>
+<author pid="150/5927">Grant Ho</author>
+<author pid="v/GeoffreyMVoelker">Geoffrey M. Voelker</author>
+<author pid="s/StefanSavage">Stefan Savage</author>
+<author pid="320/8568">Imani N. S. Munyaka</author>
+<title>Understanding the Viability of Gmail's Origin Indicator for Identifying the Sender.</title>
+<pages>77-95</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/liu</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#0001SBHVSM23</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Security and Privacy in Organizations</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KerstenMZSA23" mdate="2023-08-09">
+<author pid="323/5185">Leon Kersten</author>
+<author pid="353/7070">Tom Mulders</author>
+<author pid="z/EmmanueleZambon">Emmanuele Zambon</author>
+<author pid="345/7287">Chris Snijders</author>
+<author pid="37/9766">Luca Allodi</author>
+<title>'Give Me Structure': Synthesis and Evaluation of a (Network) Threat Analysis Process Supporting Tier 1 Investigations in a Security Operation Center.</title>
+<pages>97-111</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/kersten</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#KerstenMZSA23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/EvripidouAHW23" mdate="2023-08-09">
+<author pid="333/9582">Stefanos Evripidou</author>
+<author pid="238/0870">Uchenna Daniel Ani</author>
+<author pid="85/6195">Stephen Hailes</author>
+<author pid="239/4128">Jeremy D. McK. Watson</author>
+<title>Exploring the Security Culture of Operational Technology (OT) Organisations: the Role of External Consultancy in Overcoming Organisational Barriers.</title>
+<pages>113-129</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/evripidou</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#EvripidouAHW23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HielscherSMGHS23" mdate="2023-08-09">
+<author pid="296/3944">Jonas Hielscher</author>
+<author pid="323/0206">Markus Sch&#246;ps</author>
+<author pid="309/5253">Uta Menges</author>
+<author pid="308/6435">Marco Gutfleisch</author>
+<author pid="353/6871">Mirko Helbling</author>
+<author pid="s/MASasse">M. Angela Sasse</author>
+<title>Lacking the Tools and Support to Fix Friction: Results from an Interview Study with Security Managers.</title>
+<pages>131-150</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/hielscher</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#HielscherSMGHS23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AbramovaBESS23" mdate="2023-08-09">
+<author pid="182/4659">Svetlana Abramova</author>
+<author pid="52/6295">Rainer B&#246;hme</author>
+<author pid="96/7895">Helmut Elsinger</author>
+<author pid="353/6931">Helmut Stix</author>
+<author pid="19/2554">Martin Summer</author>
+<title>What can central bank digital currency designers learn from asking potential users?</title>
+<pages>151-170</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/abramova</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#AbramovaBESS23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AmftHHAF23" mdate="2023-08-09">
+<author pid="251/3013">Sabrina Amft</author>
+<author pid="349/7794">Sandra H&#246;ltervennhoff</author>
+<author pid="213/7298">Nicolas Huaman</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="38/9378">Sascha Fahl</author>
+<title>&#34;Would You Give the Same Priority to the Bank and a Game? I Do Not!&#34; Exploring Credential Management Strategies and Obstacles during Password Manager Setup.</title>
+<pages>171-190</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/amft</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#AmftHHAF23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GerlitzH0T23" mdate="2023-08-09">
+<author pid="239/8234">Eva Gerlitz</author>
+<author pid="252/3848">Maximilian H&#228;ring</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<author pid="205/3181">Christian Tiefenau</author>
+<title>Evolution of Password Expiry in Companies: Measuring the Adoption of Recommendations by the German Federal Office for Information Security.</title>
+<pages>191-210</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/gerlitz-evolution</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#GerlitzH0T23</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ZibaeiST23" mdate="2023-08-09">
+<author pid="331/7104">Samira Zibaei</author>
+<author pid="49/2908">Amirali Salehi-Abari</author>
+<author pid="53/114">Julie Thorpe</author>
+<title>Dissecting Nudges in Password Managers: Simple Defaults are Powerful.</title>
+<pages>211-225</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/zibaei</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#ZibaeiST23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GerlitzHM0T23" mdate="2023-08-09">
+<author pid="239/8234">Eva Gerlitz</author>
+<author pid="252/3848">Maximilian H&#228;ring</author>
+<author pid="353/7397">Charlotte Theresa M&#228;dler</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<author pid="205/3181">Christian Tiefenau</author>
+<title>Adventures in Recovery Land: Testing the Account Recovery of Popular Websites When the Second Factor is Lost.</title>
+<pages>227-243</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/gerlitz-adventures</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#GerlitzHM0T23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TurnerSBKM23" mdate="2023-08-11">
+<author pid="353/7482">Mark Turner 0014</author>
+<author pid="132/3034">Martin Schmitz</author>
+<author pid="353/6887">Morgan Masichi Bierey</author>
+<author pid="129/9490">Mohamed Khamis</author>
+<author pid="179/7489">Karola Marky</author>
+<title>Tangible 2FA - An In-the-Wild Investigation of User-Defined Tangibles for Two-Factor Authentication.</title>
+<pages>245-261</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/turner</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#TurnerSBKM23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AmadorMHLLB23" mdate="2023-08-09">
+<author pid="353/7358">Joram Amador</author>
+<author pid="201/9823">Yiran Ma</author>
+<author pid="310/1522">Summer Hasama</author>
+<author pid="310/1685">Eshaan Lumba</author>
+<author pid="353/7479">Gloria Lee</author>
+<author pid="64/7821">Eleanor Birrell</author>
+<title>Prospects for Improving Password Selection.</title>
+<pages>263-282</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/amador</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#AmadorMHLLB23</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Beyond End Users/Developers and Experts</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/NeilRAR23" mdate="2023-08-09">
+<author pid="225/5243">Lorenzo Neil</author>
+<author pid="327/6458">Harshini Sri Ramulu</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="117/3983">Bradley Reaves</author>
+<title>Who Comes Up with this Stuff? Interviewing Authors to Understand How They Produce Security Advice.</title>
+<pages>283-299</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/neil</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#NeilRAR23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/McCallZSYBBC0023" mdate="2023-08-09">
+<author pid="219/9059">McKenna McCall</author>
+<author pid="202/7659">Eric Zeng</author>
+<author pid="180/3862">Faysal Hossain Shezan</author>
+<author pid="353/7209">Mitchell Yang</author>
+<author pid="32/3440">Lujo Bauer</author>
+<author pid="61/10308">Abhishek Bichhawat</author>
+<author pid="70/11465">Camille Cobb</author>
+<author pid="89/161-1">Limin Jia 0001</author>
+<author pid="39/5423-1">Yuan Tian 0001</author>
+<title>Towards Usable Security Analysis Tools for Trigger-Action Programming.</title>
+<pages>301-320</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/mccall</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#McCallZSYBBC0023</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SerafiniGHN23" mdate="2023-08-09">
+<author pid="353/6883">Raphael Serafini</author>
+<author pid="308/6435">Marco Gutfleisch</author>
+<author pid="287/4547">Stefan Horstmann</author>
+<author pid="201/9227">Alena Naiakshina</author>
+<title>On the Recruitment of Company Developers for Security Studies: Results from a Qualitative Interview Study.</title>
+<pages>321-340</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/serafini</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#SerafiniGHN23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/OrtloffT023" mdate="2023-08-09">
+<author pid="248/7206">Anna-Marie Ortloff</author>
+<author pid="205/3181">Christian Tiefenau</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<title>SoK: I Have the (Developer) Power! Sample Size Estimation for Fisher's Exact, Chi-Squared, McNemar's, Wilcoxon Rank-Sum, Wilcoxon Signed-Rank and t-tests in Developer-Centered Usable Security.</title>
+<pages>341-359</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/ortloff</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#OrtloffT023</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Accessibility and Allies</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KaushikBYSKSD023" mdate="2023-08-09">
+<author pid="239/7928">Smirity Kaushik</author>
+<author pid="162/9876">Nat&#227; M. Barbosa</author>
+<author pid="344/8557">Yaman Yu</author>
+<author pid="221/3567">Tanusree Sharma</author>
+<author pid="349/0633">Zachary Kilhoffer</author>
+<author pid="31/5537">Jooyoung Seo</author>
+<author pid="83/8570">Sauvik Das</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>GuardLens: Supporting Safer Online Browsing for People with Visual Impairments.</title>
+<pages>361-380</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/kaushik</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#KaushikBYSKSD023</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZhouSED023" mdate="2023-08-09">
+<author pid="228/6035">Zhixuan Zhou</author>
+<author pid="221/3567">Tanusree Sharma</author>
+<author pid="349/2795">Luke Emano</author>
+<author pid="83/8570">Sauvik Das</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>Iterative Design of An Accessible Crypto Wallet for Blind Users.</title>
+<pages>381-398</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/zhou</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#ZhouSED023</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WilliamsCB23" mdate="2023-08-09">
+<author pid="351/5294">Olivia Williams</author>
+<author pid="33/993">Yee-Yin Choong</author>
+<author pid="351/4655">Kerrianne Buchanan</author>
+<title>Youth understandings of online privacy and security: A dyadic study of children and their parents.</title>
+<pages>399-416</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/williams</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#WilliamsCB23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZhangKSYDFGS023" mdate="2023-08-09">
+<author pid="344/8602">Zhuohao (Jerry) Zhang</author>
+<author pid="239/7928">Smirity Kaushik</author>
+<author pid="31/5537">Jooyoung Seo</author>
+<author pid="238/9094">Haolin Yuan</author>
+<author pid="83/8570">Sauvik Das</author>
+<author pid="96/2987">Leah Findlater</author>
+<author pid="118/9699">Danna Gurari</author>
+<author pid="06/11413">Abigale Stangl</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>ImageAlly: A Human-AI Hybrid Approach to Support Blind People in Detecting and Redacting Private Image Content.</title>
+<pages>417-436</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/zhang</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#ZhangKSYDFGS023</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AkterTMAKWL23" mdate="2023-08-09">
+<author pid="184/6591">Mamtaj Akter</author>
+<author pid="157/6614">Madiha Tabassum</author>
+<author pid="157/6719">Md. Nazmus Sakib Miazi</author>
+<author pid="300/7005">Leena Alghamdi</author>
+<author pid="115/7873">Jess Kropczynski</author>
+<author pid="k/PamelaKarr">Pamela J. Wisniewski</author>
+<author pid="r/HeatherRichter">Heather Lipford</author>
+<title>Evaluating the Impact of Community Oversight for Managing Mobile Privacy and Security.</title>
+<pages>437-456</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/akter</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#AkterTMAKWL23</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Beliefs and Behavior</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/Rader23" mdate="2023-08-09">
+<author pid="83/396">Emilee Rader</author>
+<title>Data Privacy and Pluralistic Ignorance.</title>
+<pages>457-471</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/rader</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#Rader23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/UsmanHWZ23" mdate="2023-08-09">
+<author pid="353/7094">Warda Usman</author>
+<author pid="353/7048">Jackie Hu</author>
+<author pid="353/7393">McKynlee Wilson</author>
+<author pid="71/2423">Daniel Zappala</author>
+<title>Distrust of big tech and a desire for privacy: Understanding the motivations of people who have voluntarily adopted secure email.</title>
+<pages>473-490</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/usman</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#UsmanHWZ23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Wang0WMZ23" mdate="2023-08-09">
+<author pid="41/10487">Leijie Wang</author>
+<author pid="292/5454">Ruotong Wang 0004</author>
+<author pid="302/6184">Sterling Williams-Ceci</author>
+<author pid="213/7956">Sanketh Menda</author>
+<author pid="133/8390">Amy X. Zhang</author>
+<title>&#34;Is Reporting Worth the Sacrifice of Revealing What I've Sent?&#34;: Privacy Considerations When Reporting on End-to-End Encrypted Platforms.</title>
+<pages>491-508</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/wang</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#Wang0WMZ23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HuangDHTGB23" mdate="2023-09-19">
+<author pid="165/5093">Hsiao-Ying Huang</author>
+<author pid="136/8374">Soteris Demetriou</author>
+<author pid="97/9976-5">Muhammad Hassan 0005</author>
+<author pid="118/3426">G&#252;liz Seray Tuncay</author>
+<author pid="g/CarlAGunter">Carl A. Gunter</author>
+<author pid="185/6263">Masooda N. Bashir</author>
+<title>Evaluating User Behavior in Smartphone Security: A Psychometric Perspective.</title>
+<pages>509-524</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/huang</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#HuangDHTGB23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PanskusNFM23" mdate="2023-08-09">
+<author pid="353/7046">Rebecca Panskus</author>
+<author pid="353/7383">Max Ninow</author>
+<author pid="38/9378">Sascha Fahl</author>
+<author pid="179/7489">Karola Marky</author>
+<title>Privacy Mental Models of Electronic Health Records: A German Case Study.</title>
+<pages>525-542</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/panskus</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#PanskusNFM23</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Future Internet/Smart Home, the Metaverse, and AI</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ParkL0V23" mdate="2023-08-09">
+<author pid="304/5613">Sunyup Park</author>
+<author pid="304/6198">Anna Lenhart</author>
+<author pid="65/902-4">Michael Zimmer 0004</author>
+<author pid="90/9167">Jessica Vitak</author>
+<title>&#34;Nobody's Happy&#34;: Design Insights from Privacy-Conscious Smart Home Power Users on Enhancing Data Transparency, Visibility, and Control.</title>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/park</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#ParkL0V23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HazaziS23" mdate="2023-08-09">
+<author pid="353/7216">Hussein Hazazi</author>
+<author pid="89/6785">Mohamed Shehab</author>
+<title>Exploring the Usability, Security, and Privacy of Smart Locks from the Perspective of the End User.</title>
+<pages>559-577</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/hazazi</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#HazaziS23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KelleyCHJSTYW23" mdate="2023-08-09">
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="353/6759">Celestina Cornejo</author>
+<author pid="353/6755">Lisa Hayes</author>
+<author pid="353/7061">Ellie Shuo Jin</author>
+<author pid="119/0389">Aaron Sedley</author>
+<author pid="68/8283">Kurt Thomas</author>
+<author pid="05/10194">Yongwei Yang</author>
+<author pid="63/6133">Allison Woodruff</author>
+<title>&#34;There will be less privacy, of course&#34;: How and why people in 10 countries expect AI will affect privacy in the future.</title>
+<pages>579-603</pages>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/kelley</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#KelleyCHJSTYW23</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WindlSGM23" mdate="2023-08-09">
+<author pid="248/7150">Maximiliane Windl</author>
+<author pid="353/6767">Anna Scheidle</author>
+<author pid="206/1185">Ceenu George</author>
+<author pid="161/3111">Sven Mayer</author>
+<title>Investigating Security Indicators for Hyperlinking Within the Metaverse.</title>
+<year>2023</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2023/presentation/windl</ee>
+<crossref>conf/soups/2023</crossref>
+<url>db/conf/soups/soups2023.html#WindlSGM23</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

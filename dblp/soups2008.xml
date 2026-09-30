@@ -1,0 +1,192 @@
+<bht key="db/conf/soups/soups2008.bht" title="Symposium On Usable Privacy and Security 2008">  
+<h1><ref href="db/conf/soups/index.html">SOUPS</ref> 2008:
+Pittsburgh, PA, USA</h1> <dblpcites><r><proceedings key="conf/soups/2008" mdate="2009-03-16">
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<title>Proceedings of the 4th Symposium on Usable Privacy and Security, SOUPS 2008, Pittsburgh, Pennsylvania, USA, July 23-25, 2008</title>
+<year>2008</year>
+<isbn>978-1-60558-276-4</isbn>
+<booktitle>SOUPS</booktitle>
+<series href="db/series/aicps/index.html">ACM International Conference Proceeding Series</series>
+<publisher>ACM</publisher>
+<url>db/conf/soups/soups2008.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Authentication I</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ForgetCOB08" mdate="2018-11-06">
+<author pid="22/4861">Alain Forget</author>
+<author pid="26/2669">Sonia Chiasson</author>
+<author orcid="0000-0002-5038-5370" pid="o/PCvOorschot">Paul C. van Oorschot</author>
+<author pid="50/4201">Robert Biddle</author>
+<title>Improving text passwords through persuasion.</title>
+<pages>1-12</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408666</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#ForgetCOB08</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Rabkin08" mdate="2018-11-14">
+<author pid="50/560">Ariel Rabkin</author>
+<title>Personal knowledge questions for fallback authentication: security questions in the era of Facebook.</title>
+<pages>13-23</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408667</ee>
+<ee>https://www.wikidata.org/entity/Q56532069</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#Rabkin08</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DunphyNO08" mdate="2018-11-06">
+<author pid="23/1640">Paul Dunphy</author>
+<author pid="64/2037">James Nicholson</author>
+<author orcid="0000-0003-2841-7580" pid="60/397">Patrick Olivier</author>
+<title>Securing passfaces for description.</title>
+<pages>24-35</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408668</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#DunphyNO08</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication II</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/HayashiDCP08" mdate="2018-11-14">
+<author pid="15/4384">Eiji Hayashi</author>
+<author pid="43/2742">Rachna Dhamija</author>
+<author orcid="0000-0002-2506-8031" pid="c/NicolasChristin">Nicolas Christin</author>
+<author pid="16/6873">Adrian Perrig</author>
+<title>Use Your Illusion: secure authentication usable anywhere.</title>
+<pages>35-45</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408670</ee>
+<ee>https://www.wikidata.org/entity/Q57447221</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#HayashiDCP08</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/YanA08" mdate="2018-11-06">
+<author pid="37/6136">Jeff Yan</author>
+<author pid="11/395">Ahmad Salah El Ahmad</author>
+<title>Usability of CAPTCHAs or usability issues in CAPTCHA design.</title>
+<pages>44-52</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408671</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#YanA08</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SaxenaUV08" mdate="2018-11-06">
+<author pid="25/1169">Nitesh Saxena</author>
+<author pid="09/2679">Md. Borhan Uddin</author>
+<author pid="04/389">Jonathan Voris</author>
+<title>Universal device pairing using an auxiliary device.</title>
+<pages>56-67</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408672</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#SaxenaUV08</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Configuration and policies</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/VanieaKGKB08" mdate="2018-11-06">
+<author pid="68/581">Kami Vaniea</author>
+<author pid="94/1757">Clare-Marie Karat</author>
+<author pid="92/660">Joshua B. Gross</author>
+<author pid="94/2065">John Karat</author>
+<author pid="07/6892">Carolyn Brodie</author>
+<title>Evaluating assistance of natural language policy authoring.</title>
+<pages>65-73</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408674</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#VanieaKGKB08</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/InglesantSCS08" mdate="2018-11-06">
+<author pid="03/3826">Philip Inglesant</author>
+<author pid="s/MASasse">Martina Angela Sasse</author>
+<author orcid="0000-0003-3145-055X" pid="c/DavidWChadwick">David W. Chadwick</author>
+<author pid="07/6235">Lei Lei Shi</author>
+<title>Expressions of expertness: the virtuous circle of natural language for access control policy specification.</title>
+<pages>77-88</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408675</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#InglesantSCS08</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BrustoloniVDK08" mdate="2018-11-06">
+<author pid="b/JoseCarlosBrustoloni">Jos&#233; Carlos Brustoloni</author>
+<author pid="64/6926">Ricardo Villamar&#237;n-Salom&#243;n</author>
+<author pid="43/385">Peter Djalaliev</author>
+<author pid="91/4029">David Kyle</author>
+<title>Evaluating the usability of usage controls in electronic collaboration.</title>
+<pages>85-92</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408676</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#BrustoloniVDK08</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Usable privacy and security in practice</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/StedmanYG08" mdate="2020-12-25">
+<author pid="45/585">Ryan Stedman</author>
+<author pid="13/1691">Kayo Yoshida</author>
+<author pid="04/6434">Ian Goldberg</author>
+<title>A user study of off-the-record messaging.</title>
+<pages>95-104</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408678</ee>
+<ee>https://www.wikidata.org/entity/Q101069884</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#StedmanYG08</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WerlingerHMJB08" mdate="2018-11-06">
+<author pid="85/2025">Rodrigo Werlinger</author>
+<author pid="58/3313">Kirstie Hawkey</author>
+<author pid="19/7013">Kasia Muldner</author>
+<author pid="69/6386">Pooya Jaferian</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>The challenges of using an intrusion detection system: is it worth the effort?</title>
+<pages>107-118</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408679</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#WerlingerHMJB08</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FalkPB08" mdate="2021-05-12">
+<author pid="23/1697">Laura Falk</author>
+<author pid="p/AtulPrakash">Atul Prakash 0001</author>
+<author pid="84/3661">Kevin Borders</author>
+<title>Analyzing websites for user-visible security design flaws.</title>
+<pages>117-126</pages>
+<year>2008</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1408664.1408680</ee>
+<crossref>conf/soups/2008</crossref>
+<url>db/conf/soups/soups2008.html#FalkPB08</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

@@ -1,0 +1,627 @@
+<bht key="db/conf/soups/soups2026.bht" title="SOUPS 2026"> 
+<h1>22nd <ref href="db/conf/soups/index.html">SOUPS</ref> 2026:
+Hannover, Germany</h1> <dblpcites><r><proceedings key="conf/soups/2026" mdate="2026-08-28">
+<editor pid="15/3631">Patrick Gage Kelley</editor>
+<editor pid="38/9378">Sascha Fahl</editor>
+<title>Twenty-Second Symposium on Usable Privacy and Security, SOUPS 2026, Hannover, Germany, August 24, 2026.</title>
+<booktitle>SOUPS</booktitle>
+<publisher>USENIX Association</publisher>
+<year>2026</year>
+<ee type="oa">https://www.usenix.org/conference/soups2026</ee>
+<url>db/conf/soups/soups2026.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Authentication &#38; Credentials</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KrauseSSOWGF26" mdate="2026-08-28">
+<author pid="40/7792-2">Alexander Krause 0002</author>
+<author pid="378/5665">Jacques Suray</author>
+<author pid="407/9887">Lea Schm&#252;ser</author>
+<author pid="133/2390">Marten Oltrogge</author>
+<author pid="186/0348">Oliver Wiese</author>
+<author pid="444/4205">Maximillian Golla</author>
+<author pid="38/9378">Sascha Fahl</author>
+<title>An Analysis of the Security, Usability, and Automation Capabilities of Password Update Processes on Top-Ranked Websites.</title>
+<pages>1-20</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/krause</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#KrauseSSOWGF26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RamatKCS26" mdate="2026-08-28">
+<author pid="444/4036">Bernhardt Ramat</author>
+<author pid="200/8571">David Kartchner</author>
+<author pid="66/1657">Michael Clark</author>
+<author pid="s/KentESeamons">Kent E. Seamons</author>
+<title>Passkeys in the Wild: A Systematic Study of FIDO2 User Experience Consistency Across Websites.</title>
+<pages>21-39</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/ramat</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#RamatKCS26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SadikRSR26" mdate="2026-08-28">
+<author pid="367/7074">John Sadik</author>
+<author pid="444/4216">Joshoua Rodriguez</author>
+<author pid="71/8363">Hector J. Santos-Villalobos</author>
+<author pid="124/2527">Scott Ruoti</author>
+<title>How Users Enter Generated Passwords on Non-Desktop Devices.</title>
+<pages>41-60</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/sadik</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#SadikRSR26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AmbatiJPPMI26" mdate="2026-08-28">
+<author pid="431/8862">Sushanth Ambati</author>
+<author pid="444/4312">Dylan Jablonski</author>
+<author pid="266/5047">Charalampos Papachristou</author>
+<author pid="444/4092">Brian Pugliese</author>
+<author pid="68/5989">Jack Myers</author>
+<author pid="73/62">Nikolay Ivanov</author>
+<title>Not All Is Lost: Partial Recovery &#38; Memorability in Self-Sovereign Digital Identity.</title>
+<pages>61-79</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/ambati</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#AmbatiJPPMI26</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Families &#38; Shared Devices</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/LieberknechtL26" mdate="2026-08-28">
+<author pid="374/5450">Ann-Kristin Lieberknecht</author>
+<author pid="291/4876">Sascha L&#246;bner</author>
+<title>SoK: The Design Space of Usable Privacy Interventions for Parents: A Systematization of Knowledge.</title>
+<pages>81-100</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/lieberknecht</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#LieberknechtL26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GuptaSKKR26" mdate="2026-08-28">
+<author pid="270/1415">Meghna Gupta</author>
+<author pid="325/3688">Sophie Stephenson</author>
+<author pid="50/6916">Apu Kapadia</author>
+<author pid="k/JAKientz">Julie A. Kientz</author>
+<author pid="23/2758">Franziska Roesner</author>
+<title>&#34;They are not my children to post&#34;: Examining Non-Parental Sharenting Practices in In-home Childcare.</title>
+<pages>101-116</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/gupta</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#GuptaSKKR26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ShanzaHHZ26" mdate="2026-08-28">
+<author pid="444/4295">S. Shanza</author>
+<author pid="420/6301">Ameemah Humayun</author>
+<author pid="04/6136">Urs Hengartner</author>
+<author pid="144/4879">Leah Zhang-Kennedy</author>
+<title>Sharing Digital Devices is Normal and Cultural: Privacy and Security Challenges in Collectivist Immigrant Households.</title>
+<pages>117-139</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/shanza</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#ShanzaHHZ26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZarkalamRSA26" mdate="2026-08-28">
+<author pid="444/4095">Darya Zarkalam</author>
+<author pid="390/3286">Anna Lena Rotthaler</author>
+<author pid="31/9612">Lucy Simko</author>
+<author pid="132/9687">Yasemin Acar</author>
+<title>From Thrift Stores to Digital Storefronts: Users' Perspectives on Privacy and Security of Online Second-Hand Shopping in Germany.</title>
+<pages>141-160</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/zarkalam</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#ZarkalamRSA26</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Privacy Notices, Permissions &#38; Labels</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/WalshPR26" mdate="2026-08-28">
+<author pid="444/4224">Sophia Walsh</author>
+<author pid="170/4677">Lukasz Piwek</author>
+<author pid="190/2066">Kopo Marvin Ramokapane</author>
+<title>How Effective are Privacy Labels at Informing Users About App Data Handling Practices?</title>
+<pages>161-179</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/walsh</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#WalshPR26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WinterhalterPMB26" mdate="2026-08-28">
+<author pid="260/6458">Verena Winterhalter</author>
+<author pid="210/8238">Sarah Prange</author>
+<author pid="444/4062">Anouk Moreno</author>
+<author pid="442/4733">Harel Israel Berger</author>
+<author pid="51/6825">Florian Alt</author>
+<title>I don't know what I've all granted. Does it really matter? - Understanding Users' Awareness of Different Permission Types on Android.</title>
+<pages>181-199</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/winterhalter</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#WinterhalterPMB26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PeddintiAMT26" mdate="2026-08-28">
+<author pid="91/8283">Sai Teja Peddinti</author>
+<author pid="198/9755">Omer Akgul</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<author pid="t/NinaTaft">Nina Taft</author>
+<title>Nudging Developers Toward Privacy: Evaluating the Impact of Personalized App Review Reports.</title>
+<pages>201-218</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/peddinti</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#PeddintiAMT26</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Security Operations &#38; Practitioners</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/NathHGTMA26" mdate="2026-08-28">
+<author pid="301/0920">Souradip Nath</author>
+<author pid="23/68">Chih-Yi Huang</author>
+<author pid="435/0735">Aditi Ganapathi</author>
+<author pid="186/8118">Kashyap Thimmaraju</author>
+<author pid="280/8210">Jaron Mink</author>
+<author pid="a/GailJoonAhn">Gail-Joon Ahn</author>
+<title>Like a Hammer, It Can Build, It Can Break: Large Language Model Uses, Perceptions, and Adoption in Cybersecurity Operations on Reddit.</title>
+<pages>219-237</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/nath</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#NathHGTMA26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WongLZBMM26" mdate="2026-08-28">
+<author pid="306/0806">Miuyin Yong Wong</author>
+<author pid="352/6278">Alan F. Luo</author>
+<author pid="323/3358">Yunze Zhao</author>
+<author pid="444/4096">Shubham Bhatnagar</author>
+<author pid="50/6700">Fabian Monrose</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<title>The Impact of Emerging AI Practices on the Cybersecurity Workforce.</title>
+<pages>239-256</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/wong</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#WongLZBMM26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BappyHMATZHI26" mdate="2026-08-28">
+<author pid="278/8405">Faisal Haque Bappy</author>
+<author pid="394/4602">Tahrim Hossain</author>
+<author pid="437/9218">Sidratul Muntaher Meheraj</author>
+<author pid="426/7133">Annoor Sharara Akhand</author>
+<author pid="377/8731">Tasfia Tabassum</author>
+<author pid="204/3669">Tarannum Shaila Zaman</author>
+<author pid="276/4353">Raiful Hasan</author>
+<author pid="72/10428-1">Tariqul Islam 0001</author>
+<title>From Preventive to Reactive: How AI Coding Assistants Transform Developers' Security Awareness.</title>
+<pages>257-274</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/bappy</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#BappyHMATZHI26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ObinnaBAB26" mdate="2026-08-28">
+<author pid="424/4947">Wisdom Obinna</author>
+<author pid="429/3700">Katharina Barlage</author>
+<author pid="51/6825">Florian Alt</author>
+<author pid="442/4733">Harel Israel Berger</author>
+<title>I See DNS People: DNS Resolver Security, Through Operator Perspectives and Practices.</title>
+<pages>275-292</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/obinna</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#ObinnaBAB26</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Phishing &#38; Social Engineering</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/WeidhaasPD26" mdate="2026-08-28">
+<author pid="295/1380">Raphael Weidhaas</author>
+<author pid="246/8959">Alexandra von Preuschen</author>
+<author pid="217/9240">Verena Distler</author>
+<title>&#34;I didn't know I would be this excited not to be scammed.&#34; Exploring Emotional and Behavioral Responses During Phishing Attacks.</title>
+<pages>293-312</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/weidhaas</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#WeidhaasPD26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DechantWTMW26" mdate="2026-08-28">
+<author pid="136/6232">Martin Dechant</author>
+<author pid="394/0190">Victoria Woo</author>
+<author pid="444/4014">Florence Tomlin</author>
+<author pid="444/4263">Bettina Moltrecht</author>
+<author pid="00/6150">Mark Warner</author>
+<title>Anxious and Aware: Examining the Effects of Social Anxiety on Social Engineering Resilience and Vulnerability.</title>
+<pages>313-332</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/dechant</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#DechantWTMW26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LiBKLMACDSS26" mdate="2026-08-28">
+<author pid="441/0765">Alexandra Xinran Li</author>
+<author pid="344/8676">Elijah Robert Bouma-Sims</author>
+<author pid="384/6195">Lily Klucinec</author>
+<author pid="71/5459">Ray Liu</author>
+<author pid="393/0796">Ayesha Binte Mostofa</author>
+<author pid="331/2639">Arjun Arunasalam</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="154/4512">Pubali Datta</author>
+<author pid="31/9612">Lucy Simko</author>
+<author pid="274/7468">Karen Sowon</author>
+<title>Quantifying Risk Perception and Scam Response Among International and Domestic US University Students.</title>
+<pages>333-355</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/li</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#LiBKLMACDSS26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/EigerBAGR26" mdate="2026-08-28">
+<author pid="347/2148">Yael Eiger</author>
+<author pid="444/4266">Candice Baughman</author>
+<author pid="444/4110">Rory Andes</author>
+<author pid="444/4297">Bryan Glant</author>
+<author pid="23/2758">Franziska Roesner</author>
+<title>Experiences with Digital Scams Post-Incarceration in the U.S.</title>
+<pages>357-378</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/eiger</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#EigerBAGR26</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>At-Risk &#38; Vulnerable Users</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/PolamarasettyTC26" mdate="2026-08-28">
+<author pid="412/6244">Akhil Polamarasetty</author>
+<author pid="187/5654">Leonie Maria Tanczer</author>
+<author pid="61/884">Enrico Costanza</author>
+<author pid="37/11153">Kevin Chetty</author>
+<title>Usability Determines Safety for At-Risk Users: Evaluating Hidden Device Detectors for Intimate Partner Surveillance.</title>
+<pages>379-403</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/polamarasetty</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#PolamarasettyTC26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RiveraLOHDR26" mdate="2026-08-28">
+<author pid="300/8222">Veronica A. Rivera</author>
+<author pid="239/4140">Tracy Li</author>
+<author pid="200/3122">Alex Ozdemir</author>
+<author pid="275/2607">Catherine Han</author>
+<author pid="143/5673">Zakir Durumeric</author>
+<author pid="141/9244">Elissa M. Redmiles</author>
+<title>Goals, Risks, and Safety Practices in Online Labor Abuse Disclosures.</title>
+<pages>405-423</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/rivera</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#RiveraLOHDR26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AkterAKRA26" mdate="2026-08-28">
+<author pid="444/4246">Sohana Akter</author>
+<author pid="443/9356">Wejdan Alsarih</author>
+<author pid="444/4238">Blessy Kalluri</author>
+<author pid="190/2066">Kopo M. Ramokapane</author>
+<author pid="131/3440">Taslima Akter</author>
+<title>&#34;I feel as though my privacy is being violated&#34;: Privacy Risks and Barriers in Instant Messaging for Blind and Low-Vision Users.</title>
+<pages>425-444</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/akter</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#AkterAKRA26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/IqbalUZ26" mdate="2026-09-08">
+<author pid="81/6979-2">Saba Iqbal 0002</author>
+<author pid="353/7094">Warda Usman</author>
+<author pid="71/2423">Daniel Zappala</author>
+<title>&#34;Don't Let Them Get To You&#34;: Understanding the Role of TikTok as a Source of Support for Cyberbullying Victims.</title>
+<pages>445-464</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/iqbal</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#IqbalUZ26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RamuluRAS26" mdate="2026-08-28">
+<author pid="327/6458">Harshini Sri Ramulu</author>
+<author pid="385/6967">Rachel Gonzalez Rodriguez</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="31/9612">Lucy Simko</author>
+<title>Reproductive Security &#38; Privacy Advice on TikTok after the Overturn of Roe.</title>
+<pages>465-485</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/ramulu</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#RamuluRAS26</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Usable Security Mechanisms &#38; Emerging Threats</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/LastSOGC26" mdate="2026-08-28">
+<author pid="374/8900">Yorick Last</author>
+<author pid="84/7985">Hanna Schraffenberger</author>
+<author pid="329/6076">Daniel Ostkamp</author>
+<author pid="374/8494">Jorrit Geels</author>
+<author pid="13/8970">Patricia Arias Cabarcos</author>
+<title>IdentitySign: Design and User Study of a Prototype Application for Digitally Signing Documents Using an Identity Wallet.</title>
+<pages>487-505</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/last</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#LastSOGC26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WangYXYGL26" mdate="2026-08-28">
+<author pid="130/1380">Xueyang Wang</author>
+<author pid="440/0717">Xihuan Yao</author>
+<author pid="392/3897">Yanming Xiu</author>
+<author pid="60/8079-1">Xin Yi 0001</author>
+<author pid="58/7552">Maria Gorlatova</author>
+<author pid="51/8276">Hewu Li</author>
+<title>Is It Real? Exploiting Virtual-Physical Discrimination Vulnerability in Mixed Reality.</title>
+<pages>507-526</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/wang</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#WangYXYGL26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GalanskaMMKJC26" mdate="2026-09-29">
+<author pid="322/4135">Katar&#237;na Galansk&#225;</author>
+<author pid="354/0571">Maria Pibilota Murumaa</author>
+<author pid="97/3759">Vashek Matyas</author>
+<author pid="276/3440">Agata Kruzikova</author>
+<author pid="03/3777">Mike Just</author>
+<author pid="17/8995">Tomas Cerny</author>
+<title>Clear, Actionable and Confidence-Inspiring Recommendations? Comparative Study of AI-Generated and Human-Written PT Reports.</title>
+<pages>527-543</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/galanska</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#GalanskaMMKJC26</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Scams, Fraud &#38; Misinformation</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KaushikBNSMWPLZ26" mdate="2026-08-28">
+<author pid="239/7928">Smirity Kaushik</author>
+<author pid="354/6105">Kyle Beadle</author>
+<author pid="339/4629">Gauri Nayak</author>
+<author pid="138/2378">Madelyn Rose Sanfilippo</author>
+<author pid="87/8324">Mainack Mondal</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<author pid="91/8283">Sai Teja Peddinti</author>
+<author pid="127/3636">Jingjie Li</author>
+<author pid="218/0356">Yixin Zou</author>
+<title>&#34;You Have Been Selected as the Winner&#34;: Characterizing User-Reported Scams on TikTok.</title>
+<pages>545-564</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/kaushik</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#KaushikBNSMWPLZ26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HakamiFC26" mdate="2026-08-28">
+<author pid="401/6377">Zaid Hakami</author>
+<author pid="241/1456">Yuzhou Feng</author>
+<author pid="20/4777">Bogdan Carbunar</author>
+<title>Source-Level Disengagement: A Usable Security Defense Against Misinformation.</title>
+<pages>565-581</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/hakami</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#HakamiFC26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/XuM26" mdate="2026-08-28">
+<author pid="414/8630">Zane Xu</author>
+<author pid="179/4686">Nathan Malkin</author>
+<title>A Penny for Your Prompts: Experiments Detecting and Mitigating LLM Usage by Survey Respondents.</title>
+<pages>583-603</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/xu</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#XuM26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AliBFGMA26" mdate="2026-08-28">
+<author pid="256/6215">Shiza Ali</author>
+<author pid="426/0844">Wellington Esposito Barbosa</author>
+<author pid="292/5433">Matthias Fassl</author>
+<author pid="435/0735">Aditi Ganapathi</author>
+<author pid="280/8210">Jaron Mink</author>
+<author pid="94/1554">Adam J. Aviv</author>
+<title>SoK: Mapping Threats to Defenses in Online Survey Fraud.</title>
+<pages>605-624</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/ali</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#AliBFGMA26</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>GenAI Privacy &#38; Risks</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/LiaoBSJUZLDJ26" mdate="2026-08-28">
+<author pid="272/6039">Qianying Liao</author>
+<author pid="415/0700">Jonah Bellemans</author>
+<author pid="166/1069">Laurens Sion</author>
+<author pid="70/8056">Xue Jiang</author>
+<author pid="281/7105">Dmitrii Usynin</author>
+<author pid="79/891">Xuebing Zhou</author>
+<author pid="20/6363">Dimitri Van Landuyt</author>
+<author pid="51/1256">Lieven Desmet</author>
+<author pid="13/86">Wouter Joosen</author>
+<title>AI've Got a Bad Feeling About This: A Privacy Threat Modeling Framework for GenAI.</title>
+<pages>625-645</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/liao</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#LiaoBSJUZLDJ26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/CaoDZNPN26" mdate="2026-08-28">
+<author pid="344/9546">Jiaxun Cao</author>
+<author pid="03/1299">Yu Dong</author>
+<author pid="435/7844">Chunxi Zhan</author>
+<author pid="435/6931">Rithvik Neti</author>
+<author pid="91/8283">Sai Teja Peddinti</author>
+<author pid="199/3074">Pardis Emami Naeini</author>
+<title>Understanding U.S. Users' Security and Privacy Transparency Needs for Consumer-Facing Generative AI.</title>
+<pages>647-664</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/cao</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#CaoDZNPN26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LoopSDC26" mdate="2026-08-28">
+<author pid="337/9859">Jennifer Vander Loop</author>
+<author pid="154/7105">Filipo Sharevski</author>
+<author pid="444/4147">Lucy Davies</author>
+<author pid="59/4305">Partha Das Chowdhury</author>
+<title>Maybe... I Don't Really Wanna Clone: Attitudes and Anticipated Harms of (Consensual) After-Death Cloning of One's Own and Voices of Entrusted Others.</title>
+<pages>665-684</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/loop</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#LoopSDC26</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Security Advice &#38; Education</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/LawoHS26" mdate="2026-08-28">
+<author pid="179/5338">Dennis Lawo</author>
+<author pid="443/8952">Jenny Hindrichs</author>
+<author pid="62/3493">Gunnar Stevens</author>
+<title>Who Can Actually Follow IT-Security Advice? Exploring the Usability of IT-Security Advice.</title>
+<pages>685-704</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/lawo</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#LawoHS26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DasSFMC26" mdate="2026-08-28">
+<author pid="386/1082">Utsho Das</author>
+<author pid="386/0505">Argha Saha</author>
+<author pid="63/7409">Md Sadek Ferdous</author>
+<author pid="407/7585">Md Masum</author>
+<author pid="163/8658">Farida Chowdhury</author>
+<title>CyQured: Design, Development, and Empirical Evaluation of a Tabletop Game for Personal Cybersecurity Education.</title>
+<pages>705-724</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/das</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#DasSFMC26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AfnanNCHLMS26" mdate="2026-08-28">
+<author pid="292/5449">Tanisha Afnan</author>
+<author pid="319/3713">Sheza Naveed</author>
+<author pid="429/3429">Griffin Christie</author>
+<author pid="353/7048">Jackie Hu</author>
+<author pid="164/6568">Byron M. Lowens</author>
+<author pid="205/2107">Allison McDonald</author>
+<author pid="08/7562">Florian Schaub</author>
+<title>Nice to Know You're Not Alone: Co-designing Community-centered Online Safety and Privacy Education with Librarians.</title>
+<pages>725-740</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/afnan</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#AfnanNCHLMS26</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ShumwayCP26" mdate="2026-08-28">
+<author pid="444/4217">Philip Shumway</author>
+<author pid="248/1659">Yi Ting Chua 0001</author>
+<author pid="84/3561">Simon Parkin</author>
+<title>Security versus Productivity: A Case Study of Email Management Practices with Job Task Analysis.</title>
+<pages>741-758</pages>
+<year>2026</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2026/presentation/shumway</ee>
+<crossref>conf/soups/2026</crossref>
+<url>db/conf/soups/soups2026.html#ShumwayCP26</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+</bht>
+

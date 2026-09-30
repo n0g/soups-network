@@ -1,0 +1,568 @@
+<bht key="db/conf/soups/soups2021.bht" title="SOUPS @ USENIX Security Symposium 2021"> 
+<h1>17th <ref href="db/conf/soups/index.html">SOUPS</ref> @ <ref href="db/conf/uss/index.html">USENIX Security Symposium</ref> 2021</h1> <dblpcites><r><proceedings key="conf/soups/2021" mdate="2021-09-15">
+<editor pid="26/2669">Sonia Chiasson</editor>
+<title>Seventeenth Symposium on Usable Privacy and Security, SOUPS 2021, August 8-10, 2021.</title>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<publisher>USENIX Association</publisher>
+<year>2021</year>
+<ee type="oa">https://www.usenix.org/conference/soups2021</ee>
+<url>db/conf/soups/soups2021.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ChoKHKLK21" mdate="2022-03-09">
+<author pid="161/3315">Geumhwan Cho</author>
+<author pid="198/6824">Sungsu Kwag</author>
+<author pid="58/3207">Jun Ho Huh</author>
+<author pid="267/5622">Bedeuro Kim</author>
+<author pid="61/3746">Choong-Hoon Lee</author>
+<author pid="64/5383">Hyoungshick Kim</author>
+<title>Towards Usable and Secure Location-based Smartphone Authentication.</title>
+<pages>1-16</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/cho</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#ChoKHKLK21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GerlitzH021" mdate="2022-03-09">
+<author pid="239/8234">Eva Gerlitz</author>
+<author pid="252/3848">Maximilian H&#228;ring</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<title>Please do not use !?_ or your License Plate Number: Analyzing Password Policies in German Companies.</title>
+<pages>17-36</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/gerlitz</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#GerlitzH021</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MunyendoGMFA21" mdate="2022-03-09">
+<author pid="293/9864">Collins W. Munyendo</author>
+<author pid="301/5815">Miles Grant</author>
+<author pid="260/6737">Philipp Markert</author>
+<author pid="264/7606">Timothy J. Forman</author>
+<author pid="94/1554">Adam J. Aviv</author>
+<title>Using a Blocklist to Improve the Security of User Selection of Android Patterns.</title>
+<pages>37-56</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/munyendo</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#MunyendoGMFA21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/OwensAKU21" mdate="2022-03-09">
+<author pid="292/5885">Kentrell Owens</author>
+<author pid="192/6996">Olabode Anise</author>
+<author pid="301/5872">Amanda Krauss</author>
+<author pid="66/9786">Blase Ur</author>
+<title>User Perceptions of the Usability and Security of Smartphones as FIDO2 Roaming Authenticators.</title>
+<pages>57-76</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/owens</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#OwensAKU21</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>User Attitudes and (Mis)understandings</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/HaringGT0WFA21" mdate="2022-03-09">
+<author pid="252/3848">Maximilian H&#228;ring</author>
+<author pid="239/8234">Eva Gerlitz</author>
+<author pid="205/3181">Christian Tiefenau</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<author pid="203/1800">Dominik Wermke</author>
+<author pid="38/9378">Sascha Fahl</author>
+<author pid="132/9687">Yasemin Acar</author>
+<title>Never ever or no matter what: Investigating Adoption Intentions and Misconceptions about the Corona-Warn-App in Germany.</title>
+<pages>77-98</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/acar</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#HaringGT0WFA21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KariryaaSSS21" mdate="2022-03-09">
+<author pid="217/9653">Ankit Kariryaa</author>
+<author pid="220/3568">Gian-Luca Savino</author>
+<author pid="251/1081">Carolin Stellmacher</author>
+<author pid="64/5708">Johannes Sch&#246;ning</author>
+<title>Understanding Users' Knowledge about the Privacy and Security of Browser Extensions.</title>
+<pages>99-118</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/kariryaa</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#KariryaaSSS21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BaigKHMC21" mdate="2022-03-09">
+<author pid="217/2755">Khadija Baig</author>
+<author pid="301/5912">Elisa Kazan</author>
+<author pid="205/3733">Kalpana Hundlani</author>
+<author pid="136/8498">Sana Maqsood</author>
+<author pid="26/2669">Sonia Chiasson</author>
+<title>Replication: Effects of Media on the Mental Models of Technical Users.</title>
+<pages>119-138</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/baig</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#BaigKHMC21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AbrokwaDAM21" mdate="2022-03-09">
+<author pid="264/7318">Desiree Abrokwa</author>
+<author pid="301/5878">Shruti Das</author>
+<author pid="198/9755">Omer Akgul</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<title>Comparing Security and Privacy Attitudes Among U.S. Users of Different Smartphone and Smart-Speaker Platforms.</title>
+<pages>139-158</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/abrokwa</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#AbrokwaDAM21</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Perspectives and Policy</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KaushikYD021" mdate="2022-03-09">
+<author pid="239/7928">Smirity Kaushik</author>
+<author pid="142/7931">Yaxing Yao</author>
+<author pid="239/8438">Pierre Dewitte</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>&#34;How I Know For Sure&#34;: People's Perspectives on Solely Automated Decision-Making (SADM).</title>
+<pages>159-180</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/kaushik</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#KaushikYD021</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KollnigDK0OWS21" mdate="2022-03-09">
+<author pid="207/7892">Konrad Kollnig</author>
+<author pid="239/8438">Pierre Dewitte</author>
+<author pid="59/1825">Max Van Kleek</author>
+<author pid="34/5591-4">Ge Wang 0004</author>
+<author pid="230/3471">Daniel Omeiza</author>
+<author pid="176/2531">Helena Webb</author>
+<author pid="s/NigelShadbolt">Nigel Shadbolt</author>
+<title>A Fait Accompli? An Empirical Study into the Absence of Consent to Third-Party Tracking in Android Apps.</title>
+<pages>181-196</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/kollnig</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#KollnigDK0OWS21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Zhang-KennedyC21" mdate="2022-03-09">
+<author pid="144/4879">Leah Zhang-Kennedy</author>
+<author pid="26/2669">Sonia Chiasson</author>
+<title>&#34;Whether it's moral is a whole other story&#34;: Consumer perspectives on privacy regulations and corporate data practices.</title>
+<pages>197-216</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/zhang-kennedy</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#Zhang-KennedyC21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/VeysSSHRMU21" mdate="2022-03-09">
+<author pid="264/7270">Sophie Veys</author>
+<author pid="80/3767">Daniel Serrano</author>
+<author pid="272/7201">Madison Stamos</author>
+<author pid="272/7236">Margot Herman</author>
+<author pid="238/8867">Nathan Reitinger</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<author pid="66/9786">Blase Ur</author>
+<title>Pursuing Usable and Useful Data Downloads Under GDPR/CCPA Access Rights via Co-Design.</title>
+<pages>217-242</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/veys</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#VeysSSHRMU21</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Inclusive Privacy and Security</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ZhangFS21" mdate="2022-03-09">
+<author pid="83/3715">Shikun Zhang</author>
+<author pid="172/9363">Yuanyuan Feng</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<title>Facial Recognition: Understanding Privacy Concerns and Attitudes Across Increasingly Diverse Deployment Scenarios.</title>
+<pages>243-262</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/zhang-shikun</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#ZhangFS21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NapoliBMC21" mdate="2022-03-09">
+<author pid="218/0043">Daniela Napoli</author>
+<author pid="217/2755">Khadija Baig</author>
+<author pid="136/8498">Sana Maqsood</author>
+<author pid="26/2669">Sonia Chiasson</author>
+<title>&#34;I'm Literally Just Hoping This Will Work: &#34; Obstacles Blocking the Online Security and Privacy of Users with Visual Disabilities.</title>
+<pages>263-280</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/napoli</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#NapoliBMC21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZhangZYBD021" mdate="2022-03-09">
+<author pid="227/5163">Zhuohao Zhang</author>
+<author pid="95/1820">Zhilin Zhang</author>
+<author pid="238/9094">Haolin Yuan</author>
+<author pid="162/9876">Nat&#227; M. Barbosa</author>
+<author pid="83/8570">Sauvik Das</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>WebAlly: Making Visual Task-based CAPTCHAs Transferable for People with Visual Impairments.</title>
+<pages>281-298</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/zhang-zhuohao</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#ZhangZYBD021</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/0006KCMBDTB21" mdate="2022-03-09">
+<author pid="66/3984-6">Deepak Kumar 0006</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="61/1413">Sunny Consolvo</author>
+<author pid="34/3008">Joshua Mason</author>
+<author pid="20/7004">Elie Bursztein</author>
+<author pid="143/5673">Zakir Durumeric</author>
+<author pid="68/8283">Kurt Thomas</author>
+<author pid="20/2967">Michael Bailey</author>
+<title>Designing Toxic Content Classification for a Diversity of Perspectives.</title>
+<pages>299-318</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/kumar</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#0006KCMBDTB21</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Phishing and Account Compromise</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/HasegawaYAM21" mdate="2022-03-09">
+<author pid="249/1158">Ayako Akiyama Hasegawa</author>
+<author pid="74/2482">Naomi Yamashita</author>
+<author pid="26/3158">Mitsuaki Akiyama</author>
+<author pid="62/6630">Tatsuya Mori</author>
+<title>Why They Ignore English Emails: The Challenges of Non-Native Speakers in Identifying Phishing Emails.</title>
+<pages>319-338</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/hasegawa</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#HasegawaYAM21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FranzZAH0B021" mdate="2022-03-09">
+<author pid="269/4022">Anjuli Franz</author>
+<author pid="198/5724">Verena Zimmermann</author>
+<author pid="294/7739">Gregor Albrecht</author>
+<author pid="247/3542">Katrin Hartwig</author>
+<author pid="79/3736">Christian Reuter 0001</author>
+<author pid="22/6015">Alexander Benlian</author>
+<author pid="146/6018-2">Joachim Vogt 0002</author>
+<title>SoK: Still Plenty of Phish in the Sea - A Taxonomy of User-Oriented Phishing Interventions and Avenues for Future Research.</title>
+<pages>339-358</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/franz</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#FranzZAH0B021</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NeilBLAR21" mdate="2022-03-09">
+<author pid="225/5243">Lorenzo Neil</author>
+<author pid="272/7036">Elijah Bouma-Sims</author>
+<author pid="292/9990">Evan Lafontaine</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="117/3983">Bradley Reaves</author>
+<title>Investigating Web Service Account Remediation Advice.</title>
+<pages>359-376</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/neil</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#NeilBLAR21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WashNR21" mdate="2022-03-09">
+<author pid="20/5611">Rick Wash</author>
+<author pid="202/2833">Norbert Nthala</author>
+<author pid="83/396">Emilee Rader</author>
+<title>Knowledge and Capabilities that Non-Expert Users Bring to Phishing Detection.</title>
+<pages>377-396</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/wash</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#WashNR21</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Security in Practice</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/DanilovaNR021" mdate="2022-03-09">
+<author pid="201/9268">Anastasia Danilova</author>
+<author pid="201/9227">Alena Naiakshina</author>
+<author pid="301/5810">Anna Rasgauski</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<title>Code Reviewing as Methodology for Online Security Studies with Developers - A Case Study with Freelancers on Password Storage.</title>
+<pages>397-416</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/danilova</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#DanilovaNR021</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BaileyMA21" mdate="2022-03-09">
+<author pid="70/4808">Daniel V. Bailey</author>
+<author pid="260/6737">Philipp Markert</author>
+<author pid="94/1554">Adam J. Aviv</author>
+<title>&#34;I have no idea what they're trying to accomplish: &#34; Enthusiastic and Casual Signal Users' Understanding of Signal PINs.</title>
+<pages>417-436</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/bailey</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#BaileyMA21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/StranskyWSHAFWU21" mdate="2022-03-09">
+<author pid="184/6096">Christian Stransky</author>
+<author pid="203/1800">Dominik Wermke</author>
+<author pid="301/5913">Johanna Schrader</author>
+<author pid="213/7298">Nicolas Huaman</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="228/0843">Anna Lena Fehlhaber</author>
+<author pid="217/4562">Miranda Wei</author>
+<author pid="66/9786">Blase Ur</author>
+<author pid="38/9378">Sascha Fahl</author>
+<title>On the Limited Impact of Visualizing Encryption: Perceptions of E2E Messaging Security.</title>
+<pages>437-454</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/stransky</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#StranskyWSHAFWU21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/CeciKH021" mdate="2022-03-09">
+<author pid="273/4321">Jason Ceci</author>
+<author pid="83/7562">Hassan Khan</author>
+<author pid="04/6136">Urs Hengartner</author>
+<author pid="59/838">Daniel Vogel 0001</author>
+<title>Concerned but Ineffective: User Perceptions, Methods, and Challenges when Sanitizing Old Devices for Disposal.</title>
+<pages>455-474</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/ceci</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#CeciKH021</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Ubiquitous Computing</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/PonticelloFK21" mdate="2022-03-09">
+<author pid="301/5910">Alexander Ponticello</author>
+<author pid="292/5433">Matthias Fassl</author>
+<author pid="128/4803">Katharina Krombholz</author>
+<title>Exploring Authentication for Security-Sensitive Tasks on Smart Home Voice Assistants.</title>
+<pages>475-492</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/ponticello</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#PonticelloFK21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BouwmeesterRGEP21" mdate="2022-03-09">
+<author pid="301/5817">Brennen Bouwmeester</author>
+<author pid="301/5899">Elsa Rodr&#237;guez</author>
+<author pid="22/7256">Carlos Ga&#241;&#225;n</author>
+<author pid="17/7444">Michel van Eeten</author>
+<author pid="84/3561">Simon Parkin</author>
+<title>&#34;The Thing Doesn't Have a Name&#34;: Learning from Emergent Real-World Interventions in Smart Home Security.</title>
+<pages>493-512</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/bouwmeester</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#BouwmeesterRGEP21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HarborthF21" mdate="2022-03-09">
+<author pid="200/1851">David Harborth</author>
+<author pid="239/8147">Alisa Frik</author>
+<title>Evaluating and Redefining Smartphone Permissions with Contextualized Justifications for Mobile Augmented Reality Apps.</title>
+<pages>513-534</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/harborth</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#HarborthF21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ChandrasekaranB21" mdate="2022-03-09">
+<author pid="179/2245">Varun Chandrasekaran</author>
+<author pid="p/SumanBanerjee">Suman Banerjee</author>
+<author pid="13/1545">Bilge Mutlu</author>
+<author orcid="0000-0002-4609-7691" pid="97/535">Kassem Fawaz</author>
+<title>PowerCut and Obfuscator: An Exploration of the Design Space for Privacy-Preserving Interventions for Smart Speakers.</title>
+<pages>535-552</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/chandrasekaran</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#ChandrasekaranB21</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Developers</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/PlogerM021" mdate="2022-03-09">
+<author pid="301/5864">Stephan Pl&#246;ger</author>
+<author pid="301/5890">Mischa Meier</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<title>A Qualitative Usability Evaluation of the Clang Static Analyzer and libFuzzer with CS Students and CTF Players.</title>
+<pages>553-572</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/ploger</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#PlogerM021</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TahaeiFV21" mdate="2022-03-09">
+<author pid="244/5115">Mohammad Tahaei</author>
+<author pid="239/8147">Alisa Frik</author>
+<author pid="68/581">Kami Vaniea</author>
+<title>Deciding on Personalized Ads: Nudging Developers About User Privacy.</title>
+<pages>573-596</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/tahaei</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#TahaeiFV21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FultonCV0M21" mdate="2022-03-09">
+<author pid="244/2188">Kelsey R. Fulton</author>
+<author pid="278/0888">Anna Chan</author>
+<author pid="61/11094">Daniel Votipka</author>
+<author pid="h/MichaelWHicks">Michael Hicks 0001</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<title>Benefits and Drawbacks of Adopting a Secure Programming Language: Rust as a Case Study.</title>
+<pages>597-616</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/fulton</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#FultonCV0M21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TuladharLLO21" mdate="2022-03-09">
+<author pid="232/8937">Anwesh Tuladhar</author>
+<author pid="191/1747">Daniel Lende</author>
+<author pid="l/JayLigatti">Jay Ligatti</author>
+<author pid="41/4686">Xinming Ou</author>
+<title>An Analysis of the Role of Situated Learning in Starting a Security Culture in a Software Company.</title>
+<pages>617-632</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/tuladhar</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#TuladharLLO21</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Work (and Learn) from Home</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/BalashKSFSA21" mdate="2022-03-09">
+<author pid="294/0161">David G. Balash</author>
+<author pid="126/3685">Dongkun Kim</author>
+<author pid="294/8282">Darikia Shaibekova</author>
+<author pid="281/6925">Rahel A. Fainchtein</author>
+<author pid="57/3752">Micah Sherr</author>
+<author pid="94/1554">Adam J. Aviv</author>
+<title>Examining the Examiners: Students' Privacy and Security Perceptions of Online Proctoring Services.</title>
+<pages>633-652</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/balash</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#BalashKSFSA21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/CohneyTKNKSS21" mdate="2022-03-09">
+<author pid="170/3520">Shaanan Cohney</author>
+<author pid="259/7385">Ross Teixeira</author>
+<author pid="207/6581">Anne Kohlbrenner</author>
+<author pid="08/3080">Arvind Narayanan</author>
+<author pid="272/6448">Mihir Kshirsagar</author>
+<author pid="72/8176">Yan Shvartzshnaider</author>
+<author pid="138/2378">Madelyn Sanfilippo</author>
+<title>Virtual Classrooms and Real Harms: Remote Learning at U.S. Universities.</title>
+<pages>653-674</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/cohney</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#CohneyTKNKSS21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Obada-ObiehHB21" mdate="2022-03-09">
+<author pid="215/6395">Borke Obada-Obieh</author>
+<author pid="48/2209">Yue Huang</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>Challenges and Threats of Mass Telecommuting: A Qualitative Study of Workers.</title>
+<pages>675-694</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/obada-obieh</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#Obada-ObiehHB21</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NaeiniFKR21" mdate="2022-03-09">
+<author pid="199/3074">Pardis Emami Naeini</author>
+<author pid="281/7532">Tiona Francisco</author>
+<author pid="k/TadayoshiKohno">Tadayoshi Kohno</author>
+<author pid="23/2758">Franziska Roesner</author>
+<title>Understanding Privacy Attitudes and Concerns Towards Remote Communications During the COVID-19 Pandemic.</title>
+<pages>695-714</pages>
+<year>2021</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2021/presentation/emami-naeini</ee>
+<crossref>conf/soups/2021</crossref>
+<url>db/conf/soups/soups2021.html#NaeiniFKR21</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

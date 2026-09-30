@@ -1,0 +1,236 @@
+<bht key="db/conf/soups/soups2012.bht" title="Symposium On Usable Privacy and Security 2012">  
+<h1><ref href="db/conf/soups/index.html">SOUPS</ref> 2012:
+Washington, DC, USA</h1> <dblpcites><r><proceedings key="conf/soups/2012" mdate="2012-09-24">
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<title>Symposium On Usable Privacy and Security, SOUPS '12, Washington, DC, USA - July 11 - 13, 2012</title>
+<publisher>ACM</publisher>
+<booktitle>SOUPS</booktitle>
+<year>2012</year>
+<isbn>978-1-4503-1532-6</isbn>
+<ee>http://dl.acm.org/citation.cfm?id=2335356</ee>
+<url>db/conf/soups/soups2012.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Mobile privacy and security</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ChinFSW12" mdate="2018-11-06">
+<author pid="48/7560">Erika Chin</author>
+<author pid="52/8024">Adrienne Porter Felt</author>
+<author pid="45/4044">Vyas Sekar</author>
+<author pid="42/5626">David A. Wagner 0001</author>
+<title>Measuring user confidence in smartphone security and privacy.</title>
+<pages>1</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335358</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#ChinFSW12</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HayashiRSBS12" mdate="2018-11-14">
+<author pid="15/4384">Eiji Hayashi</author>
+<author pid="53/3712">Oriana Riva</author>
+<author pid="60/4729">Karin Strauss</author>
+<author pid="b/AJBBrush">A. J. Bernheim Brush</author>
+<author pid="s/SESchechter">Stuart E. Schechter</author>
+<title>Goldilocks and the <i>two</i> mobile devices: going beyond all-or-nothing access to a device's applications.</title>
+<pages>2</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335359</ee>
+<ee>https://www.wikidata.org/entity/Q56850747</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#HayashiRSBS12</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FeltHEHCW12" mdate="2018-11-06">
+<author pid="52/8024">Adrienne Porter Felt</author>
+<author pid="119/0446">Elizabeth Ha</author>
+<author pid="07/1108">Serge Egelman</author>
+<author pid="119/0449">Ariel Haney</author>
+<author pid="48/7560">Erika Chin</author>
+<author pid="42/5626">David A. Wagner 0001</author>
+<title>Android permissions: user attention, comprehension, and behavior.</title>
+<pages>3</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335360</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#FeltHEHCW12</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>User perceptions</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/UrLCS012" mdate="2018-11-14">
+<author pid="66/9786">Blase Ur</author>
+<author pid="30/8322">Pedro Giovanni Leon</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="18/1031">Richard Shay</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>Smart, useful, scary, creepy: perceptions of online behavioral advertising.</title>
+<pages>4</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335362</ee>
+<ee>https://www.wikidata.org/entity/Q57888178</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#UrLCS012</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PatilNKL12" mdate="2018-11-06">
+<author pid="57/702">Sameer Patil</author>
+<author pid="80/11454">Gregory Norcie</author>
+<author pid="50/6916">Apu Kapadia</author>
+<author pid="62/1373">Adam J. Lee</author>
+<title>Reasons, rewards, regrets: privacy considerations in location sharing as an interactive practice.</title>
+<pages>5</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335363</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#PatilNKL12</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RaderWB12" mdate="2021-10-14">
+<author orcid="0000-0003-2459-2744" pid="83/396">Emilee J. Rader</author>
+<author orcid="0000-0003-4266-975X" pid="20/5611">Rick Wash</author>
+<author pid="119/0392">Brandon Brooks</author>
+<title>Stories as informal lessons about security.</title>
+<pages>6</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335364</ee>
+<ee>https://www.wikidata.org/entity/Q101069847</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#RaderWB12</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ShayKKMUVBCC12" mdate="2018-11-14">
+<author pid="18/1031">Richard Shay</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="05/6177">Saranga Komanduri</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<author pid="66/9786">Blase Ur</author>
+<author pid="34/7905">Timothy Vidas</author>
+<author orcid="0000-0002-8209-6792" pid="32/3440">Lujo Bauer</author>
+<author pid="c/NicolasChristin">Nicolas Christin</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<title>Correct horse battery staple: exploring the usability of system-assigned passphrases.</title>
+<pages>7</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335366</ee>
+<ee>https://www.wikidata.org/entity/Q56486002</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#ShayKKMUVBCC12</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WrightPB12" mdate="2018-11-06">
+<author pid="117/5995">Nicholas Wright</author>
+<author pid="35/4938">Andrew S. Patrick</author>
+<author pid="50/4201">Robert Biddle</author>
+<title>Do you see your password?: applying recognition to textual passwords.</title>
+<pages>8</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335367</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#WrightPB12</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Online social networks</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/JohnsonEB12" mdate="2018-11-06">
+<author pid="55/4587">Maritza L. Johnson</author>
+<author pid="07/1108">Serge Egelman</author>
+<author pid="00/1396">Steven M. Bellovin</author>
+<title>Facebook and privacy: it's complicated.</title>
+<pages>9</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335369</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#JohnsonEB12</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/StaddonHBS12" mdate="2018-11-06">
+<author pid="37/4879">Jessica Staddon</author>
+<author pid="80/8832">David A. Huffaker</author>
+<author pid="119/0441">Larkin Brown</author>
+<author pid="119/0389">Aaron Sedley</author>
+<title>Are privacy concerns a turn-off?: engagement and privacy in social networks.</title>
+<pages>10</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335370</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#StaddonHBS12</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FahlHMSS12" mdate="2018-11-06">
+<author pid="38/9378">Sascha Fahl</author>
+<author orcid="0000-0001-8677-811X" pid="49/7449">Marian Harbach</author>
+<author pid="73/11206">Thomas Muders</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<author pid="119/0410">Uwe Sander</author>
+<title>Helping Johnny 2.0 to encrypt his Facebook conversations.</title>
+<pages>11</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335371</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#FahlHMSS12</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Access control</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/WatsonBL12" mdate="2018-11-06">
+<author pid="18/3249">Jason Watson</author>
+<author pid="19/4640">Andrew Besmer</author>
+<author pid="r/HeatherRichter">Heather Richter Lipford</author>
+<title>+Your circles: sharing behavior on Google+.</title>
+<pages>12</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335373</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#WatsonBL12</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MazziaLA12" mdate="2018-11-06">
+<author pid="119/0429">Alessandra Mazzia</author>
+<author pid="95/5211">Kristen LeFevre</author>
+<author pid="a/EytanAdar">Eytan Adar</author>
+<title>The PViz comprehension tool for social network privacy settings.</title>
+<pages>13</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335374</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#MazziaLA12</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KrishnanTCB12" mdate="2018-11-06">
+<author pid="119/0450">Vivek Krishnan</author>
+<author pid="32/4329">Mahesh V. Tripunitara</author>
+<author pid="119/0422">Kinson Chik</author>
+<author pid="27/3263">Tony Bergstrom</author>
+<title>Relating declarative semantics and usability in access control.</title>
+<pages>14</pages>
+<year>2012</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2335356.2335375</ee>
+<crossref>conf/soups/2012</crossref>
+<url>db/conf/soups/soups2012.html#KrishnanTCB12</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

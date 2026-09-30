@@ -1,0 +1,413 @@
+<bht key="db/conf/soups/soups2020.bht" title="SOUPS @ USENIX Security Symposium 2020"> 
+<h1>16th <ref href="db/conf/soups/index.html">SOUPS</ref> @ <ref href="db/conf/uss/index.html">USENIX Security Symposium</ref> 2020</h1> <dblpcites><r><proceedings key="conf/soups/2020" mdate="2021-02-01">
+<editor pid="r/HeatherRichter">Heather Richter Lipford</editor>
+<editor pid="26/2669">Sonia Chiasson</editor>
+<title>Sixteenth Symposium on Usable Privacy and Security, SOUPS 2020, August 7-11, 2020.</title>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<publisher>USENIX Association</publisher>
+<year>2020</year>
+<ee type="oa">https://www.usenix.org/conference/soups2020</ee>
+<url>db/conf/soups/soups2020.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/JayakrishnanSVB20" mdate="2021-02-01">
+<author pid="273/6940">Gokul Chettoor Jayakrishnan</author>
+<author pid="252/4111">Gangadhara Reddy Sirigireddy</author>
+<author pid="228/5917">Sukanya Vaddepalli</author>
+<author pid="130/3627">Vijayanand Banahatti</author>
+<author pid="14/6843">Sachin Lodha</author>
+<author pid="228/5864">Sankalp Pandit</author>
+<title>Passworld: A Serious Game to Promote Password Awareness and Diversity in an Enterprise.</title>
+<pages>1-18</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/jayakrishnan</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#JayakrishnanSVB20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FarkeLSMD20" mdate="2021-02-01">
+<author pid="250/6496">Florian Farke</author>
+<author pid="273/6835">Lennart Lorenz</author>
+<author pid="243/0418">Theodor Schnitzler</author>
+<author pid="260/6737">Philipp Markert</author>
+<author pid="36/3665">Markus D&#252;rmuth</author>
+<title>&#34;You still use the password after all&#34; - Exploring FIDO2 Security Keys in a Small Company.</title>
+<pages>19-35</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/farke</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#FarkeLSMD20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SamuelMAN20" mdate="2021-02-01">
+<author pid="222/5870">Raina Samuel</author>
+<author pid="260/6737">Philipp Markert</author>
+<author pid="94/1554">Adam J. Aviv</author>
+<author pid="46/2869">Iulian Neamtiu</author>
+<title>Knock, Knock. Who's There? On the Security of LG's Knock Codes.</title>
+<pages>37-59</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/samuel</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#SamuelMAN20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LeeKMN20" mdate="2021-08-13">
+<author pid="44/765">Kevin Lee</author>
+<author pid="162/0178">Benjamin Kaiser</author>
+<author pid="116/8542">Jonathan R. Mayer</author>
+<author pid="08/3080">Arvind Narayanan</author>
+<title>An Empirical Study of Wireless Carrier Authentication for SIM Swaps.</title>
+<pages>61-79</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/lee</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#LeeKMN20</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Appreciating User Needs and Concerns</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/DevMC20" mdate="2021-02-01">
+<author pid="217/7357">Jayati Dev</author>
+<author pid="80/10358">Pablo Moriano</author>
+<author pid="72/4476">L. Jean Camp</author>
+<title>Lessons Learnt from Comparing WhatsApp Privacy Concerns Across Saudi and Indian Populations.</title>
+<pages>81-97</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/dev</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#DevMC20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/McDonaldLBMMM20" mdate="2021-02-01">
+<author pid="128/9352">Nora McDonald</author>
+<author pid="273/7103">Alison Larsen</author>
+<author pid="273/6878">Allison Battisti</author>
+<author pid="179/5134">Galina Madjaroff</author>
+<author pid="30/6548">Aaron K. Massey</author>
+<author pid="226/9711">Helena M. Mentis</author>
+<title>Realizing Choice: Online Safeguards for Couples Adapting to Cognitive Challenges.</title>
+<pages>99-110</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/mcdonald</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#McDonaldLBMMM20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FanelleKSSD20" mdate="2021-02-01">
+<author pid="273/7089">Valerie Fanelle</author>
+<author pid="123/4245">Sepideh Karimi</author>
+<author pid="259/9561">Aditi Shah</author>
+<author pid="273/6877">Bharath Subramanian</author>
+<author pid="83/8570">Sauvik Das</author>
+<title>Blind and Human: Exploring More Usable Audio CAPTCHA Designs.</title>
+<pages>111-125</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/fanelle</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#FanelleKSSD20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GeengHR20" mdate="2021-09-05">
+<author pid="239/7899">Christine Geeng</author>
+<author pid="199/3168">Jevan A. Hutson</author>
+<author pid="23/2758">Franziska Roesner</author>
+<title>Usable Sexurity: Studying People's Concerns and Strategies When Sexting.</title>
+<pages>127-144</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/geeng</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#GeengHR20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Obada-ObiehSB20" mdate="2021-02-01">
+<author pid="215/6395">Borke Obada-Obieh</author>
+<author pid="273/6989">Lucrezia Spagnolo</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>Towards Understanding Privacy and Trust in Online Reporting of Sexual Assault.</title>
+<pages>145-164</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/obada-obieh</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#Obada-ObiehSB20</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Implementing Security and Privacy:
+Design and Development</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/DanilovaND020" mdate="2021-02-01">
+<author pid="201/9268">Anastasia Danilova</author>
+<author pid="201/9227">Alena Naiakshina</author>
+<author pid="273/6979">Johanna Deuter</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<title>Replication: On the Ecological Validity of Online Security Developer Studies: Exploring Deception in a Password-Storage Study with Freelancers.</title>
+<pages>165-183</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/danilova</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#DanilovaND020</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ChalhoubFNA20" mdate="2021-02-01">
+<author pid="264/7986">George Chalhoub</author>
+<author pid="57/3469">Ivan Flechais</author>
+<author pid="202/2833">Norbert Nthala</author>
+<author pid="163/8698">Ruba Abu-Salma</author>
+<title>Innovation Inaction or In Action? The Role of User Experience in the Security and Privacy Design of Smart Home Cameras.</title>
+<pages>185-204</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/chalhoub</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#ChalhoubFNA20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PalomboTLLO20" mdate="2021-02-01">
+<author pid="207/6567">Hernan M. Palombo</author>
+<author pid="260/0310">Armin Ziaie Tabari</author>
+<author pid="191/1747">Daniel Lende</author>
+<author pid="l/JayLigatti">Jay Ligatti</author>
+<author pid="41/4686">Xinming Ou</author>
+<title>An Ethnographic Understanding of Software (In)Security and a Co-Creation Model to Improve Secure Software Development.</title>
+<pages>205-220</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/palombo</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#PalomboTLLO20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/0001DM20" mdate="2021-02-01">
+<author pid="75/2200">Justin Smith 0001</author>
+<author pid="183/1600">Lisa Nguyen Quang Do</author>
+<author pid="02/3722">Emerson R. Murphy-Hill</author>
+<title>Why Can't Johnny Fix Vulnerabilities: A Usability Evaluation of Static Analysis Tools for Security.</title>
+<pages>221-238</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/smith</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#0001DM20</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Implementing Security and Privacy:
+Operation, Administration, Vulnerability Analysis</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/TiefenauHKZ20" mdate="2021-02-01">
+<author pid="205/3181">Christian Tiefenau</author>
+<author pid="252/3848">Maximilian H&#228;ring</author>
+<author pid="128/4803">Katharina Krombholz</author>
+<author pid="44/3837">Emanuel von Zezschwitz</author>
+<title>Security, Availability, and Multiple Information Sources: Exploring Update Behavior of System Administrators.</title>
+<pages>239-258</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/tiefenau</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#TiefenauHKZ20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ReinheimerAMMDL20" mdate="2021-02-01">
+<author pid="162/1789">Benjamin Reinheimer</author>
+<author pid="271/9085">Lukas Aldag</author>
+<author pid="36/111">Peter Mayer</author>
+<author pid="273/7009">Mattia Mossano</author>
+<author pid="271/0791">Reyhan Duezguen</author>
+<author pid="273/7140">Bettina Lofthouse</author>
+<author pid="55/7988">Tatiana von Landesberger</author>
+<author pid="v/MelanieVolkamer">Melanie Volkamer</author>
+<title>An investigation of phishing awareness and education over time: When and how to best remind users.</title>
+<pages>259-284</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/reinheimer</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#ReinheimerAMMDL20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/0001WARP20" mdate="2021-02-01">
+<author pid="78/3405-3">Steffen Becker 0003</author>
+<author pid="233/8142">Carina Wiesen</author>
+<author pid="228/7702">Nils Albartus</author>
+<author pid="81/6981">Nikol Rummel</author>
+<author pid="p/ChristofPaar">Christof Paar</author>
+<title>An Exploratory Study of Hardware Reverse Engineering - Technical and Cognitive Processes.</title>
+<pages>285-300</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/becker</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#0001WARP20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MichalecLMR20" mdate="2021-02-01">
+<author pid="273/7129">Ola Aleksandra Michalec</author>
+<author pid="116/4950">Dirk van der Linden</author>
+<author pid="273/7093">Sveta Milyaeva</author>
+<author pid="26/3330">Awais Rashid</author>
+<title>Industry Responses to the European Directive on Security of Network and Information Systems (NIS): Understanding policy implementation practices across critical infrastructures.</title>
+<pages>301-317</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/michalec</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#MichalecLMR20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AlomarWQE20" mdate="2021-02-01">
+<author pid="151/6443">Noura Alomar</author>
+<author pid="162/0214">Primal Wijesekera</author>
+<author pid="273/6862">Edward Qiu</author>
+<author pid="07/1108">Serge Egelman</author>
+<title>&#34;You've Got Your Nice List of Bugs, Now What?&#34; Vulnerability Discovery and Management Processes in the Wild.</title>
+<pages>319-339</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/alomar</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#AlomarWQE20</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Applications and User Perceptions</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/MaiPGWK20" mdate="2021-02-01">
+<author pid="159/0752">Alexandra Mai</author>
+<author pid="166/1105">Katharina Pfeffer</author>
+<author pid="180/3909">Matthias Gusenbauer</author>
+<author pid="w/EdgarRWeippl">Edgar R. Weippl</author>
+<author pid="128/4803">Katharina Krombholz</author>
+<title>User Mental Models of Cryptocurrency Systems - A Grounded Theory Approach.</title>
+<pages>341-358</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/mai</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#MaiPGWK20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WermkeHSBAF20" mdate="2021-02-01">
+<author pid="203/1800">Dominik Wermke</author>
+<author pid="213/7298">Nicolas Huaman</author>
+<author pid="184/6096">Christian Stransky</author>
+<author pid="273/7091">Niklas Busch</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="38/9378">Sascha Fahl</author>
+<title>Cloudy with a Chance of Misconceptions: Exploring Users' Perceptions and Expectations of Security and Privacy in Cloud Office Suites.</title>
+<pages>359-377</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/wermke</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#WermkeHSBAF20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/StorySACSS20" mdate="2021-02-01">
+<author pid="213/6965">Peter Story</author>
+<author pid="140/9513">Daniel Smullen</author>
+<author pid="49/3744">Alessandro Acquisti</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<author pid="08/7562">Florian Schaub</author>
+<title>From Intent to Action: Nudging Users Towards Secure Mobile Payments.</title>
+<pages>379-415</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/story</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#StorySACSS20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BarbosaZ020" mdate="2021-02-01">
+<author pid="162/9876">Nat&#227; M. Barbosa</author>
+<author pid="227/5163">Zhuohao Zhang</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>Do Privacy and Security Matter to Everyone? Quantifying and Clustering User-Centric Considerations About Smart Home Device Adoption.</title>
+<pages>417-435</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/barbosa</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#BarbosaZ020</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Privacy, Tracking, and Measurement</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KitkowskaWSWM20" mdate="2021-02-01">
+<author pid="222/8497">Agnieszka Kitkowska</author>
+<author pid="00/6150">Mark Warner</author>
+<author pid="225/5095">Yefim Shulman</author>
+<author pid="05/7973">Erik W&#228;stlund</author>
+<author pid="12/3968">Leonardo A. Martucci</author>
+<title>Enhancing Privacy through the Visual Design of Privacy Notices: Exploring the Interplay of Curiosity, Control and Affect.</title>
+<pages>437-456</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/kitkowska</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#KitkowskaWSWM20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RaderHM20" mdate="2021-02-01">
+<author pid="83/396">Emilee Rader</author>
+<author pid="199/3088">Samantha Hautea</author>
+<author pid="239/7652">Anjali Munasinghe</author>
+<title>&#34;I Have a Narrow Thought Process&#34;: Constraints on Explanations Connecting Inferences and Self-Perceptions.</title>
+<pages>457-488</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/rader</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#RaderHM20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BirdSL20" mdate="2021-02-01">
+<author pid="53/8277">Sarah Bird</author>
+<author pid="183/6384">Ilana Segall</author>
+<author pid="242/4559">Martin Lopatka</author>
+<title>Replication: Why We Still Can't Browse in Peace: On the Uniqueness and Reidentifiability of Web Browsing Histories.</title>
+<pages>489-503</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/bird</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#BirdSL20</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/CobbSKSB0020" mdate="2021-02-01">
+<author pid="70/11465">Camille Cobb</author>
+<author pid="198/3332">Milijana Surbatovich</author>
+<author pid="264/7137">Anna Kawakami</author>
+<author pid="136/8393">Mahmood Sharif</author>
+<author pid="32/3440">Lujo Bauer</author>
+<author pid="84/5118-1">Anupam Das 0001</author>
+<author pid="89/161-1">Limin Jia 0001</author>
+<title>How Risky Are Real Users' IFTTT Applets?</title>
+<pages>505-529</pages>
+<year>2020</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2020/presentation/cobb</ee>
+<crossref>conf/soups/2020</crossref>
+<url>db/conf/soups/soups2020.html#CobbSKSB0020</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

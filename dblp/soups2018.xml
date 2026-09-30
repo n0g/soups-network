@@ -1,0 +1,457 @@
+<bht key="db/conf/soups/soups2018.bht" title="SOUPS 2018"> 
+<h1>14th <ref href="db/conf/soups/index.html">SOUPS</ref> @ <ref href="db/conf/uss/index.html">USENIX Security Symposium</ref> 2018:
+Baltimore, MD, USA</h1> <dblpcites><r><proceedings key="conf/soups/2018" mdate="2021-02-01">
+<editor pid="02/6774">Mary Ellen Zurko</editor>
+<editor pid="r/HeatherRichter">Heather Richter Lipford</editor>
+<title>Fourteenth Symposium on Usable Privacy and Security, SOUPS 2018, Baltimore, MD, USA, August 12-14, 2018.</title>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<publisher>USENIX Association</publisher>
+<year>2018</year>
+<ee type="oa">https://www.usenix.org/conference/soups2018</ee>
+<url>db/conf/soups/soups2018.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>User Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/VolkamerGRGM18" mdate="2021-02-01">
+<author pid="v/MelanieVolkamer">Melanie Volkamer</author>
+<author pid="180/7264">Andreas Gutmann</author>
+<author pid="r/KarenRenaud">Karen Renaud</author>
+<author pid="121/9504">Paul Gerber</author>
+<author pid="36/111">Peter Mayer</author>
+<title>Replication Study: A Cross-Country Field Observation Study of Real World PIN Usage at ATMs and in Various Electronic Payment Scenarios.</title>
+<pages>1-11</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/volkamer</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#VolkamerGRGM18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HabibNDOSBCC18" mdate="2021-02-01">
+<author pid="179/4647">Hana Habib</author>
+<author pid="199/3074">Pardis Emami Naeini</author>
+<author pid="217/9549">Summer Devlin</author>
+<author pid="217/9703">Maggie Oates</author>
+<author pid="217/9154">Chelse Swoopes</author>
+<author pid="32/3440">Lujo Bauer</author>
+<author pid="c/NicolasChristin">Nicolas Christin</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<title>User Behaviors and Attitudes Under Password Expiration Policies.</title>
+<pages>13-30</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/habib-password</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#HabibNDOSBCC18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/QahtaniSA18" mdate="2021-02-01">
+<author pid="224/9112">Elham Al Qahtani</author>
+<author pid="89/6785">Mohamed Shehab</author>
+<author pid="224/9246">Abrar Aljohani</author>
+<title>The Effectiveness of Fear Appeals in Increasing Smartphone Locking Behavior among Saudi Arabians.</title>
+<pages>31-46</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/qahtani</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#QahtaniSA18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/VaziripourWOMCM18" mdate="2021-02-01">
+<author pid="29/7467">Elham Vaziripour</author>
+<author pid="128/4638">Justin Wu</author>
+<author pid="37/9614">Mark O'Neill</author>
+<author pid="224/9236">Daniel Metro</author>
+<author pid="224/9108">Josh Cockrell</author>
+<author pid="224/9224">Timothy Moffett</author>
+<author pid="188/6053">Jordan Whitehead</author>
+<author pid="224/9133">Nick Bonner</author>
+<author pid="s/KentESeamons">Kent E. Seamons</author>
+<author pid="71/2423">Daniel Zappala</author>
+<title>Action Needed! Helping Users Find and Complete the Authentication Ceremony in Signal.</title>
+<pages>47-62</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/vaziripour</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#VaziripourWOMCM18</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Behaviors and Practices</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/NthalaF18" mdate="2021-02-01">
+<author pid="202/2833">Norbert Nthala</author>
+<author pid="57/3469">Ivan Flechais</author>
+<title>Informal Support Networks: an investigation into Home Data Security Practices.</title>
+<pages>63-82</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/nthala</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#NthalaF18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ParkFZSDH18" mdate="2021-02-01">
+<author pid="224/9222">Cheul Young Park</author>
+<author pid="186/0315">Cori Faklaris</author>
+<author pid="161/3857">Siyan Zhao</author>
+<author pid="161/3149">Alex Sciuto</author>
+<author pid="d/LauraADabbish">Laura Dabbish</author>
+<author pid="h/JasonIHong">Jason I. Hong</author>
+<title>Share and Share Alike? An Exploration of Secure Behaviors in Romantic Relationships.</title>
+<pages>83-102</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/park</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#ParkFZSDH18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MathurVNC18" mdate="2021-02-01">
+<author pid="130/2781">Arunesh Mathur</author>
+<author pid="90/9167">Jessica Vitak</author>
+<author pid="08/3080">Arvind Narayanan</author>
+<author pid="c/MarshiniChetty">Marshini Chetty</author>
+<title>Characterizing the Use of Browser-Based Blocking Extensions To Prevent Online Tracking.</title>
+<pages>103-116</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/mathur</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#MathurVNC18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SamatPA18" mdate="2021-02-01">
+<author pid="203/1683">Sonam Samat</author>
+<author pid="146/3039">Eyal P&#233;er</author>
+<author pid="49/3744">Alessandro Acquisti</author>
+<title>Can Digital Face-Morphs Influence Attitudes and Online Behaviors?</title>
+<pages>117-125</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/peer</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#SamatPA18</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Online Privacy</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/SambasivanCBANG18" mdate="2021-02-01">
+<author pid="00/2798">Nithya Sambasivan</author>
+<author pid="212/3288">Garen Checkley</author>
+<author pid="172/7281">Amna Batool</author>
+<author pid="51/6949">Nova Ahmed</author>
+<author pid="138/1038">David Nemer</author>
+<author pid="138/5056">Laura Sanely Gayt&#225;n-Lugo</author>
+<author pid="57/1705">Tara Matthews</author>
+<author pid="61/1413">Sunny Consolvo</author>
+<author pid="99/3360">Elizabeth F. Churchill</author>
+<title>&#34;Privacy is not for me, it's for those rich women&#34;: Performative Privacy Practices on Mobile Phones by Women in South Asia.</title>
+<pages>127-142</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/sambasivan</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#SambasivanCBANG18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RashidiAPFKNS18" mdate="2021-02-01">
+<author pid="179/4705">Yasmeen Rashidi</author>
+<author pid="161/3346">Tousif Ahmed</author>
+<author pid="224/9062">Felicia Patel</author>
+<author pid="224/9077">Emily Fath</author>
+<author pid="50/6916">Apu Kapadia</author>
+<author pid="224/9225">Christena Nippert-Eng</author>
+<author pid="75/5843">Norman Makoto Su</author>
+<title>&#34;You don't want to be the next meme&#34;: College Students' Workarounds to Manage Privacy in the Era of Pervasive Photography.</title>
+<pages>143-157</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/rashidi</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#RashidiAPFKNS18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HabibCGPTACC18" mdate="2021-02-01">
+<author pid="179/4647">Hana Habib</author>
+<author pid="174/9189">Jessica Colnago</author>
+<author pid="224/9201">Vidya Gopalakrishnan</author>
+<author pid="183/8079">Sarah Pearman</author>
+<author pid="183/8140">Jeremy Thomas</author>
+<author pid="49/3744">Alessandro Acquisti</author>
+<author pid="c/NicolasChristin">Nicolas Christin</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<title>Away From Prying Eyes: Analyzing Usage and Understanding of Private Browsing.</title>
+<pages>159-175</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/habib-prying</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#HabibCGPTACC18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MohamedC18" mdate="2021-02-01">
+<author pid="224/9147">Reham Ebada Mohamed</author>
+<author pid="26/2669">Sonia Chiasson</author>
+<title>Online Privacy and Aging of Digital Artifacts.</title>
+<pages>177-195</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/mohamed</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#MohamedC18</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Data Exposure, Compromises, and Access</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ZouMMS18" mdate="2021-02-01">
+<author pid="218/0356">Yixin Zou</author>
+<author pid="217/9672">Abraham H. Mhaidli</author>
+<author pid="224/9085">Austin McCall</author>
+<author pid="08/7562">Florian Schaub</author>
+<title>&#34;I've Got Nothing to Lose&#34;: Consumers' Risk Perceptions and Protective Actions after the Equifax Data Breach.</title>
+<pages>197-216</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/zou</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#ZouMMS18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KarunakaranTBC18" mdate="2021-02-01">
+<author pid="146/9654">Sowmya Karunakaran</author>
+<author pid="68/8283">Kurt Thomas</author>
+<author pid="20/7004">Elie Bursztein</author>
+<author pid="184/5981">Oxana Comanescu</author>
+<title>Data Breaches: User Comprehension, Expectations, and Concerns with Handling Exposed Data.</title>
+<pages>217-234</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/karunakaran</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#KarunakaranTBC18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/VotipkaRMGMF18" mdate="2021-02-01">
+<author pid="61/11094">Daniel Votipka</author>
+<author pid="224/9249">Seth M. Rabin</author>
+<author pid="131/6731">Kristopher K. Micinski</author>
+<author pid="126/4984">Thomas Gilray</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<author pid="18/2050">Jeffrey S. Foster</author>
+<title>User Comfort with Android Background Resource Accesses in Different Contexts.</title>
+<pages>235-250</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/votipka</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#VotipkaRMGMF18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/CetinGATE18" mdate="2021-02-01">
+<author pid="162/1897">Or&#231;un &#199;etin</author>
+<author pid="22/7256">Carlos Ga&#241;&#225;n</author>
+<author pid="224/9124">Lisette Altena</author>
+<author pid="182/6692">Samaneh Tajalizadehkhoob</author>
+<author pid="17/7444">Michel van Eeten</author>
+<title>Let Me Out! Evaluating the Effectiveness of Quarantining Compromised Users in Walled Gardens.</title>
+<pages>251-263</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/cetin</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#CetinGATE18</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Developers</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/GorskiIWSMAF18" mdate="2021-02-01">
+<author pid="150/7101">Peter Leo Gorski</author>
+<author pid="66/4381">Luigi Lo Iacono</author>
+<author pid="203/1800">Dominik Wermke</author>
+<author pid="184/6096">Christian Stransky</author>
+<author pid="37/5849">Sebastian M&#246;ller 0001</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="38/9378">Sascha Fahl</author>
+<title>Developers Deserve Security Warnings, Too: On the Effect of Integrated Security Advice on Cryptographic API Misuse.</title>
+<pages>265-281</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/gorski</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#GorskiIWSMAF18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AssalC18" mdate="2021-02-01">
+<author pid="172/9115">Hala Assal</author>
+<author pid="26/2669">Sonia Chiasson</author>
+<title>Security in the Software Development Lifecycle.</title>
+<pages>281-296</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/assal</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#AssalC18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NaiakshinaDT018" mdate="2021-02-01">
+<author pid="201/9227">Alena Naiakshina</author>
+<author pid="201/9268">Anastasia Danilova</author>
+<author pid="205/3181">Christian Tiefenau</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<title>Deception Task Design in Developer Password Studies: Exploring a Student Sample.</title>
+<pages>297-313</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/naiakshina</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#NaiakshinaDT018</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/OliveiraLRAEPBD18" mdate="2021-04-09">
+<author pid="20/3140">Daniela Seabra Oliveira</author>
+<author pid="51/7820">Tian Lin</author>
+<author pid="53/9586">Muhammad Sajidur Rahman</author>
+<author pid="224/9144">Rad Akefirad</author>
+<author pid="199/3008">Donovan M. Ellis</author>
+<author pid="224/9214">Eliany Perez</author>
+<author pid="192/6662">Rahul Bobhate</author>
+<author pid="204/3823">Lois DeLong</author>
+<author pid="27/5136">Justin Cappos</author>
+<author pid="51/1518">Yuriy Brun</author>
+<title>API Blindspots: Why Experienced Developers Write Vulnerable Code.</title>
+<pages>315-328</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/oliveira</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#OliveiraLRAEPBD18</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Understanding and Mindsets</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/MurilloKSL18" mdate="2021-02-01">
+<author pid="224/9067">Ambar Murillo</author>
+<author pid="141/4091">Andreas Kramm</author>
+<author pid="144/5542">Sebastian Schnorf</author>
+<author pid="22/3157">Alexander De Luca</author>
+<title>&#34;If I press delete, it's gone&#34; - User Understanding of Online Data Deletion and Expiration.</title>
+<pages>329-339</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/murillo</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#MurilloKSL18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HanschSPFB18" mdate="2021-02-01">
+<author pid="155/4403">Norman H&#228;nsch</author>
+<author pid="78/6239">Andrea Schankin</author>
+<author pid="140/0788">Mykolai Protsenko</author>
+<author pid="f/FCFreiling">Felix C. Freiling</author>
+<author pid="b/ZBenenson">Zinaida Benenson</author>
+<title>Programming Experience Might Not Help in Comprehending Obfuscated Source Code Efficiently.</title>
+<pages>341-356</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/hansch</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#HanschSPFB18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HaneyTAP18" mdate="2021-02-01">
+<author pid="199/2650">Julie M. Haney</author>
+<author pid="72/2304">Mary Theofanos</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="165/7090">Sandra Spickard Prettyman</author>
+<title>&#34;We make it a big deal in the company&#34;: Security Mindsets in Organizations that Develop Cryptographic Products.</title>
+<pages>357-373</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/haney-mindsets</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#HaneyTAP18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RuotiAMZS18" mdate="2021-02-01">
+<author pid="124/2527">Scott Ruoti</author>
+<author pid="169/9951">Jeff Andersen</author>
+<author pid="198/5197">Tyler Monson</author>
+<author pid="71/2423">Daniel Zappala</author>
+<author pid="s/KentESeamons">Kent E. Seamons</author>
+<title>A Comparative Usability Study of Key Management in Secure Email.</title>
+<pages>375-394</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/ruoti</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#RuotiAMZS18</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Models, Beliefs, and Perceptions</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/WuZ18" mdate="2021-02-01">
+<author pid="128/4638">Justin Wu</author>
+<author pid="71/2423">Daniel Zappala</author>
+<title>When is a Tree Really a Truck? Exploring Mental Models of Encryption.</title>
+<pages>395-409</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/wu</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#WuZ18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HaneyL18" mdate="2021-02-01">
+<author pid="199/2650">Julie M. Haney</author>
+<author pid="19/1614">Wayne G. Lutters</author>
+<title>&#34;It's Scary...It's Confusing...It's Dull&#34;: How Cybersecurity Advocates Overcome Negative Perceptions of Security.</title>
+<pages>411-425</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/haney-perceptions</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#HaneyL18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AdamsBBMPR18" mdate="2021-02-01">
+<author pid="224/9220">Devon Adams</author>
+<author pid="224/9208">Alseny Bah</author>
+<author pid="224/9156">Catherine Barwulor</author>
+<author pid="224/9250">Nureli Musaby</author>
+<author pid="224/9200">Kadeem Pitkin</author>
+<author pid="141/9244">Elissa M. Redmiles</author>
+<title>Ethics Emerging: the Story of Privacy and Security Perceptions in Virtual Reality.</title>
+<pages>427-442</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/adams</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#AdamsBBMPR18</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NicholsonCB18" mdate="2021-02-01">
+<author pid="64/2037">James Nicholson</author>
+<author pid="35/1147">Lynne M. Coventry</author>
+<author pid="15/1876">Pam Briggs</author>
+<title>Introducing the Cybersurvival Task: Assessing and Addressing Staff Beliefs about Effective Cyber Protection.</title>
+<pages>443-457</pages>
+<year>2018</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2018/presentation/nicholson</ee>
+<crossref>conf/soups/2018</crossref>
+<url>db/conf/soups/soups2018.html#NicholsonCB18</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

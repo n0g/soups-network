@@ -1,0 +1,713 @@
+<bht key="db/conf/soups/soups2009.bht" title="Symposium On Usable Privacy and Security 2009">  
+<h1><ref href="db/conf/soups/index.html">SOUPS</ref> 2009:
+Mountain View, California, USA</h1> <dblpcites><r><proceedings key="conf/soups/2009" mdate="2009-07-28">
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<title>Proceedings of the 5th Symposium on Usable Privacy and Security, SOUPS 2009, Mountain View, California, USA, July 15-17, 2009</title>
+<year>2009</year>
+<isbn>978-1-60558-736-3</isbn>
+<booktitle>SOUPS</booktitle>
+<series href="db/series/aicps/index.html">ACM International Conference Proceeding Series</series>
+<publisher>ACM</publisher>
+<url>db/conf/soups/soups2009.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Mental models</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/RajaHB09" mdate="2018-11-06">
+<author pid="27/3545">Fahimeh Raja</author>
+<author pid="58/3313">Kirstie Hawkey</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>Revealing hidden context: improving mental models of personal firewall users.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572534</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#RajaHB09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BesmerLSC09" mdate="2018-11-06">
+<author pid="19/4640">Andrew Besmer</author>
+<author pid="r/HeatherRichter">Heather Richter Lipford</author>
+<author pid="89/6785">Mohamed Shehab</author>
+<author pid="22/7188">Gorrell P. Cheek</author>
+<title>Social applications: exploring a more secure framework.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572535</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#BesmerLSC09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KumaraguruCACHBP09" mdate="2020-09-05">
+<author pid="97/5147">Ponnurangam Kumaraguru</author>
+<author pid="51/7188">Justin Cranshaw</author>
+<author orcid="0000-0001-6582-6178" pid="49/3744">Alessandro Acquisti</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="h/JasonIHong">Jason I. Hong</author>
+<author pid="42/7188">Mary Ann Blair</author>
+<author pid="33/7188">Theodore Pham</author>
+<title>School of phish: a real-word evaluation of anti-phishing training.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572536</ee>
+<ee>https://www.wikidata.org/entity/Q57888534</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#KumaraguruCACHBP09</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Community</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KelleyBCR09" mdate="2018-11-14">
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="69/7188">Joanna Bresee</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="08/873">Robert W. Reeder</author>
+<title>A &#34;nutrition label&#34; for privacy.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572538</ee>
+<ee>https://www.wikidata.org/entity/Q57888462</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#KelleyBCR09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GoecksEM09" mdate="2018-11-06">
+<author pid="70/1179">Jeremy Goecks</author>
+<author pid="e/WKeithEdwards">W. Keith Edwards</author>
+<author pid="m/ElizabethDMynatt">Elizabeth D. Mynatt</author>
+<title>Challenges in supporting end-user privacy and security management with social navigation.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572539</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#GoecksEM09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LittleSB09" mdate="2020-10-25">
+<author pid="54/6416">Linda Little</author>
+<author pid="75/5639">Elizabeth Sillence</author>
+<author orcid="0000-0001-5028-4601" pid="15/1876">Pamela Briggs</author>
+<title>Ubiquitous systems and the family: thoughts about the networked home.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572540</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#LittleSB09</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Passwords and authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/LucaDH09" mdate="2018-11-06">
+<author pid="22/3157">Alexander De Luca</author>
+<author pid="38/7188">Martin Denzel</author>
+<author pid="h/HeinrichHussmann">Heinrich Hussmann</author>
+<title>Look into my eyes!: can you guess my password?</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572542</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#LucaDH09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/JustA09" mdate="2018-11-06">
+<author orcid="0000-0002-9669-5067" pid="03/3777">Mike Just</author>
+<author pid="19/6243">David Aspinall 0001</author>
+<title>Personal choice and challenge questions: a security and usability assessment.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572543</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#JustA09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SchechterR09" mdate="2018-11-06">
+<author pid="s/SESchechter">Stuart E. Schechter</author>
+<author pid="08/873">Robert W. Reeder</author>
+<title>1 + 1 = you: measuring the comprehensibility of metaphors for configuring backup authentication.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572544</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#SchechterR09</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Small devices</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KobsaSTUW09" mdate="2018-11-06">
+<author orcid="0000-0002-7691-4955" pid="k/AlfredKobsa">Alfred Kobsa</author>
+<author pid="45/7188">Rahim Sonawalla</author>
+<author pid="08/1183">Gene Tsudik</author>
+<author pid="u/ErsinUzun">Ersin Uzun</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>Serial hook-ups: a comparative usability study of secure device pairing methods.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572546</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#KobsaSTUW09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KaindaFR09" mdate="2020-05-18">
+<author pid="32/7188">Ronald Kainda</author>
+<author pid="57/3469">Ivan Flechais</author>
+<author pid="r/AWRoscoe">A. W. Roscoe 0001</author>
+<title>Usability and security of out-of-band channels in secure device pairing protocols.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572547</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#KaindaFR09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HalprinN09" mdate="2018-11-06">
+<author pid="28/7188">Ran Halprin</author>
+<author pid="n/MoniNaor">Moni Naor</author>
+<title>Games for extracting randomness.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572548</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#HalprinN09</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Tools</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ChowOS09" mdate="2018-11-06">
+<author pid="77/3439">Richard Chow</author>
+<author pid="50/2097">Ian Oberst</author>
+<author pid="37/4879">Jessica Staddon</author>
+<title>Sanitization's slippery slope: the design and study of a text revision assistant.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572550</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#ChowOS09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KlueverZ09" mdate="2021-10-14">
+<author pid="34/7188">Kurt Alfred Kluever</author>
+<author orcid="0000-0001-5921-9750" pid="34/3480">Richard Zanibbi</author>
+<title>Balancing usability and security in a video CAPTCHA.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572551</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#KlueverZ09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SmettersG09" mdate="2018-11-06">
+<author pid="19/2107">Diana K. Smetters</author>
+<author pid="g/NathanielGood">Nathan Good</author>
+<title>How users use access control.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572552</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#SmettersG09</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Tutorials</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/SasseKM09" mdate="2018-11-06">
+<author pid="s/MASasse">Martina Angela Sasse</author>
+<author pid="94/1757">Clare-Marie Karat</author>
+<author pid="27/7005">Roy A. Maxion</author>
+<title>Designing and evaluating usable security and privacy technology.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572554</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#SasseKM09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Weaver09" mdate="2018-11-06">
+<author pid="53/2937">Nicholas Weaver</author>
+<title>Think Evil (tm).</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572555</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#Weaver09</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Posters</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/PeetersKPS09" mdate="2018-11-06">
+<author pid="20/4558">Roel Peeters</author>
+<author pid="12/2177">Markulf Kohlweiss</author>
+<author pid="p/BartPreneel">Bart Preneel</author>
+<author pid="21/7188">Nicky Sulmon</author>
+<title>Threshold things that think: usable authorization for resharing.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572557</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#PeetersKPS09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KarpSC09" mdate="2018-11-06">
+<author pid="36/4757">Alan H. Karp</author>
+<author pid="85/4848">Marc Stiegler</author>
+<author pid="19/5066">Tyler Close</author>
+<title>Not one click for security?</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572558</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#KarpSC09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ChurchABS09" mdate="2018-11-06">
+<author pid="25/4335">Luke Church</author>
+<author pid="48/7188">Jonathan Anderson</author>
+<author pid="27/3087">Joseph Bonneau</author>
+<author pid="42/3797">Frank Stajano</author>
+<title>Privacy stories: confidence in privacy behaviors through end user programming.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572559</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#ChurchABS09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GaoL09" mdate="2018-11-06">
+<author pid="81/7020">Haichang Gao</author>
+<author pid="65/2992">Xiyang Liu</author>
+<title>A new graphical password scheme against spyware by using CAPTCHA.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572560</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#GaoL09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BenischKSSTCD09" mdate="2018-11-06">
+<author pid="11/4884">Michael Benisch</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<author pid="s/TuomasSandholm">Tuomas Sandholm</author>
+<author pid="95/3721">Janice Y. Tsai</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="32/3895">Paul Hankes Drielsma</author>
+<title>The impact of expressiveness on the effectiveness of privacy mechanisms for location-sharing.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572561</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#BenischKSSTCD09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MotahariZJ09" mdate="2018-11-06">
+<author pid="129/1933">Sara Motahari</author>
+<author pid="65/4758">Sotirios G. Ziavras</author>
+<author pid="76/3795">Quentin Jones</author>
+<title>Designing for different levels of social inference risk.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572562</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#MotahariZJ09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZenebeTFLO09" mdate="2018-11-06">
+<author pid="31/1933">Azene Zenebe</author>
+<author pid="67/7188">Claude Tuner</author>
+<author pid="12/5575">Jinjuan Feng</author>
+<author pid="29/1257">Jonathan Lazar</author>
+<author pid="63/1714">Mike O'Leary</author>
+<title>Integrating usability and accessibility in information assurance education.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572563</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#ZenebeTFLO09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HayashiHC09" mdate="2018-11-14">
+<author pid="15/4384">Eiji Hayashi</author>
+<author pid="h/JasonIHong">Jason I. Hong</author>
+<author orcid="0000-0002-2506-8031" pid="c/NicolasChristin">Nicolas Christin</author>
+<title>Educated guess on graphical authentication schemes: vulnerabilities and countermeasures.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572564</ee>
+<ee>https://www.wikidata.org/entity/Q57447206</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#HayashiHC09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LikarishDHJ09" mdate="2018-11-06">
+<author pid="84/6709">Peter Likarish</author>
+<author pid="45/5469">Donald E. Dunbar</author>
+<author pid="h/JuanPabloHourcade">Juan Pablo Hourcade</author>
+<author pid="15/6866">Eunjin Jung</author>
+<title>BayeShield: conversational anti-phishing user interface.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572565</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#LikarishDHJ09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MaetzOH09" mdate="2018-11-06">
+<author pid="55/7188">Yves Maetz</author>
+<author pid="32/4181">St&#233;phane Onno</author>
+<author pid="81/6629">Olivier Heen</author>
+<title>Recall-a-story, a story-telling graphical password system.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572566</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#MaetzOH09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FislerK09" mdate="2018-11-06">
+<author pid="04/4803">Kathi Fisler</author>
+<author pid="k/SKrishnamurthi">Shriram Krishnamurthi</author>
+<title>Escape from the matrix: lessons from a case-study in access-control requirements.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572567</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#FislerK09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TsaiECA09" mdate="2020-09-05">
+<author pid="95/3721">Janice Y. Tsai</author>
+<author pid="07/1108">Serge Egelman</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author orcid="0000-0001-6582-6178" pid="49/3744">Alessandro Acquisti</author>
+<title>The impact of privacy indicators on search engine browsing patterns.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572568</ee>
+<ee>https://www.wikidata.org/entity/Q57888538</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#TsaiECA09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BonneauAC09" mdate="2018-11-06">
+<author pid="27/3087">Joseph Bonneau</author>
+<author pid="48/7188">Jonathan Anderson</author>
+<author pid="25/4335">Luke Church</author>
+<title>Privacy suites: shared privacy for social networks.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572569</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#BonneauAC09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/McQuaidZMG09" mdate="2018-11-06">
+<author pid="46/1098">Michael McQuaid</author>
+<author pid="73/3928-2">Kai Zheng 0002</author>
+<author pid="54/3479">Nigel Melville</author>
+<author pid="31/7188">Lee Green</author>
+<title>Usable deidentification of sensitive patient care data.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572570</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#McQuaidZMG09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TochRCDHKST09" mdate="2018-11-14">
+<author pid="47/3938">Eran Toch</author>
+<author pid="70/4788">Ramprasad Ravichandran</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="32/3895">Paul Hankes Drielsma</author>
+<author pid="h/JasonIHong">Jason I. Hong</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<author pid="95/3721">Janice Y. Tsai</author>
+<title>Analyzing use of privacy policy attributes in a location sharing application.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572571</ee>
+<ee>https://www.wikidata.org/entity/Q57888492</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#TochRCDHKST09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ThomasMJBJPRN09" mdate="2018-11-06">
+<author pid="70/7188">Keerthi Thomas</author>
+<author pid="09/6493">Clara Mancini</author>
+<author pid="75/7188">Lukasz Jedrzejczyk</author>
+<author pid="12/360">Arosha K. Bandara</author>
+<author pid="95/6679">Adam N. Joinson</author>
+<author orcid="0000-0002-2247-9804" pid="24/5615">Blaine A. Price</author>
+<author pid="r/YvonneRogers">Yvonne Rogers</author>
+<author pid="26/1319">Bashar Nuseibeh</author>
+<title>Studying location privacy in mobile applications: 'predator vs. prey' probes.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572572</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#ThomasMJBJPRN09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SaxenaUV09" mdate="2018-11-06">
+<author pid="25/1169">Nitesh Saxena</author>
+<author pid="09/2679">Md. Borhan Uddin</author>
+<author pid="04/389">Jonathan Voris</author>
+<title>Treat 'em like other devices: user authentication of multiple personal RFID tags.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572573</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#SaxenaUV09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KayT09" mdate="2020-07-17">
+<author pid="85/2585">Matthew Kay 0001</author>
+<author pid="56/3708">Michael A. Terry</author>
+<title>Textured agreements: re-envisioning electronic consent.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572574</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#KayT09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/JaferianBHB09" mdate="2018-11-06">
+<author pid="69/6386">Pooya Jaferian</author>
+<author pid="21/2592">David Botta</author>
+<author pid="58/3313">Kirstie Hawkey</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>A multi-method approach for user-centered design of identity management systems.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572575</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#JaferianBHB09</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Posters showcasing usable privacy and security papers published in the past year at other conferences</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/LucasB09" mdate="2018-11-06">
+<author pid="37/94">Matthew M. Lucas</author>
+<author pid="22/2650">Nikita Borisov</author>
+<title>flyByNight: mitigating the privacy risks of social networking.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572577</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#LucasB09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KarlofTW09" mdate="2018-11-06">
+<author pid="66/3514">Chris Karlof</author>
+<author pid="t/JDTygar">J. D. Tygar</author>
+<author pid="42/5626">David A. Wagner 0001</author>
+<title>Conditioned-safe ceremonies and a user study of an application to web authentication.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572578</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#KarlofTW09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BicakciYEGA09" mdate="2018-11-06">
+<author pid="45/4438">Kemal Bicakci</author>
+<author pid="58/7188">Mustafa Yuceel</author>
+<author pid="71/7188">Burak Erdeniz</author>
+<author pid="64/7188">Hakan Gurbaslar</author>
+<author pid="52/7188">Nart Bedin Atalay</author>
+<title>Graphical passwords as browser extension: implementation and usability study.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572579</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#BicakciYEGA09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SchechterBE09" mdate="2018-11-06">
+<author pid="s/SESchechter">Stuart E. Schechter</author>
+<author pid="b/AJBBrush">A. J. Bernheim Brush</author>
+<author pid="07/1108">Serge Egelman</author>
+<title>It's no secret: measuring the security and reliability of authentication via 'secret' questions.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572580</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#SchechterBE09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SchechterER09" mdate="2018-11-06">
+<author pid="s/SESchechter">Stuart E. Schechter</author>
+<author pid="07/1108">Serge Egelman</author>
+<author pid="08/873">Robert W. Reeder</author>
+<title>It's not what you know, but who you know: a social approach to last-resort authentication.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572581</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#SchechterER09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ReederKMC09" mdate="2018-11-14">
+<author pid="08/873">Robert W. Reeder</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="30/3624">Aleecia M. McDonald</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<title>A user study of the expandable grid applied to P3P privacy policy visualization.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572582</ee>
+<ee>https://www.wikidata.org/entity/Q57888479</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#ReederKMC09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TsaiKDCHS09" mdate="2018-11-14">
+<author pid="95/3721">Janice Y. Tsai</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="32/3895">Paul Hankes Drielsma</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="h/JasonIHong">Jason I. Hong</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<title>Who's viewed you?: the impact of feedback in a mobile location-sharing application.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572583</ee>
+<ee>https://www.wikidata.org/entity/Q57888553</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#TsaiKDCHS09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HasegawaCH09" mdate="2018-11-14">
+<author pid="86/1111">Madoka Hasegawa</author>
+<author orcid="0000-0002-2506-8031" pid="c/NicolasChristin">Nicolas Christin</author>
+<author pid="15/4384">Eiji Hayashi</author>
+<title>New directions in multisensory authentication.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572584</ee>
+<ee>https://www.wikidata.org/entity/Q57447211</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#HasegawaCH09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Golle09" mdate="2018-11-06">
+<author pid="37/3783">Philippe Golle</author>
+<title>Machine learning attacks against the Asirra CAPTCHA.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572585</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#Golle09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/McDonaldRKC09" mdate="2018-11-06">
+<author pid="30/3624">Aleecia M. McDonald</author>
+<author pid="08/873">Robert W. Reeder</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<title>A comparative study of online privacy policies and formats.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572586</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#McDonaldRKC09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RavichandranBKS09" mdate="2018-11-06">
+<author pid="70/4788">Ramprasad Ravichandran</author>
+<author pid="11/4884">Michael Benisch</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<title>Capturing social networking privacy preferences: can default policies help alleviate tradeoffs between expressiveness and user burden?</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572587</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#RavichandranBKS09</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Invited talk</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/Sachs09" mdate="2018-11-06">
+<author pid="36/7188">Eric Sachs</author>
+<title>Redirects to login pages are bad, or are they?</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572589</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#Sachs09</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Discussion sessions</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/Gillis09" mdate="2018-11-06">
+<author pid="18/7188">Nancy Gillis</author>
+<title>Short and long term research suggestions for NSF and NIST.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572591</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#Gillis09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Patrick09" mdate="2018-11-06">
+<author pid="00/5747">Andrew Patrick</author>
+<title>Ecological validity in studies of security and human behaviour.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572592</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#Patrick09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Garfinkel09" mdate="2018-11-06">
+<author pid="70/2101">Simson L. Garfinkel</author>
+<title>Invisible HCI-SEC: ways of re-architecting the operating system to increase usability and security.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572593</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#Garfinkel09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Zurko09" mdate="2018-11-06">
+<author pid="02/6774">Mary Ellen Zurko</author>
+<title>Technology transfer of successful usable security research into product.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572594</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#Zurko09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Little09" mdate="2018-11-06">
+<author pid="54/6416">Linda Little</author>
+<title>The family and communication technologies.</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572595</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#Little09</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Karvonen09" mdate="2018-11-06">
+<author pid="13/1970">Kristiina Karvonen</author>
+<title>How does the emergence of reputation mechanisms affect the overall trust formation mechanisms, implicit and explicit, in the online environment?</title>
+<year>2009</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1572532.1572596</ee>
+<crossref>conf/soups/2009</crossref>
+<url>db/conf/soups/soups2009.html#Karvonen09</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

@@ -1,0 +1,233 @@
+<bht key="db/conf/soups/soups2010.bht" title="Symposium On Usable Privacy and Security 2010">  
+<h1><ref href="db/conf/soups/index.html">SOUPS</ref> 2010:
+Redmond, Washington, USA</h1> <dblpcites><r><proceedings key="conf/soups/2010" mdate="2010-08-23">
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<title>Proceedings of the Sixth Symposium on Usable Privacy and Security, SOUPS 2010, Redmond, Washington, USA, July 14-16, 2010</title>
+<year>2010</year>
+<isbn>978-1-4503-0264-7</isbn>
+<booktitle>SOUPS</booktitle>
+<series href="db/series/aicps/index.html">ACM International Conference Proceeding Series</series>
+<volume>485</volume>
+<publisher>ACM</publisher>
+<url>db/conf/soups/soups2010.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Passwords and accounts</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/MotieeHB10" mdate="2018-11-06">
+<author pid="69/7983">Sara Motiee</author>
+<author pid="58/3313">Kirstie Hawkey</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>Do windows users follow the principle of least privilege?: investigating user account control practices.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837112</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#MotieeHB10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ShayKKLMBCC10" mdate="2018-11-14">
+<author pid="18/1031">Richard Shay</author>
+<author pid="05/6177">Saranga Komanduri</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="30/8322">Pedro Giovanni Leon</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<author orcid="0000-0002-8209-6792" pid="32/3440">Lujo Bauer</author>
+<author pid="c/NicolasChristin">Nicolas Christin</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<title>Encountering stronger password requirements: user attitudes and behaviors.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837113</ee>
+<ee>https://www.wikidata.org/entity/Q57888408</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#ShayKKLMBCC10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DunphyHA10" mdate="2020-08-13">
+<author pid="23/1640">Paul Dunphy</author>
+<author pid="63/469">Andreas P. Heiner</author>
+<author orcid="0000-0002-5093-9871" pid="39/2508">N. Asokan</author>
+<title>A closer look at recognition-based graphical passwords on mobile devices.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837114</ee>
+<ee>https://www.wikidata.org/entity/Q97127413</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#DunphyHA10</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication for mobile devices</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/PanjwaniC10" mdate="2018-11-06">
+<author pid="83/6936">Saurabh Panjwani</author>
+<author pid="c/EdwardCutrell">Edward Cutrell</author>
+<title>Usably secure, low-cost authentication for mobile banking.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837116</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#PanjwaniC10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KaindaFR10" mdate="2020-05-18">
+<author pid="32/7188">Ronald Kainda</author>
+<author pid="57/3469">Ivan Flechais</author>
+<author pid="r/AWRoscoe">A. W. Roscoe 0001</author>
+<title>Two heads are better than one: security and usability of device associations in group scenarios.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837117</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#KaindaFR10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/IonLKC10" mdate="2019-12-27">
+<author pid="87/1326">Iulia Ion</author>
+<author orcid="0000-0002-8834-7388" pid="60/6209">Marc Langheinrich</author>
+<author pid="97/5147">Ponnurangam Kumaraguru</author>
+<author pid="51/1639">Srdjan Capkun</author>
+<title>Influence of user perception, security needs, and social factors on device pairing method choices.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837118</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#IonLKC10</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Privacy</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/BesmerWL10" mdate="2018-11-06">
+<author pid="19/4640">Andrew Besmer</author>
+<author pid="18/3249">Jason Watson</author>
+<author pid="r/HeatherRichter">Heather Richter Lipford</author>
+<title>The impact of social navigation on privacy policy configuration.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837120</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#BesmerWL10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/JohnsonKKG10" mdate="2018-11-06">
+<author pid="39/8322">Maritza Johnson</author>
+<author pid="94/2065">John Karat</author>
+<author pid="94/1757">Clare-Marie Karat</author>
+<author pid="11/1248">Keith Grueneberg</author>
+<title>Optimizing a policy authoring framework for security and privacy policies.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837121</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#JohnsonKKG10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/JonesO10" mdate="2018-11-06">
+<author orcid="0000-0003-4111-0591" pid="167/8294">Simon L. Jones</author>
+<author orcid="0000-0002-1637-458X" pid="07/3830">Eamonn O'Neill</author>
+<title>Feasibility of structural network clustering for group-based privacy control in social networks.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837122</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#JonesO10</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Security models and decision making</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/FlorencioH10" mdate="2018-11-06">
+<author pid="31/926">Dinei A. F. Flor&#234;ncio</author>
+<author pid="45/1437">Cormac Herley</author>
+<title>Where do security policies come from?</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837124</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#FlorencioH10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Wash10" mdate="2021-10-14">
+<author orcid="0000-0003-4266-975X" pid="20/5611">Rick Wash</author>
+<title>Folk models of home computer security.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837125</ee>
+<ee>https://www.wikidata.org/entity/Q101069870</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#Wash10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HoDT10" mdate="2018-11-06">
+<author pid="49/8323">Justin T. Ho</author>
+<author pid="48/6316">David Dearman</author>
+<author pid="31/5694">Khai N. Truong</author>
+<title>Improving users' security choices on home wireless networks.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837126</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#HoDT10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KayT10" mdate="2020-07-17">
+<author orcid="0000-0001-9446-0419" pid="85/2585">Matthew Kay 0001</author>
+<author pid="56/3708">Michael A. Terry</author>
+<title>Textured agreements: re-envisioning electronic consent.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837127</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#KayT10</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>SOUPS du Jour</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/JedrzejczykPBN10" mdate="2018-11-06">
+<author pid="75/7188">Lukasz Jedrzejczyk</author>
+<author orcid="0000-0002-2247-9804" pid="24/5615">Blaine A. Price</author>
+<author orcid="0000-0001-8974-0555" pid="12/360">Arosha K. Bandara</author>
+<author orcid="0000-0002-3476-053X" pid="26/1319">Bashar Nuseibeh</author>
+<title>On the impact of real-time feedback on users' behaviour in mobile location-sharing applications.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837129</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#JedrzejczykPBN10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/CzeskisDYBFGK10" mdate="2018-11-06">
+<author pid="66/625">Alexei Czeskis</author>
+<author pid="82/8321">Ivayla Dermendjieva</author>
+<author pid="49/8322">Hussein Yapit</author>
+<author pid="b/AlanBorning">Alan Borning</author>
+<author pid="20/2143">Batya Friedman</author>
+<author pid="66/4894">Brian T. Gill</author>
+<author pid="k/TadayoshiKohno">Tadayoshi Kohno</author>
+<title>Parenting from the pocket: value tensions and technical directions for secure and private parent-teen mobile safety.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837130</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#CzeskisDYBFGK10</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LucaLH10" mdate="2019-12-27">
+<author pid="22/3157">Alexander De Luca</author>
+<author orcid="0000-0002-8834-7388" pid="60/6209">Marc Langheinrich</author>
+<author pid="h/HeinrichHussmann">Heinrich Hussmann</author>
+<title>Towards understanding ATM security: a field study of real world ATM use.</title>
+<year>2010</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1837110.1837131</ee>
+<crossref>conf/soups/2010</crossref>
+<url>db/conf/soups/soups2010.html#LucaLH10</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

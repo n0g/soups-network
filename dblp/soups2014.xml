@@ -1,0 +1,309 @@
+<bht key="db/conf/soups/soups2014.bht" title="Symposium On Usable Privacy and Security 2014"> 
+<h1><ref href="db/conf/soups/index.html">SOUPS</ref> 2014:
+Menlo Park, CA, USA</h1> <dblpcites><r><proceedings key="conf/soups/2014" mdate="2018-07-04">
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<editor pid="32/3440">Lujo Bauer</editor>
+<editor pid="50/4201">Robert Biddle</editor>
+<title>Tenth Symposium on Usable Privacy and Security, SOUPS 2014, Menlo Park, CA, USA, July 9-11, 2014</title>
+<booktitle>SOUPS</booktitle>
+<year>2014</year>
+<publisher>USENIX Association</publisher>
+<isbn>978-1-931971-13-3</isbn>
+<url>db/conf/soups/soups2014.html</url>
+<ee>https://www.usenix.org/conference/soups2014</ee>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Perspectives on Privacy</h2> 
+<dblpcites><r><inproceedings key="conf/soups/WoodruffPCSBA14" mdate="2015-01-06">
+<author pid="63/6133">Allison Woodruff</author>
+<author pid="62/2130">Vasyl Pihur</author>
+<author pid="61/1413">Sunny Consolvo</author>
+<author pid="156/2559">Lauren Schmidt</author>
+<author pid="117/2528">Laura Brandimarte</author>
+<author pid="49/3744">Alessandro Acquisti</author>
+<title>Would a Privacy Fundamentalist Sell Their DNA for $1000 ... If Nothing Bad Happened as a Result? The Westin Categories, Behavioral Intentions, and Consequences.</title>
+<pages>1-18</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#WoodruffPCSBA14</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/soups/CranorDMU14" mdate="2015-01-06">
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="144/5296">Adam L. Durity</author>
+<author pid="156/2542">Abigail Marsh</author>
+<author pid="66/9786">Blase Ur</author>
+<title>Parents' and Teens' Perspectives on Privacy In a Technology-Filled World.</title>
+<pages>19-35</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#CranorDMU14</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/soups/KangBDK14" mdate="2015-01-06">
+<author pid="38/7219">Ruogu Kang</author>
+<author pid="129/2071">Stephanie Brown</author>
+<author pid="d/LauraADabbish">Laura Dabbish</author>
+<author pid="k/SaraBKiesler">Sara B. Kiesler</author>
+<title>Privacy Attitudes of Mechanical Turk Workers and the U.S. Public.</title>
+<pages>37-49</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#KangBDK14</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/soups/Rader14" mdate="2015-01-06">
+<author pid="83/396">Emilee J. Rader</author>
+<title>Awareness of Behavioral Tracking and Information Privacy Concern in Facebook and Google.</title>
+<pages>51-67</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#Rader14</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Warnings and Decisions</h2> 
+<dblpcites><r><inproceedings key="conf/soups/KorffB14" mdate="2015-01-06">
+<author pid="124/8447">Stefan Korff</author>
+<author pid="52/6295">Rainer B&#246;hme</author>
+<title>Too Much Choice: End-User Privacy Decisions in the Context of Choice Proliferation.</title>
+<pages>69-87</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#KorffB14</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/soups/WashRVR14" mdate="2015-01-06">
+<author pid="20/5611">Rick Wash</author>
+<author pid="83/396">Emilee J. Rader</author>
+<author pid="68/581">Kami Vaniea</author>
+<author pid="156/2509">Michelle Rizor</author>
+<title>Out of the Loop: How Automated Software Updates Cause Unintended Security Consequences.</title>
+<pages>89-104</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#WashRVR14</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Bravo-LilloCKSS14" mdate="2015-01-06">
+<author pid="33/9463">Cristian Bravo-Lillo</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="05/6177">Saranga Komanduri</author>
+<author pid="s/SESchechter">Stuart E. Schechter</author>
+<author pid="64/10054">Manya Sleeper</author>
+<title>Harder to Ignore? Revisiting Pop-Up Fatigue and Approaches to Prevent It.</title>
+<pages>105-111</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2014/proceedings/presentation/bravo-lillo</ee>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#Bravo-LilloCKSS14</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/soups/AlmuhimediFRC14" mdate="2015-01-06">
+<author pid="63/8881">Hazim Almuhimedi</author>
+<author pid="52/8024">Adrienne Porter Felt</author>
+<author pid="08/873">Robert W. Reeder</author>
+<author pid="61/1413">Sunny Consolvo</author>
+<title>Your Reputation Precedes You: History, Reputation, and the Chrome Malware Warning.</title>
+<pages>113-128</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#AlmuhimediFRC14</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Users and Security</h2> 
+<dblpcites><r><inproceedings key="conf/soups/ChenPM14" mdate="2015-01-06">
+<author pid="48/4323">Jay Chen</author>
+<author pid="41/7541">Michael Paik</author>
+<author pid="156/2529">Kelly McCabe</author>
+<title>Exploring Internet Security Perceptions and Practices in Urban Ghana.</title>
+<pages>129-142</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#ChenPM14</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/soups/DasKDH14" mdate="2015-01-06">
+<author pid="83/8570">Sauvik Das</author>
+<author pid="47/9491">Tiffany Hyun-Jin Kim</author>
+<author pid="d/LauraADabbish">Laura A. Dabbish</author>
+<author pid="h/JasonIHong">Jason I. Hong</author>
+<title>The Effect of Social Influence on Security Sensitivity.</title>
+<pages>143-157</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#DasKDH14</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/soups/ZhangWJ14" mdate="2015-01-06">
+<author pid="36/2259">Bo Zhang</author>
+<author pid="44/5770">Na Wang</author>
+<author pid="55/2789">Hongxia Jin</author>
+<title>Privacy Concerns in Online Recommender Systems: Influences of Control and User Data Input.</title>
+<pages>159-173</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#ZhangWJ14</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/soups/RosoffCJ14" mdate="2015-01-06">
+<author pid="151/3591">Heather Rosoff</author>
+<author pid="151/8727">Jinshu Cui</author>
+<author pid="151/8618">Richard S. John</author>
+<title>Behavioral Experiments Exploring Victims' Response to Cyber-based Financial Fraud and Identity Theft Scenario Simulations.</title>
+<pages>175-186</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#RosoffCJ14</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Mobile</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/XuZL14" mdate="2020-05-13">
+<author pid="90/3055-9">Hui Xu 0009</author>
+<author pid="27/6390">Yangfan Zhou</author>
+<author pid="l/MichaelRLyu">Michael R. Lyu</author>
+<title>Towards Continuous and Passive Authentication via Touch Biometrics: An Experimental Study on Smartphones.</title>
+<pages>187-198</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2014/proceedings/presentation/xu</ee>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#XuZL14</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LinLSH14" mdate="2015-05-18">
+<author pid="03/7125">Jialiu Lin</author>
+<author pid="35/837-17">Bin Liu 0017</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<author pid="h/JasonIHong">Jason I. Hong</author>
+<title>Modeling Users' Mobile App Privacy Preferences: Restoring Usability in a Sea of Permission Settings.</title>
+<pages>199-212</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2014/proceedings/presentation/lin</ee>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#LinLSH14</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HarbachZFL014" mdate="2015-01-06">
+<author pid="49/7449">Marian Harbach</author>
+<author pid="44/3837">Emanuel von Zezschwitz</author>
+<author pid="156/2475">Andreas Fichtner</author>
+<author pid="22/3157">Alexander De Luca</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<title>It's a Hard Lock Life: A Field Study of Smartphone (Un)Locking Behavior and Risk Perception.</title>
+<pages>213-230</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2014/proceedings/presentation/harbach</ee>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#HarbachZFL014</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/HaqueSW14" mdate="2015-07-09">
+<author pid="126/3481">S. M. Taiabul Haque</author>
+<author pid="126/3487">Shannon Scielzo</author>
+<author pid="41/4822">Matthew K. Wright</author>
+<title>Applying Psychometrics to Measure User Comfort when Constructing a Strong Password.</title>
+<pages>231-242</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2014/proceedings/presentation/haque</ee>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#HaqueSW14</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/StobertB14" mdate="2015-01-06">
+<author pid="41/7564">Elizabeth Stobert</author>
+<author pid="50/4201">Robert Biddle</author>
+<title>The Password Life Cycle: User Behaviour in Managing Passwords.</title>
+<pages>243-255</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2014/proceedings/presentation/stobert</ee>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#StobertB14</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PanjwaniP14" mdate="2015-01-06">
+<author pid="83/6936">Saurabh Panjwani</author>
+<author pid="151/8714">Achintya Prakash</author>
+<title>Crowdsourcing Attacks on Biometric Systems.</title>
+<pages>257-269</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2014/proceedings/presentation/panjwani</ee>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#PanjwaniP14</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Social Networks and Access Control</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/MondalLVGM14" mdate="2015-01-06">
+<author pid="87/8324">Mainack Mondal</author>
+<author pid="27/7562">Yabing Liu</author>
+<author pid="24/604">Bimal Viswanath</author>
+<author pid="g/PKrishnaGummadi">Krishna P. Gummadi</author>
+<author pid="31/3833">Alan Mislove</author>
+<title>Understanding and Specifying Social Access Control Lists.</title>
+<pages>271-283</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2014/proceedings/presentation/mondal</ee>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#MondalLVGM14</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RashtianBJB14" mdate="2015-01-06">
+<author pid="144/5862">Hootan Rashtian</author>
+<author pid="90/7258">Yazan Boshmaf</author>
+<author pid="69/6386">Pooya Jaferian</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>To Befriend Or Not? A Model of Friend Request Acceptance on Facebook.</title>
+<pages>285-300</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2014/proceedings/presentation/rashtian</ee>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#RashtianBJB14</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/JaferianRB14" mdate="2015-01-06">
+<author pid="69/6386">Pooya Jaferian</author>
+<author pid="144/5862">Hootan Rashtian</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>To Authorize or Not Authorize: Helping Users Review Access Policies in Organizations.</title>
+<pages>301-320</pages>
+<year>2014</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2014/proceedings/presentation/jaferian</ee>
+<crossref>conf/soups/2014</crossref>
+<url>db/conf/soups/soups2014.html#JaferianRB14</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

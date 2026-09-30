@@ -1,0 +1,361 @@
+<bht key="db/conf/soups/soups2016.bht" title="SOUPS 2016"> 
+<h1>12th <ref href="db/conf/soups/index.html">SOUPS</ref> 2016:
+Denver, CO, USA</h1> <dblpcites><r><proceedings key="conf/soups/2016" mdate="2016-08-04">
+<title>Twelfth Symposium on Usable Privacy and Security, SOUPS 2016, Denver, CO, USA, June 22-24, 2016</title>
+<booktitle>SOUPS</booktitle>
+<publisher>USENIX Association</publisher>
+<year>2016</year>
+<ee>https://www.usenix.org/conference/soups2016</ee>
+<url>db/conf/soups/soups2016.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Security Interfaces</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/FeltRAHWTAMC16" mdate="2017-10-28">
+<author pid="52/8024">Adrienne Porter Felt</author>
+<author pid="08/873">Robert W. Reeder</author>
+<author pid="96/1307">Alex Ainslie</author>
+<author pid="73/3560">Helen Harris</author>
+<author pid="183/8121">Max Walker</author>
+<author pid="25/2118">Christopher Thompson</author>
+<author pid="207/6592">Mustafa Emre Acer</author>
+<author pid="121/4575">Elisabeth Morant</author>
+<author pid="61/1413">Sunny Consolvo</author>
+<title>Rethinking Connection Security Indicators.</title>
+<pages>1-14</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/porter-felt</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#FeltRAHWTAMC16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WeinbergerF16" mdate="2016-08-04">
+<author pid="96/8881">Joel Weinberger</author>
+<author pid="52/8024">Adrienne Porter Felt</author>
+<title>A Week to Remember: The Impact of Browser Warning Storage Policies.</title>
+<pages>15-25</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/weinberger</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#WeinbergerF16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/0017ASAZSAA16" mdate="2016-08-04">
+<author pid="35/837-17">Bin Liu 0017</author>
+<author pid="60/8384">Mads Schaarup Andersen</author>
+<author pid="08/7562">Florian Schaub</author>
+<author pid="63/8881">Hazim Almuhimedi</author>
+<author pid="83/3715">Shikun Zhang</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<author pid="84/1053">Yuvraj Agarwal</author>
+<author pid="49/3744">Alessandro Acquisti</author>
+<title>Follow My Recommendations: A Personalized Privacy Assistant for Mobile App Permissions.</title>
+<pages>27-41</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/liu</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#0017ASAZSAA16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MathurESCC16" mdate="2016-08-04">
+<author pid="130/2781">Arunesh Mathur</author>
+<author pid="183/8179">Josefine Engel</author>
+<author pid="183/8129">Sonam Sobti</author>
+<author pid="183/8175">Victoria Chang</author>
+<author pid="c/MarshiniChetty">Marshini Chetty</author>
+<title>&#34;They Keep Coming Back Like Zombies&#34;: Improving Software Updating Interfaces.</title>
+<pages>43-58</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/mathur</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#MathurESCC16</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Behavior 1</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/FaganK16" mdate="2017-01-10">
+<author pid="44/1622-1">Michael Fagan 0001</author>
+<author pid="91/4087">Mohammad Maifi Hasan Khan</author>
+<title>Why Do They Do What They Do?: A Study of What Motivates Users to (Not) Follow Computer Security Advice.</title>
+<pages>59-75</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/fagan</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#FaganK16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RaoSSAK16" mdate="2016-08-04">
+<author pid="122/4781">Ashwini Rao</author>
+<author pid="08/7562">Florian Schaub</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<author pid="49/3744">Alessandro Acquisti</author>
+<author pid="38/7219">Ruogu Kang</author>
+<title>Expecting the Unexpected: Understanding Mismatched Privacy Expectations Online.</title>
+<pages>77-96</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/rao</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#RaoSSAK16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ForgetPTACCEHT16" mdate="2016-08-04">
+<author pid="22/4861">Alain Forget</author>
+<author pid="183/8079">Sarah Pearman</author>
+<author pid="183/8140">Jeremy Thomas</author>
+<author pid="49/3744">Alessandro Acquisti</author>
+<author pid="c/NicolasChristin">Nicolas Christin</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="07/1108">Serge Egelman</author>
+<author pid="49/7449">Marian Harbach</author>
+<author pid="31/1425">Rahul Telang</author>
+<title>Do or Do Not, There Is No Try: User Engagement May Not Improve Security Outcomes.</title>
+<pages>97-111</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/forget</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#ForgetPTACCEHT16</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Encryption and Surveillance</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/0004NQKMK16" mdate="2016-08-04">
+<author pid="45/661-4">Wei Bai 0004</author>
+<author pid="183/8147">Moses Namara</author>
+<author pid="183/8088">Yichen Qian</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<author pid="133/4707">Doowon Kim</author>
+<title>An Inconvenient Trust: User Attitudes toward Security and Usability Tradeoffs for Key-Directory Encryption Systems.</title>
+<pages>113-130</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/bai</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#0004NQKMK16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RuotiOZS16" mdate="2016-08-04">
+<author pid="124/2527">Scott Ruoti</author>
+<author pid="37/9614">Mark O'Neill</author>
+<author pid="71/2423">Daniel Zappala</author>
+<author pid="s/KentESeamons">Kent E. Seamons</author>
+<title>User Attitudes Toward the Inspection of Encrypted Traffic.</title>
+<pages>131-146</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/ruoti</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#RuotiOZS16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LucaDOIL16" mdate="2016-08-04">
+<author pid="22/3157">Alexander De Luca</author>
+<author pid="83/8570">Sauvik Das</author>
+<author pid="134/6785">Martin Ortlieb</author>
+<author pid="87/1326">Iulia Ion</author>
+<author pid="14/2363">Ben Laurie</author>
+<title>Expert and Non-Expert Attitudes towards (Secure) Instant Messaging.</title>
+<pages>147-157</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/deluca</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#LucaDOIL16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MarquesMGCB16" mdate="2022-02-22">
+<author pid="130/2922">Diogo Marques 0001</author>
+<author pid="09/9598">Ildar Muslukhov</author>
+<author pid="05/3342">Tiago Jo&#227;o Guerreiro</author>
+<author pid="45/6515">Lu&#237;s Carri&#231;o</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>Snooping on Mobile Phones: Prevalence and Trends.</title>
+<pages>159-174</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/marques</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#MarquesMGCB16</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/WashRBW16" mdate="2016-08-04">
+<author pid="20/5611">Rick Wash</author>
+<author pid="83/396">Emilee J. Rader</author>
+<author pid="183/8166">Ruthie Berman</author>
+<author pid="183/8109">Zac Wellmer</author>
+<title>Understanding Password Choices: How Frequently Entered Passwords Are Re-used across Websites.</title>
+<pages>175-188</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/wash</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#WashRBW16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MareBG16" mdate="2016-08-04">
+<author pid="37/11080">Shrirang Mare</author>
+<author pid="b/MaryBaker">Mary Baker</author>
+<author pid="59/6837">Jeremy Gummeson</author>
+<title>A Study of Authentication in Daily Life.</title>
+<pages>189-206</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/mare</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#MareBG16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KrombholzHH16" mdate="2016-08-04">
+<author pid="128/4803">Katharina Krombholz</author>
+<author pid="24/11104">Thomas Hupperich</author>
+<author pid="h/ThorstenHolz">Thorsten Holz</author>
+<title>Use the Force: Evaluating Force-Sensitive Authentication for Mobile Devices.</title>
+<pages>207-219</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/krombholz</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#KrombholzHH16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AgarwalKH16" mdate="2016-08-04">
+<author pid="28/2667">Lalit Agarwal</author>
+<author pid="83/7562">Hassan Khan</author>
+<author pid="04/6136">Urs Hengartner</author>
+<title>Ask Me Again But Don't Annoy Me: Evaluating Re-authentication Strategies for Smartphones.</title>
+<pages>221-236</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/agarwal</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#AgarwalKH16</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Behavior 2</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/SundaramurthyMO16" mdate="2016-08-04">
+<author pid="121/2805">Sathya Chandran Sundaramurthy</author>
+<author pid="66/4447">John McHugh</author>
+<author pid="41/4686">Xinming Ou</author>
+<author pid="154/0816">Michael Wesch</author>
+<author pid="145/6877">Alexandru G. Bardas</author>
+<author pid="72/3341">S. Raj Rajagopalan</author>
+<title>Turning Contradictions into Innovations or: How We Learned to Stop Whining and Improve Security Operations.</title>
+<pages>237-251</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/sundaramurthy</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#SundaramurthyMO16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BeautementBPKS16" mdate="2016-08-04">
+<author pid="117/2509">Adam Beautement</author>
+<author pid="183/8093">Ingolf Becker</author>
+<author pid="84/3561">Simon Parkin</author>
+<author pid="117/2003">Kat Krol</author>
+<author pid="s/MASasse">M. Angela Sasse</author>
+<title>Productive Security: A Scalable Methodology for Analysing Employee Security Behaviours.</title>
+<pages>253-270</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/beautement</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#BeautementBPKS16</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Encryption and Surveillance</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/WarshawTW16" mdate="2016-08-04">
+<author pid="161/3339">Jeffrey Warshaw</author>
+<author pid="t/NinaTaft">Nina Taft</author>
+<author pid="63/6133">Allison Woodruff</author>
+<title>Intuitions, Analytics, and Killing Ants: Inference Literacy of High School-educated Adults in the US.</title>
+<pages>271-285</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/warshaw</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#WarshawTW16</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Privacy</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/MondalMGGK16" mdate="2019-09-24">
+<author pid="87/8324">Mainack Mondal</author>
+<author pid="139/9735">Johnnatan Messias</author>
+<author pid="06/900-1">Saptarshi Ghosh 0001</author>
+<author pid="g/PKrishnaGummadi">Krishna P. Gummadi</author>
+<author pid="12/3394">Aniket Kate</author>
+<title>Forgetting in Social Media: Understanding and Controlling Longitudinal Exposure of Socially Shared Data.</title>
+<pages>287-299</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/mondal</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#MondalMGGK16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TorabiB16" mdate="2016-08-04">
+<author pid="117/5054">Sadegh Torabi</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>Sharing Health Information on Facebook: Practices, Preferences, and Risk Perceptions of North American Users.</title>
+<pages>301-320</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/torabi</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#TorabiB16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GluckSFHSCA16" mdate="2016-08-04">
+<author pid="161/3174">Joshua Gluck</author>
+<author pid="08/7562">Florian Schaub</author>
+<author pid="183/8083">Amy Friedman</author>
+<author pid="179/4647">Hana Habib</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="84/1053">Yuvraj Agarwal</author>
+<title>How Short Is Too Short? Implications of Length and Framing on the Effectiveness of Privacy Notices.</title>
+<pages>321-340</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/gluck</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#GluckSFHSCA16</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AhmedSCCK16" mdate="2016-08-04">
+<author pid="161/3346">Tousif Ahmed</author>
+<author pid="167/2636">Patrick Shaffer</author>
+<author pid="c/KayConnelly">Kay Connelly</author>
+<author pid="c/DavidCrandall">David J. Crandall</author>
+<author pid="50/6916">Apu Kapadia</author>
+<title>Addressing Physical Safety, Security, and Privacy for People with Visual Impairments.</title>
+<pages>341-354</pages>
+<year>2016</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2016/technical-sessions/presentation/ahmed</ee>
+<crossref>conf/soups/2016</crossref>
+<url>db/conf/soups/soups2016.html#AhmedSCCK16</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

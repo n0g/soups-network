@@ -1,0 +1,478 @@
+<bht key="db/conf/soups/soups2025.bht" title="SOUPS @ USENIX Security Symposium 2025"> 
+<h1>21st <ref href="db/conf/soups/index.html">SOUPS</ref> @ <ref href="db/conf/uss/index.html">USENIX Security Symposium</ref> 2025:
+Seattle, WA, USA</h1> <dblpcites><r><proceedings key="conf/soups/2025" mdate="2025-08-22">
+<editor pid="15/3631">Patrick Gage Kelley</editor>
+<editor pid="87/8324">Mainack Mondal</editor>
+<editor pid="68/581">Kami Vaniea</editor>
+<title>Twenty-First Symposium on Usable Privacy and Security, SOUPS 2025, Seattle, WA, USA, August 10-12, 2025.</title>
+<booktitle>SOUPS</booktitle>
+<publisher>USENIX Association</publisher>
+<year>2025</year>
+<isbn>978-1-939133-51-9</isbn>
+<ee type="oa">https://www.usenix.org/conference/soups2025</ee>
+<url>db/conf/soups/soups2025.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Phishing and Advice</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/OakS25" mdate="2025-08-22">
+<author pid="223/9042">Rajvardhan Oak</author>
+<author pid="83/9528">Zubair Shafiq</author>
+<title>&#34;Hello, is this Anna?&#34;: Unpacking the Lifecycle of Pig-Butchering Scams.</title>
+<pages>1-18</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/oak-butchering</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#OakS25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SperoSBFBLR25" mdate="2025-08-22">
+<author pid="143/9858">Eric Spero</author>
+<author pid="413/8723">Isa Seow</author>
+<author pid="344/3043">Lucas Betts</author>
+<author pid="413/8739">Eddie Fuatimau</author>
+<author pid="50/4201">Robert Biddle</author>
+<author pid="38/3334">Danielle M. Lottridge</author>
+<author pid="43/4123">Giovanni Russello</author>
+<title>Language as Lure: A Naturalistic Study on Pasifika Phishing Susceptibility.</title>
+<pages>19-35</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/spero</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#SperoSBFBLR25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WangZWHCFH025" mdate="2025-10-17">
+<author pid="74/3431">Yizhu Wang</author>
+<author pid="318/9202">Haoyu Zhai</author>
+<author pid="319/0898-1">Chenkai Wang 0001</author>
+<author pid="254/0865">Qingying Hao</author>
+<author pid="413/8620">Nick A. Cohen</author>
+<author pid="374/9365">Roopa Foulger</author>
+<author pid="65/1116">Jonathan A. Handler</author>
+<author pid="71/4292-11">Gang Wang 0011</author>
+<title>Can You Walk Me Through It? Explainable SMS Phishing Detection using LLM-based Agents.</title>
+<pages>37-56</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/wang</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#WangZWHCFH025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/OakS25a" mdate="2025-08-22">
+<author pid="223/9042">Rajvardhan Oak</author>
+<author pid="83/9528">Zubair Shafiq</author>
+<title>Victims, Vigilantes, and Advice Givers: An Analysis of Scam-Related Discourse on Reddit.</title>
+<pages>57-71</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/oak-discourse</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#OakS25a</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DetsikaJWWMT25" mdate="2025-08-22">
+<author pid="413/9126">Christina Detsika</author>
+<author pid="413/8860">Timo Jagusch</author>
+<author pid="413/8824">Nora Weidner</author>
+<author pid="413/8959">Larissa Weir</author>
+<author pid="344/9226">Florin Martius</author>
+<author pid="205/3181">Christian Tiefenau</author>
+<title>&#34;You go now! No trouble!&#34; Understanding the Offboarding Process in Companies from an IT Security Perspective.</title>
+<pages>73-92</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/detsika</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#DetsikaJWWMT25</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>AI Privacy, Safety, and Security Issues</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/TolsdorfLKESMA25" mdate="2025-08-22">
+<author pid="204/2573">Jan Tolsdorf</author>
+<author pid="352/6278">Alan F. Luo</author>
+<author pid="361/1352">Monica Kodwani</author>
+<author pid="205/6920">Junho Eum</author>
+<author pid="136/8393">Mahmood Sharif</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<author pid="94/1554">Adam J. Aviv</author>
+<title>Safety Perceptions of Generative AI Conversational Agents: Uncovering Perceptual Differences in Trust, Risk, and Fairness.</title>
+<pages>93-112</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/tolsdorf</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#TolsdorfLKESMA25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KlymenkoMKPTM25" mdate="2025-08-22">
+<author pid="359/7111">Alexandra Klymenko</author>
+<author pid="326/8319">Stephen Meisenbacher</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="91/8283">Sai Teja Peddinti</author>
+<author pid="68/8283">Kurt Thomas</author>
+<author pid="m/FlorianMatthes">Florian Matthes</author>
+<title>&#34;We are not Future-ready&#34;: Understanding AI Privacy Risks and Existing Mitigation Strategies from the Perspective of AI Developers in Europe.</title>
+<pages>113-132</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/klymenko</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#KlymenkoMKPTM25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KramerRNBKTW25" mdate="2025-08-22">
+<author pid="413/9063">Diana Kramer</author>
+<author pid="413/9044">Lambert Rosique</author>
+<author pid="413/9094">Ajay Narotam</author>
+<author pid="20/7004">Elie Bursztein</author>
+<author pid="15/3631">Patrick Gage Kelley</author>
+<author pid="68/8283">Kurt Thomas</author>
+<author pid="63/6133">Allison Woodruff</author>
+<title>Integrating Large Language Models into Security Incident Response.</title>
+<pages>133-148</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/kramer</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#KramerRNBKTW25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/YuLZ0025" mdate="2025-08-22">
+<author pid="344/8557">Yaman Yu</author>
+<author pid="232/3200">Yiren Liu</author>
+<author pid="289/8344">Jacky Zhang</author>
+<author pid="33/5392-3">Yun Huang 0003</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>Youth-Centered GAI Risks (YAIR): A Taxonomy of Generative AI Risks from Empirical Data.</title>
+<pages>149-165</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/yu</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#YuLZ0025</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Trusting IoT and Embedded Devices</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/FrankenCGD25" mdate="2025-08-22">
+<author pid="224/9316">Gertjan Franken</author>
+<author pid="413/9206">Pieter Claeys</author>
+<author pid="147/2244">Tom van Goethem</author>
+<author pid="51/1256">Lieven Desmet</author>
+<title>Shiny Shells, Rusty Cores: A Crowdsourced Security Evaluation of Integrated Web Browsers.</title>
+<pages>167-184</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/franken</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#FrankenCGD25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TurkH25" mdate="2025-08-22">
+<author pid="344/8538">Kieron Ivy Turk</author>
+<author pid="181/3695">Alice Hutchings</author>
+<title>Spy-oT: Understanding How Users Learn to Use Internet of Things Devices For Abusive Purposes.</title>
+<pages>185-203</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/turk</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#TurkH25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AlsiyatC0F25" mdate="2025-08-22">
+<author pid="413/9469">Yara Alsiyat</author>
+<author pid="332/3084">Yuanhaur Chang</author>
+<author pid="181/2597-17">Ning Zhang 0017</author>
+<author pid="57/3469">Ivan Flechais</author>
+<title>Smart Spaces, Private Lives: A Culturally Grounded Examination of Privacy Tensions in Smart Homes.</title>
+<pages>205-224</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/alsiyat</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#AlsiyatC0F25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AlhindiH25" mdate="2025-08-22">
+<author pid="377/8918">Maysara Alhindi</author>
+<author pid="154/3768">Joseph Hallett</author>
+<title>Playing in the Sandbox: A Study on the Usability of Seccomp.</title>
+<pages>225-240</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/alhindi</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#AlhindiH25</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Privacy and Security Concerns</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/BatoolT25" mdate="2025-08-22">
+<author pid="172/7281">Amna Batool</author>
+<author pid="24/1434">Kentaro Toyama</author>
+<title>Between Court Orders and Platform Policies: Understanding Law Enforcement and Meta Interactions in Addressing Non-Consensual Image Disclosure Abuse.</title>
+<pages>241-258</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/batool</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#BatoolT25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/QuyoumWGS25" mdate="2025-08-22">
+<author pid="409/9045">Aunam Quyoum</author>
+<author pid="245/5010">Mark Wong</author>
+<author pid="191/5884">Sebati Ghosh</author>
+<author pid="s/SFShahandashti">Siamak F. Shahandashti</author>
+<title>Minoritised Ethnic People's Security and Privacy Concerns and Responses towards Essential Online Services.</title>
+<pages>259-278</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/quyoum</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#QuyoumWGS25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KeswaniWCKWASB25" mdate="2025-08-22">
+<author pid="413/8965">Ishika Keswani</author>
+<author pid="413/9148">Kerick Walker</author>
+<author pid="413/8769">Adrian Clement</author>
+<author pid="413/8819">Eusila Kitur</author>
+<author pid="413/8715">Nannapas Wonghirundacha</author>
+<author pid="413/9466">Ryan Aubrey</author>
+<author pid="413/9180">Vivien Song</author>
+<author pid="64/7821">Eleanor Birrell</author>
+<title>User Understandings of Technical Terms in App Privacy Labels.</title>
+<pages>279-298</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/keswani</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#KeswaniWCKWASB25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MalkinLZM25" mdate="2025-08-22">
+<author pid="179/4686">Nathan Malkin</author>
+<author pid="352/6278">Alan F. Luo</author>
+<author pid="413/8873">Evan J. Zhao</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<title>Do You See If I See? Investigating Reciprocity in Interpersonal Access-Control Settings (in the U.S.).</title>
+<pages>299-315</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/malkin</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#MalkinLZM25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GilbertWK25" mdate="2025-08-22">
+<author pid="410/6118">Meira Gilbert</author>
+<author pid="217/4562">Miranda Wei</author>
+<author pid="132/8227">Lindah Kotut</author>
+<title>&#34;TikTok, Do Your Thing&#34;: User Reactions to Social Surveillance in the Public Sphere.</title>
+<pages>317-334</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/gilbert</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#GilbertWK25</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ApthorpeBSF25" mdate="2025-08-22">
+<author pid="200/7871">Noah J. Apthorpe</author>
+<author pid="386/7714">Boen Beavers</author>
+<author pid="72/8176">Yan Shvartzshnaider</author>
+<author pid="377/7710">Brett Frischmann</author>
+<title>Measuring NIST Authentication Standards Compliance by Higher Education Institutions.</title>
+<pages>335-350</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/apthorpe</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#ApthorpeBSF25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Cabarcos025" mdate="2025-08-22">
+<author pid="13/8970">Patricia Arias Cabarcos</author>
+<author pid="36/111-1">Peter Mayer 0001</author>
+<title>The more accounts I use, the less I have to think': A Longitudinal Study on the Usability of Password Managers for Novice Users.</title>
+<pages>351-369</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/cabarcos</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#Cabarcos025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LassakLK25" mdate="2025-08-22">
+<author pid="301/5833">Leona Lassak</author>
+<author pid="413/8861">Nicklas Lindemann</author>
+<author pid="295/9595">Marvin Kowalewski</author>
+<title>From TOTPs to Security Keys: Studying the Reality of Passwordless FIDO2 Authentication With PIN and Biometrics in a Corporate Environment.</title>
+<pages>371-389</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/lassak</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#LassakLK25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SowonMKMSCFTG25" mdate="2025-08-22">
+<author pid="274/7468">Karen Sowon</author>
+<author pid="293/9864">Collins W. Munyendo</author>
+<author pid="384/6195">Lily Klucinec</author>
+<author pid="395/7000">Eunice Maingi</author>
+<author pid="395/7116">Gerald Suleh</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="141/9910">Giulia Fanti</author>
+<author pid="249/3125">Conrad Tucker</author>
+<author pid="17/6507">Assane Gueye</author>
+<title>Design and Evaluation of Privacy-Preserving Protocols for Agent-Facilitated Mobile Money Services in Kenya.</title>
+<pages>391-413</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/sowon</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#SowonMKMSCFTG25</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Advice</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/Abels0O25" mdate="2025-08-22">
+<author pid="413/9041">Laura Marie Abels</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<author pid="248/7206">Anna-Marie Ortloff</author>
+<title>I never reuse passwords! Development and Validation of a Security and Privacy Social Desirability Scale (SP-SDS) for end users without a background in computer science.</title>
+<pages>415-434</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/abels</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#Abels0O25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/OrtloffTAHGMJTJ25" mdate="2025-08-22">
+<author pid="248/7206">Anna-Marie Ortloff</author>
+<author pid="23/370">Jenny Tang</author>
+<author pid="402/8945">Arthi Arumugam</author>
+<author pid="413/8943">Daniel Huschina</author>
+<author pid="331/6898">Lisa Geierhaas</author>
+<author pid="344/9226">Florin Martius</author>
+<author pid="344/8493">Luisa Jansen</author>
+<author pid="413/8771">Kolja von der Twer</author>
+<author pid="413/8740">Lilly Jungbluth</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<title>Replication: &#34;No one can hack my mind&#34; - 10 years later: An update and outlook on experts' and non-experts' security practices and advice.</title>
+<pages>435-454</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/ortloff</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#OrtloffTAHGMJTJ25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BuckmannNAZ25" mdate="2025-08-22">
+<author pid="313/4504">Annalina Buckmann</author>
+<author pid="390/4407">Jan Magnus Nold</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="218/0356">Yixin Zou</author>
+<title>More than Usability: Differential Access to Digital Security and Privacy.</title>
+<pages>455-474</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/buckmann</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#BuckmannNAZ25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TangBC25" mdate="2025-08-22">
+<author pid="23/370">Jenny Tang</author>
+<author pid="32/3440">Lujo Bauer</author>
+<author pid="c/NicolasChristin">Nicolas Christin</author>
+<title>Misuse, Misreporting, Misinterpretation of Statistical Methods in Usable Privacy and Security Papers.</title>
+<pages>475-493</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/tang</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#TangBC25</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Trust and Social Aspects of User Privacy</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KimWSLCH25" mdate="2025-10-29">
+<author pid="00/4936-2">JaeWon Kim 0002</author>
+<author pid="50/689">Robert Wolfe</author>
+<author pid="400/7267">Ramya Bhagirathi Subramanian</author>
+<author pid="134/0236">Mei-Hsuan Lee</author>
+<author pid="174/9189">Jessica Colnago</author>
+<author pid="131/3582">Alexis Hiniker</author>
+<title>Trust-Enabled Privacy: Social Media Designs to Support Adolescent User Boundary Regulation.</title>
+<pages>495-514</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/kim</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#KimWSLCH25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SongZHGK25" mdate="2025-08-22">
+<author pid="318/9750">Qiurong Song</author>
+<author pid="319/4959">Zinan Zhang</author>
+<author pid="372/7487">Rie Helene (Lindy) Hernandez</author>
+<author pid="164/0075">Xinning Gui</author>
+<author pid="40/8279">Yubo Kou</author>
+<title>How Predatory Monetization Designs Manifest in Child-Friendly Video Games.</title>
+<pages>515-534</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/song</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#SongZHGK25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GerberZPR25" mdate="2025-08-22">
+<author pid="181/7338">Nina Gerber</author>
+<author pid="198/5724">Verena Zimmermann</author>
+<author pid="246/8959">Alexandra von Preuschen</author>
+<author pid="r/KarenRenaud">Karen Renaud</author>
+<title>Unpacking the Social and Emotional Dimensions of Security and Privacy User Engagement.</title>
+<pages>535-554</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/gerber</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#GerberZPR25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Fung0B25" mdate="2025-08-22">
+<author pid="199/8537">Clement Fung</author>
+<author pid="202/7659-1">Eric Zeng 0001</author>
+<author pid="32/3440">Lujo Bauer</author>
+<title>Adopting AI to Protect Industrial Control Systems: Assessing Challenges and Opportunities from the Operators' Perspective.</title>
+<pages>555-573</pages>
+<year>2025</year>
+<booktitle>SOUPS</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2025/presentation/fung</ee>
+<crossref>conf/soups/2025</crossref>
+<url>db/conf/soups/soups2025.html#Fung0B25</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

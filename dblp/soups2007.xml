@@ -1,0 +1,415 @@
+<bht key="db/conf/soups/soups2007.bht" title="Symposium On Usable Privacy and Security 2007">  
+<h1><ref href="db/conf/soups/index.html">SOUPS</ref> 2007:
+Pittsburgh, PA, USA</h1> <dblpcites><r><proceedings key="conf/soups/2007" mdate="2008-06-10">
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<title>Proceedings of the 3rd Symposium on Usable Privacy and Security, SOUPS 2007, Pittsburgh, Pennsylvania, USA, July 18-20, 2007</title>
+<volume>229</volume>
+<year>2007</year>
+<isbn>978-1-59593-801-5</isbn>
+<booktitle>SOUPS</booktitle>
+<series href="db/series/aicps/index.html">ACM International Conference Proceeding Series</series>
+<publisher>ACM</publisher>
+<url>db/conf/soups/soups2007.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Passwords</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ChiassonBO07" mdate="2018-11-06">
+<author pid="26/2669">Sonia Chiasson</author>
+<author pid="50/4201">Robert Biddle</author>
+<author orcid="0000-0002-5038-5370" pid="o/PCvOorschot">Paul C. van Oorschot</author>
+<title>A second look at the usability of click-based graphical passwords.</title>
+<pages>1-12</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280682</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#ChiassonBO07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KumarGBW07" mdate="2018-11-06">
+<author pid="16/2987">Manu Kumar</author>
+<author pid="55/1439">Tal Garfinkel</author>
+<author pid="b/DanBoneh">Dan Boneh</author>
+<author pid="w/TerryWinograd">Terry Winograd</author>
+<title>Reducing shoulder-surfing by using gaze-based password entry.</title>
+<pages>13-19</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280683</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#KumarGBW07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DirikMB07" mdate="2018-11-06">
+<author pid="58/1515">Ahmet Emir Dirik</author>
+<author pid="89/6419">Nasir D. Memon</author>
+<author pid="98/5820">Jean-Camille Birget</author>
+<title>Modeling user choice in the PassPoints graphical password scheme.</title>
+<pages>20-28</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280684</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#DirikMB07</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Privacy and access control</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/JensenSJP07" mdate="2021-10-14">
+<author pid="45/339">Carlos Jensen</author>
+<author pid="15/1305">Chandan Sarkar</author>
+<author orcid="0000-0002-0058-0848" pid="j/ChristianSJensen">Christian S. Jensen</author>
+<author pid="p/ColinPotts">Colin Potts</author>
+<title>Tracking website data-collection and privacy practices with the iWatch web crawler.</title>
+<pages>29-40</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280686</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#JensenSJP07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ClarkOA07" mdate="2018-11-06">
+<author pid="86/1765">Jeremy Clark</author>
+<author orcid="0000-0002-5038-5370" pid="o/PCvOorschot">Paul C. van Oorschot</author>
+<author pid="a/CarlisleMAdams">Carlisle Adams</author>
+<title>Usability of anonymous web browsing: an examination of Tor interfaces and deployability.</title>
+<pages>41-51</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280687</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#ClarkOA07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KrishnamurthyMW07" mdate="2021-10-14">
+<author pid="89/7016">Balachander Krishnamurthy</author>
+<author orcid="0000-0003-2693-0196" pid="98/2936">Delfina Malandrino</author>
+<author pid="37/537">Craig E. Wills</author>
+<title>Measuring privacy loss and the impact of privacy protection in web browsing.</title>
+<pages>52-63</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280688</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#KrishnamurthyMW07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BauerCRV07" mdate="2018-11-14">
+<author orcid="0000-0002-8209-6792" pid="32/3440">Lujo Bauer</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="r/MichaelKReiter">Michael K. Reiter</author>
+<author pid="68/581">Kami Vaniea</author>
+<title>Lessons learned from the deployment of a smartphone-based access-control system.</title>
+<pages>64-75</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280689</ee>
+<ee>https://www.wikidata.org/entity/Q57888631</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#BauerCRV07</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Training and such</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/BrustoloniV07" mdate="2018-11-06">
+<author pid="b/JoseCarlosBrustoloni">Jos&#233; Carlos Brustoloni</author>
+<author pid="64/6926">Ricardo Villamar&#237;n-Salom&#243;n</author>
+<title>Improving security decisions with polymorphic and audited dialogs.</title>
+<pages>76-85</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280691</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#BrustoloniV07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ShengMKACHN07" mdate="2020-09-05">
+<author pid="23/3412">Steve Sheng</author>
+<author pid="69/1091">Bryant Magnien</author>
+<author pid="97/5147">Ponnurangam Kumaraguru</author>
+<author orcid="0000-0001-6582-6178" pid="49/3744">Alessandro Acquisti</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="h/JasonIHong">Jason I. Hong</author>
+<author pid="64/5872">Elizabeth Nunge</author>
+<title>Anti-Phishing Phil: the design and evaluation of a game that teaches people not to fall for phish.</title>
+<pages>88-99</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280692</ee>
+<ee>https://www.wikidata.org/entity/Q57888612</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#ShengMKACHN07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BottaWGBIFF07" mdate="2018-11-06">
+<author pid="21/2592">David Botta</author>
+<author pid="85/2025">Rodrigo Werlinger</author>
+<author pid="67/2413">Andr&#233; Gagn&#233;</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<author pid="38/4496">Lee Iverson</author>
+<author pid="f/SidneyFels">Sidney S. Fels</author>
+<author orcid="0000-0001-5665-5709" pid="25/4412">Brian D. Fisher</author>
+<title>Towards understanding IT security professionals and their tools.</title>
+<pages>100-111</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280693</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#BottaWGBIFF07</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>SOUPS du jour</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ContiS07" mdate="2018-11-06">
+<author pid="c/GregoryJConti">Gregory J. Conti</author>
+<author pid="69/6738">Edward Sobiesk</author>
+<title>An honest man has nothing to fear: user perceptions on web-based information disclosure.</title>
+<pages>112-121</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280695</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#ContiS07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LiebermanM07" mdate="2018-11-06">
+<author pid="28/5020">Eric Lieberman</author>
+<author pid="m/RobMiller">Robert C. Miller</author>
+<title>Facemail: showing faces of recipients to prevent misdirected email.</title>
+<pages>122-131</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280696</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#LiebermanM07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KrsticG07" mdate="2019-06-02">
+<author pid="96/5913">Ivan Krstic</author>
+<author orcid="0000-0003-1294-2831" pid="70/2101">Simson L. Garfinkel</author>
+<title>Bitfrost: the one laptop per child security model.</title>
+<pages>132-142</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280697</ee>
+<ee>https://www.wikidata.org/entity/Q60516580</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#KrsticG07</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Posters</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/JamesKMM07" mdate="2018-11-06">
+<author pid="24/3409">Rajah James</author>
+<author pid="41/1020">Woo Tae Kim</author>
+<author pid="30/3624">Aleecia M. McDonald</author>
+<author pid="84/5764">Robert McGuire</author>
+<title>A usability evaluation of a home monitoring system.</title>
+<pages>143-144</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280699</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#JamesKMM07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BethencourtLSW07" mdate="2018-11-06">
+<author pid="84/5413">John Bethencourt</author>
+<author pid="36/6846">Wai Yong Low</author>
+<author pid="47/6069">Isaac Simmons</author>
+<author pid="31/3063">Matthew Williamson</author>
+<title>Establishing darknet connections: an evaluation of usability and security.</title>
+<pages>145-146</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280700</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#BethencourtLSW07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Lim07" mdate="2018-11-06">
+<author pid="38/5216">Johnny Lim</author>
+<title>Defeat spyware with anti-screen capture technology using visual persistence.</title>
+<pages>147-148</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280701</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#Lim07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WerlingerBB07" mdate="2018-11-06">
+<author pid="85/2025">Rodrigo Werlinger</author>
+<author pid="21/2592">David Botta</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>Detecting, analyzing and responding to security incidents: a qualitative analysis.</title>
+<pages>149-150</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280702</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#WerlingerBB07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ForgetCB07" mdate="2018-11-06">
+<author pid="22/4861">Alain Forget</author>
+<author pid="26/2669">Sonia Chiasson</author>
+<author pid="50/4201">Robert Biddle</author>
+<title>Helping users create better passwords: is this the right approach?</title>
+<pages>151-152</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280703</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#ForgetCB07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HecklePO07" mdate="2018-11-06">
+<author pid="41/2417">Rosa R. Heckle</author>
+<author pid="35/4938">Andrew S. Patrick</author>
+<author pid="70/3780">A. Ant Ozok</author>
+<title>Perception and acceptance of fingerprint biometric technology.</title>
+<pages>153-154</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280704</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#HecklePO07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HeinerA07" mdate="2018-11-06">
+<author pid="63/469">Andreas P. Heiner</author>
+<author orcid="0000-0002-5093-9871" pid="39/2508">N. Asokan</author>
+<title>Secure software installation in a mobile environment.</title>
+<pages>155-156</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280705</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#HeinerA07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/StraterR07" mdate="2018-11-06">
+<author pid="55/16">Katherine Strater</author>
+<author pid="r/HeatherRichter">Heather Richter</author>
+<title>Examining privacy and disclosure in a social networking community.</title>
+<pages>157-158</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280706</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#StraterR07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Marchant07" mdate="2018-11-06">
+<author pid="94/246">Robert L. Marchant</author>
+<title>A survey of privacy concerns with dynamic collaborator discovery capabilities.</title>
+<pages>159-160</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280707</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#Marchant07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LinDOY07" mdate="2018-11-06">
+<author pid="20/3191">Di Lin</author>
+<author pid="23/1640">Paul Dunphy</author>
+<author orcid="0000-0003-2841-7580" pid="60/397">Patrick Olivier</author>
+<author pid="37/6136">Jeff Yan</author>
+<title>Graphical passwords &#38; qualitative spatial relations.</title>
+<pages>161-162</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280708</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#LinDOY07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/EdmanH07" mdate="2018-11-06">
+<author pid="09/136">Matthew Edman</author>
+<author pid="34/6753">Justin Hipple</author>
+<title>Vidalia: towards a usable Tor GUI.</title>
+<pages>163-164</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280709</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#EdmanH07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DunphyY07" mdate="2018-11-06">
+<author pid="23/1640">Paul Dunphy</author>
+<author pid="37/6136">Jeff Yan</author>
+<title>Is FacePIN secure and usable?</title>
+<pages>165-166</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280710</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#DunphyY07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GrossR07" mdate="2018-11-06">
+<author pid="92/660">Joshua B. Gross</author>
+<author pid="r/MBRosson">Mary Beth Rosson</author>
+<title>End user concern about security and privacy threats.</title>
+<pages>167-168</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280711</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#GrossR07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BaileyVKMS07" mdate="2018-11-06">
+<author pid="15/880">Katelin Bailey</author>
+<author pid="84/1205">Linden Vongsathorn</author>
+<author pid="50/6916">Apu Kapadia</author>
+<author pid="15/3948">Chris Masone</author>
+<author pid="94/2605">Sean W. Smith</author>
+<title>TwoKind authentication: usable authenticators for untrustworthy environments.</title>
+<pages>169-170</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280712</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#BaileyVKMS07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MotahariMHJ07" mdate="2018-11-06">
+<author pid="129/1933">Sara Motahari</author>
+<author pid="64/77">Constantine N. Manikopoulos</author>
+<author pid="36/3888">Starr Roxanne Hiltz</author>
+<author pid="76/3795">Quentin Jones</author>
+<title>Seven privacy worries in ubiquitous social computing.</title>
+<pages>171-172</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280713</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#MotahariMHJ07</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HeckleL07" mdate="2018-11-06">
+<author pid="41/2417">Rosa R. Heckle</author>
+<author pid="19/1614">Wayne G. Lutters</author>
+<title>Privacy implications for single sign-on authentication in a hospital environment.</title>
+<pages>173-174</pages>
+<year>2007</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1280680.1280714</ee>
+<crossref>conf/soups/2007</crossref>
+<url>db/conf/soups/soups2007.html#HeckleL07</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

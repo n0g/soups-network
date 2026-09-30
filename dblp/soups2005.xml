@@ -1,0 +1,164 @@
+<bht key="db/conf/soups/soups2005.bht" title="Symposium On Usable Privacy and Security 2005">  
+<h1><ref href="db/conf/soups/index.html">SOUPS</ref> 2005:
+Pittsburgh, PA, USA</h1> <dblpcites><r><proceedings key="conf/soups/2005" mdate="2008-06-10">
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<title>Proceedings of the 1st Symposium on Usable Privacy and Security, SOUPS 2005, Pittsburgh, Pennsylvania, USA, July 6-8, 2005</title>
+<volume>93</volume>
+<year>2005</year>
+<isbn>1-59593-178-3</isbn>
+<booktitle>SOUPS</booktitle>
+<series href="db/series/aicps/index.html">ACM International Conference Proceeding Series</series>
+<publisher>ACM</publisher>
+<url>db/conf/soups/soups2005.html</url>
+</proceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WiedenbeckWBBM05" mdate="2018-11-06">
+<author pid="66/3804">Susan Wiedenbeck</author>
+<author pid="49/3497">Jim Waters</author>
+<author pid="98/5820">Jean-Camille Birget</author>
+<author pid="41/4571">Alex Brodskiy</author>
+<author pid="89/6419">Nasir D. Memon</author>
+<title>Authentication using graphical passwords: effects of tolerance and image choice.</title>
+<pages>1-12</pages>
+<year>2005</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1073001.1073002</ee>
+<crossref>conf/soups/2005</crossref>
+<url>db/conf/soups/soups2005.html#WiedenbeckWBBM05</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GarfinkelM05" mdate="2018-11-06">
+<author pid="70/2101">Simson L. Garfinkel</author>
+<author pid="m/RobMiller">Robert C. Miller</author>
+<title>Johnny 2: a user test of key continuity management with S/MIME and Outlook Express.</title>
+<pages>13-24</pages>
+<year>2005</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1073001.1073003</ee>
+<crossref>conf/soups/2005</crossref>
+<url>db/conf/soups/soups2005.html#GarfinkelM05</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PaulaDDNPRRRF05" mdate="2021-10-14">
+<author pid="130/2269">Rog&#233;rio de Paula</author>
+<author orcid="0000-0001-8122-6252" pid="39/805">Xianghua Ding</author>
+<author pid="97/936">Paul Dourish</author>
+<author pid="70/1455">Kari Nies</author>
+<author pid="20/5356">Ben Pillet</author>
+<author pid="84/6534">David F. Redmiles</author>
+<author pid="r/JieRen-1">Jie Ren 0001</author>
+<author pid="r/JenniferAnnRode">Jennifer Ann Rode</author>
+<author pid="04/866">Roberto Silveira Silva Filho</author>
+<title>Two experiences designing for effective security.</title>
+<pages>25-34</pages>
+<year>2005</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1073001.1073004</ee>
+<crossref>conf/soups/2005</crossref>
+<url>db/conf/soups/soups2005.html#PaulaDDNPRRRF05</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BrodieKKF05" mdate="2018-11-06">
+<author pid="07/6892">Carolyn Brodie</author>
+<author pid="94/1757">Clare-Marie Karat</author>
+<author pid="94/2065">John Karat</author>
+<author pid="12/5575">Jinjuan Feng</author>
+<title>Usable security and privacy: a case study of developing privacy management tools.</title>
+<pages>35-43</pages>
+<year>2005</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1073001.1073005</ee>
+<crossref>conf/soups/2005</crossref>
+<url>db/conf/soups/soups2005.html#BrodieKKF05</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GoodDGTAMK05" mdate="2018-11-06">
+<author pid="g/NathanielGood">Nathaniel Good</author>
+<author pid="43/2742">Rachna Dhamija</author>
+<author pid="28/3855">Jens Grossklags</author>
+<author pid="01/2925">David Thaw</author>
+<author pid="79/4448">Steven Aronowitz</author>
+<author pid="62/4885">Deirdre K. Mulligan</author>
+<author pid="09/3004">Joseph A. Konstan</author>
+<title>Stopping spyware at the gate: a user study of privacy, notice and spyware.</title>
+<pages>43-52</pages>
+<year>2005</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1073001.1073006</ee>
+<crossref>conf/soups/2005</crossref>
+<url>db/conf/soups/soups2005.html#GoodDGTAMK05</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PetterssonFDNBCKK05" mdate="2018-11-06">
+<author pid="96/1776">John S&#246;ren Pettersson</author>
+<author pid="f/SimoneFischerHubner">Simone Fischer-H&#252;bner</author>
+<author pid="78/203">Ninni Danielsson</author>
+<author pid="39/6777">Jenny Nilsson</author>
+<author pid="75/5504">Mike Bergmann</author>
+<author pid="61/1101">Sebastian Clau&#223;</author>
+<author pid="55/6049">Thomas Kriegelstein</author>
+<author pid="73/5007">Henry Krasemann</author>
+<title>Making PRIME usable.</title>
+<pages>53-64</pages>
+<year>2005</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1073001.1073007</ee>
+<crossref>conf/soups/2005</crossref>
+<url>db/conf/soups/soups2005.html#PetterssonFDNBCKK05</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/IachelloSCCA05" mdate="2018-11-06">
+<author pid="14/3599">Giovanni Iachello</author>
+<author pid="46/84">Ian E. Smith</author>
+<author pid="61/1413">Sunny Consolvo</author>
+<author pid="83/3844">Mike Y. Chen</author>
+<author pid="a/GDAbowd">Gregory D. Abowd</author>
+<title>Developing privacy guidelines for social location disclosure applications and services.</title>
+<pages>65-76</pages>
+<year>2005</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1073001.1073008</ee>
+<crossref>conf/soups/2005</crossref>
+<url>db/conf/soups/soups2005.html#IachelloSCCA05</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DhamijaT05" mdate="2018-11-06">
+<author pid="43/2742">Rachna Dhamija</author>
+<author pid="t/JDTygar">J. Doug Tygar</author>
+<title>The battle against phishing: Dynamic Security Skins.</title>
+<pages>77-88</pages>
+<year>2005</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1073001.1073009</ee>
+<crossref>conf/soups/2005</crossref>
+<url>db/conf/soups/soups2005.html#DhamijaT05</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ContiAS05" mdate="2018-11-06">
+<author pid="c/GregoryJConti">Gregory J. Conti</author>
+<author pid="73/3162">Mustaque Ahamad</author>
+<author pid="s/JohnTStasko">John T. Stasko</author>
+<title>Attacking information visualization system usability overloading and deceiving the human.</title>
+<pages>89-100</pages>
+<year>2005</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1073001.1073010</ee>
+<crossref>conf/soups/2005</crossref>
+<url>db/conf/soups/soups2005.html#ContiAS05</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/DiGioiaD05" mdate="2018-11-06">
+<author pid="69/4012">Paul DiGioia</author>
+<author pid="97/936">Paul Dourish</author>
+<title>Social navigation as a model for usable security.</title>
+<pages>101-108</pages>
+<year>2005</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/1073001.1073011</ee>
+<crossref>conf/soups/2005</crossref>
+<url>db/conf/soups/soups2005.html#DiGioiaD05</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

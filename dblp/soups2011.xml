@@ -1,0 +1,245 @@
+<bht key="db/conf/soups/soups2011.bht" title="Symposium On Usable Privacy and Security 2011">  
+<h1><ref href="db/conf/soups/index.html">SOUPS</ref> 2011:
+Pittsburgh, PA, USA</h1> <dblpcites><r><proceedings key="conf/soups/2011" mdate="2012-09-24">
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<title>Symposium On Usable Privacy and Security, SOUPS '11, Pittsburgh, PA, USA - July 20 - 22, 2011</title>
+<publisher>ACM</publisher>
+<booktitle>SOUPS</booktitle>
+<year>2011</year>
+<isbn>978-1-4503-0911-0</isbn>
+<ee>http://dl.acm.org/citation.cfm?id=2078827</ee>
+<url>db/conf/soups/soups2011.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Security warnings</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/RajaHHWB11" mdate="2018-11-06">
+<author pid="27/3545">Fahimeh Raja</author>
+<author pid="58/3313">Kirstie Hawkey</author>
+<author pid="21/4709">Steven Hsu</author>
+<author pid="16/9598">Kai-Le Clement Wang</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>A brick wall, a locked door, and a bandit: a physical security metaphor for firewall warnings.</title>
+<pages>1</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078829</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#RajaHHWB11</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MaurerLK11" mdate="2018-11-06">
+<author pid="46/7370">Max-Emanuel Maurer</author>
+<author pid="22/3157">Alexander De Luca</author>
+<author pid="119/0471">Sylvia Kempe</author>
+<title>Using data type based security alert dialogs to raise online security awareness.</title>
+<pages>2</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078830</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#MaurerLK11</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SotirakopoulosHB11" mdate="2018-11-06">
+<author pid="57/9599">Andreas Sotirakopoulos</author>
+<author pid="58/3313">Kirstie Hawkey</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>On the challenges in usable security lab studies: lessons learned from replicating a study on SSL warnings.</title>
+<pages>3</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078831</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#SotirakopoulosHB11</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/SunPMDHB11" mdate="2018-11-06">
+<author pid="93/7561">San-Tsai Sun</author>
+<author pid="85/9597">Eric Pospisil</author>
+<author pid="09/9598">Ildar Muslukhov</author>
+<author pid="92/9599">Nuray Dindar</author>
+<author pid="58/3313">Kirstie Hawkey</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>What makes users refuse web single sign-on?: an empirical investigation of OpenID.</title>
+<pages>4</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078833</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#SunPMDHB11</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PerkovicLMKJC11" mdate="2019-09-25">
+<author orcid="0000-0001-8826-4905" pid="32/8323">Toni Perkovic</author>
+<author orcid="0000-0001-5628-7328" pid="09/6954">Shujun Li</author>
+<author pid="04/462">Asma Mumtaz</author>
+<author pid="68/6021">Syed Ali Khayam</author>
+<author pid="76/7908">Yousra Javed</author>
+<author pid="c/MarioCagalj">Mario Cagalj</author>
+<title>Breaking undercover: exploiting design flaws and nonuniform human behavior.</title>
+<pages>5</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078834</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#PerkovicLMKJC11</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZakariaGBY11" mdate="2018-11-06">
+<author orcid="0000-0001-5971-1307" pid="119/0433">Nur Haryani Zakaria</author>
+<author pid="10/6918">David Griffiths</author>
+<author pid="82/506">Sacha Brostoff</author>
+<author pid="37/6136">Jeff Yan</author>
+<title>Shoulder surfing defence for recall-based graphical passwords.</title>
+<pages>6</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078835</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#ZakariaGBY11</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>SOUPS du jour</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/JaferianHSVB11" mdate="2018-11-06">
+<author pid="69/6386">Pooya Jaferian</author>
+<author pid="58/3313">Kirstie Hawkey</author>
+<author pid="57/9599">Andreas Sotirakopoulos</author>
+<author pid="119/0447">Maria Velez-Rojas</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>Heuristics for evaluating IT security management tools.</title>
+<pages>7</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078837</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#JaferianHSVB11</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LiuXPHL11" mdate="2018-11-06">
+<author pid="37/2109">Gang Liu</author>
+<author pid="36/2125">Guang Xiang</author>
+<author pid="82/2115">Bryan A. Pendleton</author>
+<author pid="h/JasonIHong">Jason I. Hong</author>
+<author pid="l/WenyinLiu">Wenyin Liu</author>
+<title>Smartening the crowds: computational techniques for improving human verification to fight phishing scams.</title>
+<pages>8</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078838</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#LiuXPHL11</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZhuCKK11" mdate="2019-09-16">
+<author pid="46/9046">Feng Zhu 0010</author>
+<author pid="25/5203">Sandra Carpenter</author>
+<author pid="95/11080">Ajinkya Kulkarni</author>
+<author pid="42/11159">Swapna Kolimi</author>
+<title>Reciprocity attacks.</title>
+<pages>9</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078839</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#ZhuCKK11</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Privacy on social network sites</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/0016NKALC11" mdate="2020-09-05">
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<author pid="80/11454">Gregory Norcie</author>
+<author pid="05/6177">Saranga Komanduri</author>
+<author orcid="0000-0001-6582-6178" pid="49/3744">Alessandro Acquisti</author>
+<author pid="30/8322">Pedro Giovanni Leon</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<title>&#34;I regretted the minute I pressed share&#34;: a qualitative study of regrets on Facebook.</title>
+<pages>10</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078841</ee>
+<ee>https://www.wikidata.org/entity/Q57888220</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#0016NKALC11</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ShehabMH11" mdate="2018-11-06">
+<author pid="89/6785">Mohamed Shehab</author>
+<author pid="94/7753">Said Marouf</author>
+<author pid="119/0400">Christopher Hudel</author>
+<title>ROAuth: recommendation based open authorization.</title>
+<pages>11</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078842</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#ShehabMH11</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KingLS11" mdate="2018-11-06">
+<author pid="49/1550">Jennifer King</author>
+<author pid="97/1342">Airi Lampinen</author>
+<author pid="119/0424">Alex Smolen</author>
+<title>Privacy: is there an app for that?</title>
+<pages>12</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078843</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#KingLS11</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Perceptions of privacy and security</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/IonSKC11" mdate="2018-11-06">
+<author pid="87/1326">Iulia Ion</author>
+<author pid="119/0385">Niharika Sachdeva</author>
+<author pid="97/5147">Ponnurangam Kumaraguru</author>
+<author pid="51/1639">Srdjan Capkun</author>
+<title>Home is safer than the cloud!: privacy concerns for consumer cloud storage.</title>
+<pages>13</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078845</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#IonSKC11</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SchlegelKL11" mdate="2018-11-06">
+<author pid="16/259">Roman Schlegel</author>
+<author pid="50/6916">Apu Kapadia</author>
+<author pid="62/1373">Adam J. Lee</author>
+<title>Eyeing your exposure: quantifying and controlling information sharing for improved privacy.</title>
+<pages>14</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078846</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#SchlegelKL11</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BraunsteinGS11" mdate="2018-11-06">
+<author pid="119/0391">Alex Braunstein</author>
+<author pid="21/150">Laura A. Granka</author>
+<author pid="37/4879">Jessica Staddon</author>
+<title>Indirect content privacy surveys: measuring privacy without asking about it.</title>
+<pages>15</pages>
+<year>2011</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2078827.2078847</ee>
+<crossref>conf/soups/2011</crossref>
+<url>db/conf/soups/soups2011.html#BraunsteinGS11</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

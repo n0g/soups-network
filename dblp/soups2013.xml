@@ -1,0 +1,255 @@
+<bht key="db/conf/soups/soups2013.bht" title="Symposium On Usable Privacy and Security 2013">  
+<h1><ref href="db/conf/soups/index.html">SOUPS</ref> 2013:
+Newcastle, UK</h1> <dblpcites><r><proceedings key="conf/soups/2013" mdate="2013-08-16">
+<editor pid="32/3440">Lujo Bauer</editor>
+<editor pid="47/6517">Konstantin Beznosov</editor>
+<editor pid="03/1595">Lorrie Faith Cranor</editor>
+<title>Symposium On Usable Privacy and Security, SOUPS '13, Newcastle, United Kingdom, July 24-26, 2013</title>
+<publisher>ACM</publisher>
+<booktitle>SOUPS</booktitle>
+<year>2013</year>
+<isbn>978-1-4503-2319-2</isbn>
+<ee>http://dl.acm.org/citation.cfm?id=2501604</ee>
+<url>db/conf/soups/soups2013.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Authentication and authorization</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ThompsonJEWK13" mdate="2019-10-30">
+<author pid="25/2118-2">Christopher Thompson 0002</author>
+<author pid="55/4587">Maritza L. Johnson</author>
+<author pid="07/1108">Serge Egelman</author>
+<author pid="42/5626">David A. Wagner 0001</author>
+<author pid="49/1550">Jennifer King</author>
+<title>When it's better to ask forgiveness than get permission: attribution mechanisms for smartphone resources.</title>
+<pages>1:1-1:14</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501605</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#ThompsonJEWK13</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BeckerleM13" mdate="2018-11-06">
+<author pid="132/9623">Matthias Beckerle</author>
+<author pid="12/3968">Leonardo A. Martucci</author>
+<title>Formal definitions for usable access control rule sets from goals to metrics.</title>
+<pages>2:1-2:11</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501606</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#BeckerleM13</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HayashiDAHO13" mdate="2019-06-02">
+<author pid="15/4384">Eiji Hayashi</author>
+<author pid="83/8570">Sauvik Das</author>
+<author pid="13/9072">Shahriyar Amini</author>
+<author pid="h/JasonIHong">Jason I. Hong</author>
+<author orcid="0000-0001-5834-8577" pid="76/3174">Ian Oakley</author>
+<title>CASA: context-aware scalable authentication.</title>
+<pages>3:1-3:10</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501607</ee>
+<ee>https://www.wikidata.org/entity/Q59589502</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#HayashiDAHO13</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>SOUPS de jour</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/AyalonT13" mdate="2018-11-06">
+<author pid="132/9580">Oshrat Ayalon</author>
+<author orcid="0000-0001-6939-5870" pid="47/3938">Eran Toch</author>
+<title>Retrospective privacy: managing longitudinal privacy in online social networks.</title>
+<pages>4:1-4:13</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501608</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#AyalonT13</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RuotiKBHS13" mdate="2020-12-25">
+<author orcid="0000-0002-6917-4186" pid="124/2527">Scott Ruoti</author>
+<author pid="132/9675">Nathan Kim</author>
+<author pid="132/9653">Ben Burgon</author>
+<author pid="70/4214">Timothy W. van der Horst</author>
+<author orcid="0000-0002-1482-492X" pid="s/KentESeamons">Kent E. Seamons</author>
+<title>Confused Johnny: when automatic encryption leads to confusion and mistakes.</title>
+<pages>5:1-5:12</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501609</ee>
+<ee>https://www.wikidata.org/entity/Q101069861</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#RuotiKBHS13</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Bravo-LilloKCRSDS13" mdate="2018-11-14">
+<author orcid="0000-0003-3590-3800" pid="33/9463">Cristian Bravo-Lillo</author>
+<author pid="05/6177">Saranga Komanduri</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="08/873">Robert W. Reeder</author>
+<author pid="64/10054">Manya Sleeper</author>
+<author pid="78/1081">Julie S. Downs</author>
+<author pid="s/SESchechter">Stuart E. Schechter</author>
+<title>Your attention please: designing security-decision UIs to make genuine risks harder to ignore.</title>
+<pages>6:1-6:12</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501610</ee>
+<ee>https://www.wikidata.org/entity/Q57888120</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#Bravo-LilloKCRSDS13</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Privacy</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/LeonU0SBSBCC13" mdate="2018-11-14">
+<author pid="30/8322">Pedro Giovanni Leon</author>
+<author pid="66/9786">Blase Ur</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<author pid="64/10054">Manya Sleeper</author>
+<author orcid="0000-0001-9862-0790" pid="91/11300">Rebecca Balebako</author>
+<author pid="18/1031">Richard Shay</author>
+<author orcid="0000-0002-8209-6792" pid="32/3440">Lujo Bauer</author>
+<author pid="64/4993">Mihai Christodorescu</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<title>What matters to users?: factors that affect users' willingness to share information with online advertisers.</title>
+<pages>7:1-7:12</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501611</ee>
+<ee>https://www.wikidata.org/entity/Q57888112</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#LeonU0SBSBCC13</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AgarwalSJP13" mdate="2018-11-06">
+<author pid="28/2667">Lalit Agarwal</author>
+<author pid="26/6888">Nisheeth Shrivastava</author>
+<author pid="97/1486">Sharad Jaiswal</author>
+<author pid="83/6936">Saurabh Panjwani</author>
+<title>Do not embarrass: re-examining user concerns for online tracking and advertising.</title>
+<pages>8:1-8:13</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501612</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#AgarwalSJP13</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AdjeridABL13" mdate="2020-09-05">
+<author orcid="0000-0002-2786-1244" pid="117/2506">Idris Adjerid</author>
+<author orcid="0000-0001-6582-6178" pid="49/3744">Alessandro Acquisti</author>
+<author pid="117/2528">Laura Brandimarte</author>
+<author pid="16/11311">George Loewenstein</author>
+<title>Sleights of privacy: framing, disclosures, and the limits of transparency.</title>
+<pages>9:1-9:11</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501613</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#AdjeridABL13</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Mobile devices</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/BruggenLKSCD13" mdate="2019-09-11">
+<author pid="44/7110">Dirk Van Bruggen</author>
+<author pid="57/1180-1">Shu Liu 0001</author>
+<author pid="132/9577">Mitch Kajzer</author>
+<author orcid="0000-0002-3157-2859" pid="42/6870">Aaron Striegel</author>
+<author pid="30/5115">Charles R. Crowell</author>
+<author pid="39/962">John D'Arcy</author>
+<title>Modifying smartphone user locking behavior.</title>
+<pages>10:1-10:14</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501614</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#BruggenLKSCD13</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SchaubWK013" mdate="2018-11-06">
+<author orcid="0000-0003-1039-7155" pid="08/7562">Florian Schaub</author>
+<author pid="128/9255">Marcel Walch</author>
+<author pid="35/8087">Bastian K&#246;nings</author>
+<author pid="02/4248-1">Michael Weber 0001</author>
+<title>Exploring the design space of graphical passwords on smartphones.</title>
+<pages>11:1-11:14</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501615</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#SchaubWK013</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BalebakoJLCN13" mdate="2018-11-14">
+<author orcid="0000-0001-9862-0790" pid="91/11300">Rebecca Balebako</author>
+<author pid="j/JaeyeonJung">Jaeyeon Jung</author>
+<author pid="98/6613">Wei Lu</author>
+<author orcid="0000-0003-2125-0124" pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="132/9579">Carolyn Nguyen</author>
+<title>&#34;Little brothers watching you&#34;: raising awareness of data leaks on smartphones.</title>
+<pages>12:1-12:11</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501616</ee>
+<ee>https://www.wikidata.org/entity/Q57888040</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#BalebakoJLCN13</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Passwords</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/FahlHAS13" mdate="2018-11-06">
+<author pid="38/9378">Sascha Fahl</author>
+<author orcid="0000-0001-8677-811X" pid="49/7449">Marian Harbach</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<title>On the ecological validity of a password study.</title>
+<pages>13:1-13:13</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501617</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#FahlHAS13</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ThorpeMS13" mdate="2021-04-09">
+<author orcid="0000-0002-6629-158X" pid="53/114">Julie Thorpe</author>
+<author pid="132/9545">Brent MacRae</author>
+<author pid="49/2908">Amirali Salehi-Abari</author>
+<title>Usability and security evaluation of GeoPass: a geographic location-password scheme.</title>
+<pages>14:1-14:14</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501618</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#ThorpeMS13</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/StobertB13" mdate="2018-11-06">
+<author pid="41/7564">Elizabeth Stobert</author>
+<author pid="50/4201">Robert Biddle</author>
+<title>Memory retrieval and graphical passwords.</title>
+<pages>15:1-15:14</pages>
+<year>2013</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://doi.org/10.1145/2501604.2501619</ee>
+<crossref>conf/soups/2013</crossref>
+<url>db/conf/soups/soups2013.html#StobertB13</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

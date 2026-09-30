@@ -1,42 +1,49 @@
 # SOUPS Co-authorship Network Evolution
 
-Interactive visualization of the temporal evolution of the usable security research community, based on SOUPS co-authorship data.
+Interactive visualization of the temporal evolution of the usable security research community, based on SOUPS co-authorship data from [DBLP](https://dblp.org/db/conf/soups/index.html).
 
-## Setup
+## Repository layout
 
-1. Add cumulative yearly GraphML files to `data/` — name them with a 4-digit year anywhere in the filename:
-   ```
-   data/soups_2005.graphml
-   data/soups_2006.graphml
-   ...
-   ```
+```
+dblp/                     SOUPS proceedings as DBLP XML, one file per year (soups2005.xml …)
+scripts/fetch-dblp.sh     downloads the XML from DBLP into dblp/
+scripts/dblp-graphml.py   builds the co-authorship GraphML files from dblp/
+data/                     cumulative GraphML per year (soups_2005.graphml …) + manifest.json
+generate_manifest.py      writes data/manifest.json from the GraphML files in data/
+index.html                the visualization
+```
 
-2. Generate the manifest:
+## Running locally
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open [http://localhost:8000](http://localhost:8000).
+
+## Adding a new year
+
+1. Get the proceedings XML into `dblp/`:
    ```bash
+   scripts/fetch-dblp.sh 2027 2027
+   ```
+   DBLP often blocks scripted downloads with a bot check. If the script says so, open
+   `https://dblp.org/db/conf/soups/soups2027.xml` in a browser and save it as `dblp/soups2027.xml`.
+
+2. Rebuild all yearly GraphML files and the manifest:
+   ```bash
+   python3 scripts/dblp-graphml.py dblp data --cumulative
    python3 generate_manifest.py
    ```
 
-3. Serve locally:
-   ```bash
-   python3 -m http.server 8000
-   ```
+3. Commit and push. GitHub Pages serves the site from the `main` branch root.
 
-4. Open [http://localhost:8000](http://localhost:8000)
+## Data notes
 
-## Deployment
-
-Push to GitHub and enable GitHub Pages (Settings → Pages → main branch / root).
-
-The site will be live at `https://YOUR_USERNAME.github.io/soups-network/`
-
-## Adding New Years
-
-1. Drop the new GraphML file in `data/`
-2. Run `python3 generate_manifest.py`
-3. Commit and push
-
-## Notes
-
-- Each GraphML file should be **cumulative** (all papers up to that year, not just that year)
-- The visualization diffs consecutive years to identify new nodes and edges
-- Node positions persist across years so the network grows organically
+- Authors are identified by their DBLP person id (`pid`), so name variants that DBLP has merged
+  (e.g. "Emilee Rader" / "Emilee J. Rader") are one node. Each node's `name` is the most recently
+  used variant; DBLP's number suffix (" 0001") is dropped unless two people would share a name.
+- Each GraphML file is **cumulative** (all papers up to that year). Each co-author pair is one edge
+  whose `weight` is the number of papers they wrote together; nodes carry a `papers` count.
+- The visualization diffs consecutive years to identify new nodes and edges, and node positions
+  persist across years so the network grows organically.

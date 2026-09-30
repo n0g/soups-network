@@ -1,0 +1,511 @@
+<bht key="db/conf/soups/soups2024.bht" title="SOUPS @ USENIX Security Symposium 2024"> 
+<h1>20th <ref href="db/conf/soups/index.html">SOUPS</ref> @ <ref href="db/conf/uss/index.html">USENIX Security Symposium</ref> 2024:
+Philadelphia, PA, USA</h1> <dblpcites><r><proceedings key="conf/soups/2024" mdate="2024-09-05">
+<editor pid="15/3631">Patrick Gage Kelley</editor>
+<editor pid="50/6916">Apu Kapadia</editor>
+<title>Twentieth Symposium on Usable Privacy and Security, SOUPS 2024, Philadelphia, PA, USA, August 11-13, 2024.</title>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<publisher>USENIX Association</publisher>
+<year>2024</year>
+<url>db/conf/soups/soups2024.html</url>
+<ee type="oa">https://www.usenix.org/conference/soups2024</ee>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Expert Community</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/KatcherWYMMCFV24" mdate="2024-09-05">
+<author pid="305/2578">Samantha Katcher</author>
+<author pid="384/5522">Liana Wang</author>
+<author pid="250/1185">Caroline Yang</author>
+<author pid="352/7115">Chlo&#233; Messdaghi</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<author pid="c/MarshiniChetty">Marshini Chetty</author>
+<author pid="244/2188">Kelsey R. Fulton</author>
+<author pid="61/11094">Daniel Votipka</author>
+<title>A Survey of Cybersecurity Professionals' Perceptions and Experiences of Safety and Belonging in the Community.</title>
+<pages>1-20</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/katcher</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#KatcherWYMMCFV24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NgongSNF24" mdate="2024-09-05">
+<author pid="280/0946">Ivoline C. Ngong</author>
+<author pid="357/4939">Brad Stenger</author>
+<author pid="39/5361">Joseph P. Near</author>
+<author pid="172/9363">Yuanyuan Feng</author>
+<title>Evaluating the Usability of Differential Privacy Tools with Data Practitioners.</title>
+<pages>21-40</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/ngong</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#NgongSNF24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RochSSZ24" mdate="2024-09-05">
+<author pid="384/5605">Neele Roch</author>
+<author pid="384/6364">Hannah Sievers</author>
+<author pid="358/9845">Lorin Sch&#246;ni</author>
+<author pid="198/5724">Verena Zimmermann</author>
+<title>Navigating Autonomy: Unveiling Security Experts' Perspectives on Augmented Intelligence in Cybersecurity.</title>
+<pages>41-60</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/roch</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#RochSSZ24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WongL0MA24" mdate="2024-09-05">
+<author pid="306/0806">Miuyin Yong Wong</author>
+<author pid="231/1936">Matthew Landen</author>
+<author pid="53/10825">Frank Li 0001</author>
+<author pid="50/6700">Fabian Monrose</author>
+<author pid="73/3162">Mustaque Ahamad</author>
+<title>Comparing Malware Evasion Theory with Practice: Results from Interviews with Expert Analysts.</title>
+<pages>61-80</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/yong-wong</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#WongL0MA24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FultonLMM24" mdate="2024-09-05">
+<author pid="244/2188">Kelsey R. Fulton</author>
+<author pid="33/5595">Joseph Lewis</author>
+<author pid="179/4686">Nathan Malkin</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<title>Write, Read, or Fix? Exploring Alternative Methods for Secure Development Studies.</title>
+<pages>81-100</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/fulton</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#FultonLMM24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PrybyloHPG24" mdate="2024-09-05">
+<author pid="374/6063">Maxwell Prybylo</author>
+<author pid="374/6382">Sara Haghighi</author>
+<author pid="91/8283">Sai Teja Peddinti</author>
+<author pid="39/6042">Sepideh Ghanavati</author>
+<title>Evaluating Privacy Perceptions, Experience, and Behavior of Software Development Teams.</title>
+<pages>101-120</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/prybylo</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#PrybyloHPG24</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>IoT and Privacy</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/WindlL0FM24" mdate="2024-09-05">
+<author pid="248/7150">Maximiliane Windl</author>
+<author pid="248/7425">Jan Leusmann</author>
+<author pid="s/AlbrechtSchmidt1">Albrecht Schmidt 0001</author>
+<author pid="237/9961">Sebastian S. Feger</author>
+<author pid="161/3111">Sven Mayer</author>
+<title>Privacy Communication Patterns for Domestic Robots.</title>
+<pages>121-138</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/windl</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#WindlL0FM24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZhangKN0C24" mdate="2024-09-05">
+<author pid="83/3715">Shikun Zhang</author>
+<author pid="384/6195">Lily Klucinec</author>
+<author pid="384/5936">Kyerra Norton</author>
+<author pid="18/5502">Norman Sadeh 0001</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<title>Exploring Expandable-Grid Designs to Make iOS App Privacy Labels More Usable.</title>
+<pages>139-157</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/zhang</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#ZhangKN0C24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GopiMAF24" mdate="2024-09-05">
+<author pid="375/7797">Geetika Gopi</author>
+<author pid="306/7950">Aadyaa Maddi</author>
+<author pid="380/6201">Omkhar Arasaratnam</author>
+<author pid="141/9910">Giulia Fanti</author>
+<title>Privacy Requirements and Realities of Digital Public Goods.</title>
+<pages>159-177</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/gopi</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#GopiMAF24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ParkHDNHVY024" mdate="2024-09-05">
+<author pid="304/5613">Sunyup Park</author>
+<author pid="198/7178">Weijia He</author>
+<author pid="327/3698">Elmira Deldari</author>
+<author pid="199/3074">Pardis Emami Naeini</author>
+<author pid="77/8851">Danny Yuxing Huang</author>
+<author pid="90/9167">Jessica Vitak</author>
+<author pid="142/7931">Yaxing Yao</author>
+<author pid="65/902-4">Michael Zimmer 0004</author>
+<title>Well-intended but half-hearted: Hosts' consideration of guests' privacy using smart devices on rental properties.</title>
+<pages>179-198</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/park</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#ParkHDNHVY024</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Authentication and Authorization</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/RaphaelKSDC24" mdate="2024-09-05">
+<author pid="384/5542">Maike M. Raphael</author>
+<author pid="240/9539">Aikaterini Kanta</author>
+<author pid="384/5706">Rico Seebonn</author>
+<author pid="36/3665">Markus D&#252;rmuth</author>
+<author pid="70/11465">Camille Cobb</author>
+<title>Batman Hacked My Password: A Subtitle-Based Analysis of Password Depiction in Movies.</title>
+<pages>199-218</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/raphael</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#RaphaelKSDC24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MohYMM24" mdate="2024-09-05">
+<author pid="301/7837">Phoebe Moh</author>
+<author pid="37/6465">Andrew Yang</author>
+<author pid="179/4686">Nathan Malkin</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<title>Understanding How People Share Passwords.</title>
+<pages>219-237</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/moh</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#MohYMM24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BaumerRKP24" mdate="2024-09-05">
+<author pid="267/6738">Thomas Baumer</author>
+<author pid="333/8957">Tobias Reittinger</author>
+<author pid="300/9294">Sascha Kern</author>
+<author pid="p/GPernul">G&#252;nther Pernul</author>
+<title>Digital Nudges for Access Reviews: Guiding Deciders to Revoke Excessive Authorizations.</title>
+<pages>239-258</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/baumer</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#BaumerRKP24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HaringGT0T24" mdate="2024-09-05">
+<author pid="252/3848">Maximilian H&#228;ring</author>
+<author pid="384/5429">Julia Angelika Grohs</author>
+<author pid="239/8234">Eva Tiefenau</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<author pid="205/3181">Christian Tiefenau</author>
+<title>Can Johnny be a whistleblower? A qualitative user study of a social authentication Signal extension in an adversarial scenario.</title>
+<pages>259-278</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/haring</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#HaringGT0T24</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Online Community</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/WarfordFM24" mdate="2024-09-05">
+<author pid="239/0184">Noel Warford</author>
+<author pid="384/5722">Nicholas Farber</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<title>How Entertainment Journalists Manage Online Hate and Harassment.</title>
+<pages>279-295</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/warford</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#WarfordFM24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TabassumML24" mdate="2024-09-05">
+<author pid="157/6614">Madiha Tabassum</author>
+<author pid="381/1659">Alana Mackey</author>
+<author pid="136/8449">Ada Lerner</author>
+<title>'Custodian of Online Communities': How Moderator Mutual Support in Communities Help Fight Hate and Harassment Online.</title>
+<pages>297-314</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/tabassum-madiha</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#TabassumML24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WuGL024" mdate="2025-10-30">
+<author pid="305/9348">Yanlai Wu</author>
+<author pid="164/0075">Xinning Gui</author>
+<author pid="166/6045-2">Yuhan Luo 0002</author>
+<author pid="96/13-6">Yao Li 0006</author>
+<title>Designing the Informing Process with Streamers and Bystanders in Live Streaming.</title>
+<pages>315-332</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/wu</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#WuGL024</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Bouma-SimsHNCC24" mdate="2024-09-05">
+<author pid="344/8676">Elijah Robert Bouma-Sims</author>
+<author pid="371/8627">Hiba Hassan</author>
+<author pid="326/5249">Alexandra Nisenoff</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="c/NicolasChristin">Nicolas Christin</author>
+<title>&#34;It was honestly just gambling&#34;: Investigating the Experiences of Teenage Cryptocurrency Users on Reddit.</title>
+<pages>333-352</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/bouma-sims</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#Bouma-SimsHNCC24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PowersGPSMV24" mdate="2024-09-05">
+<author pid="377/9115">Carson Powers</author>
+<author pid="186/8967">Nickolas Gravel</author>
+<author pid="384/5649">Christopher Pellegrini</author>
+<author pid="57/3752">Micah Sherr</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<author pid="61/11094">Daniel Votipka</author>
+<title>&#34;I can say I'm John Travolta...but I'm not John Travolta&#34;: Investigating the Impact of Changes to Social Media Verification Policies on User Perceptions of Verified Accounts.</title>
+<pages>353-372</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/powers</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#PowersGPSMV24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BrighamWKR24" mdate="2024-09-05">
+<author pid="380/3116">Natalie Grace Brigham</author>
+<author pid="217/4562">Miranda Wei</author>
+<author pid="k/TadayoshiKohno">Tadayoshi Kohno</author>
+<author pid="141/9244">Elissa M. Redmiles</author>
+<title>&#34;Violation of my body: &#34; Perceptions of AI-generated non-consensual (intimate) imagery.</title>
+<pages>373-392</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/brigham</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#BrighamWKR24</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Mobile Security</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/TabassumFL24" mdate="2024-09-05">
+<author pid="356/8723">Sarah Tabassum</author>
+<author pid="186/0315">Cori Faklaris</author>
+<author pid="r/HeatherRichter">Heather Richter Lipford</author>
+<title>What Drives SMiShing Susceptibility? A U.S. Interview Study of How and Why Mobile Phone Users Judge Text Messages to be Real or Fake.</title>
+<pages>393-411</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/tabassum-sarah</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#TabassumFL24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BalashAKA24" mdate="2024-09-05">
+<author pid="294/0161">David G. Balash</author>
+<author pid="322/1111">Mir Masood Ali</author>
+<author pid="20/4340">Chris Kanich</author>
+<author pid="94/1554">Adam J. Aviv</author>
+<title>&#34;I would not install an app with this label&#34;: Privacy Label Impact on Risk Perception and Willingness to Install iOS Apps.</title>
+<pages>413-432</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/balash</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#BalashAKA24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GeengCTHM24" mdate="2024-09-05">
+<author pid="381/1748">Chris Geeng</author>
+<author pid="384/5697">Natalie Chen</author>
+<author pid="344/8538">Kieron Ivy Turk</author>
+<author pid="199/3168">Jevan A. Hutson</author>
+<author pid="58/4016">Damon McCoy</author>
+<title>&#34;Say I'm in public...I don't want my nudes to pop up.&#34; User Threat Models for Using Vault Applications.</title>
+<pages>433-451</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/geeng</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#GeengCTHM24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PrangeKKDLA24" mdate="2024-09-05">
+<author pid="210/8238">Sarah Prange</author>
+<author pid="123/3185">Pascal Knierim</author>
+<author pid="384/6132">Gabriel Knoll</author>
+<author pid="239/8109">Felix Dietz</author>
+<author pid="22/3157">Alexander De Luca</author>
+<author pid="51/6825">Florian Alt</author>
+<title>&#34;I do (not) need that Feature!&#34; - Understanding Users' Awareness and Control of Privacy Permissions on Android Smartphones.</title>
+<pages>453-472</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/prange</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#PrangeKKDLA24</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Security in the Workplace</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/VerreydtYSJ24" mdate="2024-09-05">
+<author pid="252/6373">Stef Verreydt</author>
+<author pid="54/5694">Koen Yskout</author>
+<author pid="166/1069">Laurens Sion</author>
+<author pid="13/86">Wouter Joosen</author>
+<title>Threat modeling state of practice in Dutch organizations.</title>
+<pages>473-486</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/verreydt</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#VerreydtYSJ24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ChenDSLKD24" mdate="2025-10-14">
+<author pid="42/3145-13">Xiaowei Chen 0013</author>
+<author pid="291/2714">Sophie Doublet</author>
+<author pid="144/1223">Anastasia Sergeeva</author>
+<author pid="78/5724">Gabriele Lenzini</author>
+<author pid="117/8397">Vincent Koenig</author>
+<author pid="217/9240">Verena Distler</author>
+<title>What Motivates and Discourages Employees in Phishing Interventions: An Exploration of Expectancy-Value Theory.</title>
+<pages>487-506</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/chen</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#ChenDSLKD24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AlromaihFC24" mdate="2024-09-05">
+<author pid="242/7017">Sarah A. Alromaih</author>
+<author pid="57/3469">Ivan Flechais</author>
+<author pid="264/7986">George Chalhoub</author>
+<title>Beyond the Office Walls: Understanding Security and Shadow Security Behaviours in a Remote Work Context.</title>
+<pages>507-525</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/alromaih</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#AlromaihFC24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AckenJJL24" mdate="2024-09-05">
+<author pid="361/1042">Jan-Philip van Acken</author>
+<author pid="183/7918">Floris Jansen</author>
+<author pid="70/6334">Slinger Jansen</author>
+<author pid="139/6939">Katsiaryna Labunets</author>
+<title>Who is the IT Department Anyway: An Evaluative Case Study of Shadow IT Mindsets Among Corporate Employees.</title>
+<pages>527-545</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/van-acken</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#AckenJJL24</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Social Aspects of Security</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/GerberS024" mdate="2024-09-05">
+<author pid="181/7338">Nina Gerber</author>
+<author pid="264/7948">Alina St&#246;ver</author>
+<author pid="36/111-1">Peter Mayer 0001</author>
+<title>Of Mothers and Managers - The Effect of Videos Depicting Gender Stereotypes on Women and Men in the Security and Privacy Field.</title>
+<pages>547-566</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/gerber</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#GerberS024</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HaneyCF24" mdate="2024-09-05">
+<author pid="199/2650">Julie M. Haney</author>
+<author pid="384/5482">Clyburn Cunningham IV</author>
+<author pid="26/11234">Susanne M. Furman</author>
+<title>Towards Bridging the Research-Practice Gap: Understanding Researcher-Practitioner Interactions and Challenges in Human-Centered Cybersecurity.</title>
+<pages>567-586</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/haney</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#HaneyCF24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/McLeodZS24" mdate="2024-09-05">
+<author pid="384/5586">Joy McLeod</author>
+<author pid="144/4879">Leah Zhang-Kennedy</author>
+<author pid="41/7564">Elizabeth Stobert</author>
+<title>Comparing Teacher and Creator Perspectives on the Design of Cybersecurity and Privacy Educational Resources.</title>
+<pages>587-603</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/mcleod</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#McLeodZS24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MooreMH24" mdate="2024-09-05">
+<author pid="384/5690">Lachlan Moore</author>
+<author pid="62/6630">Tatsuya Mori</author>
+<author pid="249/1158">Ayako Akiyama Hasegawa</author>
+<title>Negative Effects of Social Triggers on User Security and Privacy Behaviors.</title>
+<pages>605-622</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/moore</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#MooreMH24</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/PreuschenSZ24" mdate="2024-09-05">
+<author pid="246/8959">Alexandra von Preuschen</author>
+<author pid="384/5468">Monika C. Schuhmacher</author>
+<author pid="198/5724">Verena Zimmermann</author>
+<title>Beyond Fear and Frustration - Towards a Holistic Understanding of Emotions in Cybersecurity.</title>
+<pages>623-642</pages>
+<year>2024</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/soups2024/presentation/von-preuschen</ee>
+<crossref>conf/soups/2024</crossref>
+<url>db/conf/soups/soups2024.html#PreuschenSZ24</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

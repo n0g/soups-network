@@ -1,0 +1,662 @@
+<bht key="db/conf/soups/soups2017.bht" title="SOUPS 2017"> 
+<h1>13th <ref href="db/conf/soups/index.html">SOUPS</ref> 2017:
+Santa Clara, CA, USA</h1> <dblpcites><r><proceedings key="conf/soups/2017" mdate="2017-07-19">
+<title>Thirteenth Symposium on Usable Privacy and Security, SOUPS 2017, Santa Clara, CA, USA, July 12-14, 2017.</title>
+<booktitle>SOUPS</booktitle>
+<publisher>USENIX Association</publisher>
+<year>2017</year>
+<ee>https://www.usenix.org/conference/soups2017</ee>
+<url>db/conf/soups/soups2017.html</url>
+</proceedings>
+</r>
+</dblpcites>
+ 
+<h2>Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/SegretiMKMSUBCC17" mdate="2017-07-19">
+<author pid="71/9965">Sean M. Segreti</author>
+<author pid="138/1005">William Melicher</author>
+<author pid="05/6177">Saranga Komanduri</author>
+<author pid="201/8117">Darya Melicher</author>
+<author pid="18/1031">Richard Shay</author>
+<author pid="66/9786">Blase Ur</author>
+<author pid="32/3440">Lujo Bauer</author>
+<author pid="c/NicolasChristin">Nicolas Christin</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<title>Diversify to Survive: Making Passwords Stronger with Adaptive Policies.</title>
+<pages>1-12</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/segreti</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#SegretiMKMSUBCC17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MayerKV17" mdate="2017-07-19">
+<author pid="36/111">Peter Mayer</author>
+<author pid="203/1852">Jan Kirchner</author>
+<author pid="v/MelanieVolkamer">Melanie Volkamer</author>
+<title>A Second Look at Password Composition Policies in the Wild: Comparing Samples from 2010 and 2016.</title>
+<pages>13-28</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/mayer</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#MayerKV17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/VaziripourWOWHS17" mdate="2017-07-19">
+<author pid="29/7467">Elham Vaziripour</author>
+<author pid="128/4638">Justin Wu</author>
+<author pid="37/9614">Mark O'Neill</author>
+<author pid="188/6053">Jordan Whitehead</author>
+<author pid="169/9742">Scott Heidbrink</author>
+<author pid="s/KentESeamons">Kent E. Seamons</author>
+<author pid="71/2423">Daniel Zappala</author>
+<title>Is that you, Alice? A Usability Study of the Authentication Ceremony of Secure Messaging Applications.</title>
+<pages>29-47</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/vaziripour</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#VaziripourWOWHS17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AlbayramKJN17" mdate="2017-07-19">
+<author pid="129/5078">Yusuf Albayram</author>
+<author pid="91/4087">Mohammad Maifi Hasan Khan</author>
+<author pid="203/1741">Theodore Jensen</author>
+<author pid="55/1671">Nhan Nguyen</author>
+<title>&#34;...better to use a lock screen than to worry about saving a few seconds of time&#34;: Effect of Fear Appeal in the Context of Smartphone Locking Behavior.</title>
+<pages>49-63</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/albayram</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#AlbayramKJN17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Specific User Populations</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/ZengMR17" mdate="2017-07-19">
+<author pid="202/7659">Eric Zeng</author>
+<author pid="37/11080">Shrirang Mare</author>
+<author pid="23/2758">Franziska Roesner</author>
+<title>End User Security and Privacy Concerns with Smart Homes.</title>
+<pages>65-80</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/zeng</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#ZengMR17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/AcarSWMF17" mdate="2017-07-19">
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="184/6096">Christian Stransky</author>
+<author pid="203/1800">Dominik Wermke</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<author pid="38/9378">Sascha Fahl</author>
+<title>Security Developer Studies with GitHub Users: Exploring a Convenience Sample.</title>
+<pages>81-95</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/acar</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#AcarSWMF17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BowersRSTB17" mdate="2021-07-23">
+<author pid="192/6415">Jasmine D. Bowers</author>
+<author pid="117/3983">Bradley Reaves</author>
+<author pid="203/1525">Imani N. Sherman</author>
+<author pid="14/3295">Patrick Traynor</author>
+<author pid="82/1935">Kevin R. B. Butler</author>
+<title>Regulators, Mount Up! Analysis of Privacy Policies for Mobile Money Services.</title>
+<pages>97-114</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/bowers</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#BowersRSTB17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ConwayTHYBC17" mdate="2020-09-07">
+<author pid="76/1455">Dan Conway</author>
+<author pid="91/941">Ronnie Taib</author>
+<author pid="79/9974">Mitch Harris</author>
+<author pid="51/4486">Kun Yu</author>
+<author pid="35/5995">Shlomo Berkovsky</author>
+<author pid="52/488-1">Fang Chen 0001</author>
+<title>A Qualitative Investigation of Bank Employee Experiences of Information Security and Phishing.</title>
+<pages>115-129</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/conway</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#ConwayTHYBC17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Mobile</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/BaqerAMPS17" mdate="2017-07-19">
+<author pid="171/5013">Khaled Baqer</author>
+<author pid="a/RJAnderson">Ross J. Anderson</author>
+<author pid="203/1793">Lorna Mutegi</author>
+<author pid="115/9288">Jeunese A. Payne</author>
+<author pid="189/0108">Joseph Sevilla</author>
+<title>DigiTally: Piloting Offline Payments for Phones.</title>
+<pages>131-143</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/baqer</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#BaqerAMPS17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TsaiWRRE0GC17" mdate="2017-07-19">
+<author pid="180/5452">Lynn Tsai</author>
+<author pid="162/0214">Primal Wijesekera</author>
+<author pid="04/8882">Joel Reardon</author>
+<author pid="203/1639">Irwin Reyes</author>
+<author pid="07/1108">Serge Egelman</author>
+<author pid="42/5626">David A. Wagner 0001</author>
+<author pid="g/NathanielGood">Nathan Good</author>
+<author pid="148/8148">Jung-Wei Chen</author>
+<title>Turtle Guard: Helping Android Users Apply Contextual Privacy Preferences.</title>
+<pages>145-162</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/tsai</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#TsaiWRRE0GC17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/CrawfordA17" mdate="2017-07-19">
+<author pid="21/818">Heather Crawford</author>
+<author pid="194/7438">Ebad Ahmadzadeh</author>
+<title>Authentication on the Go: Assessing the Effect of Movement on Mobile Device Keystroke Dynamics.</title>
+<pages>163-173</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/crawford</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#CrawfordA17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MathurC17" mdate="2017-07-19">
+<author pid="130/2781">Arunesh Mathur</author>
+<author pid="c/MarshiniChetty">Marshini Chetty</author>
+<title>Impact of User Characteristics on Attitudes Towards Automatic Mobile Application Updates.</title>
+<pages>175-193</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/mathur</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#MathurC17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BonnePBT17" mdate="2017-07-19">
+<author pid="133/4993">Bram Bonn&#233;</author>
+<author pid="91/8283">Sai Teja Peddinti</author>
+<author pid="52/8356">Igor Bilogrevic</author>
+<author pid="t/NinaTaft">Nina Taft</author>
+<title>Exploring decision making with Android's runtime permission dialogs using in-context surveys.</title>
+<pages>195-210</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/bonne</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#BonnePBT17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Behaviour</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/RuotiMWZS17" mdate="2017-07-19">
+<author pid="124/2527">Scott Ruoti</author>
+<author pid="198/5197">Tyler Monson</author>
+<author pid="128/4638">Justin Wu</author>
+<author pid="71/2423">Daniel Zappala</author>
+<author pid="s/KentESeamons">Kent E. Seamons</author>
+<title>Weighing Context and Trade-offs: How Suburban Adults Selected Their Online Security Posture.</title>
+<pages>211-228</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/ruoti</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#RuotiMWZS17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LastdragerGHJ17" mdate="2017-07-19">
+<author pid="26/7073">Elmer Lastdrager</author>
+<author pid="203/1679">In&#233;s Carvajal Gallardo</author>
+<author pid="h/PieterHHartel">Pieter H. Hartel</author>
+<author pid="136/9942">Marianne Junger</author>
+<title>How Effective is Anti-Phishing Training for Children?</title>
+<pages>229-239</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/lastdrager</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#LastdragerGHJ17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RamokapaneRS17" mdate="2017-07-19">
+<author pid="190/2066">Kopo M. Ramokapane</author>
+<author pid="26/3330">Awais Rashid</author>
+<author pid="18/4101">Jose M. Such</author>
+<title>&#34;I feel stupid I can't delete...&#34;: A Study of Users' Cloud Deletion Practices and Coping Strategies.</title>
+<pages>241-256</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/ramokapane</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#RamokapaneRS17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RaderS17" mdate="2017-07-19">
+<author pid="83/396">Emilee J. Rader</author>
+<author pid="203/1697">Janine Slaker</author>
+<title>The importance of visibility for folk theories of sensor data.</title>
+<pages>257-270</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/rader</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#RaderS17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Attacks and Defense</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/CanfieldDFFPT17" mdate="2017-07-19">
+<author pid="189/7730">Casey Inez Canfield</author>
+<author pid="60/7192">Alex Davis</author>
+<author pid="35/2994">Baruch Fischhoff</author>
+<author pid="22/4861">Alain Forget</author>
+<author pid="183/8079">Sarah Pearman</author>
+<author pid="183/8140">Jeremy Thomas</author>
+<title>Replication: Challenges in Using Data Logs to Validate Phishing Detection Ability Metrics.</title>
+<pages>271-284</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/canfield</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#CanfieldDFFPT17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NicholsonCB17" mdate="2017-07-19">
+<author pid="64/2037">James Nicholson</author>
+<author pid="35/1147">Lynne M. Coventry</author>
+<author pid="15/1876">Pam Briggs</author>
+<title>Can we fight social engineering attacks by social means? Assessing social salience as a means to improve phish detection.</title>
+<pages>285-298</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/nicholson</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#NicholsonCB17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SamatAB17" mdate="2017-07-19">
+<author pid="203/1683">Sonam Samat</author>
+<author pid="49/3744">Alessandro Acquisti</author>
+<author pid="203/1516">Linda Babcock</author>
+<title>Raise the Curtains: The Effect of Awareness About Targeting on Consumer Attitudes and Purchase Intentions.</title>
+<pages>299-319</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/samat-awareness</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#SamatAB17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SahinRF17" mdate="2017-07-19">
+<author pid="168/5167">Merve Sahin</author>
+<author pid="65/10165">Marc Relieu</author>
+<author pid="88/3343">Aur&#233;lien Francillon</author>
+<title>Using chatbots against voice spam: Analyzing Lenny's effectiveness.</title>
+<pages>319-337</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/sahin</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#SahinRF17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Privacy</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/PuG17" mdate="2017-07-19">
+<author pid="13/2109">Yu Pu</author>
+<author pid="28/3855">Jens Grossklags</author>
+<title>Valuating Friends' Privacy: Does Anonymity of Sharing Personal Data Matter?</title>
+<pages>339-355</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/pu</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#PuG17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BloomTRB17" mdate="2017-07-19">
+<author pid="203/1686">Cara Bloom</author>
+<author pid="175/8268">Joshua Tan</author>
+<author pid="203/1807">Javed Ramjohn</author>
+<author pid="32/3440">Lujo Bauer</author>
+<title>Self-driving cars and data collection: Privacy perceptions of networked autonomous vehicles.</title>
+<pages>357-375</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/bloom</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#BloomTRB17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SamatA17" mdate="2017-07-19">
+<author pid="203/1683">Sonam Samat</author>
+<author pid="49/3744">Alessandro Acquisti</author>
+<title>Format vs. Content: The Impact of Risk and Presentation on Disclosure Decisions.</title>
+<pages>377-384</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/samat-disclosure</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#SamatA17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GallagherPM17" mdate="2017-07-19">
+<author pid="130/4838">Kevin Gallagher</author>
+<author pid="57/702">Sameer Patil</author>
+<author pid="89/6419">Nasir D. Memon</author>
+<title>New Me: Understanding Expert and Non-Expert Perceptions and Usage of the Tor Anonymity Network.</title>
+<pages>385-398</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/gallagher</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#GallagherPM17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NaeiniBHDBCS17" mdate="2017-07-19">
+<author pid="199/3074">Pardis Emami Naeini</author>
+<author pid="153/5833">Sruti Bhagavatula</author>
+<author pid="179/4647">Hana Habib</author>
+<author pid="120/5815">Martin Degeling</author>
+<author pid="32/3440">Lujo Bauer</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="18/5502">Norman M. Sadeh</author>
+<title>Privacy Expectations and Preferences in an IoT World.</title>
+<pages>399-412</pages>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/technical-sessions/presentation/naeini</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#NaeiniBHDBCS17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Paper Talks 1</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/MarneAW17" mdate="2017-07-19">
+<author pid="203/1675">Sonali Tukaram Marne</author>
+<author pid="119/5033">Mahdi Nasrullah Al-Ameen</author>
+<author pid="41/4822">Matthew K. Wright</author>
+<title>Learning System-assigned Passwords: A Preliminary Study on the People with Learning Disabilities.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wips2017/marne</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#MarneAW17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/XiaH017" mdate="2018-06-06">
+<author pid="167/6623">Huichuan Xia</author>
+<author pid="33/5392-3">Yun Huang 0003</author>
+<author pid="w/YangWang5">Yang Wang 0005</author>
+<title>Victim Privacy in Crowdsourcing Based Public Safety Reporting: A Case Study of LiveSafe.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wips2017/xia</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#XiaH017</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Paper Talks 2</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/MareVA17" mdate="2017-07-19">
+<author pid="37/11080">Shrirang Mare</author>
+<author pid="02/8546">Aditya Vashistha</author>
+<author pid="93/6067">Richard J. Anderson</author>
+<title>Security and privacy design considerations for low-literate users in developing regions.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wips2017/mare</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#MareVA17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Paper Talks 3</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/HouserB17" mdate="2017-07-19">
+<author pid="195/3210">Adam Houser</author>
+<author pid="25/5211">Matthew L. Bolton</author>
+<title>Formal Mental Models for Inclusive Privacy and Security.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wips2017/houser</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#HouserB17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/JungH17" mdate="2017-07-19">
+<author pid="15/6866">Eunjin Jung</author>
+<author pid="161/3652">Evelyn Y. Ho</author>
+<title>Inclusive persuasion for security software adoption.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wips2017/jung</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#JungH17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Usable Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/GollaBD17" mdate="2017-07-19">
+<author pid="177/0313">Maximilian Golla</author>
+<author pid="70/4808">Daniel V. Bailey</author>
+<author pid="36/3665">Markus D&#252;rmuth</author>
+<title>&#34;I want my money back!&#34; Limiting Online Password-Guessing Financially.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/way2017/golla</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#GollaBD17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NguyenM17" mdate="2019-06-06">
+<author pid="62/4324-1">Toan Nguyen 0001</author>
+<author pid="89/6419">Nasir D. Memon</author>
+<title>Smartwatches Locking Methods: A Comparative Study.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/way2017/nguyen</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#NguyenM17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Horcher17" mdate="2017-07-19">
+<author pid="45/8608">Ann-Marie Horcher</author>
+<title>Key-bored to Tears: The Usability Cost of Character Authentication on Mobile Devices.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/way2017/horcher</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#Horcher17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/RedmilesLM17" mdate="2017-07-19">
+<author pid="141/9244">Elissa M. Redmiles</author>
+<author pid="203/1577">Everest Liu</author>
+<author pid="20/7983">Michelle L. Mazurek</author>
+<title>You Want Me To Do What? A Design Study of Two-Factor Authentication Messages.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/way2017/redmiles</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#RedmilesLM17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Distributed Authentication</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/CabarcosK17" mdate="2017-07-19">
+<author pid="13/8970">Patricia Arias Cabarcos</author>
+<author pid="130/9715">Christian Krupitzer</author>
+<title>On the Design of Distributed Adaptive Authentication Systems.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/way2017/arias-cabarcos</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#CabarcosK17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NgyuenV17" mdate="2017-07-19">
+<author pid="203/1624">Tuan Ngyuen</author>
+<author pid="04/389">Jonathan Voris</author>
+<title>Touchscreen Biometrics Across Multiple Devices.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/way2017/nguyen_tuan</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#NgyuenV17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/NovakBKKS17" mdate="2019-04-13">
+<author pid="203/1615">Christopher Novak</author>
+<author pid="b/JimBlythe">Jim Blythe</author>
+<author pid="91/5258">Ross Koppel</author>
+<author pid="125/6274">Vijay H. Kothari</author>
+<author pid="94/2605">Sean W. Smith</author>
+<title>Modeling Aggregate Security with User Agents that Employ Password Memorization Techniques.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/way2017/novak</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#NovakBKKS17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/SmithRS17" mdate="2017-07-19">
+<author pid="42/8668">Trevor Smith</author>
+<author pid="124/2527">Scott Ruoti</author>
+<author pid="s/KentESeamons">Kent E. Seamons</author>
+<title>Augmenting Centralized Password Management with Application-Specific Passwords.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/way2017/smith</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#SmithRS17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Cognition and Passwords</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/MicallefA17" mdate="2017-07-19">
+<author pid="130/8112">Nicholas Micallef</author>
+<author pid="124/8007">Nalin Asanka Gamagedara Arachchilage</author>
+<title>A Gamified Approach to Improve Users' Memorability of Fall-back Authentication.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/way2017/micallef</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#MicallefA17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Paper Session I</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/MmangaFMW17" mdate="2019-04-16">
+<author pid="201/9201">Andrew M'manga</author>
+<author pid="68/7861">Shamal Faily</author>
+<author pid="160/0976">John McAlaney</author>
+<author pid="85/6792-1">Christopher Williams 0001</author>
+<title>Folk Risk Analysis: Factors Influencing Security Analysts' Interpretation of Risk.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wsiw2017/mmanga</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#MmangaFMW17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZanuttoSFBR17" mdate="2017-07-19">
+<author pid="30/8983">Alberto Zanutto</author>
+<author pid="145/4083">Ben Shreeve</author>
+<author pid="180/7259">Karolina Follis</author>
+<author pid="168/4370">Jerry S. Busby</author>
+<author pid="26/3330">Awais Rashid</author>
+<title>The Shadow Warriors: In the no man's land between industrial control systems and enterprise IT systems.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wsiw2017/zanutto</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#ZanuttoSFBR17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HaneyL17" mdate="2017-07-19">
+<author pid="199/2650">Julie M. Haney</author>
+<author pid="19/1614">Wayne G. Lutters</author>
+<title>Skills and Characteristics of Successful Cybersecurity Advocates.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wsiw2017/haney</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#HaneyL17</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+<h2>Paper Session II</h2> 
+<dblpcites><r style="ee"><inproceedings key="conf/soups/WatsonL17" mdate="2017-07-19">
+<author pid="203/1515">Stacey Watson</author>
+<author pid="r/HeatherRichter">Heather Richter Lipford</author>
+<title>A Proposed Visualization for Vulnerability Scan Data.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wsiw2017/watson</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#WatsonL17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FilarSP17" mdate="2017-07-19">
+<author pid="188/6227">Bobby Filar</author>
+<author pid="78/7412">Richard Seymour</author>
+<author pid="203/1796">Matthew Park</author>
+<title>Ask Me Anything: A Conversational Interface to Augment Information Security Workers.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wsiw2017/filar</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#FilarSP17</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TabassumWL17" mdate="2017-07-19">
+<author pid="157/6614">Madiha Tabassum</author>
+<author pid="203/1515">Stacey Watson</author>
+<author pid="r/HeatherRichter">Heather Richter Lipford</author>
+<title>Comparing Educational Approaches to Secure programming: Tool vs. TA.</title>
+<year>2017</year>
+<booktitle>SOUPS</booktitle>
+<ee>https://www.usenix.org/conference/soups2017/workshop-program/wsiw2017/tabassum</ee>
+<crossref>conf/soups/2017</crossref>
+<url>db/conf/soups/soups2017.html#TabassumWL17</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+

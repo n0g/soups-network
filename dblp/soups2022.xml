@@ -1,0 +1,572 @@
+<bht key="db/conf/soups/soups2022.bht" title="SOUPS @ USENIX Security Symposium 2022">
+<h1>18th <ref href="db/conf/soups/index.html">SOUPS</ref> @ <ref href="db/conf/uss/index.html">USENIX Security Symposium</ref> 2022: Boston, MA, USA</h1>
+<dblpcites><r><proceedings key="conf/soups/2022" mdate="2022-10-26">
+<editor pid="26/2669">Sonia Chiasson</editor>
+<editor pid="50/6916">Apu Kapadia</editor>
+<title>Eighteenth Symposium on Usable Privacy and Security, SOUPS 2022, Boston, MA, USA, August 7-9, 2022.</title>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<publisher>USENIX Association</publisher>
+<year>2022</year>
+<ee type="oa">https://www.usenix.org/conference/soups2022</ee>
+<url>db/conf/soups/soups2022.html</url>
+</proceedings>
+</r>
+</dblpcites>
+
+
+<h2>Expertise and Learning</h2>
+<dblpcites><r style="ee"><inproceedings key="conf/soups/PfefferMWRK22" mdate="2022-10-26">
+<author pid="166/1105">Katharina Pfeffer</author>
+<author pid="159/0752">Alexandra Mai</author>
+<author pid="w/EdgarRWeippl">Edgar R. Weippl</author>
+<author pid="83/396">Emilee Rader</author>
+<author pid="128/4803">Katharina Krombholz</author>
+<title>Replication: Stories as Informal Lessons about Security.</title>
+<pages>1-18</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/pfeffer</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#PfefferMWRK22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/YoshikawaOY22" mdate="2022-10-26">
+<author pid="244/8758">Ryo Yoshikawa</author>
+<author pid="50/4463">Hideya Ochiai</author>
+<author pid="71/5014">Koji Yatani</author>
+<title>DualCheck: Exploiting Human Verification Tasks for Opportunistic Online Safety Microlearning.</title>
+<pages>19-37</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/yoshikawa</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#YoshikawaOY22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HasegawaYMIA22" mdate="2022-10-26">
+<author pid="249/1158">Ayako Akiyama Hasegawa</author>
+<author pid="74/2482">Naomi Yamashita</author>
+<author pid="62/6630">Tatsuya Mori</author>
+<author pid="62/5563">Daisuke Inoue</author>
+<author pid="26/3158">Mitsuaki Akiyama</author>
+<title>Understanding Non-Experts' Security- and Privacy-Related Questions on a Q&#38;A Site.</title>
+<pages>39-56</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/hasegawa</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#HasegawaYMIA22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GerberM22" mdate="2022-10-26">
+<author pid="181/7338">Nina Gerber</author>
+<author pid="179/7489">Karola Marky</author>
+<title>The Nerd Factor: The Potential of S&#38;P Adepts to Serve as a Social Resource in the User's Quest for More Secure and Privacy-Preserving Behavior.</title>
+<pages>57-76</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/gerber</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#GerberM22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MayerPFBSSSV22" mdate="2023-01-17">
+<author pid="36/111-1">Peter Mayer 0001</author>
+<author pid="216/6088">Damian Poddebniak</author>
+<author pid="325/2474">Konstantin Fischer</author>
+<author pid="76/6564">Marcus Brinkmann</author>
+<author pid="27/8331">Juraj Somorovsky</author>
+<author pid="s/MASasse">M. Angela Sasse</author>
+<author pid="43/11495">Sebastian Schinzel</author>
+<author pid="v/MelanieVolkamer">Melanie Volkamer</author>
+<title>&#34;I don't know why I check this...&#34; - Investigating Expert Users' Strategies to Detect Email Signature Spoofing Attacks.</title>
+<pages>77-96</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/mayer</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#MayerPFBSSSV22</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>User Understanding of Security and Privacy Concepts</h2>
+<dblpcites><r style="ee"><inproceedings key="conf/soups/BieringerG0BK22" mdate="2022-10-26">
+<author pid="292/3892">Lukas Bieringer</author>
+<author pid="120/1856">Kathrin Grosse</author>
+<author pid="b/MichaelBackes1">Michael Backes 0001</author>
+<author pid="29/1830">Battista Biggio</author>
+<author pid="128/4803">Katharina Krombholz</author>
+<title>Industrial practitioners' mental models of adversarial machine learning.</title>
+<pages>97-116</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/bieringer</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#BieringerG0BK22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KuhtreiberPR22" mdate="2022-10-26">
+<author pid="294/0094">Patrick K&#252;htreiber</author>
+<author pid="324/7865">Viktoriya Pak</author>
+<author pid="60/7821">Delphine Reinhardt</author>
+<title>Replication: The Effect of Differential Privacy Communication on German Users' Comprehension and Data Sharing Attitudes.</title>
+<pages>117-134</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/kuhtreiber</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#KuhtreiberPR22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FasslAHLK22" mdate="2022-10-26">
+<author pid="292/5433">Matthias Fassl</author>
+<author pid="277/2981">Simon Anell</author>
+<author pid="331/6741">Sabine Houy</author>
+<author pid="81/10928">Martina Lindorfer</author>
+<author pid="128/4803">Katharina Krombholz</author>
+<title>Comparing User Perceptions of Anti-Stalkerware Apps with the Technical Reality.</title>
+<pages>135-154</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/fassl</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#FasslAHLK22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HuangOB22" mdate="2022-10-26">
+<author pid="48/2209">Yue Huang</author>
+<author pid="215/6395">Borke Obada-Obieh</author>
+<author pid="47/6517">Konstantin Beznosov</author>
+<title>Users' Perceptions of Chrome Compromised Credential Notification.</title>
+<pages>155-174</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/huang</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#HuangOB22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KaregarAF22" mdate="2022-10-26">
+<author pid="183/2747">Farzaneh Karegar</author>
+<author pid="181/7327">Ala Sarah Alaqra</author>
+<author pid="f/SimoneFischerHubner">Simone Fischer-H&#252;bner</author>
+<title>Exploring User-Suitable Metaphors for Differentially Private Data Analyses.</title>
+<pages>175-193</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/karegar</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#KaregarAF22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/KorirPD22" mdate="2022-10-26">
+<author pid="331/6571">Maina Korir</author>
+<author pid="84/3561">Simon Parkin</author>
+<author pid="23/1640">Paul Dunphy</author>
+<title>An Empirical Study of a Decentralized Identity Wallet: Usability, Security, and Perspectives on User Control.</title>
+<pages>195-211</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/korir</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#KorirPD22</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Privacy and Security Tools</h2>
+<dblpcites><r style="ee"><inproceedings key="conf/soups/RaoLL22" mdate="2022-10-26">
+<author pid="155/9775">Siddharth Prakash Rao</author>
+<author pid="225/7912">Gabriela Limonta</author>
+<author pid="65/1182">Janne Lindqvist</author>
+<title>Usability and Security of Trusted Platform Module (TPM) Library APIs.</title>
+<pages>213-232</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/rao</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#RaoLL22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/VolkamerKLF22" mdate="2022-10-26">
+<author pid="v/MelanieVolkamer">Melanie Volkamer</author>
+<author pid="156/8523">Oksana Kulyk</author>
+<author pid="331/6823">Jonas Ludwig</author>
+<author pid="331/7189">Niklas Fuhrberg</author>
+<title>Increasing security without decreasing usability: A comparison of various verifiable voting systems.</title>
+<pages>233-252</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/volkamer</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#VolkamerKLF22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZhengB22" mdate="2023-08-09">
+<author pid="331/6458">Sarah Y. Zheng</author>
+<author pid="183/8093">Ingolf Becker</author>
+<title>Presenting Suspicious Details in User-Facing E-mail Headers Does Not Improve Phishing Detection.</title>
+<pages>253-271</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/zheng</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#ZhengB22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HabibC22" mdate="2022-10-26">
+<author pid="179/4647">Hana Habib</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<title>Evaluating the Usability of Privacy Choice Mechanisms.</title>
+<pages>273-289</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/habib</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#HabibC22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GallardoKLBC22" mdate="2022-10-26">
+<author pid="252/4310">Andrea Gallardo</author>
+<author pid="285/1290">Hanseul Kim</author>
+<author pid="39/10597">Tianying Li</author>
+<author pid="32/3440">Lujo Bauer</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<title>Detecting iPhone Security Compromise in Simulated Stalking Scenarios: Strategies and Obstacles.</title>
+<pages>291-312</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/gallardo</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#GallardoKLBC22</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Methods</h2>
+<dblpcites><r style="ee"><inproceedings key="conf/soups/HuamanKWKSAF22" mdate="2022-10-26">
+<author pid="213/7298">Nicolas Huaman</author>
+<author pid="40/7792">Alexander Krause</author>
+<author pid="203/1800">Dominik Wermke</author>
+<author pid="325/3232">Jan H. Klemmer</author>
+<author pid="184/6096">Christian Stransky</author>
+<author pid="132/9687">Yasemin Acar</author>
+<author pid="38/9378">Sascha Fahl</author>
+<title>If You Can't Get Them to the Lab: Evaluating a Virtual Study Environment with Security Information Workers.</title>
+<pages>313-330</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/huaman</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#HuamanKWKSAF22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ColnagoCAS22" mdate="2022-10-26">
+<author pid="174/9189">Jessica Colnago</author>
+<author pid="03/1595">Lorrie Faith Cranor</author>
+<author pid="49/3744">Alessandro Acquisti</author>
+<author pid="331/6842">Kate Hazel Stanton</author>
+<title>Is it a concern or a preference? An investigation into the ability of privacy scales to capture and distinguish granular privacy constructs.</title>
+<pages>331-346</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/colnago</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#ColnagoCAS22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/0001CSDPKC22" mdate="2022-10-26">
+<author pid="22/3273-1">Akira Yamada 0001</author>
+<author pid="310/7167">Kyle Crichton</author>
+<author pid="43/10041">Yukiko Sawaya</author>
+<author pid="222/1664">Jin-Dong Dong</author>
+<author pid="183/8079">Sarah Pearman</author>
+<author pid="15/2227">Ayumu Kubota</author>
+<author pid="c/NicolasChristin">Nicolas Christin</author>
+<title>On recruiting and retaining users for security-sensitive longitudinal measurement panels.</title>
+<pages>347-366</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/yamada</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#0001CSDPKC22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/TangBL22" mdate="2022-10-26">
+<author pid="23/370">Jenny Tang</author>
+<author pid="64/7821">Eleanor Birrell</author>
+<author pid="136/8449">Ada Lerner</author>
+<title>Replication: How Well Do My Results Generalize Now? The External Validity of Online Privacy and Security Surveys.</title>
+<pages>367-385</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/tang</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#TangBL22</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Understanding Specific User Populations and Behaviors</h2>
+<dblpcites><r style="ee"><inproceedings key="conf/soups/AfnanZMNS22" mdate="2022-10-26">
+<author pid="292/5449">Tanisha Afnan</author>
+<author pid="218/0356">Yixin Zou</author>
+<author pid="52/4442">Maryam Mustafa</author>
+<author pid="161/3729">Mustafa Naseem</author>
+<author pid="08/7562">Florian Schaub</author>
+<title>Aunties, Strangers, and the FBI: Online Privacy Concerns and Experiences of Muslim-American Women.</title>
+<pages>387-406</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/afnan</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#AfnanZMNS22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LangerS0HK22" mdate="2022-10-26">
+<author pid="155/5791">Markus Langer</author>
+<author pid="204/7371">Rudolf Siegel</author>
+<author pid="40/1587">Michael Schilling 0001</author>
+<author pid="300/4493">Tim Hunsicker</author>
+<author pid="138/6985">Cornelius J. K&#246;nig</author>
+<title>An open door may tempt a saint: Examining situational and individual determinants of privacy-invading behavior.</title>
+<pages>407-426</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/langer</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#LangerS0HK22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FengSLCC22" mdate="2022-10-26">
+<author pid="322/6652">K. J. Kevin Feng</author>
+<author pid="128/7738">Kevin Song</author>
+<author pid="331/6600">Kejing Li</author>
+<author pid="331/6572">Oishee Chakrabarti</author>
+<author pid="c/MarshiniChetty">Marshini Chetty</author>
+<title>Investigating How University Students in the United States Encounter and Deal With Misinformation in Private WhatsApp Chats During COVID-19.</title>
+<pages>427-446</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/feng</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#FengSLCC22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WeiZKR22" mdate="2022-10-26">
+<author pid="217/4562">Miranda Wei</author>
+<author pid="202/7659">Eric Zeng</author>
+<author pid="k/TadayoshiKohno">Tadayoshi Kohno</author>
+<author pid="23/2758">Franziska Roesner</author>
+<title>Anti-Privacy and Anti-Security Advice on TikTok: Case Studies of Technology-Enabled Surveillance and Control in Intimate Partner and Parent-Child Relationships.</title>
+<pages>447-462</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/wei</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#WeiZKR22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/HerbertKSLD22" mdate="2022-10-26">
+<author pid="248/7393">Franziska Herbert</author>
+<author pid="295/9595">Marvin Kowalewski</author>
+<author pid="243/0418">Theodor Schnitzler</author>
+<author pid="301/5833">Leona Lassak</author>
+<author pid="36/3665">Markus D&#252;rmuth</author>
+<title>&#34;Fast, Easy, Convenient.&#34; Studying Adoption and Perception of Digital Covid Certificates.</title>
+<pages>463-482</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/herbert</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#HerbertKSLD22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/MarkertSGD22" mdate="2022-10-26">
+<author pid="260/6737">Philipp Markert</author>
+<author pid="243/0418">Theodor Schnitzler</author>
+<author pid="177/0313">Maximilian Golla</author>
+<author pid="36/3665">Markus D&#252;rmuth</author>
+<title>&#34;As soon as it's a risk, I want to require MFA&#34;: How Administrators Configure Risk-based Authentication.</title>
+<pages>483-501</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/markert</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#MarkertSGD22</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>Passwords and Authentication</h2>
+<dblpcites><r style="ee"><inproceedings key="conf/soups/GeierhaasO0N22" mdate="2022-10-26">
+<author pid="331/6898">Lisa Geierhaas</author>
+<author pid="248/7206">Anna-Marie Ortloff</author>
+<author pid="88/5808-1">Matthew Smith 0001</author>
+<author pid="201/9227">Alena Naiakshina</author>
+<title>Let's Hash: Helping Developers with Password Security.</title>
+<pages>503-522</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/geierhaas</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#GeierhaasO0N22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/FarkeLPD22" mdate="2022-10-26">
+<author pid="250/6496">Florian M. Farke</author>
+<author pid="301/5833">Leona Lassak</author>
+<author pid="331/6374">Jannis Pinter</author>
+<author pid="36/3665">Markus D&#252;rmuth</author>
+<title>Exploring User Authentication with Windows Hello in a Small Business Environment.</title>
+<pages>523-540</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/farke</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#FarkeLPD22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/GautamLR22" mdate="2022-10-26">
+<author pid="290/7639">Anuj Gautam</author>
+<author pid="331/6690">Shan Lalani</author>
+<author pid="124/2527">Scott Ruoti</author>
+<title>Improving Password Generation Through the Design of a Password Composition Policy Description Language.</title>
+<pages>541-560</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/gautam</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#GautamLR22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/LeeSN22" mdate="2022-10-26">
+<author pid="44/765">Kevin Lee</author>
+<author pid="267/0547">Sten Sj&#246;berg</author>
+<author pid="08/3080">Arvind Narayanan</author>
+<title>Password policies of most top websites fail to follow best practices.</title>
+<pages>561-580</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/lee</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#LeeSN22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ZibaeiMMST22" mdate="2022-10-26">
+<author pid="331/7104">Samira Zibaei</author>
+<author pid="331/6484">Dinah Rinoa Malapaya</author>
+<author pid="331/6614">Benjamin Mercier</author>
+<author pid="49/2908">Amirali Salehi-Abari</author>
+<author pid="53/114">Julie Thorpe</author>
+<title>Do Password Managers Nudge Secure (Random) Passwords?</title>
+<pages>581-597</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/zibaei</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#ZibaeiMMST22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/WhalenMKDFFLMSW22" mdate="2022-10-26">
+<author pid="18/300">Tara Whalen</author>
+<author pid="331/6987">Thibault Meunier</author>
+<author pid="331/7092">Mrudula Kodali</author>
+<author pid="177/2253">Alex Davidson</author>
+<author pid="92/883">Marwan Fayed</author>
+<author pid="49/10243">Armando Faz-Hern&#225;ndez</author>
+<author pid="187/8993">Watson Ladd</author>
+<author pid="235/4793">Deepak Maram</author>
+<author pid="172/5512">Nick Sullivan</author>
+<author pid="166/0213">Benedikt Wolters</author>
+<author pid="331/7254">Maxime Guerreiro</author>
+<author pid="331/6096">Andrew Galloni</author>
+<title>Let The Right One In: Attestation as a Usable CAPTCHA Alternative.</title>
+<pages>599-612</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/whalen</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#WhalenMKDFFLMSW22</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+<h2>IoT and Ubiquitous Computing</h2>
+<dblpcites><r style="ee"><inproceedings key="conf/soups/RostamiVR022" mdate="2022-10-26">
+<author pid="48/5383">Asreen Rostami</author>
+<author pid="331/6387">Minna Vigren</author>
+<author pid="83/9341">Shahid Raza</author>
+<author pid="60/72">Barry Brown 0001</author>
+<title>Being Hacked: Understanding Victims' Experiences of IoT Hacking.</title>
+<pages>613-631</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/rostami</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#RostamiVR022</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Malkin0E22" mdate="2022-10-26">
+<author pid="179/4686">Nathan Malkin</author>
+<author pid="42/5626">David A. Wagner 0001</author>
+<author pid="07/1108">Serge Egelman</author>
+<title>Runtime Permissions for Privacy in Proactive Intelligent Assistants.</title>
+<pages>633-651</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/malkin</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#Malkin0E22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/Rader22" mdate="2022-10-26">
+<author pid="83/396">Emilee Rader</author>
+<title>Normative and Non-Social Beliefs about Sensor Data: Implications for Collective Privacy Management.</title>
+<pages>653-670</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/rader</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#Rader22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/ChenHK22" mdate="2022-10-26">
+<author pid="42/1159">Jiayi Chen</author>
+<author pid="04/6136">Urs Hengartner</author>
+<author pid="83/7562">Hassan Khan</author>
+<title>Sharing without Scaring: Enabling Smartphones to Become Aware of Temporary Sharing.</title>
+<pages>671-685</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/chen</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#ChenHK22</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/soups/BerndACF22" mdate="2022-10-26">
+<author pid="159/8418">Julia Bernd</author>
+<author pid="163/8698">Ruba Abu-Salma</author>
+<author pid="331/7160">Junghyun Choy</author>
+<author pid="239/8147">Alisa Frik</author>
+<title>Balancing Power Dynamics in Smart Homes: Nannies' Perspectives on How Cameras Reflect and Affect Relationships.</title>
+<pages>687-706</pages>
+<year>2022</year>
+<booktitle>SOUPS @ USENIX Security Symposium</booktitle>
+<ee>https://www.usenix.org/conference/soups2022/presentation/bernd</ee>
+<crossref>conf/soups/2022</crossref>
+<url>db/conf/soups/soups2022.html#BerndACF22</url>
+</inproceedings>
+</r>
+</dblpcites>
+
+
+</bht>
+
