@@ -63,6 +63,7 @@
   .file-item span { font-size: 11px; font-family: var(--mono); color: var(--text-dim); }
   .file-item.active span { color: var(--accent2); }
 
+  #community-items { max-height: 260px; overflow-y: auto; padding-right: 4px; }
   .comm-item { display: flex; align-items: center; gap: 8px; padding: 3px 0; }
   .comm-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
   .comm-label { font-size: 10px; font-family: var(--mono); color: var(--text-dim); }
@@ -262,6 +263,20 @@ function highlightMatch(q, text) {
 }
 
 // ── Load from server ──────────────────────────────────────────────────────
+// Retries, because simple local servers (python -m http.server) refuse some of many parallel requests.
+async function fetchText(url, attempts = 4) {
+  for (let i = 1; ; i++) {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.text();
+    } catch (err) {
+      if (i >= attempts) throw err;
+      await new Promise(r => setTimeout(r, 200 * i));
+    }
+  }
+}
+
 async function loadFromServer() {
   let manifest;
   try {
@@ -279,9 +294,7 @@ async function loadFromServer() {
     if (!m) return;
     const year = parseInt(m[1]);
     try {
-      const res = await fetch(`data/${filename}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      state.graphs[year] = parseGraphML(await res.text());
+      state.graphs[year] = parseGraphML(await fetchText(`data/${filename}`));
       loaded++;
     } catch(err) { console.warn(`Failed: ${filename}`, err); }
   }));
@@ -363,7 +376,7 @@ function initSimulation() {
     .force('charge', d3.forceManyBody().strength(-70).distanceMax(250))
     .force('center', d3.forceCenter(width/2,height/2).strength(0.04))
     .force('collide', d3.forceCollide(d=>nodeRadius(d)+3).strength(0.6))
-    .alphaDecay(0.02).velocityDecay(0.45)
+    .alphaDecay(0.01).velocityDecay(0.45)
     .on('tick', ticked);
 }
 
@@ -395,9 +408,10 @@ function renderYear(idx) {
   assignCommunities(graph);
 
   // ── Rebuild node list from THIS year's graph ──────────────────────────
+  const start = initialPositions(graph);
   sim.nodeMap = {};
   sim.nodes = graph.nodes.map(n => {
-    const cached = posCache[n.id];
+    const cached = start[n.id];
     const obj = {
       id: n.id,
       name: n.name,
@@ -405,8 +419,8 @@ function renderYear(idx) {
       degree: stats.degMap[n.id]||0,
       isNew: newNodeIds.has(n.id),
       community: sim.commMap[n.id]??-1,
-      x: cached?.x ?? (width/2+(Math.random()-.5)*100),
-      y: cached?.y ?? (height/2+(Math.random()-.5)*100),
+      x: cached.x,
+      y: cached.y,
     };
     sim.nodeMap[n.id] = obj;
     return obj;
@@ -559,10 +573,36 @@ function recolorCommunities() {
   if (state.searchTarget) applySearchHighlight(state.searchTarget);
 }
 
+// Starting positions: known nodes keep their cached position; a new author starts next to a
+// co-author who is already placed, so the layout only needs small adjustments to settle.
+function initialPositions(graph) {
+  const pos = {};
+  graph.nodes.forEach(n => { if (posCache[n.id]) pos[n.id] = posCache[n.id]; });
+  const adj = {};
+  graph.edges.forEach(e => { (adj[e.source] ??= []).push(e.target); (adj[e.target] ??= []).push(e.source); });
+  const jitter = r => (Math.random()-.5)*r;
+  let pending = graph.nodes.filter(n => !pos[n.id]);
+  while (pending.length) {
+    const rest = pending.filter(n => {
+      const anchor = (adj[n.id]||[]).find(nb => pos[nb]);
+      if (anchor) pos[n.id] = {x: pos[anchor].x + jitter(30), y: pos[anchor].y + jitter(30)};
+      return !anchor;
+    });
+    if (rest.length === pending.length) {
+      // a team with no placed co-authors: seed one member somewhere around the centre
+      const seed = rest.shift();
+      const a = Math.random()*2*Math.PI, r = Math.min(width, height)*(0.15 + 0.3*Math.random());
+      pos[seed.id] = {x: width/2 + r*Math.cos(a), y: height/2 + r*Math.sin(a)};
+    }
+    pending = rest.filter(n => !pos[n.id]);
+  }
+  return pos;
+}
+
 function updateCommunityLegend() {
   const container = document.getElementById('community-items');
   container.innerHTML='';
-  Object.entries(sim.commSizes).sort((a,b)=>b[1]-a[1]).slice(0,12).forEach(([c,size])=>{
+  Object.entries(sim.commSizes).sort((a,b)=>b[1]-a[1]).forEach(([c,size])=>{
     const div=document.createElement('div');
     div.className='comm-item';
     div.innerHTML=`<div class="comm-dot" style="background:${commColor(parseInt(c))}"></div>
