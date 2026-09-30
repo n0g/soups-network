@@ -301,8 +301,14 @@ function detectCommunities(nodes, links, resolution) {
 function parseGraphML(xml) {
   const doc = new DOMParser().parseFromString(xml, 'application/xml');
   const nodes=[], edges=[];
-  doc.querySelectorAll('node').forEach(n => nodes.push({id: n.getAttribute('id')}));
-  doc.querySelectorAll('edge').forEach(e => edges.push({source: e.getAttribute('source'), target: e.getAttribute('target')}));
+  const data = (el, key) => [...el.children].find(d => d.getAttribute('key') === key)?.textContent;
+  doc.querySelectorAll('node').forEach(n => {
+    const id = n.getAttribute('id');
+    nodes.push({id, name: data(n, 'name') ?? id, papers: +(data(n, 'papers') ?? 0)});
+  });
+  doc.querySelectorAll('edge').forEach(e => edges.push({
+    source: e.getAttribute('source'), target: e.getAttribute('target'), weight: +(data(e, 'weight') ?? 1),
+  }));
   return {nodes, edges};
 }
 
@@ -316,7 +322,8 @@ function fuzzyMatch(query, target) {
   for (let ti=0; ti<target.length && qi<query.length; ti++) {
     if (target[ti]===query[qi]) { qi++; score++; }
   }
-  return {match: qi===query.length, score: -(score/query.length)};
+  // subsequence-only matches rank after every substring match (whose score is its index)
+  return {match: qi===query.length, score: 1000 + target.length};
 }
 function highlightMatch(q, text) {
   const idx = text.toLowerCase().indexOf(q.toLowerCase());
@@ -459,6 +466,8 @@ function renderYear(idx) {
     const cached = posCache[n.id];
     const obj = {
       id: n.id,
+      name: n.name,
+      papers: n.papers,
       degree: stats.degMap[n.id]||0,
       isNew: newNodeIds.has(n.id),
       community: sim.commMap[n.id]??0,
@@ -533,7 +542,7 @@ function renderYear(idx) {
 
   nodeEnter.append('text')
     .attr('dy',d=>nodeRadius(d)+9)
-    .text(d=>d.degree>5?d.id.split(' 0')[0].split(' ').slice(-1)[0]:'');
+    .text(d=>d.degree>5?d.name.split(' ').filter(w=>!/^\d{4}$/.test(w)).slice(-1)[0]:'');
 
   nodeEnter.transition().duration(400).style('opacity',1);
 
@@ -544,7 +553,7 @@ function renderYear(idx) {
     .attr('fill',d=>d.isNew?'#10b981':commColor(d.community))
     .attr('stroke',d=>d.isNew?'#6ee7b7':'rgba(255,255,255,0.12)');
 
-  nodeSel.select('text').text(d=>d.degree>5?d.id.split(' 0')[0].split(' ').slice(-1)[0]:'');
+  nodeSel.select('text').text(d=>d.degree>5?d.name.split(' ').filter(w=>!/^\d{4}$/.test(w)).slice(-1)[0]:'');
 
   // Remove nodes no longer in this year's graph
   nodeSel.exit().transition().duration(350).style('opacity',0).remove();
@@ -612,8 +621,9 @@ function bindNodeInteractions() {
     .on('mouseover',(event,d)=>{
       const t=document.getElementById('tooltip');
       const c=d.community??0;
-      t.innerHTML=`<strong>${d.id.split(' 0')[0]}</strong>
-        <span>Degree: ${d.degree}</span>
+      t.innerHTML=`<strong>${d.name}</strong>
+        <span>Papers: ${d.papers}</span>
+        <span>Co-authors: ${d.degree}</span>
         <span><span class="comm-badge" style="background:${commColor(c)}"></span>Community ${c+1}</span>
         ${d.isNew?'<span style="color:#10b981">✦ New this year</span>':''}`;
       t.className='tooltip visible';
@@ -637,21 +647,21 @@ const searchResultsEl=document.getElementById('search-results');
 searchInput.addEventListener('input',function(){
   const q=this.value.trim();
   if(q.length<2){ searchResultsEl.style.display='none'; return; }
-  const matches=Object.keys(sim.nodeMap)
-    .map(id=>({id,...fuzzyMatch(q,id)}))
+  const matches=Object.values(sim.nodeMap)
+    .map(n=>({id:n.id,name:n.name,...fuzzyMatch(q,n.name)}))
     .filter(r=>r.match)
     .sort((a,b)=>a.score-b.score)
     .slice(0,8);
   if(!matches.length){ searchResultsEl.style.display='none'; return; }
   searchResultsEl.innerHTML=matches.map(m=>
-    `<div class="search-result-item" data-id="${m.id}">${highlightMatch(q,m.id.split(' 0')[0])}</div>`
+    `<div class="search-result-item" data-id="${m.id}">${highlightMatch(q,m.name)}</div>`
   ).join('');
   searchResultsEl.style.display='block';
   searchResultsEl.querySelectorAll('.search-result-item').forEach(el=>{
     el.addEventListener('click',()=>{
       selectNode(el.dataset.id);
       searchResultsEl.style.display='none';
-      searchInput.value=el.dataset.id.split(' 0')[0];
+      searchInput.value=sim.nodeMap[el.dataset.id].name;
     });
   });
 });
@@ -695,7 +705,7 @@ function applySearchHighlight(id) {
 
   const banner=document.getElementById('search-banner');
   document.getElementById('search-banner-text').textContent=
-    `${id.split(' 0')[0]}  ·  ${neighbors.size} collaborators`;
+    `${sim.nodeMap[id].name}  ·  ${neighbors.size} collaborators`;
   banner.classList.add('visible');
 }
 
